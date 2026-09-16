@@ -233,11 +233,130 @@
   "lockup_usd": null,
   "source": "https://www.capitalontap.com/us/faq/",
   "why": "Flat 1.5% all-spend on Visa; 2% if weekly autopay set up; bill payable by debit card",
-  "confidence": "high",
+  "confidence": "med",
   "needs_research": [],
   "_batch": "b5_fintech_amexhotel.json",
   "_key": "capital on tap business us",
   "_dup": false,
+  "deep": {
+   "card": "Capital on Tap Business (US)",
+   "us_ok": "Y",
+   "status": "active",
+   "fx_pct": 0,
+   "extra_cost_pct": 0,
+   "txn_max_usd": null,
+   "daily_max_usd": null,
+   "costco_ok": "Y",
+   "confidence": "med",
+   "network": "visa",
+   "debit_pay": "Y",
+   "fee_usd": 0,
+   "tiers": [
+    {
+     "name": "Standard, no AutoPay",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 1.5,
+     "reward_cap_month_usd": null,
+     "monthly_cost_usd": 0
+    },
+    {
+     "name": "Weekly AutoPay enrolled",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 2.0,
+     "reward_cap_month_usd": null,
+     "monthly_cost_usd": 0
+    }
+   ],
+   "special": [
+    {
+     "kind": "limit",
+     "text": "Advertised up to $50,000 but typical approvals are far lower; the limit grows by periodic review after 3-6 months, not at signup."
+    },
+    {
+     "kind": "tip",
+     "text": "AutoPay terms: a mid-cycle manual or debit payment does NOT cancel AutoPay enrollment, so 2% should survive the debit rail. No user report confirms this exact combo."
+    },
+    {
+     "kind": "eligibility",
+     "text": "Needs an LLC or Corp with an EIN, a 25%+ owner, 6+ months trading and about $30k a year in revenue. Sole proprietors reported not eligible."
+    },
+    {
+     "kind": "cost",
+     "text": "No fee found for a one-time debit-card payment on the Payments page, but it is not explicitly guaranteed fee-free."
+    },
+    {
+     "kind": "risk",
+     "text": "Trustpilot shows accounts suspended or closed with little warning; WebBank actively monitors risk."
+    },
+    {
+     "kind": "tip",
+     "text": "Weekly payoff recycles a modest limit about 4 times a month, which is how you reach high monthly volume on a small line."
+    }
+   ],
+   "sources": [
+    "https://www.capitalontap.com/us/faq/",
+    "https://thepointsguy.com/credit-cards/reviews/capital-on-tap-business-credit-card-review",
+    "https://www.capitalontap.com/en/blog/posts/why-we-suspend-or-close-accounts/"
+   ]
+  },
+  "us_ok": "Y",
+  "extra_cost_pct": 0,
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "limit",
+    "text": "Advertised up to $50,000 but typical approvals are far lower; the limit grows by periodic review after 3-6 months, not at signup."
+   },
+   {
+    "kind": "tip",
+    "text": "AutoPay terms: a mid-cycle manual or debit payment does NOT cancel AutoPay enrollment, so 2% should survive the debit rail. No user report confirms this exact combo."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Needs an LLC or Corp with an EIN, a 25%+ owner, 6+ months trading and about $30k a year in revenue. Sole proprietors reported not eligible."
+   },
+   {
+    "kind": "cost",
+    "text": "No fee found for a one-time debit-card payment on the Payments page, but it is not explicitly guaranteed fee-free."
+   },
+   {
+    "kind": "risk",
+    "text": "Trustpilot shows accounts suspended or closed with little warning; WebBank actively monitors risk."
+   },
+   {
+    "kind": "tip",
+    "text": "Weekly payoff recycles a modest limit about 4 times a month, which is how you reach high monthly volume on a small line."
+   }
+  ],
+  "tiers": [
+   {
+    "name": "Standard, no AutoPay",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 1.5,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Weekly AutoPay enrolled",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 2.0,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "sources": [
+   "https://www.capitalontap.com/us/faq/",
+   "https://thepointsguy.com/credit-cards/reviews/capital-on-tap-business-credit-card-review",
+   "https://www.capitalontap.com/en/blog/posts/why-we-suspend-or-close-accounts/"
+  ],
   "notes": [
    "verified: Official FAQ (capitalontap.com/us/faq/): bill payable by direct debit from a business bank account or a debit card, anytime via the Payments page or AutoPay. No debit-payment fee disclosed; card itself carries no annual or monthly fee."
   ],
@@ -245,8 +364,9 @@
   "where": "store",
   "c10": 2.0,
   "c50": 2.0,
-  "f10": 1.5,
-  "f50": 1.5,
+  "f10": 2.0,
+  "f50": 2.0,
+  "headline_pct": 2.0,
   "base_pct": 1.5,
   "taekus": 1.8,
   "taekus_maybe": 0.0,
@@ -254,107 +374,6 @@
   "upside50": 3.8,
   "lead": false,
   "cap_month_usd": null,
-  "headline_pct": 2.0,
-  "review": false,
-  "is_crypto": false
- },
- {
-  "card": "Costco Anywhere Visa Business Card by Citi",
-  "issuer": "Citi",
-  "network": "visa",
-  "product": "credit",
-  "biz": "B",
-  "status": "active",
-  "reward_unit": "cash",
-  "cpp_max": 1.0,
-  "cpp_floor": 1.0,
-  "base_x": 1,
-  "costco_x_max": 2,
-  "costco_x_min": 2,
-  "costco_cap_usd": null,
-  "cap_period": "none",
-  "reward_cap_usd_month": null,
-  "min_txn_usd": null,
-  "fee_usd": 0.0,
-  "fx_pct": 0.0,
-  "debit_pay": "Y",
-  "lockup_usd": null,
-  "source": "https://www.citi.com/credit-cards/costco-anywhere-visa-business-card",
-  "why": "Explicit 2% on all other Costco warehouse & Costco.com purchases, uncapped; 5% Costco gas excluded",
-  "confidence": "med",
-  "needs_research": [],
-  "_batch": "b3_bigbanks_c.json",
-  "_key": "costco anywhere visa business card by citi",
-  "_dup": false,
-  "notes": [
-   "verified: No 2026 report found for the business variant specifically. Personal Costco sibling was cut ~Apr 2026; business likely follows but unverified. Also subject to Jan 30 2026 ban on paying with a commercial debit card, separately.",
-   "ruling: Inherited from Medi's ruling that Citi Costco accepts Taekus; business variant not separately confirmed by him"
-  ],
-  "dp_channel": "phone IVR 800-950-5114 (Medi uses it)",
-  "medi_ruled": true,
-  "where": "store",
-  "c10": 2.0,
-  "c50": 2.0,
-  "f10": 2.0,
-  "f50": 2.0,
-  "base_pct": 1.0,
-  "taekus": 1.8,
-  "taekus_maybe": 0.0,
-  "net50": 3.8,
-  "upside50": 3.8,
-  "lead": false,
-  "cap_month_usd": null,
-  "headline_pct": 2.0,
-  "review": false,
-  "is_crypto": false
- },
- {
-  "card": "Costco Anywhere Visa Card by Citi",
-  "issuer": "Citi",
-  "network": "visa",
-  "product": "credit",
-  "biz": "P",
-  "status": "active",
-  "reward_unit": "cash",
-  "cpp_max": 1.0,
-  "cpp_floor": 1.0,
-  "base_x": 1,
-  "costco_x_max": 2,
-  "costco_x_min": 2,
-  "costco_cap_usd": null,
-  "cap_period": "none",
-  "reward_cap_usd_month": null,
-  "min_txn_usd": null,
-  "fee_usd": 0.0,
-  "fx_pct": 0.0,
-  "debit_pay": "Y",
-  "lockup_usd": null,
-  "source": "https://www.citi.com/credit-cards/costco-anywhere-visa-card",
-  "why": "Explicit 2% on all other Costco warehouse & Costco.com purchases, uncapped; 5% Costco gas excluded",
-  "confidence": "high",
-  "needs_research": [],
-  "_batch": "b3_bigbanks_c.json",
-  "_key": "costco anywhere visa",
-  "_dup": false,
-  "notes": [
-   "verified: Same product as 'Costco Anywhere Visa' row (personal). FlyerTalk report Apr 2026: phone IVR no longer offers debit option, bank-account only.",
-   "ruling: MEDI RULING 2026-09-15: Citi Costco STILL ACCEPTS TAEKUS. Overrides the FlyerTalk Apr-2026 report that the IVR dropped debit"
-  ],
-  "dp_channel": "phone IVR 800-950-5114 (Medi uses it)",
-  "medi_ruled": true,
-  "where": "store",
-  "c10": 2.0,
-  "c50": 2.0,
-  "f10": 2.0,
-  "f50": 2.0,
-  "base_pct": 1.0,
-  "taekus": 1.8,
-  "taekus_maybe": 0.0,
-  "net50": 3.8,
-  "upside50": 3.8,
-  "lead": false,
-  "cap_month_usd": null,
-  "headline_pct": 2.0,
   "review": false,
   "is_crypto": false
  },
@@ -638,6 +657,97 @@
   "_batch": "b4_bigbanks_d.json",
   "_key": "wells fargo active cash",
   "_dup": false,
+  "deep": {
+   "card": "Wells Fargo Active Cash",
+   "us_ok": "Y",
+   "status": "active",
+   "fx_pct": 3,
+   "extra_cost_pct": 0,
+   "txn_max_usd": null,
+   "daily_max_usd": null,
+   "costco_ok": "Y",
+   "confidence": "low",
+   "network": "visa",
+   "debit_pay": "?",
+   "fee_usd": 0,
+   "tiers": [
+    {
+     "name": "Flat 2% on everything",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 2.0,
+     "reward_cap_month_usd": null,
+     "monthly_cost_usd": 0
+    }
+   ],
+   "special": [
+    {
+     "kind": "limit",
+     "text": "Guaranteed minimum $1,000; average reported about $6,091 with $3,000 most common. Reviews about every 6 months."
+    },
+    {
+     "kind": "cap",
+     "text": "The Wells Fargo FAQ lists only app, online and phone payment. No Wells Fargo page confirms debit at a branch."
+    },
+    {
+     "kind": "risk",
+     "text": "A second source claims Wells Fargo accepts only bank transfers. The branch-debit claim is contested, so this stays a lead, not a confirmed rail."
+    },
+    {
+     "kind": "risk",
+     "text": "Forum reports say branch and teller payments sometimes miscode, for example as a cash advance."
+    },
+    {
+     "kind": "tip",
+     "text": "Flat and uncapped, so Costco MCC 5300 earns the full 2% with no category exclusion."
+    }
+   ],
+   "sources": [
+    "https://www.wellsfargo.com/help/credit-cards/credit-card-faqs/",
+    "https://www.wellsfargo.com/credit-cards/active-cash/guide-to-benefits/"
+   ]
+  },
+  "us_ok": "Y",
+  "extra_cost_pct": 0,
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "limit",
+    "text": "Guaranteed minimum $1,000; average reported about $6,091 with $3,000 most common. Reviews about every 6 months."
+   },
+   {
+    "kind": "cap",
+    "text": "The Wells Fargo FAQ lists only app, online and phone payment. No Wells Fargo page confirms debit at a branch."
+   },
+   {
+    "kind": "risk",
+    "text": "A second source claims Wells Fargo accepts only bank transfers. The branch-debit claim is contested, so this stays a lead, not a confirmed rail."
+   },
+   {
+    "kind": "risk",
+    "text": "Forum reports say branch and teller payments sometimes miscode, for example as a cash advance."
+   },
+   {
+    "kind": "tip",
+    "text": "Flat and uncapped, so Costco MCC 5300 earns the full 2% with no category exclusion."
+   }
+  ],
+  "tiers": [
+   {
+    "name": "Flat 2% on everything",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 2.0,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "sources": [
+   "https://www.wellsfargo.com/help/credit-cards/credit-card-faqs/",
+   "https://www.wellsfargo.com/credit-cards/active-cash/guide-to-benefits/"
+  ],
   "notes": [
    "verified: DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
   ],
@@ -647,6 +757,7 @@
   "c50": 2.0,
   "f10": 2.0,
   "f50": 2.0,
+  "headline_pct": 2.0,
   "base_pct": 2.0,
   "taekus": 0.0,
   "taekus_maybe": 1.8,
@@ -654,7 +765,6 @@
   "upside50": 3.8,
   "lead": true,
   "cap_month_usd": null,
-  "headline_pct": 2.0,
   "review": false,
   "is_crypto": false
  },
@@ -686,6 +796,97 @@
   "_batch": "b4_bigbanks_d.json",
   "_key": "wells fargo signify business cash",
   "_dup": false,
+  "deep": {
+   "card": "Wells Fargo Signify Business Cash",
+   "us_ok": "Y",
+   "status": "active",
+   "fx_pct": 3,
+   "extra_cost_pct": 0,
+   "txn_max_usd": null,
+   "daily_max_usd": null,
+   "costco_ok": "Y",
+   "confidence": "low",
+   "network": "mastercard",
+   "debit_pay": "?",
+   "fee_usd": 0,
+   "tiers": [
+    {
+     "name": "Flat 2% on all business purchases",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 2.0,
+     "reward_cap_month_usd": null,
+     "monthly_cost_usd": 0
+    }
+   ],
+   "special": [
+    {
+     "kind": "limit",
+     "text": "Guaranteed minimum $2,500; reports up to about $14,000 for strong income."
+    },
+    {
+     "kind": "eligibility",
+     "text": "Sole proprietor is fine with an SSN, no EIN needed. Wells Fargo typically wants about a year of history and a 700+ score."
+    },
+    {
+     "kind": "cap",
+     "text": "Same unverified branch-debit claim as the personal cards; no Wells Fargo page confirms it."
+    },
+    {
+     "kind": "tip",
+     "text": "Unlimited flat 2% with no caps or categories, so Costco earns the full rate."
+    },
+    {
+     "kind": "risk",
+     "text": "Approval pulls the owner's personal credit and a Small Business Financial Exchange report, tying the spend to your own file."
+    }
+   ],
+   "sources": [
+    "https://www.wellsfargo.com/biz/business-credit/credit-cards/signify-business-cash-credit-card-terms-conditions/",
+    "https://www.doctorofcredit.com/wells-fargo-signify-business-credit-cards/"
+   ]
+  },
+  "us_ok": "Y",
+  "extra_cost_pct": 0,
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "limit",
+    "text": "Guaranteed minimum $2,500; reports up to about $14,000 for strong income."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Sole proprietor is fine with an SSN, no EIN needed. Wells Fargo typically wants about a year of history and a 700+ score."
+   },
+   {
+    "kind": "cap",
+    "text": "Same unverified branch-debit claim as the personal cards; no Wells Fargo page confirms it."
+   },
+   {
+    "kind": "tip",
+    "text": "Unlimited flat 2% with no caps or categories, so Costco earns the full rate."
+   },
+   {
+    "kind": "risk",
+    "text": "Approval pulls the owner's personal credit and a Small Business Financial Exchange report, tying the spend to your own file."
+   }
+  ],
+  "tiers": [
+   {
+    "name": "Flat 2% on all business purchases",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 2.0,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "sources": [
+   "https://www.wellsfargo.com/biz/business-credit/credit-cards/signify-business-cash-credit-card-terms-conditions/",
+   "https://www.doctorofcredit.com/wells-fargo-signify-business-credit-cards/"
+  ],
   "notes": [
    "verified: DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
   ],
@@ -695,6 +896,7 @@
   "c50": 2.0,
   "f10": 2.0,
   "f50": 2.0,
+  "headline_pct": 2.0,
   "base_pct": 2.0,
   "taekus": 0.0,
   "taekus_maybe": 1.8,
@@ -702,7 +904,6 @@
   "upside50": 3.8,
   "lead": true,
   "cap_month_usd": null,
-  "headline_pct": 2.0,
   "review": false,
   "is_crypto": false
  },
@@ -752,6 +953,332 @@
   "headline_pct": 3.0,
   "review": false,
   "is_crypto": true
+ },
+ {
+  "card": "Costco Anywhere Visa Business Card by Citi",
+  "issuer": "Citi",
+  "network": "visa",
+  "product": "credit",
+  "biz": "B",
+  "status": "active",
+  "reward_unit": "cash",
+  "cpp_max": 1.0,
+  "cpp_floor": 1.0,
+  "base_x": 1,
+  "costco_x_max": 2,
+  "costco_x_min": 2,
+  "costco_cap_usd": null,
+  "cap_period": "none",
+  "reward_cap_usd_month": null,
+  "min_txn_usd": null,
+  "fee_usd": 65.0,
+  "fx_pct": 0.0,
+  "debit_pay": "Y",
+  "lockup_usd": null,
+  "source": "https://www.citi.com/credit-cards/costco-anywhere-visa-business-card",
+  "why": "Explicit 2% on all other Costco warehouse & Costco.com purchases, uncapped; 5% Costco gas excluded",
+  "confidence": "med",
+  "needs_research": [],
+  "_batch": "b3_bigbanks_c.json",
+  "_key": "costco anywhere visa business card by citi",
+  "_dup": false,
+  "deep": {
+   "card": "Costco Anywhere Visa Business Card by Citi",
+   "us_ok": "Y",
+   "status": "active",
+   "fx_pct": 0,
+   "extra_cost_pct": 0,
+   "txn_max_usd": null,
+   "daily_max_usd": null,
+   "costco_ok": "Y",
+   "confidence": "med",
+   "network": "visa",
+   "debit_pay": "Y",
+   "fee_usd": 65,
+   "tiers": [
+    {
+     "name": "Costco warehouse and Costco.com",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 2.0,
+     "reward_cap_month_usd": null,
+     "monthly_cost_usd": 0
+    },
+    {
+     "name": "All other purchases",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 1.0,
+     "reward_cap_month_usd": null,
+     "monthly_cost_usd": 0
+    }
+   ],
+   "special": [
+    {
+     "kind": "limit",
+     "text": "Reported starting limits run roughly $1,500 to $5,000, occasionally near $25,000 for strong files."
+    },
+    {
+     "kind": "eligibility",
+     "text": "Requires an active paid Costco Business membership at $65 a year; each employee authorized user needs their own membership."
+    },
+    {
+     "kind": "cost",
+     "text": "Debit payment is phone-only on 800-950-5114 and posts the same day; no convenience fee found."
+    },
+    {
+     "kind": "costco",
+     "text": "Warehouse purchases at MCC 5300 including gold bars get the full 2%; only FX, travelers checks, money orders, wires and gambling are excluded."
+    },
+    {
+     "kind": "tip",
+     "text": "Same-day posting lets you pay down mid-cycle and recycle a smaller limit several times a month."
+    }
+   ],
+   "sources": [
+    "https://www.citi.com/credit-cards/costco-anywhere-visa-business-card",
+    "https://www.citi.com/credit-cards/credit-card-rewards/earn-cash-back-with-costco-credit-card"
+   ]
+  },
+  "us_ok": "Y",
+  "extra_cost_pct": 0,
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "limit",
+    "text": "Reported starting limits run roughly $1,500 to $5,000, occasionally near $25,000 for strong files."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Requires an active paid Costco Business membership at $65 a year; each employee authorized user needs their own membership."
+   },
+   {
+    "kind": "cost",
+    "text": "Debit payment is phone-only on 800-950-5114 and posts the same day; no convenience fee found."
+   },
+   {
+    "kind": "costco",
+    "text": "Warehouse purchases at MCC 5300 including gold bars get the full 2%; only FX, travelers checks, money orders, wires and gambling are excluded."
+   },
+   {
+    "kind": "tip",
+    "text": "Same-day posting lets you pay down mid-cycle and recycle a smaller limit several times a month."
+   }
+  ],
+  "tiers": [
+   {
+    "name": "Costco warehouse and Costco.com",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 2.0,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "All other purchases",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 1.0,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "sources": [
+   "https://www.citi.com/credit-cards/costco-anywhere-visa-business-card",
+   "https://www.citi.com/credit-cards/credit-card-rewards/earn-cash-back-with-costco-credit-card"
+  ],
+  "notes": [
+   "verified: No 2026 report found for the business variant specifically. Personal Costco sibling was cut ~Apr 2026; business likely follows but unverified. Also subject to Jan 30 2026 ban on paying with a commercial debit card, separately.",
+   "ruling: Inherited from Medi's ruling that Citi Costco accepts Taekus; business variant not separately confirmed by him"
+  ],
+  "dp_channel": "phone IVR 800-950-5114 (Medi uses it)",
+  "medi_ruled": true,
+  "where": "store",
+  "c10": 2.0,
+  "c50": 2.0,
+  "f10": 2.0,
+  "f50": 2.0,
+  "headline_pct": 2.0,
+  "base_pct": 1.0,
+  "taekus": 1.8,
+  "taekus_maybe": 0.0,
+  "net50": 3.79,
+  "upside50": 3.79,
+  "lead": false,
+  "cap_month_usd": null,
+  "review": false,
+  "is_crypto": false
+ },
+ {
+  "card": "Costco Anywhere Visa Card by Citi",
+  "issuer": "Citi",
+  "network": "visa",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "reward_unit": "cash",
+  "cpp_max": 1.0,
+  "cpp_floor": 1.0,
+  "base_x": 1,
+  "costco_x_max": 2,
+  "costco_x_min": 2,
+  "costco_cap_usd": null,
+  "cap_period": "none",
+  "reward_cap_usd_month": null,
+  "min_txn_usd": null,
+  "fee_usd": 65.0,
+  "fx_pct": 0.0,
+  "debit_pay": "Y",
+  "lockup_usd": null,
+  "source": "https://www.citi.com/credit-cards/costco-anywhere-visa-card",
+  "why": "Explicit 2% on all other Costco warehouse & Costco.com purchases, uncapped; 5% Costco gas excluded",
+  "confidence": "high",
+  "needs_research": [],
+  "_batch": "b3_bigbanks_c.json",
+  "_key": "costco anywhere visa",
+  "_dup": false,
+  "deep": {
+   "card": "Costco Anywhere Visa Card by Citi",
+   "us_ok": "Y",
+   "status": "active",
+   "fx_pct": 0,
+   "extra_cost_pct": 0,
+   "txn_max_usd": null,
+   "daily_max_usd": null,
+   "costco_ok": "Y",
+   "confidence": "med",
+   "network": "visa",
+   "debit_pay": "Y",
+   "fee_usd": 65,
+   "tiers": [
+    {
+     "name": "Costco warehouse and Costco.com",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 2.0,
+     "reward_cap_month_usd": null,
+     "monthly_cost_usd": 0
+    },
+    {
+     "name": "All other purchases",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 1.0,
+     "reward_cap_month_usd": null,
+     "monthly_cost_usd": 0
+    }
+   ],
+   "special": [
+    {
+     "kind": "limit",
+     "text": "Reported limits run from about $500 up to roughly $11,900; no guaranteed starting figure."
+    },
+    {
+     "kind": "eligibility",
+     "text": "Needs a paid Costco Gold Star or Executive membership in your own name. Personal application, no business required, so it is the easiest of the three."
+    },
+    {
+     "kind": "cost",
+     "text": "Debit payment by phone on 800-950-5114 posts immediately; no convenience fee found."
+    },
+    {
+     "kind": "costco",
+     "text": "Warehouse purchases at MCC 5300 including gold bars earn the full 2%."
+    },
+    {
+     "kind": "risk",
+     "text": "Personal card, so sustained high balances hit your personal utilization and can trigger a Citi line review."
+    },
+    {
+     "kind": "tip",
+     "text": "Same-day debit payments let a smaller personal limit be recycled several times a month."
+    }
+   ],
+   "sources": [
+    "https://www.citi.com/credit-cards/costco-anywhere-visa-card",
+    "https://www.citi.com/credit-cards/credit-card-rewards/earn-cash-back-with-costco-credit-card"
+   ]
+  },
+  "us_ok": "Y",
+  "extra_cost_pct": 0,
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "limit",
+    "text": "Reported limits run from about $500 up to roughly $11,900; no guaranteed starting figure."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Needs a paid Costco Gold Star or Executive membership in your own name. Personal application, no business required, so it is the easiest of the three."
+   },
+   {
+    "kind": "cost",
+    "text": "Debit payment by phone on 800-950-5114 posts immediately; no convenience fee found."
+   },
+   {
+    "kind": "costco",
+    "text": "Warehouse purchases at MCC 5300 including gold bars earn the full 2%."
+   },
+   {
+    "kind": "risk",
+    "text": "Personal card, so sustained high balances hit your personal utilization and can trigger a Citi line review."
+   },
+   {
+    "kind": "tip",
+    "text": "Same-day debit payments let a smaller personal limit be recycled several times a month."
+   }
+  ],
+  "tiers": [
+   {
+    "name": "Costco warehouse and Costco.com",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 2.0,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "All other purchases",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 1.0,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "sources": [
+   "https://www.citi.com/credit-cards/costco-anywhere-visa-card",
+   "https://www.citi.com/credit-cards/credit-card-rewards/earn-cash-back-with-costco-credit-card"
+  ],
+  "notes": [
+   "verified: Same product as 'Costco Anywhere Visa' row (personal). FlyerTalk report Apr 2026: phone IVR no longer offers debit option, bank-account only.",
+   "ruling: MEDI RULING 2026-09-15: Citi Costco STILL ACCEPTS TAEKUS. Overrides the FlyerTalk Apr-2026 report that the IVR dropped debit"
+  ],
+  "dp_channel": "phone IVR 800-950-5114 (Medi uses it)",
+  "medi_ruled": true,
+  "where": "store",
+  "c10": 2.0,
+  "c50": 2.0,
+  "f10": 2.0,
+  "f50": 2.0,
+  "headline_pct": 2.0,
+  "base_pct": 1.0,
+  "taekus": 1.8,
+  "taekus_maybe": 0.0,
+  "net50": 3.79,
+  "upside50": 3.79,
+  "lead": false,
+  "cap_month_usd": null,
+  "review": false,
+  "is_crypto": false
  },
  {
   "card": "AT&T Points Plus Card from Citi",
@@ -996,150 +1523,6 @@
   "is_crypto": false
  },
  {
-  "card": "Wells Fargo Autograph",
-  "issuer": "Wells Fargo",
-  "network": "visa",
-  "product": "credit",
-  "biz": "P",
-  "status": "active",
-  "reward_unit": "points",
-  "cpp_max": 1.75,
-  "cpp_floor": 1.0,
-  "base_x": 1,
-  "costco_x_max": 1,
-  "costco_x_min": 1,
-  "costco_cap_usd": null,
-  "cap_period": "none",
-  "reward_cap_usd_month": null,
-  "min_txn_usd": null,
-  "fee_usd": 0.0,
-  "fx_pct": 0.0,
-  "debit_pay": "?",
-  "lockup_usd": null,
-  "source": "https://www.nerdwallet.com/credit-cards/reviews/wells-fargo-autograph",
-  "why": "1x base; 3x categories (dining/travel/gas/transit/streaming/phone) exclude warehouse",
-  "confidence": "low",
-  "needs_research": [],
-  "_batch": "b4_bigbanks_d.json",
-  "_key": "wells fargo autograph",
-  "_dup": false,
-  "notes": [
-   "verified: DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
-  ],
-  "dp_channel": "branch (UNVERIFIED)",
-  "where": "store",
-  "c10": 1.75,
-  "c50": 1.75,
-  "f10": 1.0,
-  "f50": 1.0,
-  "base_pct": 1.75,
-  "taekus": 0.0,
-  "taekus_maybe": 1.8,
-  "net50": 1.75,
-  "upside50": 3.55,
-  "lead": true,
-  "cap_month_usd": null,
-  "headline_pct": 1.75,
-  "review": false,
-  "is_crypto": false
- },
- {
-  "card": "Wells Fargo Autograph Journey",
-  "issuer": "Wells Fargo",
-  "network": "visa",
-  "product": "credit",
-  "biz": "P",
-  "status": "active",
-  "reward_unit": "points",
-  "cpp_max": 1.75,
-  "cpp_floor": 1.0,
-  "base_x": 1,
-  "costco_x_max": 1,
-  "costco_x_min": 1,
-  "costco_cap_usd": null,
-  "cap_period": "none",
-  "reward_cap_usd_month": null,
-  "min_txn_usd": null,
-  "fee_usd": 95.0,
-  "fx_pct": 0.0,
-  "debit_pay": "?",
-  "lockup_usd": null,
-  "source": "https://www.cnbc.com/select/wells-fargo-autograph-journey-card-review/",
-  "why": "1x base; 5x/4x/3x are hotel/airline/travel/dining only",
-  "confidence": "low",
-  "needs_research": [],
-  "_batch": "b4_bigbanks_d.json",
-  "_key": "wells fargo autograph journey",
-  "_dup": false,
-  "notes": [
-   "verified: DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
-  ],
-  "dp_channel": "branch (UNVERIFIED)",
-  "where": "store",
-  "c10": 1.75,
-  "c50": 1.75,
-  "f10": 1.0,
-  "f50": 1.0,
-  "base_pct": 1.75,
-  "taekus": 0.0,
-  "taekus_maybe": 1.8,
-  "net50": 1.73,
-  "upside50": 3.53,
-  "lead": true,
-  "cap_month_usd": null,
-  "headline_pct": 1.75,
-  "review": false,
-  "is_crypto": false
- },
- {
-  "card": "Alliant Cashback Visa Signature",
-  "issuer": "Alliant CU",
-  "network": "visa",
-  "product": "credit",
-  "biz": "P",
-  "status": "active",
-  "reward_unit": "cash",
-  "cpp_max": 1.0,
-  "cpp_floor": 1.0,
-  "base_x": 1.5,
-  "costco_x_max": 2.5,
-  "costco_x_min": 1.5,
-  "costco_cap_usd": 10000,
-  "cap_period": "cycle",
-  "reward_cap_usd_month": null,
-  "min_txn_usd": null,
-  "fee_usd": 0.0,
-  "fx_pct": 0.0,
-  "debit_pay": "Y",
-  "lockup_usd": null,
-  "source": "https://money.usnews.com/credit-cards/alliant-credit-union/alliant-cashback-visa-signature-card",
-  "why": "Flat 2.5% on first $10k/cycle with qualifying Alliant checking, no exclusion; 1.5% without; debit-pay OK",
-  "confidence": "high",
-  "needs_research": [],
-  "_batch": "b6_barclays_cu.json",
-  "_key": "alliant cashback visa signature",
-  "_dup": false,
-  "notes": [
-   "verified: Alliant's OWN help page: members can make a one-time payment using a debit card or external bank account. Primary source, strongest documented debit rail after Medi's proven Venmo/Synchrony phone line. Payment line 800-328-1935."
-  ],
-  "dp_channel": "online, one-time payment",
-  "where": "store",
-  "c10": 2.5,
-  "c50": 1.7,
-  "f10": 1.5,
-  "f50": 1.5,
-  "base_pct": 1.5,
-  "taekus": 1.8,
-  "taekus_maybe": 0.0,
-  "net50": 3.5,
-  "upside50": 3.5,
-  "lead": false,
-  "cap_month_usd": 10000,
-  "headline_pct": 2.5,
-  "review": false,
-  "is_crypto": false
- },
- {
   "card": "Fold Card (Credit)",
   "issuer": "Fold / Celtic Bank",
   "network": "visa",
@@ -1184,6 +1567,155 @@
   "headline_pct": 4.0,
   "review": false,
   "is_crypto": true
+ },
+ {
+  "card": "Alliant Cashback Visa Signature",
+  "issuer": "Alliant CU",
+  "network": "visa",
+  "product": "credit",
+  "biz": "P",
+  "status": "dead",
+  "reward_unit": "cash",
+  "cpp_max": 1.0,
+  "cpp_floor": 1.0,
+  "base_x": 1.5,
+  "costco_x_max": 2.5,
+  "costco_x_min": 1.5,
+  "costco_cap_usd": 10000,
+  "cap_period": "cycle",
+  "reward_cap_usd_month": null,
+  "min_txn_usd": null,
+  "fee_usd": 0.0,
+  "fx_pct": 0.0,
+  "debit_pay": "Y",
+  "lockup_usd": null,
+  "source": "https://money.usnews.com/credit-cards/alliant-credit-union/alliant-cashback-visa-signature-card",
+  "why": "Flat 2.5% on first $10k/cycle with qualifying Alliant checking, no exclusion; 1.5% without; debit-pay OK",
+  "confidence": "high",
+  "needs_research": [],
+  "_batch": "b6_barclays_cu.json",
+  "_key": "alliant cashback visa signature",
+  "_dup": false,
+  "deep": {
+   "card": "Alliant Cashback Visa Signature",
+   "us_ok": "Y",
+   "status": "dead",
+   "fx_pct": 0,
+   "extra_cost_pct": 0,
+   "txn_max_usd": null,
+   "daily_max_usd": null,
+   "costco_ok": "Y",
+   "confidence": "med",
+   "network": "visa",
+   "debit_pay": "Y",
+   "fee_usd": 0,
+   "tiers": [
+    {
+     "name": "Flat rate for all cardholders, after 2025-11-01",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 1.5,
+     "reward_cap_month_usd": null,
+     "monthly_cost_usd": 0
+    }
+   ],
+   "special": [
+    {
+     "kind": "eligibility",
+     "text": "The 2.5% checking-account tier was eliminated card-wide on 2025-11-01. Every cardholder is now on a flat 1.5%."
+    },
+    {
+     "kind": "eligibility",
+     "text": "Closed to new applicants as of 2026. Only legacy holders keep it."
+    },
+    {
+     "kind": "cost",
+     "text": "Debit-pay stands: the Alliant help page says members can make a one-time payment using a debit card or an external bank account. Payment line 800-328-1935. A second pass called it ACH-only, but that describes Bill Pay, a different product."
+    },
+    {
+     "kind": "costco",
+     "text": "No wholesale-club exclusion in the Alliant terms, so Costco earns the same flat rate."
+    },
+    {
+     "kind": "risk",
+     "text": "Alliant has a documented pattern of closing accounts flagged for suspected manufactured spending."
+    },
+    {
+     "kind": "limit",
+     "text": "Limit data is thin; a 2019 review cited a $10,000 minimum. The current typical limit is unconfirmed."
+    }
+   ],
+   "sources": [
+    "https://www.alliantcreditunion.org/help/where-can-i-call-to-make-a-credit-card-payment",
+    "https://www.doctorofcredit.com/alliant-2-5-card-will-become-1-6-on-all-purchases-effective-9-1-25/",
+    "https://www.cnbc.com/select/alliant-cashback-visa-signature-review/"
+   ]
+  },
+  "us_ok": "Y",
+  "extra_cost_pct": 0,
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "eligibility",
+    "text": "The 2.5% checking-account tier was eliminated card-wide on 2025-11-01. Every cardholder is now on a flat 1.5%."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Closed to new applicants as of 2026. Only legacy holders keep it."
+   },
+   {
+    "kind": "cost",
+    "text": "Debit-pay stands: the Alliant help page says members can make a one-time payment using a debit card or an external bank account. Payment line 800-328-1935. A second pass called it ACH-only, but that describes Bill Pay, a different product."
+   },
+   {
+    "kind": "costco",
+    "text": "No wholesale-club exclusion in the Alliant terms, so Costco earns the same flat rate."
+   },
+   {
+    "kind": "risk",
+    "text": "Alliant has a documented pattern of closing accounts flagged for suspected manufactured spending."
+   },
+   {
+    "kind": "limit",
+    "text": "Limit data is thin; a 2019 review cited a $10,000 minimum. The current typical limit is unconfirmed."
+   }
+  ],
+  "tiers": [
+   {
+    "name": "Flat rate for all cardholders, after 2025-11-01",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 1.5,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "sources": [
+   "https://www.alliantcreditunion.org/help/where-can-i-call-to-make-a-credit-card-payment",
+   "https://www.doctorofcredit.com/alliant-2-5-card-will-become-1-6-on-all-purchases-effective-9-1-25/",
+   "https://www.cnbc.com/select/alliant-cashback-visa-signature-review/"
+  ],
+  "notes": [
+   "verified: Alliant's OWN help page: members can make a one-time payment using a debit card or external bank account. Primary source, strongest documented debit rail after Medi's proven Venmo/Synchrony phone line. Payment line 800-328-1935."
+  ],
+  "dp_channel": "online, one-time payment",
+  "where": "store",
+  "c10": 1.5,
+  "c50": 1.5,
+  "f10": 1.5,
+  "f50": 1.5,
+  "headline_pct": 1.5,
+  "base_pct": 1.5,
+  "taekus": 1.8,
+  "taekus_maybe": 0.0,
+  "net50": 3.3,
+  "upside50": 3.3,
+  "lead": false,
+  "cap_month_usd": 10000,
+  "review": false,
+  "is_crypto": false
  },
  {
   "card": "Wells Fargo Business Platinum",
@@ -1239,7 +1771,7 @@
   "network": "visa",
   "product": "credit",
   "biz": "B",
-  "status": "active",
+  "status": "dead",
   "reward_unit": "cash",
   "cpp_max": 1.0,
   "cpp_floor": 1.0,
@@ -1251,7 +1783,7 @@
   "reward_cap_usd_month": null,
   "min_txn_usd": null,
   "fee_usd": 125.0,
-  "fx_pct": 3.0,
+  "fx_pct": 0.0,
   "debit_pay": "?",
   "lockup_usd": null,
   "source": "https://financebuzz.com/wells-fargo-business-elite-signature-review",
@@ -1261,23 +1793,112 @@
   "_batch": "b4_bigbanks_d.json",
   "_key": "wells fargo business elite signature",
   "_dup": false,
+  "deep": {
+   "card": "Wells Fargo Business Elite Signature",
+   "us_ok": "Y",
+   "status": "dead",
+   "fx_pct": 0,
+   "extra_cost_pct": 0,
+   "txn_max_usd": null,
+   "daily_max_usd": null,
+   "costco_ok": "Y",
+   "confidence": "med",
+   "network": "visa",
+   "debit_pay": "?",
+   "fee_usd": 125,
+   "tiers": [
+    {
+     "name": "Cash-back option, chosen at opening",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 1.5,
+     "reward_cap_month_usd": null,
+     "monthly_cost_usd": 10.42
+    }
+   ],
+   "special": [
+    {
+     "kind": "eligibility",
+     "text": "Closed to new applicants since the 2023 Wells Fargo business-card sunset. Replaced by Signify Business Cash."
+    },
+    {
+     "kind": "eligibility",
+     "text": "$1 million or more in annual sales is a stated hard threshold, so a small business will not qualify."
+    },
+    {
+     "kind": "cap",
+     "text": "The 1.5% cash back is a redemption choice made at account opening, not a default."
+    },
+    {
+     "kind": "tip",
+     "text": "Correction: the foreign transaction fee is 0%, not 3%, per the Wells Fargo product page."
+    },
+    {
+     "kind": "tip",
+     "text": "The branch-only debit claim could not be verified; treat it as unconfirmed."
+    }
+   ],
+   "sources": [
+    "https://www.doctorofcredit.com/wells-fargo-business-elite-credit-card-review-1000-sign-bonus-1-5-cash-back-purchases/"
+   ]
+  },
+  "us_ok": "Y",
+  "extra_cost_pct": 0,
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "eligibility",
+    "text": "Closed to new applicants since the 2023 Wells Fargo business-card sunset. Replaced by Signify Business Cash."
+   },
+   {
+    "kind": "eligibility",
+    "text": "$1 million or more in annual sales is a stated hard threshold, so a small business will not qualify."
+   },
+   {
+    "kind": "cap",
+    "text": "The 1.5% cash back is a redemption choice made at account opening, not a default."
+   },
+   {
+    "kind": "tip",
+    "text": "Correction: the foreign transaction fee is 0%, not 3%, per the Wells Fargo product page."
+   },
+   {
+    "kind": "tip",
+    "text": "The branch-only debit claim could not be verified; treat it as unconfirmed."
+   }
+  ],
+  "tiers": [
+   {
+    "name": "Cash-back option, chosen at opening",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 1.5,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 10.42
+   }
+  ],
+  "sources": [
+   "https://www.doctorofcredit.com/wells-fargo-business-elite-credit-card-review-1000-sign-bonus-1-5-cash-back-purchases/"
+  ],
   "notes": [
    "verified: DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
   ],
   "dp_channel": "branch (UNVERIFIED)",
   "where": "store",
-  "c10": 1.5,
-  "c50": 1.5,
-  "f10": 1.5,
-  "f50": 1.5,
+  "c10": 1.4,
+  "c50": 1.48,
+  "f10": 1.4,
+  "f50": 1.48,
+  "headline_pct": 1.5,
   "base_pct": 1.5,
   "taekus": 0.0,
   "taekus_maybe": 1.8,
-  "net50": 1.48,
-  "upside50": 3.28,
+  "net50": 1.46,
+  "upside50": 3.26,
   "lead": true,
   "cap_month_usd": null,
-  "headline_pct": 1.5,
   "review": false,
   "is_crypto": false
  },
@@ -2160,8 +2781,8 @@
   "is_crypto": false
  },
  {
-  "card": "Citi Custom Cash",
-  "issuer": "Citi",
+  "card": "Sam's Club Mastercard",
+  "issuer": "Synchrony",
   "network": "mastercard",
   "product": "credit",
   "biz": "P",
@@ -2174,29 +2795,120 @@
   "costco_x_min": 1,
   "costco_cap_usd": null,
   "cap_period": "none",
-  "reward_cap_usd_month": null,
+  "reward_cap_usd_month": 416.67,
   "min_txn_usd": null,
   "fee_usd": 0.0,
-  "fx_pct": 3.0,
+  "fx_pct": 0.0,
   "debit_pay": "Y",
   "lockup_usd": null,
-  "source": "https://money.usnews.com/credit-cards/citi/citi-custom-cash-card",
-  "why": "5% top category is MCC-based (grocery 5411); Costco MCC 5300 warehouse is not eligible = 1%",
-  "confidence": "high",
+  "source": "https://www.bankrate.com/credit-cards/reviews/sams-club-mastercard/",
+  "why": "Costco earns base 1% only (3%/5% are Sam's/gas/dining); Sam's Cash capped $5,000/yr; Synchrony takes debit",
+  "confidence": "med",
   "needs_research": [],
-  "_batch": "b2_bigbanks_b.json",
-  "_key": "citi custom cash",
+  "_batch": "b6_barclays_cu.json",
+  "_key": "sam s club mastercard",
   "_dup": false,
-  "notes": [
-   "verified: Same FlyerTalk report that caught Costco losing debit-pay (~Apr 2026) said Custom Cash still worked then; given Citi cut 2 more products since, don't assume that's still true 9/15/26. Also: new applications closed 5/28/26 (existing cardmembers unaffected by that specifically).",
-   "verified: FlyerTalk 2026: still offered debit on the IVR after Costco Visa lost it; name must match, 1 payment per card per day"
+  "deep": {
+   "card": "Sam's Club Mastercard",
+   "us_ok": "Y",
+   "status": "active",
+   "fx_pct": 0,
+   "extra_cost_pct": 0,
+   "txn_max_usd": null,
+   "daily_max_usd": null,
+   "costco_ok": "Y",
+   "confidence": "med",
+   "network": "mastercard",
+   "debit_pay": "?",
+   "fee_usd": 0,
+   "tiers": [
+    {
+     "name": "Base 1% on other purchases including Costco",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 1.0,
+     "reward_cap_month_usd": null,
+     "monthly_cost_usd": 0
+    }
+   ],
+   "special": [
+    {
+     "kind": "cap",
+     "text": "Sams Cash is capped at $5,000 per calendar YEAR across all categories and cards for the same member. A hard ceiling."
+    },
+    {
+     "kind": "limit",
+     "text": "Limits skew low: average about $5,323, most common starting limit around $1,000."
+    },
+    {
+     "kind": "costco",
+     "text": "Costco earns the 1% other-purchases rate; the Sams Club 3% and gas 5% bonuses do not apply."
+    },
+    {
+     "kind": "tip",
+     "text": "Synchrony debit bill payment is inconsistently documented; bank ACH is the clearly confirmed method."
+    },
+    {
+     "kind": "risk",
+     "text": "Synchrony is known for broad credit tightening and account closures."
+    }
+   ],
+   "sources": [
+    "https://www.synchronybankterms.com/syfterms/pdf/Sams_Club_Mastercard_Account_Agreement_and_Pricing_Addendum.pdf",
+    "https://scene7.samsclub.com/is/content/samsclub/sams-cash-with-mastercard"
+   ]
+  },
+  "us_ok": "Y",
+  "extra_cost_pct": 0,
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "cap",
+    "text": "Sams Cash is capped at $5,000 per calendar YEAR across all categories and cards for the same member. A hard ceiling."
+   },
+   {
+    "kind": "limit",
+    "text": "Limits skew low: average about $5,323, most common starting limit around $1,000."
+   },
+   {
+    "kind": "costco",
+    "text": "Costco earns the 1% other-purchases rate; the Sams Club 3% and gas 5% bonuses do not apply."
+   },
+   {
+    "kind": "tip",
+    "text": "Synchrony debit bill payment is inconsistently documented; bank ACH is the clearly confirmed method."
+   },
+   {
+    "kind": "risk",
+    "text": "Synchrony is known for broad credit tightening and account closures."
+   }
   ],
-  "dp_channel": "phone IVR 800-950-5114",
+  "tiers": [
+   {
+    "name": "Base 1% on other purchases including Costco",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 1.0,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "sources": [
+   "https://www.synchronybankterms.com/syfterms/pdf/Sams_Club_Mastercard_Account_Agreement_and_Pricing_Addendum.pdf",
+   "https://scene7.samsclub.com/is/content/samsclub/sams-cash-with-mastercard"
+  ],
+  "notes": [
+   "verified: Sam's Club's own help center: if you pay using cash or debit card, your open-to-buy is available immediately; payable at any Sam's Club or Walmart register, or by phone, same-day post. Direct re-fetch of the page returned 403; relied on search-engine cached text of the official help.samsclub.com article."
+  ],
+  "dp_channel": "store",
   "where": "online",
   "c10": 1.0,
   "c50": 1.0,
   "f10": 1.0,
   "f50": 1.0,
+  "headline_pct": 1.0,
   "base_pct": 1.0,
   "taekus": 1.8,
   "taekus_maybe": 0.0,
@@ -2204,7 +2916,6 @@
   "upside50": 2.8,
   "lead": false,
   "cap_month_usd": null,
-  "headline_pct": 1.0,
   "review": false,
   "is_crypto": false
  },
@@ -2238,6 +2949,97 @@
   "_batch": "b6_barclays_cu.json",
   "_key": "target circle card credit mastercard",
   "_dup": false,
+  "deep": {
+   "card": "Target Circle Card (Credit / Mastercard)",
+   "us_ok": "Y",
+   "status": "active",
+   "fx_pct": 0,
+   "extra_cost_pct": 0,
+   "txn_max_usd": null,
+   "daily_max_usd": null,
+   "costco_ok": "Y",
+   "confidence": "med",
+   "network": "mastercard",
+   "debit_pay": "Y",
+   "fee_usd": 0,
+   "tiers": [
+    {
+     "name": "Base rate on non-Target spend including Costco",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 1.0,
+     "reward_cap_month_usd": null,
+     "monthly_cost_usd": 0
+    }
+   ],
+   "special": [
+    {
+     "kind": "limit",
+     "text": "Typical starting limit about $2,000 to $8,000; some reports up to $20,000 after years of increases."
+    },
+    {
+     "kind": "eligibility",
+     "text": "This is the Target Mastercard usable anywhere, not the Target-only Circle card."
+    },
+    {
+     "kind": "costco",
+     "text": "The 5% Target discount is Target-only. Costco earns the 1% base, not the 2% gas and dining bonus."
+    },
+    {
+     "kind": "tip",
+     "text": "Debit bill payment is reported by phone and in store, not confirmed as self-service on the TD Bank site."
+    },
+    {
+     "kind": "cost",
+     "text": "TD Bank added a 3% foreign fee to some cards in 2026, but this one is still listed at $0."
+    }
+   ],
+   "sources": [
+    "https://www.target.com/circlecard",
+    "https://wallethub.com/answers/cc/pay-target-red-card-with-debit-card-2140736799/"
+   ]
+  },
+  "us_ok": "Y",
+  "extra_cost_pct": 0,
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "limit",
+    "text": "Typical starting limit about $2,000 to $8,000; some reports up to $20,000 after years of increases."
+   },
+   {
+    "kind": "eligibility",
+    "text": "This is the Target Mastercard usable anywhere, not the Target-only Circle card."
+   },
+   {
+    "kind": "costco",
+    "text": "The 5% Target discount is Target-only. Costco earns the 1% base, not the 2% gas and dining bonus."
+   },
+   {
+    "kind": "tip",
+    "text": "Debit bill payment is reported by phone and in store, not confirmed as self-service on the TD Bank site."
+   },
+   {
+    "kind": "cost",
+    "text": "TD Bank added a 3% foreign fee to some cards in 2026, but this one is still listed at $0."
+   }
+  ],
+  "tiers": [
+   {
+    "name": "Base rate on non-Target spend including Costco",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 1.0,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "sources": [
+   "https://www.target.com/circlecard",
+   "https://wallethub.com/answers/cc/pay-target-red-card-with-debit-card-2140736799/"
+  ],
   "notes": [
    "verified: In-store at any Target Guest Services desk, the Target Credit Card/Target Mastercard (Target Circle Card credit) bill can be paid with cash, a debit card, or a digital wallet, per wallethub's summary of Target's own policy. Online/phone (1-800-424-6888) debit acceptance not confirmed."
   ],
@@ -2247,6 +3049,7 @@
   "c50": 1.0,
   "f10": 1.0,
   "f50": 1.0,
+  "headline_pct": 1.0,
   "base_pct": 1.0,
   "taekus": 1.8,
   "taekus_maybe": 0.0,
@@ -2254,7 +3057,6 @@
   "upside50": 2.8,
   "lead": false,
   "cap_month_usd": null,
-  "headline_pct": 1.0,
   "review": false,
   "is_crypto": false
  },
@@ -2499,15 +3301,15 @@
   "is_crypto": false
  },
  {
-  "card": "Wells Fargo Choice Privileges Mastercard",
+  "card": "Wells Fargo Autograph",
   "issuer": "Wells Fargo",
-  "network": "mastercard",
+  "network": "visa",
   "product": "credit",
   "biz": "P",
   "status": "active",
   "reward_unit": "points",
-  "cpp_max": 0.85,
-  "cpp_floor": 0.6,
+  "cpp_max": 1.75,
+  "cpp_floor": 1.0,
   "base_x": 1,
   "costco_x_max": 1,
   "costco_x_min": 1,
@@ -2519,91 +3321,132 @@
   "fx_pct": 0.0,
   "debit_pay": "?",
   "lockup_usd": null,
-  "source": "https://awardwallet.com/blog/choice-privileges-wells-fargo-credit-cards/",
-  "why": "1x base; 3x grocery is MCC 5411 only, Costco is 5300",
+  "source": "https://www.nerdwallet.com/credit-cards/reviews/wells-fargo-autograph",
+  "why": "1x base; 3x categories (dining/travel/gas/transit/streaming/phone) exclude warehouse",
   "confidence": "low",
   "needs_research": [],
   "_batch": "b4_bigbanks_d.json",
-  "_key": "wells fargo choice privileges mastercard",
+  "_key": "wells fargo autograph",
   "_dup": false,
+  "deep": {
+   "card": "Wells Fargo Autograph",
+   "us_ok": "Y",
+   "status": "active",
+   "fx_pct": 0,
+   "extra_cost_pct": 0,
+   "txn_max_usd": null,
+   "daily_max_usd": null,
+   "costco_ok": "Y",
+   "confidence": "low",
+   "network": "visa",
+   "debit_pay": "?",
+   "fee_usd": 0,
+   "tiers": [
+    {
+     "name": "Base 1x, Costco is not a bonus category",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 1.0,
+     "reward_cap_month_usd": null,
+     "monthly_cost_usd": 0
+    }
+   ],
+   "special": [
+    {
+     "kind": "costco",
+     "text": "Costco MCC 5300 is not in the 3x categories, so it earns base 1x only, per the Wells Fargo terms."
+    },
+    {
+     "kind": "limit",
+     "text": "Guaranteed minimum $1,000; average around $8,971, with reports from $2,500 to $20,000."
+    },
+    {
+     "kind": "cost",
+     "text": "Correction: the Wells Fargo terms state the foreign transaction fee is None, not 3%."
+    },
+    {
+     "kind": "tip",
+     "text": "Points cash out near 1 cent each; no higher cash-out rate is documented."
+    },
+    {
+     "kind": "cap",
+     "text": "Same unverified branch-only debit claim as the other Wells Fargo cards."
+    }
+   ],
+   "sources": [
+    "https://www.wellsfargo.com/credit-cards/autograph-visa/terms/"
+   ]
+  },
+  "us_ok": "Y",
+  "extra_cost_pct": 0,
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "costco",
+    "text": "Costco MCC 5300 is not in the 3x categories, so it earns base 1x only, per the Wells Fargo terms."
+   },
+   {
+    "kind": "limit",
+    "text": "Guaranteed minimum $1,000; average around $8,971, with reports from $2,500 to $20,000."
+   },
+   {
+    "kind": "cost",
+    "text": "Correction: the Wells Fargo terms state the foreign transaction fee is None, not 3%."
+   },
+   {
+    "kind": "tip",
+    "text": "Points cash out near 1 cent each; no higher cash-out rate is documented."
+   },
+   {
+    "kind": "cap",
+    "text": "Same unverified branch-only debit claim as the other Wells Fargo cards."
+   }
+  ],
+  "tiers": [
+   {
+    "name": "Base 1x, Costco is not a bonus category",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 1.0,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "sources": [
+   "https://www.wellsfargo.com/credit-cards/autograph-visa/terms/"
+  ],
   "notes": [
    "verified: DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
   ],
   "dp_channel": "branch (UNVERIFIED)",
-  "where": "online",
-  "c10": 0.85,
-  "c50": 0.85,
-  "f10": 0.6,
-  "f50": 0.6,
-  "base_pct": 0.85,
+  "where": "store",
+  "c10": 1.0,
+  "c50": 1.0,
+  "f10": 1.0,
+  "f50": 1.0,
+  "headline_pct": 1.0,
+  "base_pct": 1.75,
   "taekus": 0.0,
   "taekus_maybe": 1.8,
-  "net50": 0.85,
-  "upside50": 2.65,
+  "net50": 1.0,
+  "upside50": 2.8,
   "lead": true,
   "cap_month_usd": null,
-  "headline_pct": 0.85,
   "review": false,
   "is_crypto": false
  },
  {
-  "card": "Sam's Club Mastercard",
-  "issuer": "Synchrony",
-  "network": "mastercard",
-  "product": "credit",
-  "biz": "P",
-  "status": "active",
-  "reward_unit": "cash",
-  "cpp_max": 1.0,
-  "cpp_floor": 1.0,
-  "base_x": 1,
-  "costco_x_max": 1,
-  "costco_x_min": 1,
-  "costco_cap_usd": null,
-  "cap_period": "none",
-  "reward_cap_usd_month": 416.67,
-  "min_txn_usd": null,
-  "fee_usd": 0.0,
-  "fx_pct": 0.0,
-  "debit_pay": "Y",
-  "lockup_usd": null,
-  "source": "https://www.bankrate.com/credit-cards/reviews/sams-club-mastercard/",
-  "why": "Costco earns base 1% only (3%/5% are Sam's/gas/dining); Sam's Cash capped $5,000/yr; Synchrony takes debit",
-  "confidence": "high",
-  "needs_research": [],
-  "_batch": "b6_barclays_cu.json",
-  "_key": "sam s club mastercard",
-  "_dup": false,
-  "notes": [
-   "verified: Sam's Club's own help center: if you pay using cash or debit card, your open-to-buy is available immediately; payable at any Sam's Club or Walmart register, or by phone, same-day post. Direct re-fetch of the page returned 403; relied on search-engine cached text of the official help.samsclub.com article."
-  ],
-  "dp_channel": "store",
-  "where": "online",
-  "c10": 1.0,
-  "c50": 0.83,
-  "f10": 1.0,
-  "f50": 0.83,
-  "base_pct": 1.0,
-  "taekus": 1.8,
-  "taekus_maybe": 0.0,
-  "net50": 2.63,
-  "upside50": 2.63,
-  "lead": false,
-  "cap_month_usd": null,
-  "headline_pct": 1.0,
-  "review": false,
-  "is_crypto": false
- },
- {
-  "card": "Wells Fargo Choice Privileges Select Mastercard",
+  "card": "Wells Fargo Autograph Journey",
   "issuer": "Wells Fargo",
-  "network": "mastercard",
+  "network": "visa",
   "product": "credit",
   "biz": "P",
   "status": "active",
   "reward_unit": "points",
-  "cpp_max": 0.85,
-  "cpp_floor": 0.6,
+  "cpp_max": 1.75,
+  "cpp_floor": 1.0,
   "base_x": 1,
   "costco_x_max": 1,
   "costco_x_min": 1,
@@ -2615,30 +3458,111 @@
   "fx_pct": 0.0,
   "debit_pay": "?",
   "lockup_usd": null,
-  "source": "https://awardwallet.com/blog/choice-privileges-wells-fargo-credit-cards/",
-  "why": "1x base; 5x grocery is MCC 5411 only, Costco is 5300",
+  "source": "https://www.cnbc.com/select/wells-fargo-autograph-journey-card-review/",
+  "why": "1x base; 5x/4x/3x are hotel/airline/travel/dining only",
   "confidence": "low",
   "needs_research": [],
   "_batch": "b4_bigbanks_d.json",
-  "_key": "wells fargo choice privileges select mastercard",
+  "_key": "wells fargo autograph journey",
   "_dup": false,
+  "deep": {
+   "card": "Wells Fargo Autograph Journey",
+   "us_ok": "Y",
+   "status": "active",
+   "fx_pct": 0,
+   "extra_cost_pct": 0,
+   "txn_max_usd": null,
+   "daily_max_usd": null,
+   "costco_ok": "Y",
+   "confidence": "low",
+   "network": "visa",
+   "debit_pay": "?",
+   "fee_usd": 95,
+   "tiers": [
+    {
+     "name": "Base 1x, Costco is not a bonus category",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 1.0,
+     "reward_cap_month_usd": null,
+     "monthly_cost_usd": 7.92
+    }
+   ],
+   "special": [
+    {
+     "kind": "costco",
+     "text": "Costco misses the 5x hotel, 4x airline and 3x dining bonuses and earns base 1x only."
+    },
+    {
+     "kind": "cost",
+     "text": "Correction: the foreign transaction fee is None per the Wells Fargo terms."
+    },
+    {
+     "kind": "tip",
+     "text": "The 1.75 cents per point figure is unconfirmed; 2026 sources put portal and cash redemption near 1 cent."
+    },
+    {
+     "kind": "cap",
+     "text": "A $95 annual fee plus the same unverified branch-only debit claim."
+    }
+   ],
+   "sources": [
+    "https://www.wellsfargo.com/credit-cards/autograph-journey-visa/terms/"
+   ]
+  },
+  "us_ok": "Y",
+  "extra_cost_pct": 0,
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "costco",
+    "text": "Costco misses the 5x hotel, 4x airline and 3x dining bonuses and earns base 1x only."
+   },
+   {
+    "kind": "cost",
+    "text": "Correction: the foreign transaction fee is None per the Wells Fargo terms."
+   },
+   {
+    "kind": "tip",
+    "text": "The 1.75 cents per point figure is unconfirmed; 2026 sources put portal and cash redemption near 1 cent."
+   },
+   {
+    "kind": "cap",
+    "text": "A $95 annual fee plus the same unverified branch-only debit claim."
+   }
+  ],
+  "tiers": [
+   {
+    "name": "Base 1x, Costco is not a bonus category",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 1.0,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 7.92
+   }
+  ],
+  "sources": [
+   "https://www.wellsfargo.com/credit-cards/autograph-journey-visa/terms/"
+  ],
   "notes": [
    "verified: DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
   ],
   "dp_channel": "branch (UNVERIFIED)",
-  "where": "online",
-  "c10": 0.85,
-  "c50": 0.85,
-  "f10": 0.6,
-  "f50": 0.6,
-  "base_pct": 0.85,
+  "where": "store",
+  "c10": 0.92,
+  "c50": 0.98,
+  "f10": 0.92,
+  "f50": 0.98,
+  "headline_pct": 1.0,
+  "base_pct": 1.75,
   "taekus": 0.0,
   "taekus_maybe": 1.8,
-  "net50": 0.83,
-  "upside50": 2.63,
+  "net50": 0.96,
+  "upside50": 2.76,
   "lead": true,
   "cap_month_usd": null,
-  "headline_pct": 0.85,
   "review": false,
   "is_crypto": false
  },
@@ -3459,6 +4383,280 @@
   "upside50": 2.4,
   "lead": false,
   "cap_month_usd": 10000,
+  "review": false,
+  "is_crypto": false
+ },
+ {
+  "card": "Wells Fargo Choice Privileges Mastercard",
+  "issuer": "Wells Fargo",
+  "network": "mastercard",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "reward_unit": "points",
+  "cpp_max": 0.85,
+  "cpp_floor": 0.6,
+  "base_x": 1,
+  "costco_x_max": 1,
+  "costco_x_min": 1,
+  "costco_cap_usd": null,
+  "cap_period": "none",
+  "reward_cap_usd_month": null,
+  "min_txn_usd": null,
+  "fee_usd": 0.0,
+  "fx_pct": 0.0,
+  "debit_pay": "?",
+  "lockup_usd": null,
+  "source": "https://awardwallet.com/blog/choice-privileges-wells-fargo-credit-cards/",
+  "why": "1x base; 3x grocery is MCC 5411 only, Costco is 5300",
+  "confidence": "low",
+  "needs_research": [],
+  "_batch": "b4_bigbanks_d.json",
+  "_key": "wells fargo choice privileges mastercard",
+  "_dup": false,
+  "deep": {
+   "card": "Wells Fargo Choice Privileges Mastercard",
+   "us_ok": "Y",
+   "status": "active",
+   "fx_pct": 0,
+   "extra_cost_pct": 0,
+   "txn_max_usd": null,
+   "daily_max_usd": null,
+   "costco_ok": "Y",
+   "confidence": "low",
+   "network": "mastercard",
+   "debit_pay": "?",
+   "fee_usd": 0,
+   "tiers": [
+    {
+     "name": "Base 1x including Costco",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 0.6,
+     "reward_cap_month_usd": null,
+     "monthly_cost_usd": 0
+    }
+   ],
+   "special": [
+    {
+     "kind": "cost",
+     "text": "Base points redeem near 0.6 to 0.85 cents, so the real value of the base earn is well under 1%."
+    },
+    {
+     "kind": "costco",
+     "text": "The 5x grocery bonus is supermarket MCC 5411 only. Costco earns base 1x."
+    },
+    {
+     "kind": "limit",
+     "text": "Wells Fargo guarantees a $1,000 minimum; no reliable data on typical limits."
+    },
+    {
+     "kind": "tip",
+     "text": "Wells Fargo debit-card payment is claimed branch-only and is unconfirmed."
+    },
+    {
+     "kind": "risk",
+     "text": "Branch-only paydown would badly limit the payment speed a high-volume month needs."
+    }
+   ],
+   "sources": [
+    "https://www.nerdwallet.com/credit-cards/reviews/choice-privileges-card"
+   ]
+  },
+  "us_ok": "Y",
+  "extra_cost_pct": 0,
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "cost",
+    "text": "Base points redeem near 0.6 to 0.85 cents, so the real value of the base earn is well under 1%."
+   },
+   {
+    "kind": "costco",
+    "text": "The 5x grocery bonus is supermarket MCC 5411 only. Costco earns base 1x."
+   },
+   {
+    "kind": "limit",
+    "text": "Wells Fargo guarantees a $1,000 minimum; no reliable data on typical limits."
+   },
+   {
+    "kind": "tip",
+    "text": "Wells Fargo debit-card payment is claimed branch-only and is unconfirmed."
+   },
+   {
+    "kind": "risk",
+    "text": "Branch-only paydown would badly limit the payment speed a high-volume month needs."
+   }
+  ],
+  "tiers": [
+   {
+    "name": "Base 1x including Costco",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 0.6,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "sources": [
+   "https://www.nerdwallet.com/credit-cards/reviews/choice-privileges-card"
+  ],
+  "notes": [
+   "verified: DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
+  ],
+  "dp_channel": "branch (UNVERIFIED)",
+  "where": "online",
+  "c10": 0.6,
+  "c50": 0.6,
+  "f10": 0.6,
+  "f50": 0.6,
+  "headline_pct": 0.6,
+  "base_pct": 0.85,
+  "taekus": 0.0,
+  "taekus_maybe": 1.8,
+  "net50": 0.6,
+  "upside50": 2.4,
+  "lead": true,
+  "cap_month_usd": null,
+  "review": false,
+  "is_crypto": false
+ },
+ {
+  "card": "Wells Fargo Choice Privileges Select Mastercard",
+  "issuer": "Wells Fargo",
+  "network": "mastercard",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "reward_unit": "points",
+  "cpp_max": 0.85,
+  "cpp_floor": 0.6,
+  "base_x": 1,
+  "costco_x_max": 1,
+  "costco_x_min": 1,
+  "costco_cap_usd": null,
+  "cap_period": "none",
+  "reward_cap_usd_month": null,
+  "min_txn_usd": null,
+  "fee_usd": 95.0,
+  "fx_pct": 0.0,
+  "debit_pay": "?",
+  "lockup_usd": null,
+  "source": "https://awardwallet.com/blog/choice-privileges-wells-fargo-credit-cards/",
+  "why": "1x base; 5x grocery is MCC 5411 only, Costco is 5300",
+  "confidence": "low",
+  "needs_research": [],
+  "_batch": "b4_bigbanks_d.json",
+  "_key": "wells fargo choice privileges select mastercard",
+  "_dup": false,
+  "deep": {
+   "card": "Wells Fargo Choice Privileges Select Mastercard",
+   "us_ok": "Y",
+   "status": "active",
+   "fx_pct": 0,
+   "extra_cost_pct": 0,
+   "txn_max_usd": null,
+   "daily_max_usd": null,
+   "costco_ok": "Y",
+   "confidence": "low",
+   "network": "mastercard",
+   "debit_pay": "?",
+   "fee_usd": 95,
+   "tiers": [
+    {
+     "name": "Base 1x including Costco",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 0.6,
+     "reward_cap_month_usd": null,
+     "monthly_cost_usd": 8
+    }
+   ],
+   "special": [
+    {
+     "kind": "cost",
+     "text": "A $95 annual fee, and base points redeem near 0.6 to 0.85 cents."
+    },
+    {
+     "kind": "costco",
+     "text": "The 5x grocery bonus is MCC 5411 only; Costco earns base 1x."
+    },
+    {
+     "kind": "limit",
+     "text": "Guaranteed $1,000 minimum; no hard data on typical limits for this tier."
+    },
+    {
+     "kind": "tip",
+     "text": "Wells Fargo debit payment is claimed branch-only and is unconfirmed."
+    },
+    {
+     "kind": "risk",
+     "text": "Branch-only paydown limits the velocity a high-volume month needs."
+    }
+   ],
+   "sources": [
+    "https://www.nerdwallet.com/credit-cards/reviews/choice-privileges-select-card"
+   ]
+  },
+  "us_ok": "Y",
+  "extra_cost_pct": 0,
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "cost",
+    "text": "A $95 annual fee, and base points redeem near 0.6 to 0.85 cents."
+   },
+   {
+    "kind": "costco",
+    "text": "The 5x grocery bonus is MCC 5411 only; Costco earns base 1x."
+   },
+   {
+    "kind": "limit",
+    "text": "Guaranteed $1,000 minimum; no hard data on typical limits for this tier."
+   },
+   {
+    "kind": "tip",
+    "text": "Wells Fargo debit payment is claimed branch-only and is unconfirmed."
+   },
+   {
+    "kind": "risk",
+    "text": "Branch-only paydown limits the velocity a high-volume month needs."
+   }
+  ],
+  "tiers": [
+   {
+    "name": "Base 1x including Costco",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 0.6,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 8
+   }
+  ],
+  "sources": [
+   "https://www.nerdwallet.com/credit-cards/reviews/choice-privileges-select-card"
+  ],
+  "notes": [
+   "verified: DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
+  ],
+  "dp_channel": "branch (UNVERIFIED)",
+  "where": "online",
+  "c10": 0.52,
+  "c50": 0.58,
+  "f10": 0.52,
+  "f50": 0.58,
+  "headline_pct": 0.6,
+  "base_pct": 0.85,
+  "taekus": 0.0,
+  "taekus_maybe": 1.8,
+  "net50": 0.56,
+  "upside50": 2.36,
+  "lead": true,
+  "cap_month_usd": null,
   "review": false,
   "is_crypto": false
  },
@@ -5869,6 +7067,164 @@
   "lead": false,
   "cap_month_usd": null,
   "headline_pct": 2.05,
+  "review": false,
+  "is_crypto": false
+ },
+ {
+  "card": "Citi Custom Cash",
+  "issuer": "Citi",
+  "network": "mastercard",
+  "product": "credit",
+  "biz": "P",
+  "status": "dead",
+  "reward_unit": "cash",
+  "cpp_max": 1.0,
+  "cpp_floor": 1.0,
+  "base_x": 1,
+  "costco_x_max": 1,
+  "costco_x_min": 1,
+  "costco_cap_usd": null,
+  "cap_period": "none",
+  "reward_cap_usd_month": null,
+  "min_txn_usd": null,
+  "fee_usd": 0.0,
+  "fx_pct": 3.0,
+  "debit_pay": "Y",
+  "lockup_usd": null,
+  "source": "https://money.usnews.com/credit-cards/citi/citi-custom-cash-card",
+  "why": "5% top category is MCC-based (grocery 5411); Costco MCC 5300 warehouse is not eligible = 1%",
+  "confidence": "high",
+  "needs_research": [],
+  "_batch": "b2_bigbanks_b.json",
+  "_key": "citi custom cash",
+  "_dup": false,
+  "deep": {
+   "card": "Citi Custom Cash",
+   "us_ok": "Y",
+   "status": "dead",
+   "fx_pct": 3,
+   "extra_cost_pct": 0,
+   "txn_max_usd": null,
+   "daily_max_usd": null,
+   "costco_ok": "Y",
+   "confidence": "high",
+   "network": "mastercard",
+   "debit_pay": "Y",
+   "fee_usd": 0,
+   "tiers": [
+    {
+     "name": "Top category 5%, grocery MCC 5411 only, not Costco",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 5.0,
+     "reward_cap_month_usd": 25,
+     "monthly_cost_usd": 0
+    },
+    {
+     "name": "Base rate, applies to Costco MCC 5300",
+     "min_spend_month_usd": null,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 1.0,
+     "reward_cap_month_usd": null,
+     "monthly_cost_usd": 0
+    }
+   ],
+   "special": [
+    {
+     "kind": "eligibility",
+     "text": "Closed to new applications since 2026-05-28 per Citi. Existing holders are unaffected, and a product change from another Citi card may still work."
+    },
+    {
+     "kind": "costco",
+     "text": "The Citi grocery terms explicitly exclude warehouse clubs, so Costco earns the base 1% only."
+    },
+    {
+     "kind": "cap",
+     "text": "The 5% cap is $500 of spend per cycle, worth $25. Moot at Costco, which never qualifies for 5%."
+    },
+    {
+     "kind": "limit",
+     "text": "Reported limits run about $500 to $7,400, averaging around $6,158, far below a $10k to $50k month in one cycle."
+    },
+    {
+     "kind": "tip",
+     "text": "Phone debit-card bill pay on 800-950-5114 is confirmed real and posts immediately. Fee and per-call limit unconfirmed."
+    }
+   ],
+   "sources": [
+    "https://www.nerdwallet.com/credit-cards/news/citi-custom-cash-closed-to-new-applications",
+    "https://wallethub.com/answers/cc/pay-citibank-credit-card-with-a-debit-card-1000333-2140756675/"
+   ]
+  },
+  "us_ok": "Y",
+  "extra_cost_pct": 0,
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "eligibility",
+    "text": "Closed to new applications since 2026-05-28 per Citi. Existing holders are unaffected, and a product change from another Citi card may still work."
+   },
+   {
+    "kind": "costco",
+    "text": "The Citi grocery terms explicitly exclude warehouse clubs, so Costco earns the base 1% only."
+   },
+   {
+    "kind": "cap",
+    "text": "The 5% cap is $500 of spend per cycle, worth $25. Moot at Costco, which never qualifies for 5%."
+   },
+   {
+    "kind": "limit",
+    "text": "Reported limits run about $500 to $7,400, averaging around $6,158, far below a $10k to $50k month in one cycle."
+   },
+   {
+    "kind": "tip",
+    "text": "Phone debit-card bill pay on 800-950-5114 is confirmed real and posts immediately. Fee and per-call limit unconfirmed."
+   }
+  ],
+  "tiers": [
+   {
+    "name": "Top category 5%, grocery MCC 5411 only, not Costco",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 5.0,
+    "reward_cap_month_usd": 25,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Base rate, applies to Costco MCC 5300",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 1.0,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "sources": [
+   "https://www.nerdwallet.com/credit-cards/news/citi-custom-cash-closed-to-new-applications",
+   "https://wallethub.com/answers/cc/pay-citibank-credit-card-with-a-debit-card-1000333-2140756675/"
+  ],
+  "notes": [
+   "verified: Same FlyerTalk report that caught Costco losing debit-pay (~Apr 2026) said Custom Cash still worked then; given Citi cut 2 more products since, don't assume that's still true 9/15/26. Also: new applications closed 5/28/26 (existing cardmembers unaffected by that specifically).",
+   "verified: FlyerTalk 2026: still offered debit on the IVR after Costco Visa lost it; name must match, 1 payment per card per day"
+  ],
+  "dp_channel": "phone IVR 800-950-5114",
+  "where": "online",
+  "c10": 0.25,
+  "c50": 0.05,
+  "f10": 0.25,
+  "f50": 0.05,
+  "headline_pct": 5.0,
+  "base_pct": 1.0,
+  "taekus": 1.8,
+  "taekus_maybe": 0.0,
+  "net50": 1.85,
+  "upside50": 1.85,
+  "lead": false,
+  "cap_month_usd": null,
   "review": false,
   "is_crypto": false
  },
