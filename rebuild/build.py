@@ -162,13 +162,13 @@ for r in rows:
     r["review"]=bool((r.get("reward_unit")!="crypto" and r["c50"]>SANITY) or (r.get("confidence")=="low" and r["c50"]>SANITY))
     r["is_crypto"]=r.get("reward_unit")=="crypto"
 
-rows.sort(key=lambda r:(-r["c50"],-r["f50"],r["card"]))
+rows.sort(key=lambda r:(-r["net50"],-r["c50"],r["card"]))
 json.dump(rows,open(os.path.join(WIKI,"cards.json"),"w",encoding="utf-8"),indent=1,ensure_ascii=False)
 act=[r for r in rows if r.get("status")=="active"]
 print("active",len(act),"dead",len(rows)-len(act),"review-flagged",sum(r["review"] for r in rows),
       "low-conf",sum(r.get("confidence")=="low" for r in rows))
-print("TOP 15 active @50k:")
-for r in act[:15]: print(f'  {r["c50"]:5.2f}%  floor {r["f50"]:5.2f}%  {r["where"]:6}  {r["card"]}')
+print("TOP 15 active by NET@50k:")
+for r in act[:15]: print(f'  net {r["net50"]:5.2f}%  (costco {r["c50"]:5.2f} + tk {r["taekus"]:.2f})  {r["where"]:6}  {r["card"]}')
 
 # ---------------- HTML ----------------
 stamp=datetime.date.today().isoformat()

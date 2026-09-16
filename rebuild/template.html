@@ -24,7 +24,7 @@ th{background:var(--grn);color:#fff;position:sticky;top:0;cursor:pointer;font-si
 th .ar{opacity:.4;font-size:9px}th.sorted .ar{opacity:1}
 tr:hover td{background:#fafcfa}
 td.c50{font-weight:800;font-size:14px;color:#1c7a44}td.c10{font-weight:700;color:#1c7a44}td.fl{color:var(--mut)}td.zero{color:#c8ccc8;font-weight:400}
-td.net{font-weight:700}
+td.net{font-weight:800;font-size:14px;color:var(--pos)}
 .tk{background:var(--grn2);color:var(--grn);border-radius:6px;padding:1px 6px;font-weight:700}
 .b{font-size:11px;border-radius:6px;padding:1px 6px;display:inline-block;background:var(--grn2);color:var(--grn)}
 .b.biz{background:#eef;color:#3a3a8a}.b.debit{background:#fdeee6;color:#a4560f}.b.prepaid{background:#f0e6fd;color:#6b3a9a}.b.dead{background:#fbeceb;color:var(--red)}.b.rv{background:var(--amberbg);color:var(--amber)}.b.cr{background:#fff3d6;color:#8a5a00}
@@ -53,7 +53,7 @@ a{color:var(--grn)}
 .tip{position:fixed;max-width:380px;background:#1f2a24;color:#fff;padding:9px 11px;border-radius:9px;font-size:12px;line-height:1.45;pointer-events:none;z-index:99;display:none;white-space:normal}
 </style></head><body><div class="wrap">
 <h1>Credit Card Master Wiki <span style="font-size:13px;color:var(--mut);font-weight:400">v9 · numbers only · built __STAMP__</span></h1>
-<p class="sub">__N__ cards · % back at Costco over a FULL MONTH, all on this one card · caps + tiers applied · hover a card name for the why</p>
+<p class="sub">__N__ cards · % back at Costco over a FULL MONTH, all on this one card · <b>ranked by Net%</b> (rate + debit-pay stack − fee), never by the gross rate · hover a card name for the why</p>
 <div class="tiles">
 <div class="tile"><div class="n">__ACT__</div><div class="l">active cards</div></div>
 <div class="tile"><div class="n">__STORE__</div><div class="l">🏬 work in-store</div></div>
@@ -75,10 +75,10 @@ a{color:var(--grn)}
 <div class="tablewrap"><table id="t"><thead><tr>
 <th data-k="card" data-t="s">Card <span class="ar">↕</span></th>
 <th data-k="c10" title="% back if you put $10,000/month on this card at Costco, best case">Costco%@10k <span class="ar">↕</span></th>
-<th data-k="c50" class="sorted" title="% back at $50,000/month, best case (all boosts, points at TPG value)">Costco%@50k <span class="ar">↓</span></th>
+<th data-k="c50" title="% back at $50,000/month, best case (all boosts, points at TPG value)">Costco%@50k <span class="ar">↕</span></th>
 <th data-k="f50" title="Floor: no boosts, points cashed at 1¢, $50k/month">Floor% <span class="ar">↕</span></th>
 <th data-k="taekus" title="Added if the card bill can be paid with a rewards debit card (Taekus 1.80%). UNCONFIRMED until live test.">+Taekus <span class="ar">↕</span></th>
-<th data-k="net50" title="Costco%@50k + Taekus − annual fee spread over 12 months of $50k">Net% <span class="ar">↕</span></th>
+<th data-k="net50" class="sorted" title="THE RANKING NUMBER: Costco%@50k + Taekus debit-pay stack − annual fee. Never judge a card by the gross rate alone.">Net% ★ <span class="ar">↓</span></th>
 <th data-k="base_pct" title="flat all-spend rate at TPG value">Base% <span class="ar">↕</span></th>
 <th data-k="cap_month_usd" title="spend $ that earns the bonus rate, per month">Cap$/mo <span class="ar">↕</span></th>
 <th data-k="cap_period" data-t="s">Cap period <span class="ar">↕</span></th>
@@ -98,7 +98,7 @@ Best case = every boost applied, points at TPG Sep-2026 ¢/pt. Floor = no boosts
 +Taekus __TK__% is UNCONFIRMED (debit→card-bill may code as AFT/MCC 6012 and pay nothing). ⚠ review = non-crypto over __SAN__%.</p>
 </div><div class="tip" id="tip"></div><div class="pop" id="pop"></div>
 <script>
-const D=__DATA__;const F={status:"active",biz:"",product:"",where:"",debit_pay:"",is_crypto:""};let sk="c50",sd=-1,st="n";
+const D=__DATA__;const F={status:"active",biz:"",product:"",where:"",debit_pay:"",is_crypto:""};let sk="net50",sd=-1,st="n";
 const WH={store:"🏬",online:"🌐",none:"✖","?":"?"};
 const p=v=>v==null?"":(+v).toFixed(2);const m=v=>v==null?"—":"$"+Math.round(v).toLocaleString();
 const esc=s=>(s??"").toString().replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -115,7 +115,7 @@ function keep(r,q){return (!F.status||r.status===F.status)&&(!F.biz||r.biz===F.b
 function render(){const q=document.getElementById("q").value.toLowerCase();
 let rows=D.filter(r=>keep(r,q));
 if(typeof renderAcc==="function")renderAcc(q);
-rows.sort((a,b)=>{let x=a[sk],y=b[sk];if(st==="s"){x=(x??"")+"";y=(y??"")+"";return x.localeCompare(y)*sd}x=(x==null||x==="")?-Infinity:+x;y=(y==null||y==="")?-Infinity:+y;if(x===y)return b.c50-a.c50;return sd<0?(y>x?1:-1):(x>y?1:-1)});
+rows.sort((a,b)=>{let x=a[sk],y=b[sk];if(st==="s"){x=(x??"")+"";y=(y??"")+"";return x.localeCompare(y)*sd}x=(x==null||x==="")?-Infinity:+x;y=(y==null||y==="")?-Infinity:+y;if(x===y)return b.net50-a.net50||b.c50-a.c50;return sd<0?(y>x?1:-1):(x>y?1:-1)});
 document.getElementById("tb").innerHTML=rows.map(row).join("");document.getElementById("cnt").textContent=rows.length+" / "+D.length+" cards"}
 document.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{const f=c.dataset.f;if(f==="debit_pay"||f==="is_crypto"){c.classList.toggle("on");F[f]=c.classList.contains("on")?c.dataset.v:"";}else{document.querySelectorAll('.chip[data-f="'+f+'"]').forEach(x=>x.classList.remove("on"));c.classList.add("on");F[f]=c.dataset.v}render()});
 document.getElementById("q").oninput=render;
@@ -142,7 +142,7 @@ return '<details class="acc"><summary><div class="nm">'+esc(r.card)+'<small>'+es
 +'<div class="num">'+p(r.c10)+'<small>@10k</small></div><div class="num">'+p(r.c50)+'<small>@50k</small></div><div class="num">'+p(r.net50)+'<small>net</small></div></summary>'
 +'<div class="body"><div><ul class="sp">'+sp+'</ul><div class="kv">'+fl(r.us_ok,"US")+fl(r.costco_ok,"Costco MCC 5300")+fl(r.debit_pay,"debit-pay")+'<br>fee <b>'+m(r.fee_usd)+'/yr</b> · FX <b>'+p(r.fx_pct)+'%</b> · load/spread <b>'+p(r.extra_cost_pct||0)+'%</b> · max swipe <b>'+m(r.txn_max_usd)+'</b> · max/day <b>'+m(r.daily_max_usd)+'</b> · confidence <b>'+esc(r.confidence)+'</b></div></div>'
 +'<div>'+(tiers?'<table class="tt"><tr><th>tier</th><th>rate</th><th>cap/mo</th><th>min spend/mo</th><th>lockup</th><th>cost/mo</th></tr>'+tiers+'</table>':'')+'<div class="srcs" style="margin-top:8px">'+(r.sources||[]).slice(0,5).map((u,i)=>'<a class="src" href="'+esc(u)+'" target="_blank">↗ source '+(i+1)+'</a>').join('')+'</div></div></div></details>'}
-function renderAcc(q){const DD=D.filter(r=>r.deep&&keep(r,q)).sort((a,b)=>b.c50-a.c50||b.c10-a.c10);
+function renderAcc(q){const DD=D.filter(r=>r.deep&&keep(r,q)).sort((a,b)=>b.net50-a.net50||b.c50-a.c50);
 document.getElementById("accs").innerHTML=DD.map(acc).join("")||'<p class="dsub">no deep-researched card matches these filters</p>';
 document.getElementById("dcnt").textContent=DD.length+" shown"}
 document.getElementById("accs").addEventListener("click",e=>{const a=e.target.closest("a.src");if(!a)return;e.preventDefault();const u=a.getAttribute("href");fetch("http://127.0.0.1:8787/open?u="+encodeURIComponent(u),{mode:"no-cors"}).catch(()=>{try{window.open(u,"_blank")}catch(x){}})});
