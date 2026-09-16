@@ -1,0 +1,90 @@
+[
+ {
+  "card": "Discover it Business",
+  "issuer": "Discover",
+  "product": "credit",
+  "biz": "B",
+  "status": "dead",
+  "network": "discover",
+  "debit_pay": "Y",
+  "source": "https://wallethub.com/edu/cc/discover-business-credit-cards/119256",
+  "why": "Flat 1.5% all spend; closed to new applicants after Capital One acquisition"
+ },
+ {
+  "card": "Discover it Cash Back",
+  "issuer": "Discover",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "discover",
+  "debit_pay": "Y",
+  "source": "https://www.discover.com/credit-cards/cash-back/it-card.html",
+  "why": "5% only when rotating cat names wholesale clubs (Q1 2026 did), $1,500/qtr, activation; else 1%"
+ },
+ {
+  "card": "Discover it Chrome",
+  "issuer": "Discover",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "discover",
+  "debit_pay": "Y",
+  "source": "https://www.discover.com/credit-cards/cash-back/chrome/",
+  "why": "Flat 1%; 2% gas/dining does not touch MCC 5300; year-1 match not a rate tier"
+ },
+ {
+  "card": "Discover it Miles",
+  "issuer": "Discover",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "discover",
+  "debit_pay": "Y",
+  "source": "https://money.usnews.com/credit-cards/discover/discover-it-miles",
+  "why": "Flat 1.5x miles at 1 cent each on all spend; year-1 match not a rate tier"
+ },
+ {
+  "card": "Discover it Secured",
+  "issuer": "Discover",
+  "product": "credit",
+  "biz": "P",
+  "status": "dead",
+  "network": "discover",
+  "debit_pay": "Y",
+  "source": "https://money.usnews.com/credit-cards/articles/discover-discontinues-its-secured-credit-card",
+  "why": "Flat 1%; discontinued to new applicants June 2026; deposit-limited line"
+ },
+ {
+  "card": "Discover it Student Cash Back",
+  "issuer": "Discover",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "discover",
+  "debit_pay": "Y",
+  "source": "https://savingsgrove.com/credit-cards/discover-it-student-cash-back",
+  "why": "5% only when rotating cat names wholesale clubs (Q1 2026 did), $1,500/qtr, activation; else 1%"
+ },
+ {
+  "card": "Discover it Student Chrome",
+  "issuer": "Discover",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "discover",
+  "debit_pay": "Y",
+  "source": "https://money.usnews.com/credit-cards/discover/discover-it-student-chrome",
+  "why": "Flat 1%; 2% gas/dining bonus never touches MCC 5300; year-1 Cashback Match ignored as one-off"
+ },
+ {
+  "card": "NHL Discover it",
+  "issuer": "Discover",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "discover",
+  "debit_pay": "Y",
+  "source": "https://wallethub.com/credit-cards/discover/",
+  "why": "Flat 1%; 5% rotating categories ($1,500/qtr) not stated to include warehouse clubs"
+ }
+]

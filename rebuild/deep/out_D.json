@@ -1,0 +1,550 @@
+[
+ {
+  "card": "Bank of America Premium Rewards",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "N",
+  "fee_usd": 95,
+  "fx_pct": 0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {
+    "name": "BofA Rewards Member (checking only)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 0,
+    "lock_months": 3,
+    "rate_pct": 1.65,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Preferred Plus $30k (25%)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 30000,
+    "lock_months": 3,
+    "rate_pct": 1.875,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Preferred Honors $100k (50%)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 100000,
+    "lock_months": 3,
+    "rate_pct": 2.25,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Premier $1M (75%) or grandfathered Platinum Honors",
+    "min_spend_month_usd": null,
+    "lockup_usd": 1000000,
+    "lock_months": 3,
+    "rate_pct": 2.625,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "eligibility",
+    "text": "Preferred Rewards died 2026-05-27. BofA Rewards: $100k = 50% (2.25%); 75% (2.625%) now needs $1M or grandfathered old Platinum Honors."
+   },
+   {
+    "kind": "tip",
+    "text": "Old Platinum Honors members keep 75% until first anniversary after 2026-11-01 (+3 mo). New enrollees cannot get 75% under $1M."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Tier = 3-month avg of BofA deposits + Merrill (Edge self-directed counts, 401k does not). Needs BofA personal checking; no fee."
+   },
+   {
+    "kind": "costco",
+    "text": "Visa, works at the warehouse register. Rules exclude only cash advances/money orders/cash equivalents; MCC 5300 gold earns full rate."
+   },
+   {
+    "kind": "limit",
+    "text": "No per-swipe cap, but lines run $10k-$30k; $50k/mo means mid-cycle payoffs (credit cycling), a known BofA closure trigger."
+   },
+   {
+    "kind": "risk",
+    "text": "BofA shuts MS accounts (gift cards, negative balances, cycling). On closure unredeemed rewards are forfeited (90-day mercy); redeem monthly."
+   },
+   {
+    "kind": "tip",
+    "text": "No debit-card bill pay (online/phone/branch all bank-account only); Taekus stack impossible. 2/3/4 approval rule, ~4-card cap."
+   }
+  ],
+  "real10_pct": 2.25,
+  "real50_pct": 2.25,
+  "confidence": "high",
+  "sources": [
+   "https://info.bankofamerica.com/en/rewards/bofa-rewards",
+   "https://www.bankofamerica.com/credit-cards/products/premium-rewards-credit-card/",
+   "https://www.managerewardsonline.bankofamerica.com/cms/published/root/duo/sharedContent/pdf/premium/PZ_202010_D_v003_ADA.pdf",
+   "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/02/new-bofa-rewards--program-to-reach-millions-more-clients-with-ex.html",
+   "https://frequentmiler.com/negative-bank-of-america-preferred-rewards-upcoming-changes-lower-bonus-rewards-higher-eligibility-requirements/",
+   "https://www.doctorofcredit.com/things-everybody-should-know-about-bank-of-america/"
+  ]
+ },
+ {
+  "card": "Bank of America Premium Rewards Elite",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "N",
+  "fee_usd": 550,
+  "fx_pct": 0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {
+    "name": "BofA Rewards Member (checking only)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 0,
+    "lock_months": 3,
+    "rate_pct": 1.65,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Preferred Plus $30k (25%)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 30000,
+    "lock_months": 3,
+    "rate_pct": 1.875,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Preferred Honors $100k (50%)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 100000,
+    "lock_months": 3,
+    "rate_pct": 2.25,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Premier $1M (75%) or grandfathered Platinum Honors",
+    "min_spend_month_usd": null,
+    "lockup_usd": 1000000,
+    "lock_months": 3,
+    "rate_pct": 2.625,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "eligibility",
+    "text": "Preferred Rewards died 2026-05-27. BofA Rewards: $100k = 50% (2.25%); 75% (2.625%) now needs $1M or grandfathered old Platinum Honors."
+   },
+   {
+    "kind": "cost",
+    "text": "$550 fee; $300 airline-incidental + $150 lifestyle credits cut it to ~$100 net only if used. Same 1.5x base as the $95 card."
+   },
+   {
+    "kind": "tip",
+    "text": "Old Platinum Honors members keep 75% until first anniversary after 2026-11-01 (+3 mo). New enrollees cannot get 75% under $1M."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Tier = 3-month avg of BofA deposits + Merrill (Edge self-directed counts, 401k does not). Needs BofA personal checking; no fee."
+   },
+   {
+    "kind": "costco",
+    "text": "Visa Infinite, fine at the register; 1c/pt cash (2,500-pt min), 20% airfare bonus irrelevant to gold. Lines start ~$10k."
+   },
+   {
+    "kind": "risk",
+    "text": "BofA shuts MS accounts (gift cards, negative balances, cycling). On closure unredeemed rewards are forfeited (90-day mercy); redeem monthly."
+   },
+   {
+    "kind": "tip",
+    "text": "No debit-card bill pay (online/phone/branch all bank-account only); Taekus stack impossible. 2/3/4 approval rule, ~4-card cap."
+   }
+  ],
+  "real10_pct": 2.25,
+  "real50_pct": 2.25,
+  "confidence": "high",
+  "sources": [
+   "https://info.bankofamerica.com/en/rewards/bofa-rewards",
+   "https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/",
+   "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/02/new-bofa-rewards--program-to-reach-millions-more-clients-with-ex.html",
+   "https://www.uscreditcardguide.com/bofa-rewards-review/",
+   "https://wallethub.com/answers/cc/bank-of-america-premium-rewards-elite-credit-limit-2140827436/"
+  ]
+ },
+ {
+  "card": "Bank of America Travel Rewards",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "N",
+  "fee_usd": 0,
+  "fx_pct": 0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {
+    "name": "BofA Rewards Member (checking only)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 0,
+    "lock_months": 3,
+    "rate_pct": 1.65,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Preferred Plus $30k (25%)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 30000,
+    "lock_months": 3,
+    "rate_pct": 1.875,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Preferred Honors $100k (50%)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 100000,
+    "lock_months": 3,
+    "rate_pct": 2.25,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Premier $1M (75%) or grandfathered Platinum Honors",
+    "min_spend_month_usd": null,
+    "lockup_usd": 1000000,
+    "lock_months": 3,
+    "rate_pct": 2.625,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "cap",
+    "text": "1c/pt ONLY as statement credit against travel/dining you already bought (12-mo lookback). Cash-out is 0.6c/pt = 1.35% at $100k."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Preferred Rewards died 2026-05-27. BofA Rewards: $100k = 50% (2.25%); 75% (2.625%) now needs $1M or grandfathered old Platinum Honors."
+   },
+   {
+    "kind": "cap",
+    "text": "$50k/mo = ~$1,125/mo of points; you need that much real travel+dining spend every month to keep 1c value."
+   },
+   {
+    "kind": "tip",
+    "text": "Old Platinum Honors members keep 75% until first anniversary after 2026-11-01 (+3 mo). New enrollees cannot get 75% under $1M."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Tier = 3-month avg of BofA deposits + Merrill (Edge self-directed counts, 401k does not). Needs BofA personal checking; no fee."
+   },
+   {
+    "kind": "costco",
+    "text": "Visa, works at the warehouse register. Rules exclude only cash advances/money orders/cash equivalents; MCC 5300 gold earns full rate."
+   },
+   {
+    "kind": "risk",
+    "text": "BofA shuts MS accounts (gift cards, negative balances, cycling). On closure unredeemed rewards are forfeited (90-day mercy); redeem monthly."
+   }
+  ],
+  "real10_pct": 2.25,
+  "real50_pct": 2.25,
+  "confidence": "high",
+  "sources": [
+   "https://info.bankofamerica.com/en/rewards/bofa-rewards",
+   "https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/",
+   "https://www.managerewardsonline.bankofamerica.com/cms/published/root/duo/sharedContent/pdf/travelrwd/TV2_202105_D_ADA.pdf",
+   "https://www.mymoneyblog.com/bank-of-america-bofa-rewards-changes-2026.html",
+   "https://wallethub.com/answers/cc/bank-of-america-travel-rewards-points-value-2140618647/"
+  ]
+ },
+ {
+  "card": "Bank of America Unlimited Cash Rewards",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "N",
+  "fee_usd": 0,
+  "fx_pct": 3,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {
+    "name": "BofA Rewards Member (checking only)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 0,
+    "lock_months": 3,
+    "rate_pct": 1.65,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Preferred Plus $30k (25%)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 30000,
+    "lock_months": 3,
+    "rate_pct": 1.875,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Preferred Honors $100k (50%)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 100000,
+    "lock_months": 3,
+    "rate_pct": 2.25,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Premier $1M (75%) or grandfathered Platinum Honors",
+    "min_spend_month_usd": null,
+    "lockup_usd": 1000000,
+    "lock_months": 3,
+    "rate_pct": 2.625,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "eligibility",
+    "text": "Preferred Rewards died 2026-05-27. BofA Rewards: $100k = 50% (2.25%); 75% (2.625%) now needs $1M or grandfathered old Platinum Honors."
+   },
+   {
+    "kind": "tip",
+    "text": "Old Platinum Honors members keep 75% until first anniversary after 2026-11-01 (+3 mo). New enrollees cannot get 75% under $1M."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Tier = 3-month avg of BofA deposits + Merrill (Edge self-directed counts, 401k does not). Needs BofA personal checking; no fee."
+   },
+   {
+    "kind": "costco",
+    "text": "Visa, true cash: 1.5% base, bonus applied after base; no cap, no minimum; deposit to BofA checking or statement credit."
+   },
+   {
+    "kind": "limit",
+    "text": "No per-swipe cap, but lines run $10k-$30k; $50k/mo means mid-cycle payoffs (credit cycling), a known BofA closure trigger."
+   },
+   {
+    "kind": "risk",
+    "text": "BofA shuts MS accounts (gift cards, negative balances, cycling). On closure unredeemed rewards are forfeited (90-day mercy); redeem monthly."
+   },
+   {
+    "kind": "tip",
+    "text": "No debit-card bill pay (online/phone/branch all bank-account only); Taekus stack impossible. 2/3/4 approval rule, ~4-card cap."
+   }
+  ],
+  "real10_pct": 2.25,
+  "real50_pct": 2.25,
+  "confidence": "high",
+  "sources": [
+   "https://info.bankofamerica.com/en/rewards/bofa-rewards",
+   "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-credit-card/",
+   "https://www.managerewardsonline.bankofamerica.com/cms/published/root/duo/sharedContent/pdf/unlimitedcash/UCR_202105_D_ADA.pdf",
+   "https://www.uscreditcardguide.com/bofa-rewards-review/",
+   "https://www.joinkudos.com/blog/bank-of-america-preferred-rewards-2026-whats-changing-and-whos-affected"
+  ]
+ },
+ {
+  "card": "BofA Business Advantage Travel Rewards",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "N",
+  "fee_usd": 0,
+  "fx_pct": 0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {
+    "name": "No Preferred Rewards for Business",
+    "min_spend_month_usd": null,
+    "lockup_usd": 0,
+    "lock_months": null,
+    "rate_pct": 1.5,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Gold $20k business balances (25%)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 20000,
+    "lock_months": 3,
+    "rate_pct": 1.875,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Platinum $50k business balances (50%)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 50000,
+    "lock_months": 3,
+    "rate_pct": 2.25,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Platinum Honors $100k business balances (75%)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 100000,
+    "lock_months": 3,
+    "rate_pct": 2.625,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "costco_ok": "N",
+  "special": [
+   {
+    "kind": "costco",
+    "text": "MASTERCARD: declined at every US Costco warehouse register. Costco.com only (Visa+MC), so MCC 5300 in-store = impossible."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Boost comes ONLY from Preferred Rewards for Business (unchanged: $20k/25%, $50k/50%, $100k/75%); personal BofA Rewards never applies."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Counts only BofA BUSINESS deposits + Merrill business investment (3-mo avg); needs active BofA business checking. Personal Merrill = 0."
+   },
+   {
+    "kind": "cap",
+    "text": "1c/pt only as travel/dining statement credit (2,500-pt min); cash-out 0.6c/pt = 1.575% at Platinum Honors."
+   },
+   {
+    "kind": "limit",
+    "text": "Costco.com gold: 1 order per membership, ~2 bars per 24h per listing, non-refundable; ~0.5% pricier than the register."
+   },
+   {
+    "kind": "risk",
+    "text": "Same BofA shutdown/forfeiture rules; Frequent Miler warns the business program may get the same nerf later. Redeem monthly."
+   },
+   {
+    "kind": "tip",
+    "text": "No debit-card bill pay (online/phone/branch all bank-account only); Taekus stack impossible. 2/3/4 approval rule, ~4-card cap."
+   }
+  ],
+  "real10_pct": 2.625,
+  "real50_pct": 2.625,
+  "confidence": "high",
+  "sources": [
+   "https://business.bankofamerica.com/en/credit-cards/business-advantage-travel-rewards",
+   "https://business.bankofamerica.com/preferred-rewards-business",
+   "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/02/new-bofa-rewards--program-to-reach-millions-more-clients-with-ex.html",
+   "https://wallethub.com/answers/cc/what-credit-cards-does-costco-accept-1000767-2140649731/",
+   "https://costcoguides.com/costco-gold-bars/"
+  ]
+ },
+ {
+  "card": "BofA Business Advantage Unlimited Cash Rewards",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "N",
+  "fee_usd": 0,
+  "fx_pct": 3,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {
+    "name": "No Preferred Rewards for Business",
+    "min_spend_month_usd": null,
+    "lockup_usd": 0,
+    "lock_months": null,
+    "rate_pct": 1.5,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Gold $20k business balances (25%)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 20000,
+    "lock_months": 3,
+    "rate_pct": 1.875,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Platinum $50k business balances (50%)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 50000,
+    "lock_months": 3,
+    "rate_pct": 2.25,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Platinum Honors $100k business balances (75%)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 100000,
+    "lock_months": 3,
+    "rate_pct": 2.625,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "costco_ok": "N",
+  "special": [
+   {
+    "kind": "costco",
+    "text": "MASTERCARD: declined at every US Costco warehouse register. Costco.com only (Visa+MC), so MCC 5300 in-store = impossible."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Boost comes ONLY from Preferred Rewards for Business (unchanged: $20k/25%, $50k/50%, $100k/75%); personal BofA Rewards never applies."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Counts only BofA BUSINESS deposits + Merrill business investment (3-mo avg); needs active BofA business checking. Personal Merrill = 0."
+   },
+   {
+    "kind": "tip",
+    "text": "Only BofA card still paying a true 2.625% CASH at $100k (business balances) in 2026; no cap; deposit, credit or check."
+   },
+   {
+    "kind": "limit",
+    "text": "Costco.com gold: 1 order per membership, ~2 bars per 24h per listing, non-refundable; ~0.5% pricier than the register."
+   },
+   {
+    "kind": "risk",
+    "text": "Same BofA shutdown/forfeiture rules; Frequent Miler warns the business program may get the same nerf later. Redeem monthly."
+   },
+   {
+    "kind": "tip",
+    "text": "No debit-card bill pay (online/phone/branch all bank-account only); Taekus stack impossible. 2/3/4 approval rule, ~4-card cap."
+   }
+  ],
+  "real10_pct": 2.625,
+  "real50_pct": 2.625,
+  "confidence": "high",
+  "sources": [
+   "https://business.bankofamerica.com/en/credit-cards/business-advantage-unlimited-cash-rewards",
+   "https://business.bankofamerica.com/preferred-rewards-business",
+   "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/02/new-bofa-rewards--program-to-reach-millions-more-clients-with-ex.html",
+   "https://www.nerdwallet.com/business/credit-cards/reviews/bank-of-america-business-advantage-unlimited-cash-rewards",
+   "https://wallethub.com/answers/cc/what-credit-cards-does-costco-accept-1000767-2140649731/",
+   "https://frequentmiler.com/negative-bank-of-america-preferred-rewards-upcoming-changes-lower-bonus-rewards-higher-eligibility-requirements/"
+  ]
+ }
+]

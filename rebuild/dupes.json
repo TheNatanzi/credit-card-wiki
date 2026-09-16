@@ -1,0 +1,162 @@
+{
+ "groups": [
+  {
+   "keep": "Prime Visa",
+   "drop": [
+    "Amazon Prime Visa"
+   ],
+   "why": "Chase's Prime-member card; 'Prime Visa' is the current official name, 'Amazon Prime Visa' is the old name of the same product (Amazon Visa is the separate non-Prime card and stays)."
+  },
+  {
+   "keep": "Cash App Card",
+   "drop": [
+    "Cash App Card (Cash Card)",
+    "Cash App Card / Afterpay Card"
+   ],
+   "why": "All three are Block's Cash App Card (Sutton Bank debit); 'Cash Card' is its nickname. The '/ Afterpay Card' line also merges in Afterpay's virtual card, which is a different product and not needed here."
+  },
+  {
+   "keep": "Chime Visa Debit Card",
+   "drop": [
+    "Chime Card (debit)"
+   ],
+   "why": "Chime issues one debit card, the Chime Visa Debit Card."
+  },
+  {
+   "keep": "Dave Debit Mastercard",
+   "drop": [
+    "Dave Debit Card"
+   ],
+   "why": "Dave issues one debit card (Evolve Bank & Trust Mastercard)."
+  },
+  {
+   "keep": "Hilton Honors American Express Aspire Card",
+   "drop": [
+    "Hilton Aspire"
+   ],
+   "why": "Same card, short name vs full official name."
+  },
+  {
+   "keep": "Hilton Honors American Express Business Card",
+   "drop": [
+    "Hilton Business"
+   ],
+   "why": "Same card, short name vs full official name."
+  },
+  {
+   "keep": "Hilton Honors American Express Card",
+   "drop": [
+    "Hilton Honors (no-fee)"
+   ],
+   "why": "Same no-annual-fee card, short name vs full official name."
+  },
+  {
+   "keep": "Hilton Honors American Express Surpass Card",
+   "drop": [
+    "Hilton Surpass"
+   ],
+   "why": "Same card, short name vs full official name."
+  },
+  {
+   "keep": "Marriott Bonvoy Bevy",
+   "drop": [
+    "Marriott Bonvoy American Express Card (Bevy)"
+   ],
+   "why": "Same Amex card; the dropped line is a nonstandard rendering of 'Marriott Bonvoy Bevy American Express Card'."
+  },
+  {
+   "keep": "Marriott Bonvoy Brilliant American Express Card",
+   "drop": [
+    "Marriott Bonvoy Brilliant"
+   ],
+   "why": "Same card, short name vs full official name."
+  },
+  {
+   "keep": "Marriott Bonvoy Business American Express Card",
+   "drop": [
+    "Marriott Bonvoy Business"
+   ],
+   "why": "Same card, short name vs full official name."
+  },
+  {
+   "keep": "Revolut Debit (US)",
+   "drop": [
+    "Revolut US Card (Standard/Premium/Metal)"
+   ],
+   "why": "One Revolut US debit card; Standard/Premium/Metal are plan tiers of the same card, not separate products."
+  },
+  {
+   "keep": "SoFi Debit Card (Checking/Money)",
+   "drop": [
+    "SoFi Checking Debit / SoFi Smart Card"
+   ],
+   "why": "SoFi issues one debit card on SoFi Checking; both lines describe it."
+  },
+  {
+   "keep": "Varo Visa Debit Card",
+   "drop": [
+    "Varo Debit (Varo Perks)"
+   ],
+   "why": "Varo issues one debit card; 'Varo Perks' is its cashback program, not a separate card."
+  },
+  {
+   "keep": "Venmo Debit Mastercard",
+   "drop": [
+    "Venmo Debit Card (Venmo Stash)"
+   ],
+   "why": "Venmo issues one debit card (Bancorp Mastercard)."
+  }
+ ],
+ "not_a_card": [
+  {
+   "card": "Choice / Unchained ⚠️ NO CARD",
+   "why": "Unchained/Choice is a bitcoin custody/IRA service; the line itself says NO CARD."
+  },
+  {
+   "card": "Strike ⚠️ NO CARD",
+   "why": "Strike is a bitcoin payments app with no US card; the line itself says NO CARD."
+  },
+  {
+   "card": "Binance.US Card ⚠️ NONE / DEFUNCT",
+   "why": "No Binance.US card was ever issued in the US (line says NONE)."
+  },
+  {
+   "card": "U.S. Bank Altitude Fund (product existence unconfirmed)",
+   "why": "Not a known U.S. Bank product; line itself says existence unconfirmed."
+  },
+  {
+   "card": "Southwest Rapid Rewards Debit Card",
+   "why": "No US Southwest debit card is known to exist ('issuing bank' is unnamed); likely fabricated - verify before dropping."
+  },
+  {
+   "card": "United MileagePlus Debit Rewards Card",
+   "why": "No US United MileagePlus debit card is known to exist ('issuing bank via program' is unnamed); likely fabricated - verify before dropping."
+  }
+ ],
+ "multi": [
+  {
+   "card": "AAdvantage Aviator Red / Blue / Silver / MileUp World Elite Mastercard",
+   "why": "Four Barclays Aviator tiers merged into one line (and MileUp is actually a Citi card, listed separately)."
+  },
+  {
+   "card": "Amazon Store Card / Amazon Secured Card",
+   "why": "Two Synchrony products (store card and secured card) merged into one line."
+  },
+  {
+   "card": "Amex Serve / Bluebird (prepaid)",
+   "why": "Serve and Bluebird were two distinct Amex prepaid products merged into one line."
+  },
+  {
+   "card": "OnePay (One Finance) debit / Builder Card",
+   "why": "OnePay's debit card and its credit-builder card are two products merged into one line."
+  },
+  {
+   "card": "Target Circle Card (Credit / Mastercard)",
+   "why": "Target Circle Card (store-only credit) and Target Circle Mastercard are two TD products merged into one line."
+  },
+  {
+   "card": "Rho Corporate Card / Platinum",
+   "why": "Rho Corporate Card and Rho Platinum Card are two products merged into one line."
+  }
+ ]
+}

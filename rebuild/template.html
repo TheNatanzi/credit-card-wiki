@@ -1,0 +1,150 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Credit Card Master Wiki</title>
+<style>
+:root{--bg:#f4f6f2;--card:#fff;--ink:#1f2a24;--mut:#6b7a70;--grn:#2e7d52;--grn2:#e6f2ea;--amber:#b8860b;--amberbg:#fdf6e3;--red:#b23b3b;--line:#e2e8e2}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:0 16px 60px}
+.wrap{max-width:1800px;margin:0 auto}
+h1{font-size:24px;margin:22px 0 2px}.sub{color:var(--mut);margin:0 0 14px;font-size:13px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:12px 0}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.tile .n{font-size:24px;font-weight:700;color:var(--grn)}.tile .l{color:var(--mut);font-size:12px}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0;position:sticky;top:0;background:var(--bg);padding:8px 0;z-index:20}
+input[type=search]{flex:1;min-width:200px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;font-size:14px}
+.chip{border:1px solid var(--line);background:var(--card);padding:6px 11px;border-radius:999px;cursor:pointer;font-size:12px;white-space:nowrap;user-select:none}
+.chip.on{background:var(--grn);color:#fff;border-color:var(--grn)}
+.grp{display:flex;gap:5px;flex-wrap:wrap;align-items:center}.grp b{font-size:10px;color:var(--mut);text-transform:uppercase;letter-spacing:.04em}
+.count{color:var(--mut);font-size:12px;margin-left:auto;font-weight:600}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.tablewrap::-webkit-scrollbar{height:14px}.tablewrap::-webkit-scrollbar-thumb{background:var(--grn);border-radius:8px;border:3px solid var(--grn2)}.tablewrap::-webkit-scrollbar-track{background:var(--grn2)}
+table{width:100%;border-collapse:collapse;font-size:13px;min-width:1500px}
+th,td{text-align:right;padding:7px 9px;border-bottom:1px solid var(--line);white-space:nowrap;font-variant-numeric:tabular-nums}
+th:first-child,td:first-child{text-align:left;position:sticky;left:0;background:var(--card);z-index:4;min-width:210px;max-width:260px;overflow:hidden;text-overflow:ellipsis;box-shadow:2px 0 4px -2px rgba(0,0,0,.15)}
+th{background:var(--grn);color:#fff;position:sticky;top:0;cursor:pointer;font-size:11px;user-select:none;z-index:10}th:first-child{z-index:12}
+th .ar{opacity:.4;font-size:9px}th.sorted .ar{opacity:1}
+tr:hover td{background:#fafcfa}
+td.c50{font-weight:800;font-size:14px;color:#1c7a44}td.c10{font-weight:700;color:#1c7a44}td.fl{color:var(--mut)}td.zero{color:#c8ccc8;font-weight:400}
+td.net{font-weight:700}
+.tk{background:var(--grn2);color:var(--grn);border-radius:6px;padding:1px 6px;font-weight:700}
+.b{font-size:11px;border-radius:6px;padding:1px 6px;display:inline-block;background:var(--grn2);color:var(--grn)}
+.b.biz{background:#eef;color:#3a3a8a}.b.debit{background:#fdeee6;color:#a4560f}.b.prepaid{background:#f0e6fd;color:#6b3a9a}.b.dead{background:#fbeceb;color:var(--red)}.b.rv{background:var(--amberbg);color:var(--amber)}.b.cr{background:#fff3d6;color:#8a5a00}
+.card{font-weight:600}.card small{display:block;color:var(--mut);font-weight:400;font-size:11px}
+a{color:var(--grn)}
+.legend{font-size:12px;color:var(--mut);margin:8px 0 0;line-height:1.7}
+.pop{display:none;position:fixed;left:50%;top:80px;transform:translateX(-50%);background:#fff;border:1px solid var(--line);box-shadow:0 8px 30px rgba(0,0,0,.18);border-radius:12px;padding:14px;z-index:200;font-size:13px;width:min(560px,92vw)}.pop input{width:100%;margin:8px 0;padding:8px;border:1px solid var(--line);border-radius:8px;font-size:13px}.pop button{margin-right:6px;padding:6px 12px;border-radius:8px;border:1px solid var(--grn);background:var(--grn);color:#fff;cursor:pointer}.pop #popx{background:#fff;color:var(--ink);border-color:var(--line)}.ps{color:var(--mut);font-size:12px;margin-top:6px}a.src{font-weight:600;text-decoration:none}
+
+.deep{margin:14px 0 6px}.deep h2{font-size:17px;margin:0 0 2px}.deep .dsub{color:var(--mut);font-size:12px;margin:0 0 10px}
+.acc{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:8px;overflow:hidden}
+.acc summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:minmax(180px,1.4fr) 70px minmax(200px,2fr) 60px 60px 60px;gap:10px;align-items:center;padding:10px 14px;font-size:13px}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary .nm{font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.acc summary .nm small{display:block;color:var(--mut);font-weight:400;font-size:11px}
+.acc summary .num{text-align:right;font-variant-numeric:tabular-nums;font-weight:800;color:#1c7a44}.acc summary .num small{display:block;font-weight:400;color:var(--mut);font-size:10px}
+.acc summary .num.head{color:var(--mut);font-weight:600}
+.bars{display:flex;flex-direction:column;gap:3px}.bar{height:9px;border-radius:5px;background:var(--grn2);position:relative}.bar i{position:absolute;left:0;top:0;bottom:0;border-radius:5px;background:var(--grn)}.bar.h i{background:#c8d8cc}.bar.f i{background:#9fbfa9}
+.acc[open] summary{border-bottom:1px solid var(--line);background:#fafcfa}
+.acc .body{padding:12px 14px 14px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:14px}.acc .body>div{min-width:0}.tt{display:block;overflow-x:auto}
+@media(max-width:900px){.acc summary{grid-template-columns:1fr 60px 60px 60px}.acc summary .bars,.acc summary .num.head{display:none}.acc .body{grid-template-columns:1fr}}
+.sp{margin:0;padding:0;list-style:none}.sp li{display:flex;gap:8px;padding:5px 0;border-bottom:1px dashed var(--line);font-size:13px;line-height:1.4;white-space:normal;overflow-wrap:anywhere}.sp li span:last-child{min-width:0}.sp li:last-child{border:0}
+.sp .k{flex:0 0 22px;text-align:center}
+.tt{width:100%;border-collapse:collapse;font-size:12px}.tt th,.tt td{padding:4px 6px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}.tt th{background:var(--grn2);color:var(--grn);position:static;font-size:11px}.tt td:first-child,.tt th:first-child{text-align:left}
+.kv{font-size:12px;color:var(--mut);margin-top:8px;line-height:1.7;white-space:normal}.kv b{color:var(--ink)}
+.flag{font-size:11px;border-radius:6px;padding:1px 6px;display:inline-block;margin-right:4px}.flag.ok{background:var(--grn2);color:var(--grn)}.flag.no{background:#fbeceb;color:var(--red)}.flag.q{background:var(--amberbg);color:var(--amber)}
+.srcs a{display:inline-block;margin-right:8px;font-size:12px}
+.tip{position:fixed;max-width:380px;background:#1f2a24;color:#fff;padding:9px 11px;border-radius:9px;font-size:12px;line-height:1.45;pointer-events:none;z-index:99;display:none;white-space:normal}
+</style></head><body><div class="wrap">
+<h1>Credit Card Master Wiki <span style="font-size:13px;color:var(--mut);font-weight:400">v9 · numbers only · built __STAMP__</span></h1>
+<p class="sub">__N__ cards · % back at Costco over a FULL MONTH, all on this one card · caps + tiers applied · hover a card name for the why</p>
+<div class="tiles">
+<div class="tile"><div class="n">__ACT__</div><div class="l">active cards</div></div>
+<div class="tile"><div class="n">__STORE__</div><div class="l">🏬 work in-store</div></div>
+<div class="tile"><div class="n">__DP__</div><div class="l">debit-pay bills (+__TK__% Taekus)</div></div>
+<div class="tile"><div class="n">__STACK__</div><div class="l">in-store AND debit-pay</div></div>
+<div class="tile"><div class="n">__CRY__</div><div class="l">crypto (lockup $ shown)</div></div>
+<div class="tile"><div class="n">__RV__</div><div class="l">⚠ flagged for review</div></div>
+</div>
+<div class="controls">
+<input type="search" id="q" placeholder="search card / issuer">
+<div class="grp"><b>status</b><span class="chip on" data-f="status" data-v="active">Active</span><span class="chip" data-f="status" data-v="dead">Shutdown</span><span class="chip" data-f="status" data-v="">All</span></div>
+<div class="grp"><b>who</b><span class="chip on" data-f="biz" data-v="">All</span><span class="chip" data-f="biz" data-v="P">Personal</span><span class="chip" data-f="biz" data-v="B">Business</span></div>
+<div class="grp"><b>type</b><span class="chip on" data-f="product" data-v="">All</span><span class="chip" data-f="product" data-v="credit">Credit</span><span class="chip" data-f="product" data-v="debit">Debit</span><span class="chip" data-f="product" data-v="prepaid">Prepaid</span></div>
+<div class="grp"><b>where</b><span class="chip on" data-f="where" data-v="">All</span><span class="chip" data-f="where" data-v="store">🏬 in-store</span><span class="chip" data-f="where" data-v="online">🌐 Costco.com</span></div>
+<div class="grp"><b>more</b><span class="chip" data-f="debit_pay" data-v="Y">Debit-pay only</span><span class="chip" data-f="is_crypto" data-v="false">Hide crypto</span></div>
+<span class="count" id="cnt"></span>
+</div>
+<div class="deep" id="deep"><details open id="deepwrap"><summary style="cursor:pointer;list-style:none"><h2 style="display:inline">What is really behind the number</h2> <span class="b" id="dcnt"></span> <span class="dsub" style="display:inline">(click to fold)</span></summary><p class="dsub">__DEEP__ cards at 2.1%+ deep-researched on 2026-09-15 · headline rate → real % at $10k/month → real % at $50k/month · click a card to open its special circumstances</p><div id="accs"></div></details></div>
+<div class="tablewrap"><table id="t"><thead><tr>
+<th data-k="card" data-t="s">Card <span class="ar">↕</span></th>
+<th data-k="c10" title="% back if you put $10,000/month on this card at Costco, best case">Costco%@10k <span class="ar">↕</span></th>
+<th data-k="c50" class="sorted" title="% back at $50,000/month, best case (all boosts, points at TPG value)">Costco%@50k <span class="ar">↓</span></th>
+<th data-k="f50" title="Floor: no boosts, points cashed at 1¢, $50k/month">Floor% <span class="ar">↕</span></th>
+<th data-k="taekus" title="Added if the card bill can be paid with a rewards debit card (Taekus 1.80%). UNCONFIRMED until live test.">+Taekus <span class="ar">↕</span></th>
+<th data-k="net50" title="Costco%@50k + Taekus − annual fee spread over 12 months of $50k">Net% <span class="ar">↕</span></th>
+<th data-k="base_pct" title="flat all-spend rate at TPG value">Base% <span class="ar">↕</span></th>
+<th data-k="cap_month_usd" title="spend $ that earns the bonus rate, per month">Cap$/mo <span class="ar">↕</span></th>
+<th data-k="cap_period" data-t="s">Cap period <span class="ar">↕</span></th>
+<th data-k="reward_cap_usd_month" title="hard $ cap on rewards per month">Reward cap$/mo <span class="ar">↕</span></th>
+<th data-k="lockup_usd" title="crypto: $ you must stake for the top rate">Lockup$ <span class="ar">↕</span></th>
+<th data-k="fee_usd">Fee$/yr <span class="ar">↕</span></th>
+<th data-k="fx_pct">FX% <span class="ar">↕</span></th>
+<th data-k="where" data-t="s">Where <span class="ar">↕</span></th>
+<th data-k="debit_pay" data-t="s" title="Can this card&#39;s BILL be paid with a debit card? Y=verified 2026, N=verified no, ?=unverified (Taekus not counted)">Debit-pay <span class="ar">↕</span></th>
+<th data-k="biz" data-t="s">Biz/Pers <span class="ar">↕</span></th>
+<th data-k="product" data-t="s">Cr/Db <span class="ar">↕</span></th>
+<th data-k="status" data-t="s">Status <span class="ar">↕</span></th>
+<th data-k="source" data-t="s">Source <span class="ar">↕</span></th>
+</tr></thead><tbody id="tb"></tbody></table></div>
+<p class="legend">🏬 in-store (Visa credit or PIN debit) · 🌐 Costco.com only (Mastercard) · ✖ neither (Amex, Discover — Costco.com dropped Discover in 2023) · ? unknown network<br>
+Best case = every boost applied, points at TPG Sep-2026 ¢/pt. Floor = no boosts, points cashed at 1¢. A bonus needing a single swipe over $__SW__ is treated as unreachable.<br>
++Taekus __TK__% is UNCONFIRMED (debit→card-bill may code as AFT/MCC 6012 and pay nothing). ⚠ review = non-crypto over __SAN__%.</p>
+</div><div class="tip" id="tip"></div><div class="pop" id="pop"></div>
+<script>
+const D=__DATA__;const F={status:"active",biz:"",product:"",where:"",debit_pay:"",is_crypto:""};let sk="c50",sd=-1,st="n";
+const WH={store:"🏬",online:"🌐",none:"✖","?":"?"};
+const p=v=>v==null?"":(+v).toFixed(2);const m=v=>v==null?"—":"$"+Math.round(v).toLocaleString();
+const esc=s=>(s??"").toString().replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function row(r){const z=v=>v>0?"":" zero";
+return '<tr data-i="'+r._i+'"><td class="card">'+esc(r.card)+'<small>'+esc(r.issuer)+' '+(r.review?'<span class="b rv">⚠ review</span>':'')+' '+(r.confidence==="low"?'<span class="b rv">low conf</span>':'')+' '+(r.is_crypto?'<span class="b cr">crypto</span>':'')+(r.medi_ruled?' <span class="b" style="background:#1f2a24;color:#fff">★ Medi ruled</span>':'')+(r.deep?' <span class="b">✔ deep</span>':'')+(r.us_ok==="N"?' <span class="b dead">not US</span>':'')+'</small></td>'
++'<td class="c10'+z(r.c10)+'">'+p(r.c10)+'</td><td class="c50'+z(r.c50)+'">'+p(r.c50)+'</td><td class="fl'+z(r.f50)+'">'+p(r.f50)+'</td>'
++'<td>'+(r.taekus>0?'<span class="tk">+'+p(r.taekus)+'</span>':'<span style="color:#c8ccc8">0</span>')+'</td>'
++'<td class="net">'+p(r.net50)+'</td><td>'+p(r.base_pct)+'</td><td>'+m(r.cap_month_usd)+'</td><td>'+esc(r.cap_period||"none")+'</td><td>'+m(r.reward_cap_usd_month)+'</td><td>'+m(r.lockup_usd)+'</td>'
++'<td>'+m(r.fee_usd)+'</td><td>'+p(r.fx_pct)+'</td><td title="'+r.where+'">'+(WH[r.where]||"?")+'</td><td>'+(r.debit_pay==="Y"?'<span class="b">Y</span>':r.debit_pay==="?"?'<span class="b rv">?</span>':'<span class="no">N</span>')+'</td>'
++'<td>'+(r.biz==="B"?'<span class="b biz">Biz</span>':'Pers')+'</td><td><span class="b '+r.product+'">'+r.product+'</span></td><td>'+(r.status==="dead"?'<span class="b dead">dead</span>':'active')+'</td>'
++'<td>'+(r.source?'<a class="src" href="'+esc(r.source)+'" target="_blank" rel="noopener" title="'+esc(r.source)+'">↗ source</a>':'')+'</td></tr>'}
+D.forEach((r,i)=>r._i=i);
+function keep(r,q){return (!F.status||r.status===F.status)&&(!F.biz||r.biz===F.biz)&&(!F.product||r.product===F.product)&&(!F.where||r.where===F.where)&&(!F.debit_pay||r.debit_pay===F.debit_pay)&&(F.is_crypto!=="false"||!r.is_crypto)&&(!q||(r.card+" "+(r.issuer||"")).toLowerCase().includes(q))}
+function render(){const q=document.getElementById("q").value.toLowerCase();
+let rows=D.filter(r=>keep(r,q));
+if(typeof renderAcc==="function")renderAcc(q);
+rows.sort((a,b)=>{let x=a[sk],y=b[sk];if(st==="s"){x=(x??"")+"";y=(y??"")+"";return x.localeCompare(y)*sd}x=(x==null||x==="")?-Infinity:+x;y=(y==null||y==="")?-Infinity:+y;if(x===y)return b.c50-a.c50;return sd<0?(y>x?1:-1):(x>y?1:-1)});
+document.getElementById("tb").innerHTML=rows.map(row).join("");document.getElementById("cnt").textContent=rows.length+" / "+D.length+" cards"}
+document.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{const f=c.dataset.f;if(f==="debit_pay"||f==="is_crypto"){c.classList.toggle("on");F[f]=c.classList.contains("on")?c.dataset.v:"";}else{document.querySelectorAll('.chip[data-f="'+f+'"]').forEach(x=>x.classList.remove("on"));c.classList.add("on");F[f]=c.dataset.v}render()});
+document.getElementById("q").oninput=render;
+document.querySelectorAll("#t thead th[data-k]").forEach(h=>h.onclick=()=>{const k=h.dataset.k;if(sk===k)sd=-sd;else{sk=k;st=h.dataset.t||"n";sd=st==="s"?1:-1}document.querySelectorAll("#t thead th[data-k]").forEach(x=>{x.classList.remove("sorted");const a=x.querySelector(".ar");if(a)a.textContent="↕"});h.classList.add("sorted");const a=h.querySelector(".ar");if(a)a.textContent=sd<0?"↓":"↑";render()});
+const tip=document.getElementById("tip");document.getElementById("tb").addEventListener("mouseover",e=>{const tr=e.target.closest("tr");if(!tr)return;const r=D[+tr.dataset.i];
+tip.innerHTML='<b>'+esc(r.card)+'</b><br>'+esc(r.why)+'<br><span style="opacity:.75">floor@10k '+p(r.f10)+'% · base '+r.base_x+'× at '+r.cpp_max+'¢ (floor '+r.cpp_floor+'¢) · Costco max '+r.costco_x_max+'× / min '+r.costco_x_min+'×'+(r.min_txn_usd?' · min swipe $'+r.min_txn_usd:'')+'<br>debit-pay: '+r.debit_pay+(r.dp_channel?' ('+esc(r.dp_channel)+')':'')+(r.notes?'<br>'+esc(r.notes.join(" · ")):'')+'<br>confidence: '+r.confidence+((r.needs_research||[]).length?' · guessed: '+esc(r.needs_research.join(", ")):'')+'</span>';tip.style.display="block"});
+document.getElementById("tb").addEventListener("mousemove",e=>{tip.style.left=Math.min(e.clientX+14,innerWidth-400)+"px";tip.style.top=(e.clientY+14)+"px"});
+document.getElementById("tb").addEventListener("mouseleave",()=>tip.style.display="none");
+const pop=document.getElementById("pop");
+document.getElementById("tb").addEventListener("click",e=>{const a=e.target.closest("a.src");if(!a)return;e.preventDefault();const u=a.getAttribute("href");
+fetch("http://127.0.0.1:8787/open?u="+encodeURIComponent(u),{mode:"no-cors"}).then(()=>{pop.innerHTML='<b>Opened in Chrome</b> (new window)';pop.style.display="block";setTimeout(()=>pop.style.display="none",1500)}).catch(()=>{
+let w=null;try{w=window.open(u,"_blank","noopener")}catch(x){}
+pop.innerHTML='<b>Source</b><br><input id="popu" value="'+esc(u)+'" readonly><button id="popc">Copy</button><button id="popx">✕</button><div class="ps">'+(w?'Opened in a new tab.':'This viewer blocks new tabs. Copy the link, or start rebuild/open-helper.cmd so this button opens Chrome.')+'</div>';
+pop.style.display="block";document.getElementById("popu").select();
+document.getElementById("popc").onclick=()=>{navigator.clipboard&&navigator.clipboard.writeText(u);document.getElementById("popc").textContent="Copied"};
+document.getElementById("popx").onclick=()=>pop.style.display="none"})});
+const KI={cap:"🧢",cost:"💸",eligibility:"🪪",limit:"🚧",risk:"⚠️",costco:"🏬",tip:"💡"};
+function acc(r){const d=r.deep;const mx=Math.max(r.headline_pct||0,r.c10,r.c50,0.01);const bar=(v,c)=>'<div class="bar '+c+'"><i style="width:'+Math.min(100,v/mx*100)+'%"></i></div>';
+const fl=(v,t)=>'<span class="flag '+(v==="Y"?"ok":v==="N"?"no":"q")+'">'+t+' '+(v==="Y"?"yes":v==="N"?"NO":"?")+'</span>';
+const tiers=(r.tiers||[]).map(t=>'<tr><td>'+esc(t.name)+'</td><td>'+p(t.rate_pct)+'%</td><td>'+m(t.reward_cap_month_usd)+'</td><td>'+m(t.min_spend_month_usd)+'</td><td>'+m(t.lockup_usd)+(t.lock_months?' / '+t.lock_months+'mo':'')+'</td><td>'+m(t.monthly_cost_usd||0)+'</td></tr>').join('');
+const sp=(r.special||[]).map(x=>'<li><span class="k">'+(KI[x.kind]||"•")+'</span><span>'+esc(x.text)+'</span></li>').join('');
+return '<details class="acc"><summary><div class="nm">'+esc(r.card)+'<small>'+esc(r.issuer)+' · '+(WH[r.where]||"?")+' · '+r.product+(r.us_ok==="N"?' · <span class="flag no">not US</span>':'')+'</small></div>'
++'<div class="num head">'+p(r.headline_pct)+'<small>headline</small></div><div class="bars">'+bar(r.headline_pct,"h")+bar(r.c10,"")+bar(r.c50,"f")+'</div>'
++'<div class="num">'+p(r.c10)+'<small>@10k</small></div><div class="num">'+p(r.c50)+'<small>@50k</small></div><div class="num">'+p(r.net50)+'<small>net</small></div></summary>'
++'<div class="body"><div><ul class="sp">'+sp+'</ul><div class="kv">'+fl(r.us_ok,"US")+fl(r.costco_ok,"Costco MCC 5300")+fl(r.debit_pay,"debit-pay")+'<br>fee <b>'+m(r.fee_usd)+'/yr</b> · FX <b>'+p(r.fx_pct)+'%</b> · load/spread <b>'+p(r.extra_cost_pct||0)+'%</b> · max swipe <b>'+m(r.txn_max_usd)+'</b> · max/day <b>'+m(r.daily_max_usd)+'</b> · confidence <b>'+esc(r.confidence)+'</b></div></div>'
++'<div>'+(tiers?'<table class="tt"><tr><th>tier</th><th>rate</th><th>cap/mo</th><th>min spend/mo</th><th>lockup</th><th>cost/mo</th></tr>'+tiers+'</table>':'')+'<div class="srcs" style="margin-top:8px">'+(r.sources||[]).slice(0,5).map((u,i)=>'<a class="src" href="'+esc(u)+'" target="_blank">↗ source '+(i+1)+'</a>').join('')+'</div></div></div></details>'}
+function renderAcc(q){const DD=D.filter(r=>r.deep&&keep(r,q)).sort((a,b)=>b.c50-a.c50||b.c10-a.c10);
+document.getElementById("accs").innerHTML=DD.map(acc).join("")||'<p class="dsub">no deep-researched card matches these filters</p>';
+document.getElementById("dcnt").textContent=DD.length+" shown"}
+document.getElementById("accs").addEventListener("click",e=>{const a=e.target.closest("a.src");if(!a)return;e.preventDefault();const u=a.getAttribute("href");fetch("http://127.0.0.1:8787/open?u="+encodeURIComponent(u),{mode:"no-cors"}).catch(()=>{try{window.open(u,"_blank")}catch(x){}})});
+render();
+</script></body></html>

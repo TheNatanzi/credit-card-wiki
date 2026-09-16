@@ -1,0 +1,31 @@
+[
+ {
+  "card": "Citi Double Cash",
+  "fixes": {
+   "debit_pay": "N",
+   "confidence": "high"
+  },
+  "note": "MEDI RULING 2026-09-15: Citi Double Cash personal no longer takes debit-card bill pay",
+  "by": "Medi"
+ },
+ {
+  "card": "Costco Anywhere Visa Card by Citi",
+  "fixes": {
+   "debit_pay": "Y",
+   "confidence": "high"
+  },
+  "note": "MEDI RULING 2026-09-15: Citi Costco STILL ACCEPTS TAEKUS. Overrides the FlyerTalk Apr-2026 report that the IVR dropped debit",
+  "by": "Medi",
+  "channel": "phone IVR 800-950-5114 (Medi uses it)"
+ },
+ {
+  "card": "Costco Anywhere Visa Business Card by Citi",
+  "fixes": {
+   "debit_pay": "Y",
+   "confidence": "med"
+  },
+  "note": "Inherited from Medi's ruling that Citi Costco accepts Taekus; business variant not separately confirmed by him",
+  "by": "Medi (inherited)",
+  "channel": "phone IVR 800-950-5114 (Medi uses it)"
+ }
+]

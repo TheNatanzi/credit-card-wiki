@@ -1,0 +1,184 @@
+[
+ {
+  "card": "Venmo Credit Card",
+  "fixes": {"debit_pay": "Y"},
+  "channel": "phone",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "Cardholder-proven 2026: bill paid via Taekus debit through Synchrony's Venmo line 855-878-6462. Not documented on Venmo's own help page (lists only balance/bank/mail).",
+  "confidence": "high",
+  "sources": [
+   "https://help.venmo.com/cs/articles/making-a-payment-to-your-venmo-credit-card-bill-vhel324",
+   "https://help.venmo.com/cs/articles/venmo-credit-card-faq-vhel312"
+  ]
+ },
+ {
+  "card": "Synchrony Premier World Mastercard",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "Prior wiki claimed debit-pay proven by Medi 8/20, but 2026 search found no fresh confirmation; Synchrony's own phone/online pages (1-844-406-7427, mysynchrony.com) describe only bank-account/routing-number payment. Re-test the phone line to confirm.",
+  "confidence": "low",
+  "sources": [
+   "https://wallethub.com/answers/cc/can-i-pay-my-synchrony-premier-mastercard-bill-by-phone-1000243-2140842676/",
+   "https://www.synchrony.com/help/faqs",
+   "https://www.synchrony.com/financing/synchrony-mastercards"
+  ]
+ },
+ {
+  "card": "PayPal Cashback Mastercard",
+  "fixes": {"debit_pay": "N"},
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "PayPal's own bill-pay help article lists only PayPal balance or a linked bank account for one-time/auto payments on this card; debit card is not among the listed funding sources.",
+  "confidence": "med",
+  "sources": [
+   "https://www.paypal.com/us/cshelp/article/how-do-i-make-payments-on-my-paypal-extras-mastercard-paypal-cashback-mastercard-help618",
+   "https://www.paypal.com/us/cshelp/article/how-do-i-pay-my-paypal-cashback-mastercard-bill-help756"
+  ]
+ },
+ {
+  "card": "Synchrony Plus World Mastercard",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "Same general Synchrony Mastercards line/rail as Premier and Preferred (1-844-406-7427). Prior proven 8/20 claim not reconfirmed in 2026 search; official pages show bank-account payment only, no debit mention.",
+  "confidence": "low",
+  "sources": [
+   "https://www.synchrony.com/financing/synchrony-mastercards",
+   "https://www.synchrony.com/help/faqs"
+  ]
+ },
+ {
+  "card": "Verizon Visa Card",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "No debit-card mention found in Verizon's own FAQ or Synchrony's phone-pay page (1-866-313-9396); raw HTML of the wallethub payment article has zero occurrences of the word debit in the payment section (an earlier AI-search summary claiming debit acceptance did not hold up on direct fetch).",
+  "confidence": "low",
+  "sources": [
+   "https://www.verizon.com/support/verizon-visa-card-faqs/",
+   "https://wallethub.com/answers/cc/verizon-credit-card-payment-1000255-2140760481/"
+  ]
+ },
+ {
+  "card": "Sam's Club Mastercard",
+  "fixes": {"debit_pay": "Y"},
+  "channel": "store",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "Sam's Club's own help center: if you pay using cash or debit card, your open-to-buy is available immediately; payable at any Sam's Club or Walmart register, or by phone, same-day post. Direct re-fetch of the page returned 403; relied on search-engine cached text of the official help.samsclub.com article.",
+  "confidence": "med",
+  "sources": [
+   "https://help.samsclub.com/app/answers/detail/a_id/346/~/options-to-pay-sams-club-credit",
+   "https://help.samsclub.com/app/answers/detail/a_id/1549/~/how-can-i-pay-my-credit-card-bill"
+  ]
+ },
+ {
+  "card": "Amazon Store Card / Amazon Secured Card",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "Amazon/Synchrony phone-pay instructions (1-866-634-8379) describe entering card number plus bank routing/account number only, no debit-card option found. Closed-loop card with no general-public register to swipe a debit card at.",
+  "confidence": "low",
+  "sources": [
+   "https://wallethub.com/answers/cc/pay-amazon-store-card-by-phone-1000243-2140842945/",
+   "https://www.synchrony.com/amazon"
+  ]
+ },
+ {
+  "card": "CareCredit Card",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "No debit-card mention on CareCredit's own site for phone (1-866-893-7864) or app payment. Only third-party doxo bill-pay explicitly lists debit card, but that is doxo's own funding rail with its own convenience fee, not the issuer's own channel.",
+  "confidence": "low",
+  "sources": [
+   "https://www.carecredit.com/",
+   "https://www.doxo.com/u/biller/synchrony-financial-3424E2F5"
+  ]
+ },
+ {
+  "card": "Lowe's Advantage Card",
+  "fixes": {"debit_pay": "N"},
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "Two independent wallethub articles on Lowe's in-store payment both say the Customer Service desk accepts cash or check only, no debit card; phone (1-800-444-1408) and online payment pages likewise show bank-account routing only, no debit mention.",
+  "confidence": "med",
+  "sources": [
+   "https://wallethub.com/answers/cc/can-you-pay-lowes-credit-card-in-store-1000616-2140745092/",
+   "https://wallethub.com/answers/cc/lowe39s-credit-card-payment-1000255-2140654652/",
+   "https://www.synchrony.com/partner/lowes"
+  ]
+ },
+ {
+  "card": "Synchrony Preferred Mastercard",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "No-rewards financing card on the same general Synchrony Mastercards line (1-844-406-7427) as Premier/Plus. No 2026 evidence found of debit-card acceptance; official pages describe bank-account payment only.",
+  "confidence": "low",
+  "sources": [
+   "https://www.synchrony.com/financing/synchrony-mastercards",
+   "https://www.synchrony.com/help/faqs"
+  ]
+ },
+ {
+  "card": "Capital on Tap Business (US)",
+  "fixes": {"debit_pay": "Y"},
+  "channel": "online",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "Official FAQ (capitalontap.com/us/faq/): bill payable by direct debit from a business bank account or a debit card, anytime via the Payments page or AutoPay. No debit-payment fee disclosed; card itself carries no annual or monthly fee.",
+  "confidence": "high",
+  "sources": [
+   "https://www.capitalontap.com/us/faq/"
+  ]
+ },
+ {
+  "card": "Alliant Cashback Visa Signature",
+  "fixes": {"debit_pay": "Y"},
+  "channel": "online",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "Alliant's own help article states you can quickly and securely make a one-time payment using a debit card or external bank account. Direct page re-fetch returned 403 (blocked); relied on search-engine indexed text of alliantcreditunion.org's own page.",
+  "confidence": "med",
+  "sources": [
+   "https://www.alliantcreditunion.org/help/where-can-i-call-to-make-a-credit-card-payment"
+  ]
+ },
+ {
+  "card": "Target Circle Card (Credit / Mastercard)",
+  "fixes": {"debit_pay": "Y"},
+  "channel": "store",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "In-store at any Target Guest Services desk, the Target Credit Card/Target Mastercard (Target Circle Card credit) bill can be paid with cash, a debit card, or a digital wallet, per wallethub's summary of Target's own policy. Online/phone (1-800-424-6888) debit acceptance not confirmed.",
+  "confidence": "med",
+  "sources": [
+   "https://wallethub.com/answers/cc/can-you-pay-a-target-credit-card-in-store-2140885162/",
+   "https://www.target.com/circlecard"
+  ]
+ }
+]

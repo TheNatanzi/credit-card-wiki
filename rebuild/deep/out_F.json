@@ -1,0 +1,114 @@
+[
+ {
+  "card": "Chase Ink Business Premier",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "N",
+  "fee_usd": 195,
+  "fx_pct": 0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {"name": "Base 2% (any purchase that posts under $5,000)", "min_spend_month_usd": null, "lockup_usd": null, "lock_months": null, "rate_pct": 2.0, "reward_cap_month_usd": null, "monthly_cost_usd": 16.25},
+   {"name": "2.5% on a single purchase that bills and posts at $5,000 or more", "min_spend_month_usd": null, "lockup_usd": null, "lock_months": null, "rate_pct": 2.5, "reward_cap_month_usd": null, "monthly_cost_usd": 16.25}
+  ],
+  "costco_ok": "Y",
+  "special": [
+   {"kind": "costco", "text": "2.5% is per SWIPE: each purchase must bill+post >= $5,000. One ~$3,800 bar = 2%; ring 2+ bars in one swipe = 2.5%."},
+   {"kind": "eligibility", "text": "Business card (sole prop with SSN ok). Chase 5/24 and Ink velocity rules apply; needs Chase business approval."},
+   {"kind": "cost", "text": "Pay-in-full charge card: whole balance due every statement (small Flex for Business slice can revolve at 17.74%+ APR)."},
+   {"kind": "tip", "text": "Cash back only: points cannot move to Sapphire/other Ink cards, so no transfer-partner upside. 1 point = 1 cent."},
+   {"kind": "risk", "text": "Exclusions list cash-like, betting, checks; bullion is NOT named. Chase does shut down MS-pattern accounts (TPG shutdown pattern)."},
+   {"kind": "tip", "text": "No foreign transaction fee; no published cap on 2% or 2.5%; spending power is dynamic (no fixed limit), unverified for $50k/mo."},
+   {"kind": "tip", "text": "Bill pay = bank account (ACH) only; debit card not accepted online/phone. Taekus debit stack does not work here."}
+  ],
+  "real10_pct": 2.5,
+  "real50_pct": 2.5,
+  "confidence": "high",
+  "sources": [
+   "https://creditcards.chase.com/business-credit-cards/ink/premier",
+   "https://www.chase.com/personal/credit-cards/education/chase-cards/ink-business-premier-credit-card-benefits",
+   "https://frequentmiler.com/ink-business-premier-review/",
+   "https://www.nerdwallet.com/business/credit-cards/reviews/chase-ink-business-premier",
+   "https://thepointsguy.com/credit-cards/dont-let-chases-shutdown-pattern-bite-you/"
+  ]
+ },
+ {
+  "card": "U.S. Bank Smartly Visa Signature",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "N",
+  "fee_usd": 0,
+  "fx_pct": 3,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {"name": "Base 2% (no U.S. Bank balance needed)", "min_spend_month_usd": null, "lockup_usd": null, "lock_months": null, "rate_pct": 2.0, "reward_cap_month_usd": null, "monthly_cost_usd": 0},
+   {"name": "2.5%: Smartly Savings ($25) + $10,000-$49,999 30-day avg in Smartly Checking/Safe Debit", "min_spend_month_usd": null, "lockup_usd": 10000, "lock_months": null, "rate_pct": 2.5, "reward_cap_month_usd": 50, "monthly_cost_usd": 0},
+   {"name": "3%: $50,000-$99,999 in Smartly Checking/Safe Debit", "min_spend_month_usd": null, "lockup_usd": 50000, "lock_months": null, "rate_pct": 3.0, "reward_cap_month_usd": 100, "monthly_cost_usd": 0},
+   {"name": "4%: $100,000+ in Smartly Checking/Safe Debit", "min_spend_month_usd": null, "lockup_usd": 100000, "lock_months": null, "rate_pct": 4.0, "reward_cap_month_usd": 200, "monthly_cost_usd": 0}
+  ],
+  "costco_ok": "Y",
+  "special": [
+   {"kind": "cap", "text": "Smartly Earning Bonus (the part above 2%) applies to only the first $10,000 net purchases per billing cycle; rest earns 2%."},
+   {"kind": "eligibility", "text": "Post-4/14/25 rules: ONLY Bank Smartly Checking + Safe Debit balances count (30-day avg); savings, brokerage, IRA no longer qualify."},
+   {"kind": "cost", "text": "$100k must sit in ~0% checking: ~$330/mo lost interest at 4% APY = 3.3% of a $10k month, 0.66% of a $50k month."},
+   {"kind": "costco", "text": "Bonus exclusions: education, gift cards, insurance, tax, B2B, third-party bill pay. Costco MCC 5300 earns bonus (Rinad 6584 stmt shows 4% w/ $10k cap)."},
+   {"kind": "tip", "text": "Redeem into a U.S. Bank deposit account for full 1 cent/pt; statement credit / gift card redemptions pay less."},
+   {"kind": "risk", "text": "U.S. Bank shuts down MS-pattern accounts fast (FlyerTalk shutdown thread); 3% foreign fee; no debit-card bill pay."},
+   {"kind": "tip", "text": "Cards opened before 4/14/25 were grandfathered (no cap, $5k tier, savings count); confirm on your own statement."}
+  ],
+  "real10_pct": 4.0,
+  "real50_pct": 2.4,
+  "confidence": "high",
+  "sources": [
+   "https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html",
+   "https://www.usbank.com/credit-cards/splash/mysmartlyvisa.html",
+   "https://dannydealguru.com/u-s-bank-smartly-visa-signature-card-to-be-discontinued/",
+   "https://www.cnbc.com/select/us-bank-smartly-visa-signature-card-review/",
+   "https://www.flyertalk.com/forum/manufactured-spending/2182227-shutdown-thread-2025-onwards.html"
+  ]
+ },
+ {
+  "card": "Bilt Mastercard (Wells Fargo issued)",
+  "us_ok": "Y",
+  "status": "dead",
+  "network": "mastercard",
+  "debit_pay": "N",
+  "fee_usd": 0,
+  "fx_pct": 0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {"name": "Successor Bilt Blue (Column N.A.): 1x points + 4% Bilt Cash on everyday spend, $0 fee", "min_spend_month_usd": null, "lockup_usd": null, "lock_months": null, "rate_pct": 2.0, "reward_cap_month_usd": null, "monthly_cost_usd": 0},
+   {"name": "Successor Bilt Obsidian: 1x other (3x dining/grocery) + 4% Bilt Cash, $95 fee", "min_spend_month_usd": null, "lockup_usd": null, "lock_months": null, "rate_pct": 2.0, "reward_cap_month_usd": null, "monthly_cost_usd": 7.92},
+   {"name": "Successor Bilt Palladium: 2x on all other purchases + 4% Bilt Cash, $495 fee", "min_spend_month_usd": null, "lockup_usd": null, "lock_months": null, "rate_pct": 4.0, "reward_cap_month_usd": null, "monthly_cost_usd": 41.25}
+  ],
+  "costco_ok": "Y",
+  "special": [
+   {"kind": "eligibility", "text": "DEAD: Wells Fargo stopped apps 11/5/25; cards went inactive 2/7/26 and auto-converted to WF Autograph Visa unless opted into Bilt 2.0."},
+   {"kind": "tip", "text": "Successor Bilt Card 2.0 (Blue $0 / Obsidian $95 / Palladium $495) issued by Column N.A., serviced by Cardless, Mastercard, no FX fee."},
+   {"kind": "costco", "text": "2.0 has NO warehouse-club exclusion and NO 5-transaction rule: Costco earns 1x (Blue/Obsidian) or 2x (Palladium) Bilt Points."},
+   {"kind": "cap", "text": "rate_pct assumes 2.0 cents/pt via transfer partners (Hyatt etc). Cash-out is far lower; 1x at Costco is only ~1% if you cash out."},
+   {"kind": "cap", "text": "4% Bilt Cash is NOT cash: no statement credit, no cash-out, expires 12/31 (only $100 rolls). Uses: $30 per $1k rent, $10 Lyft, $10 Walgreens/mo."},
+   {"kind": "risk", "text": "Terms let Bilt deny/recover points AND Bilt Cash on 'manufactured spend' or spend 'inconsistent with normal consumer use'."},
+   {"kind": "risk", "text": "Bill pay via linked bank account through the Bilt app; no debit-card bill-pay channel found (unverified)."}
+  ],
+  "real10_pct": 2.0,
+  "real50_pct": 2.0,
+  "confidence": "med",
+  "sources": [
+   "https://www.biltrewards.com/terms/bilt-card-offer-terms",
+   "https://www.biltrewards.com/terms/bilt-cash",
+   "https://www.biltrewards.com/card",
+   "https://support.biltrewards.com/hc/en-us/articles/40834037331085-Bilt-Card-2-0-Transition",
+   "https://frequentmiler.com/bilt-2-cards/",
+   "https://frequentmiler.com/new-bilt-cards-exclude-tax-payments-ebay-facebook-marketplace-and-more/"
+  ]
+ }
+]

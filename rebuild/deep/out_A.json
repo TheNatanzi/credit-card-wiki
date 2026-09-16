@@ -1,0 +1,156 @@
+[
+ {
+  "card": "Bybit Card",
+  "us_ok": "N",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "N",
+  "fee_usd": 0,
+  "fx_pct": 0.5,
+  "extra_cost_pct": 0.9,
+  "txn_max_usd": 5500,
+  "daily_max_usd": 5500,
+  "tiers": [
+   {"name": "Tier 1 Base (no VIP, any spend)", "min_spend_month_usd": 0, "lockup_usd": null, "lock_months": null, "rate_pct": 2, "reward_cap_month_usd": 5, "monthly_cost_usd": 0},
+   {"name": "Tier 2 Beta (VIP1-2 or $500 spend)", "min_spend_month_usd": 500, "lockup_usd": 100000, "lock_months": null, "rate_pct": 2, "reward_cap_month_usd": 50, "monthly_cost_usd": 0},
+   {"name": "Tier 3 Alpha (VIP3 or $3,500 spend)", "min_spend_month_usd": 3500, "lockup_usd": 500000, "lock_months": null, "rate_pct": 4, "reward_cap_month_usd": 150, "monthly_cost_usd": 0},
+   {"name": "Tier 4 Apex (VIP4 or $9,500 spend)", "min_spend_month_usd": 9500, "lockup_usd": 1000000, "lock_months": null, "rate_pct": 6, "reward_cap_month_usd": 250, "monthly_cost_usd": 0},
+   {"name": "Tier 5 Omega (VIP5 or $12,500 spend)", "min_spend_month_usd": 12500, "lockup_usd": 2000000, "lock_months": null, "rate_pct": 8, "reward_cap_month_usd": 400, "monthly_cost_usd": 0},
+   {"name": "Tier 6 Infinite (Supreme VIP or $25,000-25,500 spend)", "min_spend_month_usd": 25000, "lockup_usd": null, "lock_months": null, "rate_pct": 10, "reward_cap_month_usd": 600, "monthly_cost_usd": 0}
+  ],
+  "costco_ok": "N",
+  "special": [
+   {"kind": "eligibility", "text": "Bybit blocks US residents, US IPs and US ID documents; no US entity and no US launch planned. A California resident cannot get this card."},
+   {"kind": "cap", "text": "Caps kill the rate: Apex 6% stops at 250 USDT/mo, Infinite 10% at 600 USDT/mo. $50k/mo at 10% nets 1.2%, not 10%."},
+   {"kind": "tip", "text": "Spend tier = current-month spend, applied the day after settlement, kept through the END of the following month (VIP tier is instant while VIP holds)."},
+   {"kind": "eligibility", "text": "VIP by assets OR 30-day volume: VIP1 $100k/$1M spot, VIP3 $500k/$10M, VIP4 $1M/$25M, VIP5 $2M/$50M, Supreme $100M spot only."},
+   {"kind": "limit", "text": "EEA card: EUR 5,000 per purchase AND per day, so one ~$3,800 bar a day max; $50k/mo needs 13+ separate days."},
+   {"kind": "cost", "text": "0.9% crypto-to-fiat conversion (min EUR 1) when crypto settles a purchase; 0.5% FX on non-EUR; EU Base tier cut to 1% Aug 2026."},
+   {"kind": "risk", "text": "Bybit may withhold points on any transaction it deems abusive even if the MCC is not on the excluded list; Mastercard, so Costco US would refuse it anyway."}
+  ],
+  "real10_pct": 1.6,
+  "real50_pct": 0.3,
+  "confidence": "high",
+  "sources": [
+   "https://www.bybitglobal.com/en/help-center/article/FAQ-Bybit-Card-Rewards-2-0",
+   "https://www.bybit.com/en/help-center/article/Introduction-to-Bybit-Card-Rewards",
+   "https://www.bybit.com/en/learn/bybit-vip/bybit-vip-levels",
+   "https://kkinvesting.io/en/posts/bybit-card-tutorial/",
+   "https://cryptoslate.com/crypto-cards/bybit-card-review/",
+   "https://www.datawallet.com/crypto/bybit-restricted-countries"
+  ]
+ },
+ {
+  "card": "CoinZoom Card",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "N",
+  "fee_usd": 0,
+  "fx_pct": 0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": 10000,
+  "daily_max_usd": 10000,
+  "tiers": [
+   {"name": "Non-Prime Green (0 ZOOM)", "min_spend_month_usd": null, "lockup_usd": 0, "lock_months": null, "rate_pct": 0.5, "reward_cap_month_usd": 25, "monthly_cost_usd": 0},
+   {"name": "Silver (10,000 ZOOM)", "min_spend_month_usd": null, "lockup_usd": 75, "lock_months": null, "rate_pct": 1, "reward_cap_month_usd": 50, "monthly_cost_usd": 0},
+   {"name": "Gold (50,000 ZOOM)", "min_spend_month_usd": null, "lockup_usd": 375, "lock_months": null, "rate_pct": 2, "reward_cap_month_usd": 100, "monthly_cost_usd": 0},
+   {"name": "Diamond (150,000 ZOOM)", "min_spend_month_usd": null, "lockup_usd": 1125, "lock_months": null, "rate_pct": 3, "reward_cap_month_usd": 150, "monthly_cost_usd": 0},
+   {"name": "Black (300,000 ZOOM)", "min_spend_month_usd": null, "lockup_usd": 2250, "lock_months": null, "rate_pct": 5, "reward_cap_month_usd": 250, "monthly_cost_usd": 0}
+  ],
+  "costco_ok": "Y",
+  "special": [
+   {"kind": "cap", "text": "MCC 5300 Wholesale Clubs is on CoinZoom's capped list: rewards only on the first $5,000 per rolling 30 days. Black 5% = max $250/mo at Costco."},
+   {"kind": "limit", "text": "Per-swipe max by tier: Green $500, Silver $1,000, Gold $2,000, Diamond $4,000, Black $10,000. A $3,800 bar needs Diamond or Black."},
+   {"kind": "limit", "text": "Black: $10,000/day and $30,000/week POS. $50k/mo is physically possible (2 bars a day) but only $5k of it earns."},
+   {"kind": "cost", "text": "Tier = ZOOM held at time of each swipe, no lock period; Black = 300,000 ZOOM ~ $2,250 at $0.0075 (Sep 15 2026). ZOOM is thin and volatile."},
+   {"kind": "risk", "text": "Rewards are paid in ZOOM token, not USD; tiny market (~$0.007) so cashing $250/mo of ZOOM may cost several % in spread and price drift."},
+   {"kind": "cost", "text": "Fund the USD wallet by ACH ($100k/day, free) and spend USD; if the card sells crypto to pay, a 1.49% liquidation fee applies."},
+   {"kind": "eligibility", "text": "US Visa debit, all states except New York; CA ok. Capped-category list and rates can change at CoinZoom's sole discretion."}
+  ],
+  "real10_pct": 2.5,
+  "real50_pct": 0.5,
+  "confidence": "high",
+  "sources": [
+   "https://support.coinzoom.com/en/articles/12821905-how-to-earn-rewards-on-everyday-purchases",
+   "https://support.coinzoom.com/en/articles/12803846-deposit-withdrawal-spending-and-transferring-daily-limits",
+   "https://www.coinzoom.com/en/prime/",
+   "https://www.coinzoom.com/en/fees-and-limits/",
+   "https://support.coinzoom.com/en/articles/12814864-what-states-can-use-coinzoom",
+   "https://coinmarketcap.com/currencies/coinzoom/"
+  ]
+ },
+ {
+  "card": "X Money Card",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "N",
+  "fee_usd": 84,
+  "fx_pct": 0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": 25000,
+  "tiers": [
+   {"name": "X Premium ($84/yr web) - flat 3%", "min_spend_month_usd": 0, "lockup_usd": null, "lock_months": null, "rate_pct": 3, "reward_cap_month_usd": null, "monthly_cost_usd": 7},
+   {"name": "X Premium+ ($395/yr web) - same 3%", "min_spend_month_usd": 0, "lockup_usd": null, "lock_months": null, "rate_pct": 3, "reward_cap_month_usd": null, "monthly_cost_usd": 33}
+  ],
+  "costco_ok": "?",
+  "special": [
+   {"kind": "costco", "text": "Exclusions are by MCC: precious metals/stones/jewelry, stamp+coin stores, money orders, financial institutions, tax, govt. Costco is MCC 5300, not on the list."},
+   {"kind": "risk", "text": "Terms ban 'Manufactured Spending' (anything X reasonably deems meant to generate cashback artificially); X may deny, claw back from your balance, or restrict the account."},
+   {"kind": "cap", "text": "No published cap, but terms say total cashback 'may be capped' and X picks the percentage at its sole discretion. $50k/mo of gold is a visible target."},
+   {"kind": "limit", "text": "X Card purchases $25,000/day default (can request higher); no per-swipe max published. $50k/mo is 2 days of buying."},
+   {"kind": "cost", "text": "Needs an active X Premium subscription: $84/yr on the web ($96 via app store); Premium+ adds nothing to the 3%."},
+   {"kind": "eligibility", "text": "Live to all Premium/Premium+ US users since Sep 2, 2026; not in NY or MA; CA fine. Deposits at Cross River Bank; Visa debit, PIN works at Costco."},
+   {"kind": "tip", "text": "Cashback auto-redeems weekly and refunds claw it back; no Costco gold data point found yet - test one bar before scaling."}
+  ],
+  "real10_pct": 3.0,
+  "real50_pct": 3.0,
+  "confidence": "med",
+  "sources": [
+   "https://money.x.com/en/i/cashback-rewards-terms",
+   "https://money.x.com/en/i/faq",
+   "https://www.doctorofcredit.com/x-money-3-cashback-exclusion-list-taxes-money-orders-more/",
+   "https://www.doctorofcredit.com/x-money-review-6-apy-300-bonus-3-back-on-debit-card-purchases/",
+   "https://cardpilled.com/cards/x-money",
+   "https://x.com/SawyerMerritt/status/2071737419762704711"
+  ]
+ },
+ {
+  "card": "Bitget Wallet Card",
+  "us_ok": "N",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "N",
+  "fee_usd": 0,
+  "fx_pct": 1.7,
+  "extra_cost_pct": 0.5,
+  "txn_max_usd": null,
+  "daily_max_usd": 12000,
+  "tiers": [
+   {"name": "Base 2% assetback (no stake)", "min_spend_month_usd": 0, "lockup_usd": null, "lock_months": null, "rate_pct": 2, "reward_cap_month_usd": 8, "monthly_cost_usd": 0},
+   {"name": "Booster 3% (new user, or $100-200 spend by region, held this month + next)", "min_spend_month_usd": 200, "lockup_usd": null, "lock_months": null, "rate_pct": 3, "reward_cap_month_usd": 12, "monthly_cost_usd": 0}
+  ],
+  "costco_ok": "N",
+  "special": [
+   {"kind": "eligibility", "text": "Not offered in the US or Canada; issuers are DCS (Asia), Fiat24 (China), Immersve (EEA/LATAM). A California resident cannot apply."},
+   {"kind": "cap", "text": "Assetback only on the first ~$400/mo of eligible spend ($600 for some migrated users): 3% x $400 = $12/mo max, so $10k/mo nets 0.12%."},
+   {"kind": "limit", "text": "Default $12,000/day and $150,000/YEAR spend cap per issuer, so $50k/mo cannot run for a full year."},
+   {"kind": "cost", "text": "Activation 0.1 USDC in first 72h else 10 USDC; physical card $49; inactivity $1/mo; 1.7% FX on non-USD; USDC-to-USD spread ~0.5-1.5% (unverified estimate)."},
+   {"kind": "risk", "text": "Rewards paid in your chosen asset (BTC, gold, tokenized stocks, USDC) T+7; excluded MCCs and caps set in-app and changeable by Bitget."},
+   {"kind": "tip", "text": "Network is Visa or Mastercard depending on the regional issuer; Mastercard variants would be refused at Costco US."}
+  ],
+  "real10_pct": -0.4,
+  "real50_pct": -0.5,
+  "confidence": "med",
+  "sources": [
+   "https://web3.bitget.com/card",
+   "https://web3.bitget.com/en/academy/how-to-apply-for-the-bitget-wallet-card-step-by-step-guide-for-new-users",
+   "https://web3.bitget.com/helpCenter/867",
+   "https://cardpilled.com/cards/bitget",
+   "https://www.cryptocardhub.com/card/bitget-wallet-card",
+   "https://fintech.global/2026/09/07/bitget-wallet-shifts-card-cashback-towards-digital-assets/"
+  ]
+ }
+]

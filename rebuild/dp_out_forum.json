@@ -1,0 +1,266 @@
+[
+ {
+  "card": "BJ's One+ Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Bilt Mastercard (Wells Fargo issued)",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "channel": "branch only (walk in)",
+  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+ },
+ {
+  "card": "Capital One Spark Cash Plus (business)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Wells Fargo Active Cash",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "channel": "branch only (walk in)",
+  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+ },
+ {
+  "card": "Wells Fargo Signify Business Cash",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "channel": "branch only (walk in)",
+  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+ },
+ {
+  "card": "Capital One Venture Business (business; formerly Spark Miles)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Capital One Venture X Business (business)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Capital One Venture X Rewards",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Wells Fargo Autograph",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "channel": "branch only (walk in)",
+  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+ },
+ {
+  "card": "Wells Fargo Autograph Journey",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "channel": "branch only (walk in)",
+  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+ },
+ {
+  "card": "Capital One BJ's One Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Capital One Quicksilver Cash Rewards",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Capital One QuicksilverOne Cash Rewards",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Capital One REI Co-op Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Capital One Spark Cash Select (business)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Capital One VentureOne Business (business; formerly Spark Miles Select)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Wells Fargo Business Elite Signature",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "channel": "branch only (walk in)",
+  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+ },
+ {
+  "card": "Wells Fargo Business Platinum",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "channel": "branch only (walk in)",
+  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+ },
+ {
+  "card": "Capital One Bass Pro/Cabela's CLUB Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Capital One Savor (legacy premium 4% dining — CLOSED to new applicants)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Capital One Savor Cash Rewards (no-fee; formerly SavorOne)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Capital One Walmart Rewards Mastercard (DISCONTINUED)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Citi Custom Cash",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "channel": "phone IVR 800-950-5114",
+  "note": "FlyerTalk 2026: still offered debit on the IVR after Costco Visa lost it; name must match, 1 payment per card per day"
+ },
+ {
+  "card": "Wells Fargo Attune",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "channel": "branch only (walk in)",
+  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+ },
+ {
+  "card": "Williams-Sonoma \"The Key Rewards\" Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Wells Fargo Choice Privileges Mastercard",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "channel": "branch only (walk in)",
+  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+ },
+ {
+  "card": "Wells Fargo Choice Privileges Select Mastercard",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "channel": "branch only (walk in)",
+  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+ },
+ {
+  "card": "Capital One Kohl's Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Capital One Platinum",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Capital One Platinum Secured",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Capital One Venture Rewards",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Capital One VentureOne Rewards",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "in-person only (Cap One cafe/branch or Kroger Money Services)",
+  "note": "No debit online or by phone; only in person with the bill stub"
+ },
+ {
+  "card": "Wells Fargo Reflect",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "channel": "branch only (walk in)",
+  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+ }
+]

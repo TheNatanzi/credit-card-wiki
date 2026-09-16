@@ -1,0 +1,112 @@
+[
+ {
+  "card": "Venmo Credit Card",
+  "issuer": "Venmo / Synchrony",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "Y",
+  "source": "https://venmo.com/about/creditcard/rewards",
+  "why": "Grocery category includes wholesale clubs; 3% when it is your top monthly category, 2% 2nd, else 1%"
+ },
+ {
+  "card": "Synchrony Premier World Mastercard",
+  "issuer": "Synchrony",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://www.synchrony.com/financing/synchrony-mastercards",
+  "why": "Flat 2% all spend; Mastercard so Costco.com only; Synchrony debit-pay rail proven (Medi 8/20)"
+ },
+ {
+  "card": "PayPal Cashback Mastercard",
+  "issuer": "Synchrony",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://www.paypal.com/us/digital-wallet/paypal-cashback-mastercard",
+  "why": "Flat 1.5%; 3% only via PayPal checkout, Costco.com has no PayPal; Mastercard so online only"
+ },
+ {
+  "card": "Synchrony Plus World Mastercard",
+  "issuer": "Synchrony",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://www.synchrony.com/financing/synchrony-mastercards",
+  "why": "Flat 1% all spend; Mastercard so Costco.com only; Synchrony debit-pay rail proven"
+ },
+ {
+  "card": "Verizon Visa Card",
+  "issuer": "Synchrony",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "Y",
+  "source": "https://www.verizon.com/solutions-and-services/verizon-credit-card/",
+  "why": "1% base in Verizon Dollars; 4% grocery is MCC 5411 only, Costco is 5300"
+ },
+ {
+  "card": "Sam's Club Mastercard",
+  "issuer": "Synchrony",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://www.bankrate.com/credit-cards/reviews/sams-club-mastercard/",
+  "why": "Costco earns base 1% only (3%/5% are Sam's/gas/dining); Sam's Cash capped $5,000/yr; Synchrony takes debit"
+ },
+ {
+  "card": "Amazon Store Card / Amazon Secured Card",
+  "issuer": "Synchrony",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "other",
+  "debit_pay": "Y",
+  "source": "https://www.synchrony.com/mmc/DR934P1",
+  "why": "Closed-loop Amazon-only card; cannot be swiped at Costco at all"
+ },
+ {
+  "card": "CareCredit Card",
+  "issuer": "Synchrony",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "other",
+  "debit_pay": "Y",
+  "source": "https://www.carecredit.com/",
+  "why": "Closed-loop healthcare financing card, no rewards; not usable at Costco"
+ },
+ {
+  "card": "Lowe's Advantage Card",
+  "issuer": "Synchrony",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "other",
+  "debit_pay": "Y",
+  "source": "https://www.lowes.com/l/about/lowes-advantage-credit-card",
+  "why": "Closed-loop Lowe's-only card; cannot be swiped at Costco at all"
+ },
+ {
+  "card": "Synchrony Preferred Mastercard",
+  "issuer": "Synchrony",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://www.synchrony.com/financing/synchrony-mastercards",
+  "why": "No rewards; deferred-interest financing card"
+ }
+]

@@ -1,0 +1,200 @@
+[
+ {
+  "card": "Citi Double Cash",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://www.citi.com/credit-cards/citi-double-cash-credit-card",
+  "why": "Flat 2% (1% buy + 1% pay) everywhere incl. Costco; no cap; Citi takes debit by phone"
+ },
+ {
+  "card": "Costco Anywhere Visa",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "Y",
+  "source": "https://www.citi.com/credit-cards/costco-anywhere-visa-card",
+  "why": "Explicit 2% at Costco & Costco.com, no cap; $7k/yr cap is gas only; debit-pay by phone 800-950-5114"
+ },
+ {
+  "card": "Costco Anywhere Visa Business Card by Citi",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "B",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "Y",
+  "source": "https://www.citi.com/credit-cards/costco-anywhere-visa-business-card",
+  "why": "Explicit 2% on all other Costco warehouse & Costco.com purchases, uncapped; 5% Costco gas excluded"
+ },
+ {
+  "card": "Costco Anywhere Visa Card by Citi",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "Y",
+  "source": "https://www.citi.com/credit-cards/costco-anywhere-visa-card",
+  "why": "Explicit 2% on all other Costco warehouse & Costco.com purchases, uncapped; 5% Costco gas excluded"
+ },
+ {
+  "card": "AT&T Points Plus Card from Citi",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://money.usnews.com/credit-cards/citi/at-t-points-plus-card-from-citi",
+  "why": "Flat 1x TY; 2x grocery excludes warehouse; $20/cycle credit at $1k spend is a flat perk not a rate"
+ },
+ {
+  "card": "Citi Prestige",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "P",
+  "status": "dead",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://thepointsguy.com/credit-cards/reviews/citi-prestige-credit-card-review",
+  "why": "Flat 1x TY; travel/dining bonuses irrelevant to Costco. Closed since 2021"
+ },
+ {
+  "card": "Citi Rewards+",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "P",
+  "status": "dead",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://wallethub.com/d/citi-rewards-card-3218c",
+  "why": "Flat 1x TY; 2x supermarket excludes MCC 5300; 10-pt round-up is per swipe, not a rate. Closed Apr 2025"
+ },
+ {
+  "card": "Citi Strata",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://upgradedpoints.com/credit-cards/reviews/citi-strata-card/",
+  "why": "Flat 1x TY; 3x supermarket/self-select cats exclude warehouse clubs. Card is personal despite input type"
+ },
+ {
+  "card": "Citi Strata Premier",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://www.citi.com/credit-cards/credit-card-rewards/citi-strata-premier-benefits",
+  "why": "Flat 1x TY; 3x supermarkets excludes MCC 5300 warehouse"
+ },
+ {
+  "card": "American Airlines AAdvantage MileUp Card",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://www.nerdwallet.com/reviews/credit-cards/citi-aadvantage-mileup",
+  "why": "Flat 1x AA mile; 2x grocery stores excludes warehouse clubs"
+ },
+ {
+  "card": "Citi / AAdvantage Executive World Legend Mastercard",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://www.citi.com/credit-cards/citi-aadvantage-executive-world-legend-mastercard",
+  "why": "Flat 1x AA mile on non-AA spend; portal/AA bonuses irrelevant at Costco"
+ },
+ {
+  "card": "Citi / AAdvantage Platinum Select World Elite Mastercard",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-world-elite-mastercard",
+  "why": "Flat 1x AA mile; gas/dining/AA bonuses don't touch MCC 5300"
+ },
+ {
+  "card": "CitiBusiness / AAdvantage Platinum Select Mastercard",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "B",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://yourbestcreditcards.com/card-explorer/citibusiness-aadvantage-platinum-select-mastercard-review/",
+  "why": "Flat 1x AA mile; telecom/gas/rental bonuses don't touch MCC 5300"
+ },
+ {
+  "card": "Citi Strata Elite",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card",
+  "why": "Flat 1.5x TY on all spend applies at Costco; no grocery bonus"
+ },
+ {
+  "card": "Citi Custom Cash",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://money.usnews.com/credit-cards/citi/citi-custom-cash-card",
+  "why": "5% top category is MCC-based (grocery 5411); Costco MCC 5300 warehouse is not eligible = 1%"
+ },
+ {
+  "card": "Citi Shop Your Way Mastercard (DISCONTINUED)",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "P",
+  "status": "dead",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://www.joinkudos.com/blog/shop-your-way-mastercard-review",
+  "why": "Flat 1%; 3% grocery excludes MCC 5300. Citi shut the card Nov 2025"
+ },
+ {
+  "card": "Citi Diamond Preferred",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://www.citi.com/credit-cards/citi-diamond-preferred-credit-card",
+  "why": "No rewards program at all; intro-APR card"
+ },
+ {
+  "card": "Citi Simplicity",
+  "issuer": "Citi",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://www.citi.com/credit-cards/citi-simplicity-credit-card",
+  "why": "No rewards program at all; intro-APR card"
+ }
+]

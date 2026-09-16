@@ -1,0 +1,163 @@
+[
+ {
+  "card": "Discover it Business",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "Discover-wide: bank-acct ACH only (checking/savings/MMA/CU) on web/phone/app; no debit-card-number rail; same biz & personal; CapOne deal didn't change this.",
+  "confidence": "high",
+  "sources": [
+   "https://card.discover.com/onlinepayments/tooltips.html?srchP=20",
+   "https://www.discover.com/credit-cards/payment-options.html",
+   "https://salestaxcel.com/can-i-pay-my-discover-card-with-a-debit-card/",
+   "https://wallethub.com/answers/cc/discover-card-payment-1000255-2140688738/"
+  ]
+ },
+ {
+  "card": "Discover it Cash Back",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "Discover-wide: bank-acct ACH only (checking/savings/MMA/CU) on web/phone/app; no debit-card-number rail; same biz & personal; CapOne deal didn't change this.",
+  "confidence": "high",
+  "sources": [
+   "https://card.discover.com/onlinepayments/tooltips.html?srchP=20",
+   "https://www.discover.com/credit-cards/payment-options.html",
+   "https://salestaxcel.com/can-i-pay-my-discover-card-with-a-debit-card/",
+   "https://wallethub.com/answers/cc/discover-card-payment-1000255-2140688738/"
+  ]
+ },
+ {
+  "card": "Discover it Chrome",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "Discover-wide: bank-acct ACH only (checking/savings/MMA/CU) on web/phone/app; no debit-card-number rail; same biz & personal; CapOne deal didn't change this.",
+  "confidence": "high",
+  "sources": [
+   "https://card.discover.com/onlinepayments/tooltips.html?srchP=20",
+   "https://www.discover.com/credit-cards/payment-options.html",
+   "https://salestaxcel.com/can-i-pay-my-discover-card-with-a-debit-card/",
+   "https://wallethub.com/answers/cc/discover-card-payment-1000255-2140688738/"
+  ]
+ },
+ {
+  "card": "Discover it Miles",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "Discover-wide: bank-acct ACH only (checking/savings/MMA/CU) on web/phone/app; no debit-card-number rail; same biz & personal; CapOne deal didn't change this.",
+  "confidence": "high",
+  "sources": [
+   "https://card.discover.com/onlinepayments/tooltips.html?srchP=20",
+   "https://www.discover.com/credit-cards/payment-options.html",
+   "https://salestaxcel.com/can-i-pay-my-discover-card-with-a-debit-card/",
+   "https://wallethub.com/answers/cc/discover-card-payment-1000255-2140688738/"
+  ]
+ },
+ {
+  "card": "Discover it Secured",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "Discover-wide: bank-acct ACH only (checking/savings/MMA/CU) on web/phone/app; no debit-card-number rail; same biz & personal; CapOne deal didn't change this.",
+  "confidence": "high",
+  "sources": [
+   "https://card.discover.com/onlinepayments/tooltips.html?srchP=20",
+   "https://www.discover.com/credit-cards/payment-options.html",
+   "https://salestaxcel.com/can-i-pay-my-discover-card-with-a-debit-card/",
+   "https://wallethub.com/answers/cc/discover-card-payment-1000255-2140688738/"
+  ]
+ },
+ {
+  "card": "Discover it Student Cash Back",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "Discover-wide: bank-acct ACH only (checking/savings/MMA/CU) on web/phone/app; no debit-card-number rail; same biz & personal; CapOne deal didn't change this.",
+  "confidence": "high",
+  "sources": [
+   "https://card.discover.com/onlinepayments/tooltips.html?srchP=20",
+   "https://www.discover.com/credit-cards/payment-options.html",
+   "https://salestaxcel.com/can-i-pay-my-discover-card-with-a-debit-card/",
+   "https://wallethub.com/answers/cc/discover-card-payment-1000255-2140688738/"
+  ]
+ },
+ {
+  "card": "Discover it Student Chrome",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "Discover-wide: bank-acct ACH only (checking/savings/MMA/CU) on web/phone/app; no debit-card-number rail; same biz & personal; CapOne deal didn't change this.",
+  "confidence": "high",
+  "sources": [
+   "https://card.discover.com/onlinepayments/tooltips.html?srchP=20",
+   "https://www.discover.com/credit-cards/payment-options.html",
+   "https://salestaxcel.com/can-i-pay-my-discover-card-with-a-debit-card/",
+   "https://wallethub.com/answers/cc/discover-card-payment-1000255-2140688738/"
+  ]
+ },
+ {
+  "card": "NHL Discover it",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "Discover-wide: bank-acct ACH only (checking/savings/MMA/CU) on web/phone/app; no debit-card-number rail; same biz & personal; CapOne deal didn't change this.",
+  "confidence": "high",
+  "sources": [
+   "https://card.discover.com/onlinepayments/tooltips.html?srchP=20",
+   "https://www.discover.com/credit-cards/payment-options.html",
+   "https://salestaxcel.com/can-i-pay-my-discover-card-with-a-debit-card/",
+   "https://wallethub.com/answers/cc/discover-card-payment-1000255-2140688738/"
+  ]
+ },
+ {
+  "card": "Credit One Bank Platinum Visa",
+  "new": true,
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "channel": "online",
+  "fee_usd": 9.95,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "Not a Discover card. Credit One Bank issuer-wide: debit card accepted web/app/phone as 'express payment', $9.95 fee; free ACH bank-acct option skips fee.",
+  "confidence": "med",
+  "sources": [
+   "https://wallethub.com/answers/cc/pay-credit-one-credit-card-with-debit-card-1000333-2140756903/",
+   "https://www.creditonebank.com/help/how-to-make-payments"
+  ]
+ }
+]

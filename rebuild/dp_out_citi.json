@@ -1,0 +1,200 @@
+[
+ {
+  "card": "Citi Double Cash",
+  "fixes": {"debit_pay": "N"},
+  "channel": "none",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "~2026-09 (exact change date not published; cardholder confirmed 2026-09-15)",
+  "note": "Cardholder-confirmed 9/15/26: personal Double Cash no longer takes debit by phone. Fits Citi's 2026 per-product IVR rollback (Costco personal cut ~Apr 2026 first).",
+  "confidence": "high",
+  "sources": ["https://www.citi.com/credit-cards/citi-double-cash-credit-card", "https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards.html"]
+ },
+ {
+  "card": "Costco Anywhere Visa",
+  "fixes": {"debit_pay": "N"},
+  "channel": "none",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "~2026-04",
+  "note": "FlyerTalk report Apr 2026: phone IVR stopped offering debit option for Citi Costco personal card, goes straight to bank-account choice now.",
+  "confidence": "med",
+  "sources": ["https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards.html", "https://www.citi.com/credit-cards/costco-anywhere-visa-card"]
+ },
+ {
+  "card": "Costco Anywhere Visa Business Card by Citi",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "no change found (unconfirmed for this exact product)",
+  "note": "No 2026 report found for the business variant specifically. Personal Costco sibling was cut ~Apr 2026; business likely follows but unverified. Also subject to Jan 30 2026 ban on paying with a commercial debit card, separately.",
+  "confidence": "low",
+  "sources": ["https://www.citi.com/credit-cards/costco-anywhere-visa-business-card", "https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards.html"]
+ },
+ {
+  "card": "Costco Anywhere Visa Card by Citi",
+  "fixes": {"debit_pay": "N"},
+  "channel": "none",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "~2026-04",
+  "note": "Same product as 'Costco Anywhere Visa' row (personal). FlyerTalk report Apr 2026: phone IVR no longer offers debit option, bank-account only.",
+  "confidence": "med",
+  "sources": ["https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards.html", "https://www.citi.com/credit-cards/costco-anywhere-visa-card"]
+ },
+ {
+  "card": "AT&T Points Plus Card from Citi",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "No card-specific 2026 report found. Citi is cutting debit-pay product by product (Costco ~Apr 26, Double Cash by Sep 26); this card's status is unverified either way.",
+  "confidence": "low",
+  "sources": ["https://money.usnews.com/credit-cards/citi/at-t-points-plus-card-from-citi", "https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards.html"]
+ },
+ {
+  "card": "Citi Prestige",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "n/a - product fully sunset since 2021",
+  "note": "Card closed to all cardholders since 2021 (not just new applicants); debit-pay question is moot, no live accounts to test.",
+  "confidence": "low",
+  "sources": ["https://thepointsguy.com/credit-cards/reviews/citi-prestige-credit-card-review"]
+ },
+ {
+  "card": "Citi Rewards+",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "n/a - Citi closed this product Apr 2025",
+  "note": "Product discontinued Apr 2025 per input notes; could not verify how many legacy accounts remain open or their current debit-pay status.",
+  "confidence": "low",
+  "sources": ["https://wallethub.com/d/citi-rewards-card-3218c"]
+ },
+ {
+  "card": "Citi Strata",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "No card-specific 2026 report found either way. Given Citi's rolling per-product IVR cuts this year, do not assume this still works.",
+  "confidence": "low",
+  "sources": ["https://upgradedpoints.com/credit-cards/reviews/citi-strata-card/", "https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards.html"]
+ },
+ {
+  "card": "Citi Strata Premier",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "No card-specific 2026 report found either way. Citi's rollout hit Costco and Double Cash so far; this card's status is unverified.",
+  "confidence": "low",
+  "sources": ["https://www.citi.com/credit-cards/credit-card-rewards/citi-strata-premier-benefits"]
+ },
+ {
+  "card": "American Airlines AAdvantage MileUp Card",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "No card-specific 2026 report found either way.",
+  "confidence": "low",
+  "sources": ["https://www.nerdwallet.com/reviews/credit-cards/citi-aadvantage-mileup"]
+ },
+ {
+  "card": "Citi / AAdvantage Executive World Legend Mastercard",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "No card-specific 2026 report found either way.",
+  "confidence": "low",
+  "sources": ["https://www.citi.com/credit-cards/citi-aadvantage-executive-world-legend-mastercard"]
+ },
+ {
+  "card": "Citi / AAdvantage Platinum Select World Elite Mastercard",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "No card-specific 2026 report found either way.",
+  "confidence": "low",
+  "sources": ["https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-world-elite-mastercard"]
+ },
+ {
+  "card": "CitiBusiness / AAdvantage Platinum Select Mastercard",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "no change found for paying THIS card's bill; separately, Citi banned paying ANY Citi card with a commercial/business debit card effective 2026-01-30",
+  "note": "Business card. Confirmed separately: as of 1/30/26 Citi no longer accepts commercial/business debit or prepaid-debit cards as a payment source on any Citi account (personal debit still worked post-change per one FlyerTalk report). Whether THIS card's own bill still offers debit-pay at all is unverified.",
+  "confidence": "low",
+  "sources": ["https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards.html", "https://yourbestcreditcards.com/card-explorer/citibusiness-aadvantage-platinum-select-mastercard-review/"]
+ },
+ {
+  "card": "Citi Strata Elite",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "No card-specific 2026 report found either way.",
+  "confidence": "low",
+  "sources": ["https://www.citi.com/credit-cards/citi-strata-elite-credit-card"]
+ },
+ {
+  "card": "Citi Custom Cash",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "reported still working as of ~Apr 2026, unconfirmed since",
+  "note": "Same FlyerTalk report that caught Costco losing debit-pay (~Apr 2026) said Custom Cash still worked then; given Citi cut 2 more products since, don't assume that's still true 9/15/26. Also: new applications closed 5/28/26 (existing cardmembers unaffected by that specifically).",
+  "confidence": "low",
+  "sources": ["https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards.html", "https://money.usnews.com/credit-cards/citi/citi-custom-cash-card"]
+ },
+ {
+  "card": "Citi Shop Your Way Mastercard (DISCONTINUED)",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "n/a - Citi shut the card down Nov 2025",
+  "note": "Product discontinued Nov 2025 per input notes; debit-pay question moot if no accounts remain open.",
+  "confidence": "low",
+  "sources": ["https://www.joinkudos.com/blog/shop-your-way-mastercard-review"]
+ },
+ {
+  "card": "Citi Diamond Preferred",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "No card-specific 2026 report found either way.",
+  "confidence": "low",
+  "sources": ["https://www.citi.com/credit-cards/citi-diamond-preferred-credit-card"]
+ },
+ {
+  "card": "Citi Simplicity",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "changed": "no change found",
+  "note": "No card-specific 2026 report found either way.",
+  "confidence": "low",
+  "sources": ["https://www.citi.com/credit-cards/citi-simplicity-credit-card"]
+ }
+]

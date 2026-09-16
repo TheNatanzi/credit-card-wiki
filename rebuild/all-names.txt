@@ -1,0 +1,303 @@
+AAdvantage Aviator Business Mastercard | Barclays | credit | B | dead
+AAdvantage Aviator Red / Blue / Silver / MileUp World Elite Mastercard | Barclays | credit | P | dead
+AARP Essential Rewards Mastercard | Barclays | credit | P | active
+AARP Travel Rewards Mastercard | Barclays | credit | P | active
+Aer Lingus Visa Signature | Chase | credit | P | active
+Air France KLM World Elite Mastercard | Bank of America | credit | P | active
+Airbase Card (now "Airbase by Paylocity") | Airbase / Paylocity (Sutton Bank) | credit | B | active
+Alaska Airlines Visa Business (Atmos Rewards Business) | Bank of America | credit | B | active
+Alaska Airlines Visa Signature (Atmos Rewards Ascent) | Bank of America | credit | P | active
+Alliant Cashback Visa Signature | Alliant CU | credit | P | active
+Amazon Prime Visa | Chase | credit | P | active
+Amazon Store Card / Amazon Secured Card | Synchrony | credit | P | active
+Amazon Visa | Chase | credit | P | active
+American Airlines AAdvantage MileUp Card | Citi | credit | P | active
+American Express Blue Business Cash Card | American Express | credit | B | active
+American Express Business Gold Card | American Express | credit | B | active
+American Express Business Green Rewards Card | American Express | credit | B | active
+American Express Gold Card | American Express | credit | P | active
+American Express Green Card | American Express | credit | P | active
+American Express Rewards Checking | American Express National Bank | debit | P | active
+Amex Cash Magnet Card | American Express | credit | P | dead
+Amex EveryDay Credit Card | American Express | credit | P | dead
+Amex EveryDay Preferred Credit Card | American Express | credit | P | dead
+Amex Serve / Bluebird (prepaid) | American Express | prepaid | P | dead
+AT&T Points Plus Card from Citi | Citi | credit | P | active
+Athleta Encore Mastercard | Barclays | credit | P | active
+Aven Home Equity Visa Card | Aven / Coastal Community Bank | credit | P | active
+Axos CashBack Checking | Axos Bank | debit | P | active
+Banana Republic Encore Mastercard | Barclays | credit | P | active
+Bank of America Customized Cash Rewards | Bank of America | credit | P | active
+Bank of America Debit (BankAmeriDeals) | Bank of America, N.A. | debit | P | active
+Bank of America Premium Rewards | Bank of America | credit | P | active
+Bank of America Premium Rewards Elite | Bank of America | credit | P | active
+Bank of America Travel Rewards | Bank of America | credit | P | active
+Bank of America Unlimited Cash Rewards | Bank of America | credit | P | active
+Bank5 Connect Checking Debit | Bank5 Connect (BankFive) | debit | P | active
+BankAmericard | Bank of America | credit | P | active
+BankAmericard Secured | Bank of America | credit | P | active
+Barclays View Mastercard | Barclays | credit | P | active
+Barnes & Noble Mastercard | Barclays | credit | P | active
+BECU Cash Back Visa | BECU (Boeing Employees CU) | credit | P | active
+BILL Divvy (BILL Spend & Expense) | BILL / Divvy (WebBank, Cross River, WEX) | credit | B | active
+Bilt Mastercard (Wells Fargo issued) | Wells Fargo | credit | P | dead
+Binance.US Card ⚠️ NONE / DEFUNCT | Binance.US | credit | P | dead
+Bitget Wallet Card | Bitget Wallet | debit | P | active
+BitPay Card ⚠️ DISCONTINUED/PAUSED | BitPay / Metropolitan Commercial Bank | prepaid | P | dead
+BJ's One+ Mastercard | Capital One | credit | P | active
+Bleap Card | Bleap | debit | P | active
+BlockFi Rewards Visa ⚠️ DEFUNCT | BlockFi / Evolve Bank & Trust | credit | P | dead
+Blue Cash Card from American Express (original, discontinued) | American Express | credit | P | dead
+Blue Cash Everyday Card from American Express | American Express | credit | P | active
+Blue Cash Preferred Card from American Express | American Express | credit | P | active
+Blue from American Express (original, discontinued) | American Express | credit | P | dead
+Bluevine Business Cashback Mastercard | Bluevine | credit | B | active
+Bluevine Business Debit Mastercard | Bluevine / Coastal Community Bank | debit | B | active
+BofA Business Advantage Customized Cash Rewards | Bank of America | credit | B | active
+BofA Business Advantage Travel Rewards | Bank of America | credit | B | active
+BofA Business Advantage Unlimited Cash Rewards | Bank of America | credit | B | active
+Breeze Easy Visa | Barclays | credit | P | active
+Brex Card | Brex / Emigrant Bank | credit | B | active
+British Airways Visa Signature | Chase | credit | P | active
+Bybit Card | Bybit | debit | P | active
+Capital on Tap Business (US) | Capital on Tap / WebBank | credit | B | active
+Capital One Bass Pro/Cabela's CLUB Mastercard | Capital One | credit | P | active
+Capital One BJ's One Mastercard | Capital One | credit | P | active
+Capital One Kohl's Card | Capital One | credit | P | active
+Capital One Platinum | Capital One | credit | P | active
+Capital One Platinum Secured | Capital One | credit | P | active
+Capital One Quicksilver Cash Rewards | Capital One | credit | P | active
+Capital One QuicksilverOne Cash Rewards | Capital One | credit | P | active
+Capital One REI Co-op Mastercard | Capital One | credit | P | active
+Capital One Savor (legacy premium 4% dining — CLOSED to new applicants) | Capital One | credit | P | dead
+Capital One Savor Cash Rewards (no-fee; formerly SavorOne) | Capital One | credit | P | active
+Capital One Spark Cash Plus (business) | Capital One | credit | B | active
+Capital One Spark Cash Select (business) | Capital One | credit | B | active
+Capital One Venture Business (business; formerly Spark Miles) | Capital One | credit | B | active
+Capital One Venture Rewards | Capital One | credit | P | active
+Capital One Venture X Business (business) | Capital One | credit | B | active
+Capital One Venture X Rewards | Capital One | credit | P | active
+Capital One VentureOne Business (business; formerly Spark Miles Select) | Capital One | credit | B | active
+Capital One VentureOne Rewards | Capital One | credit | P | active
+Capital One Walmart Rewards Mastercard (DISCONTINUED) | Capital One | credit | P | dead
+Capital Vacations World Mastercard | Barclays | credit | P | active
+CareCredit Card | Synchrony | credit | P | active
+Carnival World Mastercard (FunPoints) | Barclays | credit | P | active
+Cash App Card | Cash App (Block) / Sutton Bank | debit | P | active
+Cash App Card (Cash Card) | Block / Sutton Bank | debit | P | active
+Cash App Card / Afterpay Card | Block / Sutton Bank | debit | P | active
+Chase Freedom Flex | Chase | credit | P | active
+Chase Freedom Rise | Chase | credit | P | active
+Chase Freedom Unlimited | Chase | credit | P | active
+Chase Ink Business Cash | Chase | credit | B | active
+Chase Ink Business Preferred | Chase | credit | B | active
+Chase Ink Business Premier | Chase | credit | B | active
+Chase Ink Business Unlimited | Chase | credit | B | active
+Chase Sapphire Preferred | Chase | credit | P | active
+Chase Sapphire Reserve | Chase | credit | P | active
+Chase Slate Edge | Chase | credit | P | dead
+Chime Card (debit) | Chime / The Bancorp Bank or Stride Bank | debit | P | active
+Chime Credit Builder Secured Visa | Chime / Bancorp or Stride Bank | credit | P | dead
+Chime Visa Debit Card | Chime / Bancorp or Stride Bank | debit | P | active
+Choice / Unchained ⚠️ NO CARD | Unchained | credit | P | dead
+Citi / AAdvantage Executive World Legend Mastercard | Citi | credit | P | active
+Citi / AAdvantage Platinum Select World Elite Mastercard | Citi | credit | P | active
+Citi Custom Cash | Citi | credit | P | active
+Citi Diamond Preferred | Citi | credit | P | active
+Citi Double Cash | Citi | credit | P | active
+Citi Prestige | Citi | credit | P | dead
+Citi Rewards+ | Citi | credit | P | dead
+Citi Shop Your Way Mastercard (DISCONTINUED) | Citi | credit | P | dead
+Citi Simplicity | Citi | credit | P | active
+Citi Strata | Citi | credit | P | active
+Citi Strata Elite | Citi | credit | P | active
+Citi Strata Premier | Citi | credit | P | active
+CitiBusiness / AAdvantage Platinum Select Mastercard | Citi | credit | B | active
+Club Swan Card | Club Swan | prepaid | P | dead
+Coinbase Card | Coinbase / Pathward | debit | P | active
+Coinbase One Card | Coinbase / First Electronic Bank | credit | P | active
+CoinZoom Card | CoinZoom | debit | P | active
+Consumers Credit Union Cash Back Card | Consumers Credit Union | credit | P | active
+Costco Anywhere Visa Business Card by Citi | Citi | credit | B | active
+Costco Anywhere Visa Card by Citi | Citi | credit | P | active
+Crypto.com – Frosted Rose Gold / Icy White | Crypto.com (Foris DAX) | prepaid | P | active
+Crypto.com – Midnight Blue | Crypto.com (Foris DAX) | prepaid | P | active
+Crypto.com – Obsidian | Crypto.com (Foris DAX) | prepaid | P | active
+Crypto.com – Royal Indigo / Jade Green | Crypto.com (Foris DAX) | prepaid | P | active
+Crypto.com – Ruby Steel | Crypto.com (Foris DAX) | prepaid | P | active
+Current Debit (Current) | Current / Choice Financial Group or Cross River Bank | debit | P | active
+Dave Debit Card | Dave / Evolve Bank & Trust | debit | P | active
+Dave Debit Mastercard | Dave / Evolve Bank & Trust | debit | P | active
+Delta SkyMiles Blue American Express Card | American Express | credit | P | active
+Delta SkyMiles Gold American Express Card | American Express | credit | P | active
+Delta SkyMiles Gold Business American Express Card | American Express | credit | B | active
+Delta SkyMiles Platinum American Express Card | American Express | credit | P | active
+Delta SkyMiles Platinum Business American Express Card | American Express | credit | B | active
+Delta SkyMiles Reserve American Express Card | American Express | credit | P | active
+Delta SkyMiles Reserve Business American Express Card | American Express | credit | B | active
+Discover Cashback Debit | Discover Bank | debit | P | active
+Discover it Business | Discover | credit | B | dead
+Discover it Cash Back | Discover | credit | P | active
+Discover it Chrome | Discover | credit | P | active
+Discover it Miles | Discover | credit | P | active
+Discover it Secured | Discover | credit | P | dead
+Discover it Student Cash Back | Discover | credit | P | active
+Discover it Student Chrome | Discover | credit | P | active
+Disney Premier Visa Card | Chase | credit | P | active
+Disney Visa Card | Chase | credit | P | active
+DoorDash Rewards Mastercard | Chase | credit | P | active
+Emirates Skywards Premium World Elite Mastercard | Barclays | credit | P | active
+Emirates Skywards Rewards World Elite Mastercard | Barclays | credit | P | active
+ether.fi Cash Card | ether.fi | credit | P | active
+Extra Debit Card | Extra / Evolve Bank & Trust or partner | debit | P | active
+Fold Card (Credit) | Fold / Celtic Bank | credit | P | active
+Fold Card (Debit) | Fold / Sutton Bank | prepaid | P | active
+Frontier Airlines World Mastercard | Barclays | credit | P | active
+FutureCard Visa Debit | FutureCard / Piermont Bank | debit | P | dead
+Gap Encore Mastercard | Barclays | credit | P | active
+Gemini Credit Card | Gemini / WebBank | credit | P | active
+GM Business Mastercard | Barclays | credit | B | active
+GM Rewards Mastercard | Barclays | credit | P | active
+Gnosis Pay (Gnosis Card) | Gnosis Pay | debit | P | active
+Grasshopper Business Debit Card | Grasshopper Bank | debit | B | active
+Greenlight Debit (kids) | Greenlight / Community Federal Savings Bank | debit | P | active
+Happen Bank LevelUp Checking (LendingClub) | LendingClub Bank (Happen Bank brand) | debit | P | active
+Hawaiian Airlines World Elite Mastercard | Barclays | credit | P | dead
+hi Card | hi | credit | P | dead
+Hilton Aspire | Amex | credit | P | active
+Hilton Business | Amex | credit | B | active
+Hilton Honors (no-fee) | Amex | credit | P | active
+Hilton Honors American Express Aspire Card | American Express | credit | P | active
+Hilton Honors American Express Business Card | American Express | credit | B | active
+Hilton Honors American Express Card | American Express | credit | P | active
+Hilton Honors American Express Surpass Card | American Express | credit | P | active
+Hilton Surpass | Amex | credit | P | active
+Iberia Visa Signature | Chase | credit | P | active
+IHG One Rewards Premier | Chase | credit | P | active
+IHG One Rewards Premier Business | Chase | credit | B | active
+IHG One Rewards Traveler | Chase | credit | P | active
+Instacart Mastercard | Chase | credit | P | active
+JetBlue Business Card | Barclays | credit | B | active
+JetBlue Card | Barclays | credit | P | active
+JetBlue Plus Card | Barclays | credit | P | active
+JetBlue Premier Card | Barclays | credit | P | active
+Juno Card ⚠️ CRYPTO DISCONTINUED | Juno / Evolve | debit | P | dead
+Kraken "Krak" Card | Kraken / Lead Bank | debit | P | active
+Kroger Rewards World Elite Mastercard | U.S. Bank | credit | P | active
+Ledger Crypto Life (CL) Card | Ledger / Baanx | debit | P | active
+Lowe's Advantage Card | Synchrony | credit | P | active
+Lufthansa Miles & More World Elite Mastercard | Barclays | credit | P | active
+Marriott Bonvoy American Express Card (Bevy) | American Express | credit | P | active
+Marriott Bonvoy Bevy | Amex | credit | P | active
+Marriott Bonvoy Bold | Chase | credit | P | active
+Marriott Bonvoy Boundless | Chase | credit | P | active
+Marriott Bonvoy Bountiful | Chase | credit | P | active
+Marriott Bonvoy Brilliant | Amex | credit | P | active
+Marriott Bonvoy Brilliant American Express Card | American Express | credit | P | active
+Marriott Bonvoy Business | Amex | credit | B | active
+Marriott Bonvoy Business American Express Card | American Express | credit | B | active
+Mercury IO Card | Mercury / Patriot Bank | credit | B | active
+MetaMask Card | MetaMask / Baanx-Monavate | debit | P | active
+MoonPay "MoonAgents" Card | MoonPay | debit | P | active
+Navy Federal cashRewards | Navy Federal CU | credit | P | active
+Navy Federal Flagship Rewards Visa Signature | Navy Federal CU | credit | P | active
+Navy Federal More Rewards American Express | Navy Federal CU | credit | P | active
+Nexo Card | Nexo / DiPocket UAB | debit | P | active
+NHL Discover it | Discover | credit | P | active
+Old Navy Encore Mastercard | Barclays | credit | P | active
+OnePay (One Finance) debit / Builder Card | OnePay / Coastal Community Bank | debit | P | active
+PayPal Cashback Mastercard | Synchrony | credit | P | active
+PayPal Debit Card | PayPal / The Bancorp Bank | debit | P | active
+PenFed Platinum Rewards Visa Signature | PenFed CU | credit | P | active
+PenFed Power Cash Rewards Visa Signature | PenFed CU | credit | P | active
+Plutus Card | Plutus | debit | P | active
+Point Card (Neon / Titan) | Point / Patriot Bank, N.A. | debit | P | active
+Prime Visa | Chase | credit | P | active
+Ramp Card | Ramp / Celtic Bank | credit | B | active
+RCI Elite Rewards World Mastercard | Barclays | credit | P | active
+Revolut Debit (US) | Revolut / Lead Bank (or partner) | debit | P | active
+Revolut Secured Credit Card (US) | Revolut / Lead Bank | credit | P | active
+Revolut US Card (Standard/Premium/Metal) | Revolut / Lead Bank | debit | P | active
+Rho Corporate Card / Platinum | Rho / Webster Bank | credit | B | active
+Robinhood Gold Card | Robinhood / Coastal Community Bank | credit | P | active
+Sable Debit Card | Sable / Coastal Community Bank | debit | P | active
+Sam's Club Mastercard | Synchrony | credit | P | active
+SECU Cash Rewards Visa (NC) | State Employees' CU (NC) | credit | P | active
+SECU Points Rewards Visa (NC) | State Employees' CU (NC) | credit | P | active
+Sesame Cash (Credit Sesame) | Credit Sesame / Community Federal Savings Bank | debit | P | active
+SoFi Checking Debit / SoFi Smart Card | SoFi Bank, N.A. | debit | P | active
+SoFi Debit Card (Checking/Money) | SoFi Bank | debit | P | active
+SoFi Unlimited 2% Credit Card | SoFi Bank | credit | P | active
+Southwest Rapid Rewards Debit Card | Southwest / issuing bank | debit | P | active
+Southwest Rapid Rewards Performance Business | Chase | credit | B | active
+Southwest Rapid Rewards Plus | Chase | credit | P | active
+Southwest Rapid Rewards Premier | Chase | credit | P | active
+Southwest Rapid Rewards Premier Business | Chase | credit | B | active
+Southwest Rapid Rewards Priority | Chase | credit | P | active
+Step Visa Card | Step / Evolve Bank & Trust | credit | P | active
+Strike ⚠️ NO CARD | Strike | credit | P | dead
+Synchrony Plus World Mastercard | Synchrony | credit | P | active
+Synchrony Preferred Mastercard | Synchrony | credit | P | active
+Synchrony Premier World Mastercard | Synchrony | credit | P | active
+Target Circle Card (Credit / Mastercard) | TD Bank | credit | P | active
+The Blue Business Plus Credit Card from American Express | American Express | credit | B | active
+The Business Platinum Card from American Express | American Express | credit | B | active
+The Platinum Card from American Express | American Express | credit | P | active
+Truist One Debit (Truist Deals) | Truist Bank | debit | P | active
+U.S. Bank Altitude Connect Visa Signature | U.S. Bank | credit | P | active
+U.S. Bank Altitude Fund (product existence unconfirmed) | U.S. Bank | credit | P | dead
+U.S. Bank Altitude Go Visa Signature | U.S. Bank | credit | P | active
+U.S. Bank Altitude Reserve Visa Infinite | U.S. Bank | credit | P | dead
+U.S. Bank Business Altitude Connect Visa Signature | U.S. Bank | credit | B | active
+U.S. Bank Business Altitude Power Visa Signature | U.S. Bank | credit | B | active
+U.S. Bank Business Leverage Visa Signature | U.S. Bank | credit | B | active
+U.S. Bank Cash+ Visa Signature | U.S. Bank | credit | P | active
+U.S. Bank FlexPerks Business Travel Rewards Visa Signature | U.S. Bank | credit | B | active
+U.S. Bank FlexPerks Gold American Express | U.S. Bank | credit | P | active
+U.S. Bank FlexPerks Travel Rewards Visa Signature | U.S. Bank | credit | P | active
+U.S. Bank Shopper Cash Rewards Visa Signature | U.S. Bank | credit | P | dead
+U.S. Bank Smartly Visa Signature | U.S. Bank | credit | P | active
+U.S. Bank Triple Cash Rewards Visa Business | U.S. Bank | credit | B | active
+U.S. Bank Visa Platinum | U.S. Bank | credit | P | dead
+United Business Card | Chase | credit | B | active
+United Club Business Card | Chase | credit | B | active
+United Club Infinite Card | Chase | credit | P | active
+United Explorer Card | Chase | credit | P | active
+United Gateway Card | Chase | credit | P | active
+United MileagePlus Debit Rewards Card | United / issuing bank via program | debit | P | active
+United Quest Card | Chase | credit | P | active
+Upgrade Bitcoin Rewards Card ⚠️ DISCONTINUED | Upgrade / Cross River Bank | credit | P | dead
+Upgrade Card (original) | Upgrade / Cross River Bank | credit | P | active
+Upgrade OneCard | Upgrade / Cross River Bank | credit | P | active
+Uphold Elite Card | Uphold / Cross River Bank | debit | P | active
+Uphold Essential Card | Uphold / Cross River Bank | debit | P | active
+Upromise World Mastercard | Barclays | credit | P | active
+Varo Believe Credit Card | Varo Bank | credit | P | active
+Varo Debit (Varo Perks) | Varo Bank, N.A. | debit | P | active
+Varo Visa Debit Card | Varo Bank | debit | P | active
+Venmo Credit Card | Venmo / Synchrony | credit | P | active
+Venmo Debit Card (Venmo Stash) | Venmo / The Bancorp Bank | debit | P | active
+Venmo Debit Mastercard | Venmo (PayPal) / The Bancorp Bank | debit | P | active
+Verizon Visa Card | Synchrony | credit | P | active
+Wells Fargo Active Cash | Wells Fargo | credit | P | active
+Wells Fargo Attune | Wells Fargo | credit | P | dead
+Wells Fargo Autograph | Wells Fargo | credit | P | active
+Wells Fargo Autograph Journey | Wells Fargo | credit | P | active
+Wells Fargo Business Elite Signature | Wells Fargo | credit | B | active
+Wells Fargo Business Platinum | Wells Fargo | credit | B | dead
+Wells Fargo Choice Privileges Mastercard | Wells Fargo | credit | P | active
+Wells Fargo Choice Privileges Select Mastercard | Wells Fargo | credit | P | active
+Wells Fargo Reflect | Wells Fargo | credit | P | active
+Wells Fargo Signify Business Cash | Wells Fargo | credit | B | active
+Williams-Sonoma "The Key Rewards" Mastercard | Capital One | credit | P | active
+Wirex Card | Wirex | debit | P | active
+Wise Debit Card (US) | Wise / Community Federal Savings Bank | debit | P | active
+World of Hyatt Business Credit Card | Chase | credit | B | active
+World of Hyatt Credit Card | Chase | credit | P | active
+Wyndham Rewards Debit Card | Wyndham / Sunrise Banks, N.A. (Galileo) | debit | P | active
+Wyndham Rewards Earner Business Card | Barclays | credit | B | active
+Wyndham Rewards Earner Card | Barclays | credit | P | active
+Wyndham Rewards Earner Plus Card | Barclays | credit | P | active
+Wyndham Rewards Earner Premier Card | Barclays | credit | P | active
+X Money Card | X Corp / Cross River Bank | debit | P | active
+Xbox Mastercard | Barclays | credit | P | active

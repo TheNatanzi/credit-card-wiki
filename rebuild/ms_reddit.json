@@ -1,0 +1,10 @@
+{
+  "access_note": "Reddit (reddit.com, old.reddit.com, www.reddit.com JSON API, and pushshift.io mirror) was unreachable from this environment for the entire session on 2026-09-15. WebSearch's allowed_domains filter explicitly rejected reddit.com ('not accessible to our user agent'). WebFetch returned 'unable to fetch' for both www.reddit.com and old.reddit.com URLs. Direct curl to reddit.com/*.json and old.reddit.com returned HTTP 403 (Cloudflare bot block) or a JS-only login-wall shell with no post content; pushshift.io (a Reddit mirror) also returned 403. The Browser-pane tool refused to navigate to reddit.com at all ('not allowed due to safety restrictions'). Plain WebSearch queries (no site: filter) never returned a single reddit.com URL in results, even when the search engine's own synthesized summary paraphrased what it called Reddit user comments (e.g. an unlinked r/churning post about Taekus rewards attributed to a user 'moneysaver688') -- those paraphrases could not be verified against a real permalink, so per the task rule against inventing threads they are NOT included below as findings. Net effect: Reddit could not be swept in this session by any available tool. The arrays below are honestly empty rather than fabricated. Incidental leads surfaced for adjacent forums (out of this beat, flagged for whichever agent owns flyertalk.com/myfico.com): a very long-running FlyerTalk 'Manufactured Spending' thread titled 'Paying Citi cards with debit cards including prepaid debit cards' (at page 116+, https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards-116.html) and a myfico.com Credit Cards board thread 'Secret invite-only cards: What's the deal with Taekus?' (https://ficoforums.myfico.com/t5/Credit-Cards/Secret-invite-only-cards-What-s-the-deal-with-Taekus/td-p/6750147/page/2).",
+  "debit_pay_findings": [],
+  "stopped_accepting": [],
+  "new_card_leads": [],
+  "ms_criteria": [],
+  "gold_costco_notes": [],
+  "taekus_notes": [],
+  "confidence": "low"
+}

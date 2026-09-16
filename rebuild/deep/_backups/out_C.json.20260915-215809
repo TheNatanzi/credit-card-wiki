@@ -1,0 +1,209 @@
+[
+ {
+  "card": "Capital One Venture Business (business; formerly Spark Miles)",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "N",
+  "fee_usd": 95,
+  "fx_pct": 0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {"name": "Flat 2x miles", "min_spend_month_usd": null, "lockup_usd": null, "lock_months": null, "rate_pct": 2.0, "reward_cap_month_usd": null, "monthly_cost_usd": 7.92}
+  ],
+  "costco_ok": "Y",
+  "special": [
+   {"kind": "costco", "text": "Mastercard: Costco.com ONLY. Warehouse registers and gas are Visa-only. Business cards stay on Mastercard (not Discover) per DoC Apr-2026."},
+   {"kind": "cost", "text": "2x miles = 2.0% only via travel eraser/portal (1.0c). Cash/statement credit pays 0.5c = 1.0%. Transfers ~1.85c (TPG) = 3.7% if you fly."},
+   {"kind": "limit", "text": "Fixed credit line (not NPSL). $50k/mo needs a $50k+ line or several mid-cycle payments; C1 lines are often modest."},
+   {"kind": "costco", "text": "Costco.com gold is priced ~$20/bar above the register and rationed per membership per 24h; plan ~13 bars/mo for $50k."},
+   {"kind": "risk", "text": "Rewards T&C: 'cash equivalent transactions' earn nothing. Costco gold codes MCC 5300 and earns today, but issuer can recode."},
+   {"kind": "risk", "text": "DoC: C1 shuts down heavy/manufactured spend and closes ALL your C1 cards (even same address); miles go to balance; reapply after 180 days."},
+   {"kind": "tip", "text": "No debit-card bill pay at Capital One (bank ACH, check, cash at branch only) - no Taekus stack."}
+  ],
+  "real10_pct": 2.0,
+  "real50_pct": 2.0,
+  "confidence": "high",
+  "sources": [
+   "https://www.capitalone.com/small-business/credit-cards/venture-business/",
+   "https://www.capitalone.com/help-center/credit-cards/manage-your-rewards/",
+   "https://www.capitalone.com/help-center/credit-cards/payments-credit-card-support/",
+   "https://www.doctorofcredit.com/is-capital-one-moving-their-credit-cards-to-discover-network/",
+   "https://thepointsguy.com/loyalty-programs/redeeming-capital-one-miles-maximum-value/",
+   "https://costcoguides.com/costco-payment-methods/"
+  ]
+ },
+ {
+  "card": "Capital One Venture Rewards",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "discover",
+  "debit_pay": "N",
+  "fee_usd": 95,
+  "fx_pct": 0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {"name": "Flat 2x miles", "min_spend_month_usd": null, "lockup_usd": null, "lock_months": null, "rate_pct": 2.0, "reward_cap_month_usd": null, "monthly_cost_usd": 7.92}
+  ],
+  "costco_ok": "N",
+  "special": [
+   {"kind": "costco", "text": "NEW Venture accounts are issued on the Discover network since Feb/Mar 2026. Costco takes Discover NOWHERE: warehouse, gas, or Costco.com (dropped 11/15/2023)."},
+   {"kind": "costco", "text": "Only a legacy Mastercard Venture still works, and only on Costco.com; existing cards migrate to Discover at reissue/expiry (~2027)."},
+   {"kind": "cost", "text": "Miles: 1.0c travel eraser (2.0%), 0.5c cash/statement credit (1.0%), ~1.85c TPG via transfer partners."},
+   {"kind": "risk", "text": "Rewards T&C exclude 'cash equivalent transactions'; C1 shuts down MS accounts and closes every C1 card you hold."},
+   {"kind": "eligibility", "text": "Venture family shares one 48-month bonus rule (Oct 2025); no debit-card bill pay."},
+   {"kind": "tip", "text": "Do not apply for Costco use: a Discover-network card scores 0% at Costco. Venture X (Visa) is the Costco-usable sibling."}
+  ],
+  "real10_pct": 0,
+  "real50_pct": 0,
+  "confidence": "high",
+  "sources": [
+   "https://www.capitalone.com/credit-cards/venture/",
+   "https://www.doctorofcredit.com/is-capital-one-moving-their-credit-cards-to-discover-network/",
+   "https://money.usnews.com/credit-cards/articles/capital-one-is-now-issuing-credit-cards-on-the-discover-network",
+   "https://slickdeals.net/f/16941709-costco-com-no-longer-accepts-discover-payment-starting-nov-15",
+   "https://costcoguides.com/costco-payment-methods/",
+   "https://thepointsguy.com/loyalty-programs/redeeming-capital-one-miles-maximum-value/"
+  ]
+ },
+ {
+  "card": "Capital One Venture X Business (business)",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "N",
+  "fee_usd": 395,
+  "fx_pct": 0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {"name": "Flat 2x miles", "min_spend_month_usd": null, "lockup_usd": null, "lock_months": null, "rate_pct": 2.0, "reward_cap_month_usd": null, "monthly_cost_usd": 32.92}
+  ],
+  "costco_ok": "Y",
+  "special": [
+   {"kind": "costco", "text": "Visa (switched from Mastercard): works at the Costco register, gas, and Costco.com. Business cards are NOT moving to Discover."},
+   {"kind": "limit", "text": "No preset spending limit, pay-in-full design; spending power is dynamic and can drop without notice -> possible declines on $3,800 swipes."},
+   {"kind": "cost", "text": "2x = 2.0% at 1.0c travel eraser; 0.5c cash-out = 1.0%; ~1.85c TPG transfers = 3.7%. $300 travel credit + 10k miles offset the $395 fee."},
+   {"kind": "risk", "text": "Rewards T&C exclude 'cash equivalent transactions'; gold at Costco (MCC 5300) earns today but is at issuer discretion."},
+   {"kind": "risk", "text": "DoC: C1 shutdowns for MS close ALL C1 cards (personal + business); miles used against balance; ~180 days to reapply."},
+   {"kind": "tip", "text": "No debit-card bill pay (ACH, check, branch cash only). Best C1 card for in-warehouse gold; Visa Infinite, no FX fee."}
+  ],
+  "real10_pct": 2.0,
+  "real50_pct": 2.0,
+  "confidence": "high",
+  "sources": [
+   "https://www.capitalone.com/small-business/credit-cards/venture-x-business/",
+   "https://www.nerdwallet.com/business/credit-cards/reviews/capital-one-venture-x-business",
+   "https://www.capitalone.com/help-center/credit-cards/manage-your-rewards/",
+   "https://www.doctorofcredit.com/saving-your-credit-cards-from-shutdown/",
+   "https://thepointsguy.com/loyalty-programs/redeeming-capital-one-miles-maximum-value/"
+  ]
+ },
+ {
+  "card": "Capital One Venture X Rewards",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "N",
+  "fee_usd": 395,
+  "fx_pct": 0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {"name": "Flat 2x miles", "min_spend_month_usd": null, "lockup_usd": null, "lock_months": null, "rate_pct": 2.0, "reward_cap_month_usd": null, "monthly_cost_usd": 32.92}
+  ],
+  "costco_ok": "Y",
+  "special": [
+   {"kind": "costco", "text": "Visa Infinite; stays on Visa (not Discover). Accepted at the Costco register, gas, and Costco.com."},
+   {"kind": "limit", "text": "Fixed credit line, minimum $10,000. $50k/mo means a $50k+ line or 3-5 mid-cycle payoffs; C1 is stingy with line increases."},
+   {"kind": "cost", "text": "2x = 2.0% via 1.0c travel eraser; cash/statement credit only 0.5c = 1.0%; ~1.85c TPG (3.7%) only through transfer partners."},
+   {"kind": "cost", "text": "$395 fee is offset by $300 portal travel credit + 10k anniversary miles only if you use the portal."},
+   {"kind": "risk", "text": "Rewards T&C exclude 'cash equivalent transactions'; gold at Costco earns as MCC 5300 today, no C1 bullion exclusion found."},
+   {"kind": "risk", "text": "C1 shutdown pattern (DoC): heavy/MS spend -> all C1 cards closed, even others at the same address; 180-day reapply window."},
+   {"kind": "tip", "text": "No debit-card bill pay (ACH/check/branch cash only); Venture family 48-month bonus rule since Oct 2025."}
+  ],
+  "real10_pct": 2.0,
+  "real50_pct": 2.0,
+  "confidence": "high",
+  "sources": [
+   "https://www.capitalone.com/credit-cards/venture-x/",
+   "https://www.capitalone.com/help-center/credit-cards/manage-your-rewards/",
+   "https://www.capitalone.com/help-center/credit-cards/payments-credit-card-support/",
+   "https://money.usnews.com/credit-cards/articles/capital-one-is-now-issuing-credit-cards-on-the-discover-network",
+   "https://www.doctorofcredit.com/saving-your-credit-cards-from-shutdown/",
+   "https://thepointsguy.com/loyalty-programs/redeeming-capital-one-miles-maximum-value/"
+  ]
+ },
+ {
+  "card": "Capital One VentureOne Business (business; formerly Spark Miles Select)",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "N",
+  "fee_usd": 0,
+  "fx_pct": 0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {"name": "Flat 1.5x miles", "min_spend_month_usd": null, "lockup_usd": null, "lock_months": null, "rate_pct": 1.5, "reward_cap_month_usd": null, "monthly_cost_usd": 0}
+  ],
+  "costco_ok": "Y",
+  "special": [
+   {"kind": "costco", "text": "Mastercard: Costco.com ONLY (warehouse/gas are Visa-only). Business cards stay on Mastercard, not Discover."},
+   {"kind": "cost", "text": "1.5x = 1.5% via 1.0c travel eraser; 0.5c cash-out = 0.75%; ~1.85c TPG = 2.8% only through transfers."},
+   {"kind": "limit", "text": "Fixed credit line on a $0-fee starter business card; $50k/mo is unrealistic without repeated mid-cycle payments."},
+   {"kind": "risk", "text": "Rewards T&C exclude 'cash equivalent transactions'; C1 MS shutdowns close all C1 cards."},
+   {"kind": "tip", "text": "No debit-card bill pay. Strictly dominated by Venture X Business for gold."}
+  ],
+  "real10_pct": 1.5,
+  "real50_pct": 1.5,
+  "confidence": "high",
+  "sources": [
+   "https://www.capitalone.com/small-business/credit-cards/ventureone-business/",
+   "https://www.capitalone.com/help-center/credit-cards/manage-your-rewards/",
+   "https://www.doctorofcredit.com/is-capital-one-moving-their-credit-cards-to-discover-network/",
+   "https://costcoguides.com/costco-payment-methods/",
+   "https://thepointsguy.com/loyalty-programs/redeeming-capital-one-miles-maximum-value/"
+  ]
+ },
+ {
+  "card": "Capital One VentureOne Rewards",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "discover",
+  "debit_pay": "N",
+  "fee_usd": 0,
+  "fx_pct": 0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {"name": "Flat 1.25x miles", "min_spend_month_usd": null, "lockup_usd": null, "lock_months": null, "rate_pct": 1.25, "reward_cap_month_usd": null, "monthly_cost_usd": 0}
+  ],
+  "costco_ok": "N",
+  "special": [
+   {"kind": "costco", "text": "NEW VentureOne accounts are on the Discover network (2026). Costco accepts Discover nowhere: not warehouse, gas, or Costco.com (dropped 11/15/2023)."},
+   {"kind": "costco", "text": "Legacy Mastercard VentureOne works on Costco.com only until it is reissued on Discover at expiry."},
+   {"kind": "cost", "text": "1.25x = 1.25% via travel eraser; 0.5c cash-out = 0.63%; ~1.85c TPG = 2.3% via transfers only."},
+   {"kind": "risk", "text": "Rewards T&C exclude 'cash equivalent transactions'; C1 MS shutdowns close all C1 cards; no debit-card bill pay."},
+   {"kind": "tip", "text": "Zero at Costco for a new applicant; skip."}
+  ],
+  "real10_pct": 0,
+  "real50_pct": 0,
+  "confidence": "high",
+  "sources": [
+   "https://www.capitalone.com/credit-cards/ventureone/",
+   "https://money.usnews.com/credit-cards/articles/capital-one-is-now-issuing-credit-cards-on-the-discover-network",
+   "https://www.paymentsjournal.com/capital-one-starts-migrating-core-cards-to-discover-network/",
+   "https://slickdeals.net/f/16941709-costco-com-no-longer-accepts-discover-payment-starting-nov-15",
+   "https://thepointsguy.com/loyalty-programs/redeeming-capital-one-miles-maximum-value/"
+  ]
+ }
+]

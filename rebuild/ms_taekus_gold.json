@@ -1,0 +1,283 @@
+{
+  "debit_pay_findings": [
+    {
+      "issuer": "Citi",
+      "cards": "Citi ThankYou/Costco/Custom Cash/Double Cash family (varies by product; wiki does not distinguish per-card in cited pages)",
+      "works": "mixed",
+      "channel": "phone-IVR (automated, 800-950-5114) and non-US live agents",
+      "fee_usd": 0,
+      "limit_note": "one payment per debit card per account per day; automated-system minimum payment $10; name on debit card must match account holder or be an authorized user",
+      "codes_as": "unknown",
+      "as_of": "2024-01",
+      "evidence": "Wiki lists working debit/prepaid BINs (Alaska/SunTrust/UFB Direct debit, Green Dot, H&R Block Emerald, PayPal Business MC, Simple, Swagbucks, Wells Fargo) vs failing ones (Amex gift/debit, Bluebird, Serve, Chase Starbucks Prepaid, US Bank Visa Buxx, Vanilla). Community tracks BIN-by-BIN status because it changes often.",
+      "url": "https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards-116.html"
+    },
+    {
+      "issuer": "Citi",
+      "cards": "Topcashback-issued cards (BIN 484224), Pathward-issued gift/debit cards, The Bancorp Visa (BIN 542418, CardCash payouts)",
+      "works": "N",
+      "channel": "phone-IVR",
+      "fee_usd": 0,
+      "limit_note": "declined with error 'Transaction not permitted (amount/POS/MCC)'",
+      "codes_as": "unknown",
+      "as_of": "2024-10",
+      "evidence": "Multiple users (trialsandmiles, rfclub, jackiesyu, anime333) confirmed these specific BINs stopped working for Citi phone-pay in late Sept-Oct 2024; thread continues tracking BIN churn into 2026 per its 119-page length.",
+      "url": "https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards-119.html"
+    },
+    {
+      "issuer": "Taekus",
+      "cards": "Taekus personal/business/corporate prepaid debit",
+      "works": "mixed",
+      "channel": "phone",
+      "fee_usd": 0,
+      "limit_note": "unconfirmed cap; not documented in sources found",
+      "codes_as": "unknown",
+      "as_of": "undated",
+      "evidence": "myfico thread: a user asked if Taekus works for pay-by-phone; reply only confirmed 'personal, business, and corporate cards, all earn rewards' without confirming actual Citi (or any issuer) bill-payment success. No forum post found that confirms Taekus pays rewards specifically on a credit-card bill payment leg.",
+      "url": "https://ficoforums.myfico.com/t5/Credit-Cards/Secret-invite-only-cards-What-s-the-deal-with-Taekus/td-p/6750147"
+    },
+    {
+      "issuer": "Capital One",
+      "cards": "all consumer credit cards",
+      "works": "N",
+      "channel": "online / app / phone / mail / branch",
+      "fee_usd": 0,
+      "limit_note": "no debit-card leg exists; phone/online payment requires a linked checking/savings account (ACH) only",
+      "codes_as": "unknown",
+      "as_of": "2026-09",
+      "evidence": "Capital One's own help-center content and third-party guides confirm debit-card and other-credit-card payments are not accepted toward a Capital One credit card bill; ACH from a bank account, mail, or in-person are the only funding rails.",
+      "url": "https://www.capitalone.com/help-center/credit-cards/payments-credit-card-support/"
+    },
+    {
+      "issuer": "American Express",
+      "cards": "all consumer/business cards",
+      "works": "N",
+      "channel": "online / phone / in person",
+      "fee_usd": 0,
+      "limit_note": "no debit-card leg exists; phone payment requires a bank routing/account number",
+      "codes_as": "unknown",
+      "as_of": "2026-09",
+      "evidence": "Amex does not accept a debit card as a bill-payment instrument by any direct channel; phone payment requires entering a bank account and routing number, not a card number. Indirect debit routing is only possible through a third-party biller like doxo.",
+      "url": "https://www.americanexpress.com/us/customer-service/faq.make-payment.html"
+    },
+    {
+      "issuer": "Synchrony",
+      "cards": "store cards (JCPenney, HSN, Sam's Club, etc.)",
+      "works": "Y",
+      "channel": "online (Pay as Guest) / phone",
+      "fee_usd": 0,
+      "limit_note": "direct debit-card payment via 'Pay as Guest'/'Pay Without Log In'; another credit card is not accepted",
+      "codes_as": "unknown",
+      "as_of": "2026-09",
+      "evidence": "Synchrony's own site offers a guest-payment flow that explicitly takes a debit card or bank account; phone payment with a rep can also take a debit card. Third-party biller doxo is a separate, fee-bearing route.",
+      "url": "https://www.synchrony.com/consumer-resources/pay-as-guest"
+    },
+    {
+      "issuer": "Sam's Club Credit (Synchrony-issued)",
+      "cards": "Sam's Club Mastercard / Credit card",
+      "works": "Y",
+      "channel": "store register (Sam's Club or Walmart) / phone / online",
+      "fee_usd": 0,
+      "limit_note": "cash/debit at register gives immediate open-to-buy restoration vs 7-14 day hold for checks; register no longer takes payment at the Membership Desk, must use checkout register; Direct Credit accounts must pay by mail only",
+      "codes_as": "unknown",
+      "as_of": "2026-09",
+      "evidence": "Sam's Club support pages confirm in-person debit/cash payment at any Sam's Club or Walmart register posts instantly; store-card-at-register payment is one of the clearest 'pay a credit-style card at a register with a debit card' patterns the MS community watches for.",
+      "url": "https://help.samsclub.com/app/answers/detail/a_id/1551/~/accepted-payment-methods---sams-club"
+    },
+    {
+      "issuer": "CheckFreePay (Fiserv)",
+      "cards": "third-party in-person bill pay network, used to fund many credit-card issuers' bills",
+      "works": "mixed",
+      "channel": "in-person at agent locations (grocery/pharmacy chains)",
+      "fee_usd": 0,
+      "limit_note": "network is built around cash/debit; direct credit-card funding of the bill is generally not supported, cash and debit are the emphasized rails",
+      "codes_as": "bill-pay",
+      "as_of": "2026-09",
+      "evidence": "CheckFreePay is described as the largest US in-person bill-payment processor; it can post payment to nearly any Visa/Mastercard-issued credit card bill, but the FUNDING side (what you pay WITH) is cash/debit-oriented, not itself a credit card.",
+      "url": "https://www.checkfreepay.com/en/agents.html"
+    },
+    {
+      "issuer": "Western Union",
+      "cards": "bill-pay to registered billers, including credit cards",
+      "works": "Y",
+      "channel": "online / in person (cash)",
+      "fee_usd": 0,
+      "limit_note": "debit card linked to a US bank (or direct bank transfer) is treated as non-cash-advance and is the cost-effective route; fee varies by biller/amount",
+      "codes_as": "bill-pay",
+      "as_of": "2026-09",
+      "evidence": "Western Union's own bill-pay FAQ states debit-card funding avoids the cash-advance fee/interest that a credit card funding source would trigger, making it a candidate 'debit funds credit-card bill' rail.",
+      "url": "https://wallethub.com/answers/cc/can-you-use-a-credit-card-for-western-union-2140885868/"
+    },
+    {
+      "issuer": "MoneyGram",
+      "cards": "bill-pay to 13,000+ registered billers including credit cards",
+      "works": "Y",
+      "channel": "online / in person (cash)",
+      "fee_usd": 0,
+      "limit_note": "credit-card funding of a MoneyGram bill payment can trigger a cash-advance fee/interest from the card issuer; debit-card funding avoids that",
+      "codes_as": "bill-pay",
+      "as_of": "2026-09",
+      "evidence": "MoneyGram accepts Visa/Mastercard/Discover/Diners/UnionPay debit or credit as funding, or cash in person; the community-relevant path is debit-funds-credit-card-bill to avoid the cash-advance flag that a credit-funds-credit-card leg would create.",
+      "url": "https://www.moneygram.com/us/en/help-center/faq/services/bill-pay/what-payment-methods-can-i-use-when-making-a-bill-payment-with-moneygram"
+    },
+    {
+      "issuer": "Walmart MoneyCenter",
+      "cards": "in-store bill pay to many billers including credit cards",
+      "works": "Y",
+      "channel": "store register / MoneyCenter counter",
+      "fee_usd": 0,
+      "limit_note": "MoneyCenter is cash/debit-only for funding; no credit-card funding accepted at the counter",
+      "codes_as": "bill-pay",
+      "as_of": "2025",
+      "evidence": "Walmart's MoneyCenter explicitly serves 'cash-preferred and underbanked' customers who pay bills (including credit cards) with cash or a debit card; this is a straightforward debit-funds-any-credit-card-bill channel with no fee data captured.",
+      "url": "https://hostmerchantservices.com/articles/walmart-moneycenter-hours-and-services-a-comprehensive-guide/"
+    },
+    {
+      "issuer": "Plastiq",
+      "cards": "pays any billed vendor/credit-card style bill",
+      "works": "N",
+      "channel": "online",
+      "fee_usd": 0,
+      "limit_note": "flagged per prompt instructions: Plastiq funds a payment FROM a credit card (a credit rail), and separately offers ~1% debit-card funding that explicitly earns NO card rewards on the funding leg — so it does not stack Taekus rewards the way a native debit bill-pay channel would",
+      "codes_as": "unknown",
+      "as_of": "2026",
+      "evidence": "2026-era Plastiq pricing: ~2.9% flat fee to fund a payment with a credit card, or ~1% to fund with a debit card but with no points/rewards earned on that debit leg — makes it unsuitable for the debit-rewards-stacking play described in the task.",
+      "url": "https://www.faroway.ai/blog/plastiq-credit-card-payment-service-guide"
+    }
+  ],
+  "stopped_accepting": [
+    {
+      "issuer": "Citi (via specific debit/prepaid BINs, not a blanket policy)",
+      "when": "2024-09 through 2024-10 (TCB BIN 484224; Pathward gift/debit; Bancorp Visa BIN 542418)",
+      "scope": "Specific third-party-issued debit/prepaid BINs stopped clearing on Citi's phone-pay IVR; this is BIN-level attrition the community tracks continuously (thread is 119+ pages), not a single blanket 'Citi stopped debit' event",
+      "url": "https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards-119.html"
+    },
+    {
+      "issuer": "Citi Double Cash (personal)",
+      "when": "2026 (exact date not independently verified)",
+      "scope": "Task brief states a cardholder confirmed personal Citi Double Cash no longer accepts debit-card bill payment in 2026; searches of FlyerTalk/DoctorOfCredit/myFICO/Reddit summaries in this sweep did not surface a fetchable, dated forum post confirming the specific product, date, or scope beyond what the task brief already asserts. Flagged as UNVERIFIED by this research pass — needs a direct 2026 thread citation, not found despite repeated targeted searches.",
+      "url": "https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards.html"
+    }
+  ],
+  "new_card_leads": [
+    {
+      "card": "APMEX 'The Bullion' card",
+      "issuer": "APMEX (precious metals dealer co-brand)",
+      "why_interesting": "4% back on APMEX purchases via waitlist card, but APMEX adds a credit-card surcharge that DoctorOfCredit says largely offsets the 4%",
+      "url": "https://www.doctorofcredit.com/apmex-to-launch-the-bullion-credit-card-4-back-at-apmex/"
+    },
+    {
+      "card": "Taekus personal/business/corporate debit",
+      "issuer": "Taekus (bank partner: Stearns Bank NA, via program manager GoGreen FI LLC)",
+      "why_interesting": "Interchange-share model, sub-$10B bank so exempt from Durbin cap, full interchange passthrough claimed; invite-only, reward rate reported as highly variable by merchant (near-0% on cash-like reloads up to ~2% on some categories)",
+      "url": "https://www.consumerfinance.gov/data-research/prepaid-accounts/search-agreements/detail/254969/"
+    }
+  ],
+  "ms_criteria": [
+    {
+      "topic": "Financial Review (FR)",
+      "what_they_look_for": "An account frozen/flagged by the issuer for review, usually triggered by abnormal spending behavior relative to the cardholder's normal profile",
+      "why": "An FR can freeze pending rewards/points and block further spend, so the community treats avoiding FR triggers as a primary risk-management goal",
+      "url": "https://churning.rankt.com/glossary/"
+    },
+    {
+      "topic": "5/24 and application velocity",
+      "what_they_look_for": "Chase auto-denies new-card applicants with 5+ new accounts (any issuer) opened in the trailing 24 months; the community times applications around this and similar issuer-specific velocity rules",
+      "why": "Velocity of NEW ACCOUNTS (not just spend) is itself a risk signal issuers and the community both track, separate from spend-based shutdown risk",
+      "url": "https://churning.rankt.com/glossary/"
+    },
+    {
+      "topic": "Manufactured Spending (MS) definition",
+      "what_they_look_for": "Using a rewards card to buy cash-equivalents (gift cards, money orders, prepaid loads, gold bars) that can be liquidated back to cash/bill-pay near face value, to earn rewards without real net spend",
+      "why": "This is the core mechanic the whole community optimizes; net cost = fees + spread - rewards, and the entire evaluation framework is built around minimizing that net cost per dollar of spend",
+      "url": "https://milestomemories.com/money-orders-manufactured-spend/"
+    },
+    {
+      "topic": "Structuring / SAR / CTR",
+      "what_they_look_for": "Deliberately keeping cash-equivalent transactions under the $10,000 CTR reporting threshold to avoid a Currency Transaction Report is itself a federal crime (structuring), regardless of whether the underlying funds are legitimate; banks that spot patterns must file a Suspicious Activity Report (SAR)",
+      "why": "High-volume/high-dollar MS (like $10k-50k/month gold buys) is exactly the profile that risks tripping CTR/SAR-adjacent scrutiny if payment patterns look designed to stay under thresholds",
+      "url": "https://www.goldinglawyers.com/structuring-cash-transactions/"
+    },
+    {
+      "topic": "US Bank hostility to MS",
+      "what_they_look_for": "US Bank (and its Elan-issued partner cards) are described by the community as broadly MS-unfriendly, with cross-product bans once one card is shut down",
+      "why": "One user reported denial on a US Bank Smartly application specifically because of a prior Fidelity 2% (Elan-issued) card shutdown, i.e. 'Elan is owned by US Bank and they levied a ban for all products' — issuer-family-wide blacklisting, not just single-card",
+      "url": "https://www.flyertalk.com/forum/manufactured-spending/2182227-shutdown-thread-2025-onwards.html"
+    },
+    {
+      "topic": "Amex shutdown rumblings tied to specific apps/services",
+      "what_they_look_for": "Community monitors real-time 'shutdown wave' reports and tries to attribute the trigger (e.g. a specific third-party cashback app) rather than assuming general MS caused it",
+      "why": "Attributing shutdown waves to a specific app/service (here, 'Fluz-related') lets the community keep using other channels while avoiding the flagged one",
+      "url": "https://www.flyertalk.com/forum/manufactured-spending/2182227-shutdown-thread-2025-onwards.html"
+    },
+    {
+      "topic": "Gold-buy shutdown risk factors",
+      "what_they_look_for": "Community view (msp3, responding to hotpancakes' question about Costco gold-bar shutdown risk) is that risk scales with behaviors like maxing out per-membership order limits repeatedly and using deferred-interest/pay-over-time financing (e.g. Chase Pay Over Time) on large gold purchases, more than the raw dollar volume itself",
+      "why": "Distinguishes 'large legitimate purchase' from 'pattern that looks like spend gaming' in the issuer's eyes — maxing limits + financing large purchases reads as manufactured/abusive even if gold itself isn't excluded",
+      "url": "https://www.flyertalk.com/forum/manufactured-spending/2182227-shutdown-thread-2025-onwards.html"
+    },
+    {
+      "topic": "Coding/MCC changes as play-killers",
+      "what_they_look_for": "The community watches for a merchant's MCC reclassification, a card's terms rewrite, or a newly added spend cap as the concrete events that kill a play, more than any specific dollar threshold",
+      "why": "A play dies not from being 'too large' in the abstract but from a specific, datable coding/terms change (e.g. an issuer excluding MCC 5300 from a bonus category, or a debit BIN losing IVR compatibility) — hence the community's obsession with dated, BIN/MCC-specific data points over general advice",
+      "url": "https://www.cardratings.com/cashback/understand-rewards-exclusions-merchant-category-codes-to-earn-top-rewards"
+    }
+  ],
+  "gold_costco_notes": [
+    {
+      "note": "Costco is MCC 5300 (Wholesale Club); most cards' 'grocery' bonus categories explicitly EXCLUDE Superstores/Warehouse Clubs, so gold at Costco earns only the card's generic/base rate unless the card has a Costco-specific bonus",
+      "url": "https://www.cardratings.com/cashback/understand-rewards-exclusions-merchant-category-codes-to-earn-top-rewards"
+    },
+    {
+      "note": "Stacking play the community describes: Costco Executive Membership's 2% annual reward (capped) on qualifying purchases including gold, PLUS the card's own cash back (e.g. Costco Anywhere Visa by Citi 2%), reported to reach up to ~4% combined effective back on a gold purchase",
+      "url": "https://findbullionprices.com/blog/costco-gold-rewards-credit-card-membership-math/"
+    },
+    {
+      "note": "In-warehouse Costco register is Visa-only; Costco.com accepts Visa and Mastercard, which shapes which card can even be used for the buy leg (relevant to non-Visa MS workarounds like buying then returning)",
+      "url": "https://www.thepointspage.com/striking-gold-at-costco-points-miles-and-cash-from-1oz-metals/"
+    },
+    {
+      "note": "Community risk framing (FlyerTalk Shutdown Thread, Jan 2025): buying gold bars at Costco itself isn't flagged as inherently dangerous; risk instead comes from maxing per-membership order limits repeatedly and using deferred/pay-over-time financing (e.g. Chase Pay Over Time) on large gold purchases",
+      "url": "https://www.flyertalk.com/forum/manufactured-spending/2182227-shutdown-thread-2025-onwards.html"
+    },
+    {
+      "note": "Non-Costco bullion-dealer data point: one dealer added a 2% credit-card surcharge on gold purchases, which can fully offset a 2% rewards card's earn — the 'no free money' warning applies broadly to bullion MS, not just Costco",
+      "url": "https://www.flyertalk.com/forum/manufactured-spending/1173266-buying-gold-coins-bars-cc.html"
+    },
+    {
+      "note": "Resale/unwind economics warning repeated across sources: gold markets are efficient, dealer bid/ask spreads (one data point: ~5% buy/sell spread on a common 1oz coin) and platform fees on resale can erase the card-rewards margin unless spot price also moves favorably between buy and sell",
+      "url": "https://www.flyertalk.com/forum/manufactured-spending/1173266-buying-gold-coins-bars-cc-6.html"
+    },
+    {
+      "note": "No FlyerTalk/community source found in this sweep that states Costco gold bars carry an explicit per-membership unit cap in the MS threads themselves (retail listings elsewhere show per-drop limits like 'max 5 units' on some bar sizes, but that's retail stock-limiting, not a card-issuer rule)",
+      "url": "https://www.flyertalk.com/forum/manufactured-spending/2158195-costco-ms.html"
+    }
+  ],
+  "taekus_notes": [
+    {
+      "note": "Taekus operates on an interchange-share model across personal/business/corporate prepaid debit products; its issuing bank (Stearns Bank NA, program manager GoGreen FI LLC) reportedly has under $10B in assets, exempting it from the Durbin interchange cap, which the community cites as the structural reason it can pay outsized debit rewards",
+      "url": "https://www.consumerfinance.gov/data-research/prepaid-accounts/search-agreements/detail/254969/"
+    },
+    {
+      "note": "myFICO thread reports HIGHLY VARIABLE real-world reward rates by merchant type: an Amazon reload earned 0% cash back, misc purchases 'very little', but a hotel purchase earned about 2% — no single headline rate confirmed, and no post in this sweep confirmed rewards specifically posting on a credit-card BILL-PAYMENT transaction",
+      "url": "https://ficoforums.myfico.com/t5/Credit-Cards/Secret-invite-only-cards-What-s-the-deal-with-Taekus/td-p/6750147"
+    },
+    {
+      "note": "Described elsewhere as supporting a 'micropayments' mechanism where a 14-cent transaction reportedly nets a 9-cent rebate — an extreme, likely edge-case/promotional data point rather than the sustained effective rate on normal-sized spend; treat as unverified/anecdotal",
+      "url": "https://ficoforums.myfico.com/t5/Credit-Cards/Secret-invite-only-cards-What-s-the-deal-with-Taekus/td-p/6750147"
+    },
+    {
+      "note": "myFICO moderator/participants describe Taekus as 'shadowy' and invite-only, flagging skepticism due to its small total funding (~$6-6.4M) relative to competitor fintechs — a caution about counterparty/longevity risk, not a confirmed shutdown",
+      "url": "https://ficoforums.myfico.com/t5/Credit-Cards/Secret-invite-only-cards-What-s-the-deal-with-Taekus/td-p/6750147"
+    },
+    {
+      "note": "No thread found in this sweep (FlyerTalk, myFICO, DoctorOfCredit, FrequentMiler, or search-surfaced Reddit content) that explicitly states whether Taekus rewards are excluded as an AFT (MCC 6012/6051) when used to fund a credit-card bill payment specifically, nor any documented monthly/per-transaction reward cap — this remains an open question after the sweep",
+      "url": "https://ficoforums.myfico.com/t5/Credit-Cards/Secret-invite-only-cards-What-s-the-deal-with-Taekus/td-p/6750147"
+    },
+    {
+      "note": "No shutdown/closure reports for Taekus accounts were found in any searched community in this sweep; the only 2026 Taekus community sighting found was a planned first public conference appearance (COO Kat Lin) at a Feb 2025 NYC points/miles conference, not a shutdown event",
+      "url": "https://www.flyertalk.com/forum/external-miles-points-resources/2183961-pointsquest-2025-o-nyc-s-ultimate-points-miles-conference.html"
+    }
+  ],
+  "confidence": "low"
+}

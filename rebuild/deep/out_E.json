@@ -1,0 +1,312 @@
+[
+ {
+  "card": "GM Business Mastercard",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "N",
+  "fee_usd": 0,
+  "fx_pct": 3.0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {
+    "name": "Base (7x GM / 3x everything else)",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 3.0,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "costco_ok": "N",
+  "special": [
+   {
+    "kind": "cost",
+    "text": "Points are NOT cash: redeem only in-dealer toward GM vehicles, GM Financial balance, parts, service, OnStar. No statement credit."
+   },
+   {
+    "kind": "costco",
+    "text": "Mastercard is not accepted at US Costco warehouse registers; Costco.com only (online bars run ~$20/bar dearer, ~0.5%)."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Business card (World Elite Mastercard for Business); needs a business/sole-prop; issued by Barclays since 8/22/2025 (ex-Marcus/Goldman)."
+   },
+   {
+    "kind": "tip",
+    "text": "Worth 3.0% ONLY if you will buy/lease/service a GM vehicle; no earning cap per Barclays. Otherwise 0% cash value."
+   },
+   {
+    "kind": "limit",
+    "text": "Barclays does not accept debit-card bill payments (ACH/bank only) - no Taekus stack."
+   },
+   {
+    "kind": "risk",
+    "text": "Per-transaction / daily limits not published; set by credit line. Business-redemption rules from Barclays T&C not fully readable (unverified)."
+   }
+  ],
+  "real10_pct": 0.0,
+  "real50_pct": 0.0,
+  "confidence": "med",
+  "sources": [
+   "https://cards.barclaycardus.com/banking/cards/general-motors-business/",
+   "https://cards.barclaycardus.com/banking/cards/faqs/general-motors-faq/",
+   "https://experience.gm.com/support/account/rewards/business-card",
+   "https://www.doctorofcredit.com/barclays-gm-business-card-100000-point-bonus/",
+   "https://wallethub.com/answers/cc/pay-barclay-card-with-debit-card-1000333-2140756655/"
+  ]
+ },
+ {
+  "card": "GM Rewards Mastercard",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "N",
+  "fee_usd": 0,
+  "fx_pct": 3.0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {
+    "name": "Base (7x GM / 3x everything else)",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 3.0,
+    "reward_cap_month_usd": 21,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "costco_ok": "N",
+  "special": [
+   {
+    "kind": "cap",
+    "text": "Cash route = statement credit capped at $250 of points value PER YEAR (~$21/mo). Everything above that is GM-only points."
+   },
+   {
+    "kind": "cost",
+    "text": "Points otherwise redeem 1c only toward GM vehicle/lease, CPO (max $1,000/yr), GM Financial balance, parts, service, OnStar."
+   },
+   {
+    "kind": "costco",
+    "text": "Mastercard is not accepted at US Costco warehouse registers; Costco.com only (online bars ~$20/bar dearer, ~0.5%)."
+   },
+   {
+    "kind": "limit",
+    "text": "Barclays does not accept debit-card bill payments (ACH/bank only) - no Taekus stack."
+   },
+   {
+    "kind": "tip",
+    "text": "3.0% real only if you will buy/lease/service a GM vehicle; issuer moved Marcus/Goldman -> Barclays 8/22/2025, 3% FX."
+   },
+   {
+    "kind": "risk",
+    "text": "$250/yr statement-credit cap is from U.S. News review; GM program-rules page blocked (403) - verify on GM site."
+   }
+  ],
+  "real10_pct": 0.21,
+  "real50_pct": 0.04,
+  "confidence": "med",
+  "sources": [
+   "https://cards.barclaycardus.com/banking/cards/general-motors/",
+   "https://experience.gm.com/rewards/gmrewardscard/program-rules",
+   "https://money.usnews.com/credit-cards/barclaycard/my-gm-rewards-mastercard",
+   "https://cards.barclaycardus.com/banking/cards/faqs/general-motors-faq/",
+   "https://www.paymentsdive.com/news/barclays-replaces-goldman-sachs-as-gm-card-issuer/729730/"
+  ]
+ },
+ {
+  "card": "Robinhood Gold Card",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "N",
+  "fee_usd": 50,
+  "fx_pct": 3.0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {
+    "name": "Robinhood Gold ($50/yr) - required",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 3.0,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 4.17
+   }
+  ],
+  "costco_ok": "?",
+  "special": [
+   {
+    "kind": "risk",
+    "text": "Rewards terms EXCLUDE 'purchases of precious metals including gold and U.S. Mint coins' and 'business-type transactions (reselling)'."
+   },
+   {
+    "kind": "risk",
+    "text": "Explicit 'manufacturing spend' clause: Robinhood may deny/remove points, cancel card. DoC: reader reprimanded for gift-card/business-like buys."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Still waitlist / gradual rollout (Sep 2026); must hold annual Gold ($50/yr); no way to apply directly."
+   },
+   {
+    "kind": "cost",
+    "text": "Full 1c/pt only into Robinhood brokerage (or crypto/travel/gift cards); statement credit pays LESS than 1c."
+   },
+   {
+    "kind": "cost",
+    "text": "3% FX fee for accounts opened on/after 7/1/2026 (older accounts 0%); domestic Costco unaffected."
+   },
+   {
+    "kind": "costco",
+    "text": "Visa Signature works at warehouse register; MCC 5300 hides item detail so 3% should post, but gold is a named exclusion."
+   },
+   {
+    "kind": "limit",
+    "text": "No debit-card bill pay (bank/Robinhood balance only). Credit line auto-set, no manual increases; no published txn/daily cap."
+   }
+  ],
+  "real10_pct": 3.0,
+  "real50_pct": 3.0,
+  "confidence": "med",
+  "sources": [
+   "https://robinhood.com/creditcard",
+   "https://api.robinhood.com/creditcard/legal/reward-terms",
+   "https://robinhood.com/us/en/support/articles/robinhood-gold-card-faq/",
+   "https://robinhood.com/us/en/support/articles/robinhood-gold-card-waitlist/",
+   "https://robinhood.com/us/en/support/articles/robinhood-gold-card-rewards/",
+   "https://www.doctorofcredit.com/robinhood-credit-card-full-details-3x-on-all-purchases-no-cap/"
+  ]
+ },
+ {
+  "card": "Venmo Credit Card",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "Y",
+  "fee_usd": 0,
+  "fx_pct": 0.0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {
+    "name": "3% top category / 2% second / 1% rest (auto per statement)",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 3.0,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "costco_ok": "Y",
+  "special": [
+   {
+    "kind": "costco",
+    "text": "Venmo's Grocery category explicitly includes wholesale clubs (Costco); Visa Signature accepted at the warehouse register."
+   },
+   {
+    "kind": "tip",
+    "text": "3% goes to whichever eligible category is #1 each statement period, auto-detected; any Costco-heavy month makes Grocery #1."
+   },
+   {
+    "kind": "cap",
+    "text": "No cap: the old $10,000 cap on 3%/2% categories was removed Oct 16, 2021 ('unlimited 3%')."
+   },
+   {
+    "kind": "tip",
+    "text": "Synchrony takes payments by phone (855-878-6462); Medi's Venmo/Taekus stack already proven - debit rail Y (not on public pages)."
+   },
+   {
+    "kind": "risk",
+    "text": "Synchrony is quick to cut lines / close accounts on heavy or unusual spend; $50k/mo needs a high line plus mid-cycle payments."
+   },
+   {
+    "kind": "cost",
+    "text": "Cash back lands in Venmo balance 1-3 days after statement close; both Venmo app and card must stay open/linked."
+   },
+   {
+    "kind": "risk",
+    "text": "Cash-equivalent / gift-card exclusion text not readable (Synchrony terms page 403) - unverified."
+   }
+  ],
+  "real10_pct": 3.0,
+  "real50_pct": 3.0,
+  "confidence": "high",
+  "sources": [
+   "https://venmo.com/about/creditcard",
+   "https://help.venmo.com/cs/articles/venmo-credit-card-rewards-program-vhel325",
+   "https://help.venmo.com/cs/articles/making-a-payment-to-your-venmo-credit-card-bill-vhel324",
+   "https://www.doctorofcredit.com/venmo-lifts-10000-cap-on-3-2-categories/",
+   "https://www.nerdwallet.com/reviews/credit-cards/venmo-credit-card",
+   "https://upgradedpoints.com/credit-cards/reviews/venmo-credit-card/"
+  ]
+ },
+ {
+  "card": "Citi Strata Elite",
+  "us_ok": "Y",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "fee_usd": 595,
+  "fx_pct": 0.0,
+  "extra_cost_pct": 0,
+  "txn_max_usd": null,
+  "daily_max_usd": null,
+  "tiers": [
+   {
+    "name": "Base 1.5x ThankYou on all other purchases",
+    "min_spend_month_usd": null,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 1.125,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 49.58
+   }
+  ],
+  "costco_ok": "N",
+  "special": [
+   {
+    "kind": "cost",
+    "text": "1.5x base confirmed; but Strata Elite cashes out at only 0.75c/pt (statement credit, direct deposit, check) = 1.125% cash."
+   },
+   {
+    "kind": "tip",
+    "text": "1.5x reaches ~2.85% only via airline/hotel transfer partners (AA, JetBlue, Virgin, etc.) at ~1.9c - miles, not cash."
+   },
+   {
+    "kind": "costco",
+    "text": "Mastercard is not accepted at US Costco warehouse registers; Costco.com only (online bars ~$20/bar dearer, ~0.5%)."
+   },
+   {
+    "kind": "cost",
+    "text": "$595 annual fee (~0.5% of $120k/yr spend); credits ($300 hotel, $200 Splurge, $200 Blacklane) are travel-only offsets."
+   },
+   {
+    "kind": "tip",
+    "text": "Citi accepts debit-card payments by PHONE only (800-950-5114), posts immediately - Taekus stack works."
+   },
+   {
+    "kind": "risk",
+    "text": "No published per-txn/daily cap; Citi flags cash-equivalent MCCs but Costco.com bars post as 5300 - fine."
+   }
+  ],
+  "real10_pct": 1.125,
+  "real50_pct": 1.125,
+  "confidence": "high",
+  "sources": [
+   "https://www.citi.com/credit-cards/citi-strata-elite-credit-card",
+   "https://www.citi.com/credit-cards/money-management/citi-thankyou-rewards-faqs",
+   "https://www.cnbc.com/select/citi-thankyou-points-worth-how-to-earn/",
+   "https://upgradedpoints.com/news/citi-reduce-value-points-redemption-statement-credit/",
+   "https://wallethub.com/answers/cc/pay-citibank-credit-card-with-a-debit-card-1000333-2140756675/"
+  ]
+ }
+]

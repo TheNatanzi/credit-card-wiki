@@ -1,0 +1,35 @@
+[
+ {
+  "card": "Capital on Tap Business (US)",
+  "issuer": "Capital on Tap / WebBank",
+  "product": "credit",
+  "biz": "B",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "Y",
+  "source": "https://www.capitalontap.com/us/faq/",
+  "why": "Flat 1.5% all-spend on Visa; 2% if weekly autopay set up; bill payable by debit card"
+ },
+ {
+  "card": "Alliant Cashback Visa Signature",
+  "issuer": "Alliant CU",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "visa",
+  "debit_pay": "Y",
+  "source": "https://money.usnews.com/credit-cards/alliant-credit-union/alliant-cashback-visa-signature-card",
+  "why": "Flat 2.5% on first $10k/cycle with qualifying Alliant checking, no exclusion; 1.5% without; debit-pay OK"
+ },
+ {
+  "card": "Target Circle Card (Credit / Mastercard)",
+  "issuer": "TD Bank",
+  "product": "credit",
+  "biz": "P",
+  "status": "active",
+  "network": "mastercard",
+  "debit_pay": "Y",
+  "source": "https://www.target.com/circlecard",
+  "why": "Flat 1% (GiftCard) at Costco; 5% off is Target only; bill payable by debit at Target register"
+ }
+]
