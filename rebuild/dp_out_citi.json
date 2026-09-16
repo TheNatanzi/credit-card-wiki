@@ -6,7 +6,7 @@
   "fee_usd": null,
   "posts_as": "unknown",
   "changed": "~2026-09 (exact change date not published; cardholder confirmed 2026-09-15)",
-  "note": "Cardholder-confirmed 9/15/26: personal Double Cash no longer takes debit by phone. Fits Citi's 2026 per-product IVR rollback (Costco personal cut ~Apr 2026 first).",
+  "note": "Cardholder-confirmed 9/15/26: personal Double Cash no longer takes debit by phone. Cardholder-verified 2026. NOTE: the 'Costco personal cut ~Apr' FlyerTalk post is dated 2022, not 2026 — corrected 2026-09-16.",
   "confidence": "high",
   "sources": ["https://www.citi.com/credit-cards/citi-double-cash-credit-card", "https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards.html"]
  },
@@ -16,8 +16,8 @@
   "channel": "none",
   "fee_usd": null,
   "posts_as": "unknown",
-  "changed": "~2026-04",
-  "note": "FlyerTalk report Apr 2026: phone IVR stopped offering debit option for Citi Costco personal card, goes straight to bank-account choice now.",
+  "changed": "~2022-04",
+  "note": "FlyerTalk report Apr 2022: phone IVR stopped offering debit option for Citi Costco personal card, goes straight to bank-account choice now.",
   "confidence": "med",
   "sources": ["https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards.html", "https://www.citi.com/credit-cards/costco-anywhere-visa-card"]
  },
@@ -28,7 +28,7 @@
   "fee_usd": null,
   "posts_as": "unknown",
   "changed": "no change found (unconfirmed for this exact product)",
-  "note": "No 2026 report found for the business variant specifically. Personal Costco sibling was cut ~Apr 2026; business likely follows but unverified. Also subject to Jan 30 2026 ban on paying with a commercial debit card, separately.",
+  "note": "No 2026 report found for the business variant specifically. Personal Costco sibling was cut ~Apr 2022; business likely follows but unverified. Also subject to Jan 30 2026 ban on paying with a commercial debit card, separately.",
   "confidence": "low",
   "sources": ["https://www.citi.com/credit-cards/costco-anywhere-visa-business-card", "https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards.html"]
  },
@@ -38,8 +38,8 @@
   "channel": "none",
   "fee_usd": null,
   "posts_as": "unknown",
-  "changed": "~2026-04",
-  "note": "Same product as 'Costco Anywhere Visa' row (personal). FlyerTalk report Apr 2026: phone IVR no longer offers debit option, bank-account only.",
+  "changed": "~2022-04",
+  "note": "Same product as 'Costco Anywhere Visa' row (personal). FlyerTalk report Apr 2022: phone IVR no longer offers debit option, bank-account only.",
   "confidence": "med",
   "sources": ["https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards.html", "https://www.citi.com/credit-cards/costco-anywhere-visa-card"]
  },
@@ -159,8 +159,8 @@
   "channel": "unknown",
   "fee_usd": null,
   "posts_as": "unknown",
-  "changed": "reported still working as of ~Apr 2026, unconfirmed since",
-  "note": "Same FlyerTalk report that caught Costco losing debit-pay (~Apr 2026) said Custom Cash still worked then; given Citi cut 2 more products since, don't assume that's still true 9/15/26. Also: new applications closed 5/28/26 (existing cardmembers unaffected by that specifically).",
+  "changed": "reported still working as of ~Apr 2022, unconfirmed since",
+  "note": "Same FlyerTalk report that caught Costco losing debit-pay (~Apr 2022) said Custom Cash still worked then; given Citi cut 2 more products since, don't assume that's still true 9/15/26. Also: new applications closed 5/28/26 (existing cardmembers unaffected by that specifically).",
   "confidence": "low",
   "sources": ["https://www.flyertalk.com/forum/manufactured-spending/1550209-paying-citi-cards-debit-cards-including-prepaid-debit-cards.html", "https://money.usnews.com/credit-cards/citi/citi-custom-cash-card"]
  },

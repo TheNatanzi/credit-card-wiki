@@ -27,13 +27,30 @@ r/manufacturedspending are an open gap. Raw output: `rebuild/ms_doc.json`, `rebu
 ### The Citi story (most important)
 - **2026-01-30** Citi blocked **commercial and business debit cards** as a payment source on *any* Citi account.
 - **Consumer/personal debit still worked** by phone as of a March 2026 report.
-- **~April 2026** the **Costco Anywhere Visa** phone menu stopped offering debit at all and routes straight to ACH.
-- **Citi Custom Cash still worked** on the same account at that time, so this is per-product, not account-wide.
+- ~~**~April 2026** the **Costco Anywhere Visa** phone menu stopped offering debit.~~ **DATING ERROR, corrected 2026-09-16.**
+  The FlyerTalk post is #1546, dated **Apr 23, 2022** — verified by reading the page timestamp directly. A web-search AI summary invented the 2026 date.
+  So Costco Anywhere losing the IVR option is a **2022** event, four years stale, and it does not conflict with Medi's ruling that the rail works for him today.
+- **Citi Custom Cash still worked** on the same account at that time (also 2022), so this is per-product, not account-wide.
+- **The megathread is CLOSED** at page 120, last post Apr 26 2026, locked. There is **no community source for Citi debit-pay after May 2026**.
+- **Real 2026 Citi evidence is thin:** the 1/30/2026 commercial-debit ban (quoted from a Citi account message, posted Mar 15) and one dated first-hand report on Mar 17 that consumer personal-checking debit still worked. That report never names a product.
 - **2026-09-15** Medi confirmed **Double Cash** personal no longer takes debit.
 - Standing Citi rules: name on the debit card must match the account, **one debit payment per card per account per day**, $10 minimum.
 - Prepaid and gift-card-funded debit BINs were purged in waves from Sept 2024 onward.
 
 **Consequence for us: Taekus sells personal, business and corporate cards. Only a PERSONAL Taekus card has any chance at Citi.**
+
+### ⚠ The threat to the whole 1.80 stack (found 2026-09-16)
+
+The megathread's own wiki lists the debit cards that **work** at Citi — and annotates several of them **"no miles"**, **"no cb"**, **"no 1% cb"** (Alaska, SunTrust, UFB Direct, M1 Plus, PayPal Business).
+
+That means: on the cards where people actually proved the rail works, **the paying debit card earned nothing.**
+
+This lines up with the two independent negatives already in the wiki:
+- Taekus paid roughly **0%** on an Amazon reload.
+- The payment likely codes as an **AFT** (Account Funding Transaction, MCC 6012/6051), which rewards programs almost always exclude.
+
+So "the rail works" and "the rail pays 1.80%" are **two separate questions**, and the second one has more evidence against it than for it. The live $5 test answers the one that matters.
+
 
 ---
 

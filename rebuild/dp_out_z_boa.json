@@ -1,0 +1,301 @@
+[
+ {
+  "card": "BofA Business Advantage Travel Rewards",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found; Aug 2025 Bill Pay -> Pay & Transfer migration kept bank-account-only funding",
+  "as_of": "2026-09",
+  "method": "Part 2 #2 (issuer's own payment/FAQ pages, exhaustive 5-option list) + Online Banking Service Agreement funding terms; #1 cardmember agreement PDF is silent on tender",
+  "prior_research": "none found for BoA; FlyerTalk megathread 1550209 is Citi-only, DoC has no BoA debit-pay post, WalletHub says no (corroboration only)",
+  "phone_to_check": "888.306.4949 (business cards)",
+  "note": "Same BoA rail; business cards are also barred from ATM payments. The official 5-option list funds only from checking/savings, check or cash, and the Online Banking Agreement limits card payments to asset accounts. No debit tender.",
+  "confidence": "med",
+  "sources": [
+   "https://www.bankofamerica.com/banking-information/assistance/credit-cards/making-credit-card-payments/",
+   "https://www.bankofamerica.com/credit-cards/credit-card-payments-statements-faq/",
+   "https://www.bankofamerica.com/online-banking/service-agreement.go",
+   "https://wallethub.com/answers/cc/pay-bank-of-america-credit-card-with-debit-card-1000333-2140756654/"
+  ]
+ },
+ {
+  "card": "BofA Business Advantage Unlimited Cash Rewards",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found; Aug 2025 Bill Pay -> Pay & Transfer migration kept bank-account-only funding",
+  "as_of": "2026-09",
+  "method": "Part 2 #2 (issuer's own payment/FAQ pages, exhaustive 5-option list) + Online Banking Service Agreement funding terms; #1 cardmember agreement PDF is silent on tender",
+  "prior_research": "none found for BoA; FlyerTalk megathread 1550209 is Citi-only, DoC has no BoA debit-pay post, WalletHub says no (corroboration only)",
+  "phone_to_check": "888.306.4949 (business cards)",
+  "note": "Same BoA rail; business cards are also barred from ATM payments. The official 5-option list funds only from checking/savings, check or cash, and the Online Banking Agreement limits card payments to asset accounts. No debit tender.",
+  "confidence": "med",
+  "sources": [
+   "https://www.bankofamerica.com/banking-information/assistance/credit-cards/making-credit-card-payments/",
+   "https://www.bankofamerica.com/credit-cards/credit-card-payments-statements-faq/",
+   "https://www.bankofamerica.com/online-banking/service-agreement.go",
+   "https://wallethub.com/answers/cc/pay-bank-of-america-credit-card-with-debit-card-1000333-2140756654/"
+  ]
+ },
+ {
+  "card": "Bank of America Travel Rewards",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found; Aug 2025 Bill Pay -> Pay & Transfer migration kept bank-account-only funding",
+  "as_of": "2026-09",
+  "method": "Part 2 #2 (issuer's own payment/FAQ pages, exhaustive 5-option list) + Online Banking Service Agreement funding terms; #1 cardmember agreement PDF is silent on tender",
+  "prior_research": "none found for BoA; FlyerTalk megathread 1550209 is Citi-only, DoC has no BoA debit-pay post, WalletHub says no (corroboration only)",
+  "phone_to_check": "855.891.3401 / 800.236.6497 (consumer cards)",
+  "note": "BoA's own pages enumerate all 5 payment channels (online/app, ATM, phone, branch, mail); each funds from a checking/savings account, check or cash. The Online Banking Agreement limits card payments to asset accounts. No debit tender anywhere.",
+  "confidence": "med",
+  "sources": [
+   "https://www.bankofamerica.com/banking-information/assistance/credit-cards/making-credit-card-payments/",
+   "https://www.bankofamerica.com/credit-cards/credit-card-payments-statements-faq/",
+   "https://www.bankofamerica.com/online-banking/service-agreement.go",
+   "https://wallethub.com/answers/cc/pay-bank-of-america-credit-card-with-debit-card-1000333-2140756654/"
+  ]
+ },
+ {
+  "card": "Bank of America Unlimited Cash Rewards",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found; Aug 2025 Bill Pay -> Pay & Transfer migration kept bank-account-only funding",
+  "as_of": "2026-09",
+  "method": "Part 2 #2 (issuer's own payment/FAQ pages, exhaustive 5-option list) + Online Banking Service Agreement funding terms; #1 cardmember agreement PDF is silent on tender",
+  "prior_research": "none found for BoA; FlyerTalk megathread 1550209 is Citi-only, DoC has no BoA debit-pay post, WalletHub says no (corroboration only)",
+  "phone_to_check": "855.891.3401 / 800.236.6497 (consumer cards)",
+  "note": "BoA's own pages enumerate all 5 payment channels (online/app, ATM, phone, branch, mail); each funds from a checking/savings account, check or cash. The Online Banking Agreement limits card payments to asset accounts. No debit tender anywhere.",
+  "confidence": "med",
+  "sources": [
+   "https://www.bankofamerica.com/banking-information/assistance/credit-cards/making-credit-card-payments/",
+   "https://www.bankofamerica.com/credit-cards/credit-card-payments-statements-faq/",
+   "https://www.bankofamerica.com/online-banking/service-agreement.go",
+   "https://wallethub.com/answers/cc/pay-bank-of-america-credit-card-with-debit-card-1000333-2140756654/"
+  ]
+ },
+ {
+  "card": "Bank of America Premium Rewards",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found; Aug 2025 Bill Pay -> Pay & Transfer migration kept bank-account-only funding",
+  "as_of": "2026-09",
+  "method": "Part 2 #2 (issuer's own payment/FAQ pages, exhaustive 5-option list) + Online Banking Service Agreement funding terms; #1 cardmember agreement PDF is silent on tender",
+  "prior_research": "none found for BoA; FlyerTalk megathread 1550209 is Citi-only, DoC has no BoA debit-pay post, WalletHub says no (corroboration only)",
+  "phone_to_check": "855.891.3401 / 800.236.6497 (consumer cards)",
+  "note": "BoA's own pages enumerate all 5 payment channels (online/app, ATM, phone, branch, mail); each funds from a checking/savings account, check or cash. The Online Banking Agreement limits card payments to asset accounts. No debit tender anywhere.",
+  "confidence": "med",
+  "sources": [
+   "https://www.bankofamerica.com/banking-information/assistance/credit-cards/making-credit-card-payments/",
+   "https://www.bankofamerica.com/credit-cards/credit-card-payments-statements-faq/",
+   "https://www.bankofamerica.com/online-banking/service-agreement.go",
+   "https://wallethub.com/answers/cc/pay-bank-of-america-credit-card-with-debit-card-1000333-2140756654/"
+  ]
+ },
+ {
+  "card": "Bank of America Premium Rewards Elite",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found; Aug 2025 Bill Pay -> Pay & Transfer migration kept bank-account-only funding",
+  "as_of": "2026-09",
+  "method": "Part 2 #2 (issuer's own payment/FAQ pages, exhaustive 5-option list) + Online Banking Service Agreement funding terms; #1 cardmember agreement PDF is silent on tender",
+  "prior_research": "none found for BoA; FlyerTalk megathread 1550209 is Citi-only, DoC has no BoA debit-pay post, WalletHub says no (corroboration only)",
+  "phone_to_check": "855.891.3401 / 800.236.6497 (consumer cards)",
+  "note": "BoA's own pages enumerate all 5 payment channels (online/app, ATM, phone, branch, mail); each funds from a checking/savings account, check or cash. The Online Banking Agreement limits card payments to asset accounts. No debit tender anywhere.",
+  "confidence": "med",
+  "sources": [
+   "https://www.bankofamerica.com/banking-information/assistance/credit-cards/making-credit-card-payments/",
+   "https://www.bankofamerica.com/credit-cards/credit-card-payments-statements-faq/",
+   "https://www.bankofamerica.com/online-banking/service-agreement.go",
+   "https://wallethub.com/answers/cc/pay-bank-of-america-credit-card-with-debit-card-1000333-2140756654/"
+  ]
+ },
+ {
+  "card": "Air France KLM World Elite Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found; Aug 2025 Bill Pay -> Pay & Transfer migration kept bank-account-only funding",
+  "as_of": "2026-09",
+  "method": "Part 2 #2 (issuer's own payment/FAQ pages, exhaustive 5-option list) + Online Banking Service Agreement funding terms; #1 cardmember agreement PDF is silent on tender",
+  "prior_research": "none found for BoA; FlyerTalk megathread 1550209 is Citi-only, DoC has no BoA debit-pay post, WalletHub says no (corroboration only)",
+  "phone_to_check": "855.891.3401 / 800.236.6497 (consumer cards)",
+  "note": "BoA's own pages enumerate all 5 payment channels (online/app, ATM, phone, branch, mail); each funds from a checking/savings account, check or cash. The Online Banking Agreement limits card payments to asset accounts. No debit tender anywhere.",
+  "confidence": "med",
+  "sources": [
+   "https://www.bankofamerica.com/banking-information/assistance/credit-cards/making-credit-card-payments/",
+   "https://www.bankofamerica.com/credit-cards/credit-card-payments-statements-faq/",
+   "https://www.bankofamerica.com/online-banking/service-agreement.go",
+   "https://wallethub.com/answers/cc/pay-bank-of-america-credit-card-with-debit-card-1000333-2140756654/"
+  ]
+ },
+ {
+  "card": "BofA Business Advantage Customized Cash Rewards",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found; Aug 2025 Bill Pay -> Pay & Transfer migration kept bank-account-only funding",
+  "as_of": "2026-09",
+  "method": "Part 2 #2 (issuer's own payment/FAQ pages, exhaustive 5-option list) + Online Banking Service Agreement funding terms; #1 cardmember agreement PDF is silent on tender",
+  "prior_research": "none found for BoA; FlyerTalk megathread 1550209 is Citi-only, DoC has no BoA debit-pay post, WalletHub says no (corroboration only)",
+  "phone_to_check": "888.306.4949 (business cards)",
+  "note": "Same BoA rail; business cards are also barred from ATM payments. The official 5-option list funds only from checking/savings, check or cash, and the Online Banking Agreement limits card payments to asset accounts. No debit tender.",
+  "confidence": "med",
+  "sources": [
+   "https://www.bankofamerica.com/banking-information/assistance/credit-cards/making-credit-card-payments/",
+   "https://www.bankofamerica.com/credit-cards/credit-card-payments-statements-faq/",
+   "https://www.bankofamerica.com/online-banking/service-agreement.go",
+   "https://wallethub.com/answers/cc/pay-bank-of-america-credit-card-with-debit-card-1000333-2140756654/"
+  ]
+ },
+ {
+  "card": "Alaska Airlines Visa Business (Atmos Rewards Business)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found; Aug 2025 Bill Pay -> Pay & Transfer migration kept bank-account-only funding",
+  "as_of": "2026-09",
+  "method": "Part 2 #2 (issuer's own payment/FAQ pages, exhaustive 5-option list) + Online Banking Service Agreement funding terms; #1 cardmember agreement PDF is silent on tender",
+  "prior_research": "none found for BoA; FlyerTalk megathread 1550209 is Citi-only, DoC has no BoA debit-pay post, WalletHub says no (corroboration only)",
+  "phone_to_check": "888.306.4949 (business cards)",
+  "note": "Same BoA rail; business cards are also barred from ATM payments. The official 5-option list funds only from checking/savings, check or cash, and the Online Banking Agreement limits card payments to asset accounts. No debit tender.",
+  "confidence": "med",
+  "sources": [
+   "https://www.bankofamerica.com/banking-information/assistance/credit-cards/making-credit-card-payments/",
+   "https://www.bankofamerica.com/credit-cards/credit-card-payments-statements-faq/",
+   "https://www.bankofamerica.com/online-banking/service-agreement.go",
+   "https://wallethub.com/answers/cc/pay-bank-of-america-credit-card-with-debit-card-1000333-2140756654/"
+  ]
+ },
+ {
+  "card": "Alaska Airlines Visa Signature (Atmos Rewards Ascent)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found; Aug 2025 Bill Pay -> Pay & Transfer migration kept bank-account-only funding",
+  "as_of": "2026-09",
+  "method": "Part 2 #2 (issuer's own payment/FAQ pages, exhaustive 5-option list) + Online Banking Service Agreement funding terms; #1 cardmember agreement PDF is silent on tender",
+  "prior_research": "none found for BoA; FlyerTalk megathread 1550209 is Citi-only, DoC has no BoA debit-pay post, WalletHub says no (corroboration only)",
+  "phone_to_check": "855.891.3401 / 800.236.6497 (consumer cards)",
+  "note": "BoA's own pages enumerate all 5 payment channels (online/app, ATM, phone, branch, mail); each funds from a checking/savings account, check or cash. The Online Banking Agreement limits card payments to asset accounts. No debit tender anywhere.",
+  "confidence": "med",
+  "sources": [
+   "https://www.bankofamerica.com/banking-information/assistance/credit-cards/making-credit-card-payments/",
+   "https://www.bankofamerica.com/credit-cards/credit-card-payments-statements-faq/",
+   "https://www.bankofamerica.com/online-banking/service-agreement.go",
+   "https://wallethub.com/answers/cc/pay-bank-of-america-credit-card-with-debit-card-1000333-2140756654/"
+  ]
+ },
+ {
+  "card": "Bank of America Customized Cash Rewards",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found; Aug 2025 Bill Pay -> Pay & Transfer migration kept bank-account-only funding",
+  "as_of": "2026-09",
+  "method": "Part 2 #2 (issuer's own payment/FAQ pages, exhaustive 5-option list) + Online Banking Service Agreement funding terms; #1 cardmember agreement PDF is silent on tender",
+  "prior_research": "none found for BoA; FlyerTalk megathread 1550209 is Citi-only, DoC has no BoA debit-pay post, WalletHub says no (corroboration only)",
+  "phone_to_check": "855.891.3401 / 800.236.6497 (consumer cards)",
+  "note": "BoA's own pages enumerate all 5 payment channels (online/app, ATM, phone, branch, mail); each funds from a checking/savings account, check or cash. The Online Banking Agreement limits card payments to asset accounts. No debit tender anywhere.",
+  "confidence": "med",
+  "sources": [
+   "https://www.bankofamerica.com/banking-information/assistance/credit-cards/making-credit-card-payments/",
+   "https://www.bankofamerica.com/credit-cards/credit-card-payments-statements-faq/",
+   "https://www.bankofamerica.com/online-banking/service-agreement.go",
+   "https://wallethub.com/answers/cc/pay-bank-of-america-credit-card-with-debit-card-1000333-2140756654/"
+  ]
+ },
+ {
+  "card": "BankAmericard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found; Aug 2025 Bill Pay -> Pay & Transfer migration kept bank-account-only funding",
+  "as_of": "2026-09",
+  "method": "Part 2 #2 (issuer's own payment/FAQ pages, exhaustive 5-option list) + Online Banking Service Agreement funding terms; #1 cardmember agreement PDF is silent on tender",
+  "prior_research": "none found for BoA; FlyerTalk megathread 1550209 is Citi-only, DoC has no BoA debit-pay post, WalletHub says no (corroboration only)",
+  "phone_to_check": "855.891.3401 / 800.236.6497 (consumer cards)",
+  "note": "BoA's own pages enumerate all 5 payment channels (online/app, ATM, phone, branch, mail); each funds from a checking/savings account, check or cash. The Online Banking Agreement limits card payments to asset accounts. No debit tender anywhere.",
+  "confidence": "med",
+  "sources": [
+   "https://www.bankofamerica.com/banking-information/assistance/credit-cards/making-credit-card-payments/",
+   "https://www.bankofamerica.com/credit-cards/credit-card-payments-statements-faq/",
+   "https://www.bankofamerica.com/online-banking/service-agreement.go",
+   "https://wallethub.com/answers/cc/pay-bank-of-america-credit-card-with-debit-card-1000333-2140756654/"
+  ]
+ },
+ {
+  "card": "BankAmericard Secured",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found; Aug 2025 Bill Pay -> Pay & Transfer migration kept bank-account-only funding",
+  "as_of": "2026-09",
+  "method": "Part 2 #2 (issuer's own payment/FAQ pages, exhaustive 5-option list) + Online Banking Service Agreement funding terms; #1 cardmember agreement PDF is silent on tender",
+  "prior_research": "none found for BoA; FlyerTalk megathread 1550209 is Citi-only, DoC has no BoA debit-pay post, WalletHub says no (corroboration only)",
+  "phone_to_check": "855.891.3401 / 800.236.6497 (consumer cards)",
+  "note": "BoA's own pages enumerate all 5 payment channels (online/app, ATM, phone, branch, mail); each funds from a checking/savings account, check or cash. The Online Banking Agreement limits card payments to asset accounts. No debit tender anywhere.",
+  "confidence": "med",
+  "sources": [
+   "https://www.bankofamerica.com/banking-information/assistance/credit-cards/making-credit-card-payments/",
+   "https://www.bankofamerica.com/credit-cards/credit-card-payments-statements-faq/",
+   "https://www.bankofamerica.com/online-banking/service-agreement.go",
+   "https://wallethub.com/answers/cc/pay-bank-of-america-credit-card-with-debit-card-1000333-2140756654/"
+  ]
+ }
+]

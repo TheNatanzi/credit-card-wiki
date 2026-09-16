@@ -1,0 +1,93 @@
+[
+ {
+  "card": "BofA Business Advantage Travel Rewards",
+  "issuer": "Bank of America",
+  "network": "mastercard",
+  "biz": "B",
+  "upside50": 4.42
+ },
+ {
+  "card": "BofA Business Advantage Unlimited Cash Rewards",
+  "issuer": "Bank of America",
+  "network": "mastercard",
+  "biz": "B",
+  "upside50": 4.42
+ },
+ {
+  "card": "Bank of America Travel Rewards",
+  "issuer": "Bank of America",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 4.05
+ },
+ {
+  "card": "Bank of America Unlimited Cash Rewards",
+  "issuer": "Bank of America",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 4.05
+ },
+ {
+  "card": "Bank of America Premium Rewards",
+  "issuer": "Bank of America",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 4.03
+ },
+ {
+  "card": "Bank of America Premium Rewards Elite",
+  "issuer": "Bank of America",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 3.96
+ },
+ {
+  "card": "Air France KLM World Elite Mastercard",
+  "issuer": "Bank of America",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 3.59
+ },
+ {
+  "card": "BofA Business Advantage Customized Cash Rewards",
+  "issuer": "Bank of America",
+  "network": "mastercard",
+  "biz": "B",
+  "upside50": 3.55
+ },
+ {
+  "card": "Alaska Airlines Visa Business (Atmos Rewards Business)",
+  "issuer": "Bank of America",
+  "network": "visa",
+  "biz": "B",
+  "upside50": 3.33
+ },
+ {
+  "card": "Alaska Airlines Visa Signature (Atmos Rewards Ascent)",
+  "issuer": "Bank of America",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 3.33
+ },
+ {
+  "card": "Bank of America Customized Cash Rewards",
+  "issuer": "Bank of America",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 2.84
+ },
+ {
+  "card": "BankAmericard",
+  "issuer": "Bank of America",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 1.8
+ },
+ {
+  "card": "BankAmericard Secured",
+  "issuer": "Bank of America",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 1.8
+ }
+]

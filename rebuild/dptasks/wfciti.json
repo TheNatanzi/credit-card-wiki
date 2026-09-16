@@ -1,0 +1,121 @@
+[
+ {
+  "card": "Wells Fargo Active Cash",
+  "issuer": "Wells Fargo",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 3.8
+ },
+ {
+  "card": "Wells Fargo Signify Business Cash",
+  "issuer": "Wells Fargo",
+  "network": "mastercard",
+  "biz": "B",
+  "upside50": 3.8
+ },
+ {
+  "card": "AT&T Points Plus Card from Citi",
+  "issuer": "Citi",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 3.7
+ },
+ {
+  "card": "Citi Strata",
+  "issuer": "Citi",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 3.7
+ },
+ {
+  "card": "Citi Strata Premier",
+  "issuer": "Citi",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 3.68
+ },
+ {
+  "card": "American Airlines AAdvantage MileUp Card",
+  "issuer": "Citi",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 3.25
+ },
+ {
+  "card": "Citi / AAdvantage Platinum Select World Elite Mastercard",
+  "issuer": "Citi",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 3.23
+ },
+ {
+  "card": "CitiBusiness / AAdvantage Platinum Select Mastercard",
+  "issuer": "Citi",
+  "network": "mastercard",
+  "biz": "B",
+  "upside50": 3.23
+ },
+ {
+  "card": "Citi / AAdvantage Executive World Legend Mastercard",
+  "issuer": "Citi",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 3.13
+ },
+ {
+  "card": "Citi Strata Elite",
+  "issuer": "Citi",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 2.82
+ },
+ {
+  "card": "Wells Fargo Autograph",
+  "issuer": "Wells Fargo",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 2.8
+ },
+ {
+  "card": "Wells Fargo Autograph Journey",
+  "issuer": "Wells Fargo",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 2.76
+ },
+ {
+  "card": "Wells Fargo Choice Privileges Mastercard",
+  "issuer": "Wells Fargo",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 2.4
+ },
+ {
+  "card": "Wells Fargo Choice Privileges Select Mastercard",
+  "issuer": "Wells Fargo",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 2.36
+ },
+ {
+  "card": "Citi Diamond Preferred",
+  "issuer": "Citi",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 1.8
+ },
+ {
+  "card": "Citi Simplicity",
+  "issuer": "Citi",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 1.8
+ },
+ {
+  "card": "Wells Fargo Reflect",
+  "issuer": "Wells Fargo",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 1.8
+ }
+]

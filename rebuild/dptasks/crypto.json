@@ -1,0 +1,51 @@
+[
+ {
+  "card": "ether.fi Cash Card",
+  "issuer": "ether.fi",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 3.8
+ },
+ {
+  "card": "Fold Card (Credit)",
+  "issuer": "Fold / Celtic Bank",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 3.4
+ },
+ {
+  "card": "Gemini Credit Card",
+  "issuer": "Gemini / WebBank",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 2.8
+ },
+ {
+  "card": "Revolut Secured Credit Card (US)",
+  "issuer": "Revolut / Lead Bank",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 1.8
+ },
+ {
+  "card": "Step Visa Card",
+  "issuer": "Step / Evolve Bank & Trust",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 1.8
+ },
+ {
+  "card": "Varo Believe Credit Card",
+  "issuer": "Varo Bank",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 1.8
+ },
+ {
+  "card": "Coinbase One Card",
+  "issuer": "Coinbase / First Electronic Bank",
+  "network": "amex",
+  "biz": "P",
+  "upside50": 1.79
+ }
+]

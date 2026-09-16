@@ -1,0 +1,79 @@
+[
+ {
+  "card": "Robinhood Gold Card",
+  "issuer": "Robinhood / Coastal Community Bank",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 4.79
+ },
+ {
+  "card": "Aven Home Equity Visa Card",
+  "issuer": "Aven / Coastal Community Bank",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 3.8
+ },
+ {
+  "card": "SoFi Unlimited 2% Credit Card",
+  "issuer": "SoFi Bank",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 3.8
+ },
+ {
+  "card": "Synchrony Premier World Mastercard",
+  "issuer": "Synchrony",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 3.8
+ },
+ {
+  "card": "Upgrade OneCard",
+  "issuer": "Upgrade / Cross River Bank",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 3.8
+ },
+ {
+  "card": "Upgrade Card (original)",
+  "issuer": "Upgrade / Cross River Bank",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 3.3
+ },
+ {
+  "card": "Synchrony Plus World Mastercard",
+  "issuer": "Synchrony",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 2.8
+ },
+ {
+  "card": "Verizon Visa Card",
+  "issuer": "Synchrony",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 2.8
+ },
+ {
+  "card": "Amazon Store Card / Amazon Secured Card",
+  "issuer": "Synchrony",
+  "network": "other",
+  "biz": "P",
+  "upside50": 1.8
+ },
+ {
+  "card": "CareCredit Card",
+  "issuer": "Synchrony",
+  "network": "other",
+  "biz": "P",
+  "upside50": 1.8
+ },
+ {
+  "card": "Synchrony Preferred Mastercard",
+  "issuer": "Synchrony",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 1.8
+ }
+]

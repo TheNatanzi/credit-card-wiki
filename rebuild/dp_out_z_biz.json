@@ -1,0 +1,141 @@
+[
+ {
+  "card": "Rho Corporate Card / Platinum",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "Part 2 method 2 - issuer help/FAQ pages (rho.co help center, two pages)",
+  "prior_research": "none found",
+  "phone_to_check": null,
+  "note": "Rho's own help pages describe repayment only from the Rho Checking account or a linked external bank account, and never say those are the only options. No debit card language either way, so this stays open.",
+  "confidence": "med",
+  "sources": [
+    "https://www.rho.co/hc/how-to-pay-your-credit-card-balance",
+    "https://www.rho.co/help-center/cards/the-rho-card-with-monthly-terms-2",
+    "https://www.rho.co/faq"
+  ]
+ },
+ {
+  "card": "Bluevine Business Cashback Mastercard",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found (payment-methods terms last revised 2025-11-07)",
+  "as_of": "2026-09",
+  "method": "Part 2 methods 2 and 9 - issuer product/help pages plus the Bluevine terms update log",
+  "prior_research": "none found",
+  "phone_to_check": "888-216-9619",
+  "note": "Bluevine says you pay the card off from your Bluevine account or an external account, with no exhaustive list. Separately Bluevine Payments does take debit cards as a funding method for bills - a real lead worth a call.",
+  "confidence": "low",
+  "sources": [
+    "https://www.bluevine.com/blog/introducing-business-credit-card-with-cash-back",
+    "https://www.bluevine.com/policy-updates",
+    "https://www.bluevine.com/help-center/sending-payments/bill-pay",
+    "https://www.bluevine.com/contact-us"
+  ]
+ },
+ {
+  "card": "Mercury IO Card",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found (payment article last edited 2026-08-24)",
+  "as_of": "2026-09",
+  "method": "Part 2 method 2 - Mercury help-center article bodies pulled via the Zendesk API (the web pages 403)",
+  "prior_research": "none found",
+  "phone_to_check": null,
+  "note": "Autopay and manual pay both ask only for an account to pay from, and external accounts can link only through Plaid, so the UI has no card rail. Mercury never states debit is refused, so this is not an N.",
+  "confidence": "med",
+  "sources": [
+    "https://support.mercury.com/hc/en-us/articles/28768569462548-Making-an-IO-payment",
+    "https://support.mercury.com/hc/en-us/articles/28768735315732-Setting-up-and-editing-IO-autopay",
+    "https://support.mercury.com/hc/en-us/articles/44279923157780-Using-IO-without-a-Mercury-account"
+  ]
+ },
+ {
+  "card": "Ramp Card",
+  "fixes": {"debit_pay": "?"},
+  "channel": "online",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "Part 2 method 2 - Ramp help-center pages, employee-repayments page scraped in full",
+  "prior_research": "none found",
+  "phone_to_check": null,
+  "note": "Ramp does run a debit rail: a personal debit card repays a card transaction and the company gets a credit on its card statement, fees covered. But Ramp scopes it to Enterprise and to non-US staff or non-USD cards; US pays by bank account.",
+  "confidence": "med",
+  "sources": [
+    "https://support.ramp.com/employee-repayments",
+    "https://support.ramp.com/ramp-card-statements-and-payments-overview",
+    "https://support.ramp.com/hc/en-us/articles/4617080010259-Employee-repayments"
+  ]
+ },
+ {
+  "card": "Airbase Card (now \"Airbase by Paylocity\")",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found; product folded into Paylocity and the old airbase.com/faq now redirects",
+  "as_of": "2026-09",
+  "method": "Part 2 method 2 attempted - the public Airbase help pages are gone or redirected to Paylocity, so nothing authoritative was reachable",
+  "prior_research": "none found",
+  "phone_to_check": null,
+  "note": "Airbase runs a prefunded card and a charge card, both funded from a company bank account. The Paylocity migration took the old help pages down, so no official payment-methods list exists to read. Genuinely unknown.",
+  "confidence": "low",
+  "sources": [
+    "https://airbase.com/modules/corporate-cards",
+    "https://www.paylocity.com/who-we-are/about-us/newsroom/press-releases/airbase-announces-standalone-bill-payments-product/"
+  ]
+ },
+ {
+  "card": "Brex Card",
+  "fixes": {"debit_pay": "?"},
+  "channel": "unknown",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "Part 2 method 2 - Brex support pages on paying statements and making a payment",
+  "prior_research": "none found",
+  "phone_to_check": "833-228-2044",
+  "note": "Brex's payment pages name only two funding sources, the Brex business account or an external bank account pulled by ACH, and never claim that is the whole list. No refusal of debit anywhere, so it stays open.",
+  "confidence": "med",
+  "sources": [
+    "https://www.brex.com/support/paying-brex-statements",
+    "https://www.brex.com/support/how-do-i-make-a-payment-to-brex",
+    "https://www.brex.com/support/contact-and-support"
+  ]
+ },
+ {
+  "card": "BILL Divvy (BILL Spend & Expense)",
+  "fixes": {"debit_pay": "N"},
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found; agreement revision dated Dec 2023",
+  "as_of": "2026-09",
+  "method": "Part 2 method 1 - the Divvy Business Charge Card Agreement (Cross River Bank), payment-method clause read from the PDF text",
+  "prior_research": "none found",
+  "phone_to_check": "855-229-3111",
+  "note": "The signed agreement enumerates the remittance methods: Debit ACH or Credit ACH, and binds you to remit all funds due using the method selected. That closed list leaves no card rail. Other issuing banks (WebBank, WEX) not checked.",
+  "confidence": "med",
+  "sources": [
+    "https://assets-global.website-files.com/63e3da3df35cd62f54751985/6582252b648939a0483787cf_Divvy%20Business%20Charge%20Card%20Agreement%20(J&S)%20CRB%20Final%20Dec_2023.docx.pdf",
+    "https://guides.divvy.co/mobile/understand-payments"
+  ]
+ }
+]

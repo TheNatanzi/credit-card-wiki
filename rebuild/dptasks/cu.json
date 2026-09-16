@@ -1,0 +1,65 @@
+[
+ {
+  "card": "Navy Federal cashRewards",
+  "issuer": "Navy Federal CU",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 3.8
+ },
+ {
+  "card": "PenFed Power Cash Rewards Visa Signature",
+  "issuer": "PenFed CU",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 3.8
+ },
+ {
+  "card": "SECU Cash Rewards Visa (NC)",
+  "issuer": "State Employees' CU (NC)",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 3.8
+ },
+ {
+  "card": "Navy Federal Flagship Rewards Visa Signature",
+  "issuer": "Navy Federal CU",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 3.78
+ },
+ {
+  "card": "BECU Cash Back Visa",
+  "issuer": "BECU (Boeing Employees CU)",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 3.3
+ },
+ {
+  "card": "Consumers Credit Union Cash Back Card",
+  "issuer": "Consumers Credit Union",
+  "network": "mastercard",
+  "biz": "P",
+  "upside50": 3.3
+ },
+ {
+  "card": "SECU Points Rewards Visa (NC)",
+  "issuer": "State Employees' CU (NC)",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 3.3
+ },
+ {
+  "card": "PenFed Platinum Rewards Visa Signature",
+  "issuer": "PenFed CU",
+  "network": "visa",
+  "biz": "P",
+  "upside50": 2.8
+ },
+ {
+  "card": "Navy Federal More Rewards American Express",
+  "issuer": "Navy Federal CU",
+  "network": "amex",
+  "biz": "P",
+  "upside50": 1.8
+ }
+]

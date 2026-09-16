@@ -1,0 +1,201 @@
+[
+ {
+  "card": "Navy Federal cashRewards",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "2 (issuer payment + FAQ + help-center pages); 3 IVR not reachable; 4/5 processor + MoneyGram directory captcha-walled",
+  "prior_research": "none found (DoC, FlyerTalk searched; Reddit not tried as blocked; myFICO 403)",
+  "phone_to_check": "1-888-842-6328",
+  "note": "NFCU card-payment page names only NFCU accounts or an external bank account (ACH, 2-5 days). Not a full list: branch, phone, mail also exist, tender not stated. Separate 'external Visa/MC card' feature funds NFCU checking only. Issuer-wide.",
+  "confidence": "low",
+  "sources": [
+   "https://www.navyfederal.org/loans-cards/credit-cards/cardholder-resources/making-credit-card-payments.html",
+   "https://www.navyfederal.org/loans-cards/credit-cards/faqs.html",
+   "https://www.navyfederal.org/services/transfers/add-money.html"
+  ]
+ },
+ {
+  "card": "PenFed Power Cash Rewards Visa Signature",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "2 (payments page via Wayback 2025-12, contact page, fee schedule); help article How-to-Make-Credit-Card-Payments is JS-only, unreadable; 3 IVR flagged",
+  "prior_research": "none found (myFICO thread 6458581 exists but 403; doxo lists PenFed as a debit-accepting third party, which does not count as issuer evidence)",
+  "phone_to_check": "1-877-856-9690 (card servicing); 1-800-247-5626 (Bank-by-Phone, 'Make payments')",
+  "note": "Online pay is from a PenFed or linked external bank account; phone payments exist but tender not stated. The page says to pay online 'for faster and fee same day service', hinting some channel has a fee. No debit fee in fee schedule. Issuer-wide.",
+  "confidence": "low",
+  "sources": [
+   "http://web.archive.org/web/20251201033946/https://www.penfed.org/credit-cards/resource-center/payments",
+   "https://web.archive.org/web/2026/https://www.penfed.org/credit-cards/credit-card-contact-information",
+   "https://web.archive.org/web/2026/https://www.penfed.org/learn/bank-by-phone",
+   "https://web.archive.org/web/2026/https://www.penfed.org/current-service-fees"
+  ]
+ },
+ {
+  "card": "SECU Cash Rewards Visa (NC)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "2 (official credit-card FAQ lists every payment channel)",
+  "prior_research": "none found",
+  "phone_to_check": "1-888-732-8562",
+  "note": "SECU FAQ 'How can I make payments on my SECU credit card?' lists: Member Access/app by transfer from another SECU account, phone, CashPoints ATM, branch. No debit card and no outside account named. Branch tender not spelled out. Issuer-wide.",
+  "confidence": "med",
+  "sources": [
+   "https://www.ncsecu.org/accounts/credit-cards",
+   "https://www.ncsecu.org/accounts/services/cashpoints-atm"
+  ]
+ },
+ {
+  "card": "Navy Federal Flagship Rewards Visa Signature",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "2 (issuer payment + FAQ + help-center pages); 3 IVR not reachable; 4/5 processor + MoneyGram directory captcha-walled",
+  "prior_research": "none found (DoC, FlyerTalk searched; Reddit not tried as blocked; myFICO 403)",
+  "phone_to_check": "1-888-842-6328",
+  "note": "NFCU card-payment page names only NFCU accounts or an external bank account (ACH, 2-5 days). Not a full list: branch, phone, mail also exist, tender not stated. Separate 'external Visa/MC card' feature funds NFCU checking only. Issuer-wide.",
+  "confidence": "low",
+  "sources": [
+   "https://www.navyfederal.org/loans-cards/credit-cards/cardholder-resources/making-credit-card-payments.html",
+   "https://www.navyfederal.org/loans-cards/credit-cards/faqs.html",
+   "https://www.navyfederal.org/services/transfers/add-money.html"
+  ]
+ },
+ {
+  "card": "BECU Cash Back Visa",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "2 (official credit-card support + 'Payments for Any Situation' pages list every channel and its funding source)",
+  "prior_research": "none found (myFICO 'BECU making a payment' thread 403)",
+  "phone_to_check": "800-233-2328",
+  "note": "BECU lists online (BECU account or external bank via ACH debit), app, phone and branch (from a BECU account) and mail (check). No debit card on any channel. Branch pay 'must generally' come from a BECU account. No external business accounts.",
+  "confidence": "med",
+  "sources": [
+   "https://www.becu.org/support/credit-card-support",
+   "https://www.becu.org/everyday-banking/payments-for-any-situation",
+   "https://www.becu.org/support/online-payments-to-a-becu-loan-or-credit-card"
+  ]
+ },
+ {
+  "card": "Consumers Credit Union Cash Back Card",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "channel": "online",
+  "fee_usd": 9.95,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "debit option documented since 2021-05 how-to PDF; as of 2026-09 the portal shows a banner: non-Consumers debit card payments 'currently unavailable' during maintenance",
+  "as_of": "2026-09",
+  "method": "2 + 9 (issuer payment portal lists 'From a non-Consumers debit card, Fee $9.95'; official how-to PDF)",
+  "prior_research": "none found",
+  "phone_to_check": "800-991-2221 (phone pay, $15 fee; confirm a credit card shows in the debit-card loan list)",
+  "note": "Official portal: 'From a non-Consumers debit card', applied same day, fee $9.95. Flow: Online Banking > Move Money > Pay a Loan with a Debit Card. Paused for maintenance 2026-09. Page says 'loan'; the card is likely in that list but not confirmed.",
+  "confidence": "med",
+  "sources": [
+   "https://www.consumerscu.org/payment-portal",
+   "https://www.consumerscu.org/wp-content/uploads/2020/07/2021_05_Pay_loan_from_outside_debit_card.pdf",
+   "https://www.consumerscu.org/faq/pay-consumers-loan",
+   "https://www.consumerscu.org/faq/making-a-payment-credit-cards-loans-and-mortgages"
+  ]
+ },
+ {
+  "card": "SECU Points Rewards Visa (NC)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "2 (official credit-card FAQ lists every payment channel)",
+  "prior_research": "none found",
+  "phone_to_check": "1-888-732-8562",
+  "note": "SECU FAQ 'How can I make payments on my SECU credit card?' lists: Member Access/app by transfer from another SECU account, phone, CashPoints ATM, branch. No debit card and no outside account named. Branch tender not spelled out. Issuer-wide.",
+  "confidence": "med",
+  "sources": [
+   "https://www.ncsecu.org/accounts/credit-cards",
+   "https://www.ncsecu.org/accounts/services/cashpoints-atm"
+  ]
+ },
+ {
+  "card": "PenFed Platinum Rewards Visa Signature",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "2 (payments page via Wayback 2025-12, contact page, fee schedule); help article How-to-Make-Credit-Card-Payments is JS-only, unreadable; 3 IVR flagged",
+  "prior_research": "none found (myFICO thread 6458581 exists but 403; doxo lists PenFed as a debit-accepting third party, which does not count as issuer evidence)",
+  "phone_to_check": "1-877-856-9690 (card servicing); 1-800-247-5626 (Bank-by-Phone, 'Make payments')",
+  "note": "Online pay is from a PenFed or linked external bank account; phone payments exist but tender not stated. The page says to pay online 'for faster and fee same day service', hinting some channel has a fee. No debit fee in fee schedule. Issuer-wide.",
+  "confidence": "low",
+  "sources": [
+   "http://web.archive.org/web/20251201033946/https://www.penfed.org/credit-cards/resource-center/payments",
+   "https://web.archive.org/web/2026/https://www.penfed.org/credit-cards/credit-card-contact-information",
+   "https://web.archive.org/web/2026/https://www.penfed.org/learn/bank-by-phone",
+   "https://web.archive.org/web/2026/https://www.penfed.org/current-service-fees"
+  ]
+ },
+ {
+  "card": "Navy Federal More Rewards American Express",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "2 (issuer payment + FAQ + help-center pages); 3 IVR not reachable; 4/5 processor + MoneyGram directory captcha-walled",
+  "prior_research": "none found (DoC, FlyerTalk searched; Reddit not tried as blocked; myFICO 403)",
+  "phone_to_check": "1-888-842-6328",
+  "note": "NFCU card-payment page names only NFCU accounts or an external bank account (ACH, 2-5 days). Not a full list: branch, phone, mail also exist, tender not stated. Separate 'external Visa/MC card' feature funds NFCU checking only. Issuer-wide.",
+  "confidence": "low",
+  "sources": [
+   "https://www.navyfederal.org/loans-cards/credit-cards/cardholder-resources/making-credit-card-payments.html",
+   "https://www.navyfederal.org/loans-cards/credit-cards/faqs.html",
+   "https://www.navyfederal.org/services/transfers/add-money.html"
+  ]
+ }
+]

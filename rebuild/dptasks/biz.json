@@ -1,0 +1,51 @@
+[
+ {
+  "card": "Rho Corporate Card / Platinum",
+  "issuer": "Rho / Webster Bank",
+  "network": "mastercard",
+  "biz": "B",
+  "upside50": 3.8
+ },
+ {
+  "card": "Bluevine Business Cashback Mastercard",
+  "issuer": "Bluevine",
+  "network": "mastercard",
+  "biz": "B",
+  "upside50": 3.3
+ },
+ {
+  "card": "Mercury IO Card",
+  "issuer": "Mercury / Patriot Bank",
+  "network": "mastercard",
+  "biz": "B",
+  "upside50": 3.3
+ },
+ {
+  "card": "Ramp Card",
+  "issuer": "Ramp / Celtic Bank",
+  "network": "visa",
+  "biz": "B",
+  "upside50": 3.3
+ },
+ {
+  "card": "Airbase Card (now \"Airbase by Paylocity\")",
+  "issuer": "Airbase / Paylocity (Sutton Bank)",
+  "network": "visa",
+  "biz": "B",
+  "upside50": 2.8
+ },
+ {
+  "card": "Brex Card",
+  "issuer": "Brex / Emigrant Bank",
+  "network": "mastercard",
+  "biz": "B",
+  "upside50": 2.8
+ },
+ {
+  "card": "BILL Divvy (BILL Spend & Expense)",
+  "issuer": "BILL / Divvy (WebBank, Cross River, WEX)",
+  "network": "visa",
+  "biz": "B",
+  "upside50": 2.58
+ }
+]

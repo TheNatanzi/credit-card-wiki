@@ -1,0 +1,154 @@
+[
+ {
+  "card": "ether.fi Cash Card",
+  "fixes": {
+   "debit_pay": "-"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "Part 2 method 2 - issuer help-centre pages (help.ether.fi)",
+  "prior_research": "none found",
+  "phone_to_check": null,
+  "note": "No bill exists. ether.fi says Borrow Mode has 'no cut-off dates, no minimum payments, no billing cycles'; Direct Pay settles instantly from the crypto vault. You repay a DeFi loan from vault assets, so there is nothing to pay by debit card.",
+  "confidence": "high",
+  "sources": [
+   "https://help.ether.fi/en/articles/326983-understanding-your-cash-card-borrow-mode-vs-direct-pay-mode",
+   "https://help.ether.fi/en/collections/592872-credit-cards"
+  ]
+ },
+ {
+  "card": "Fold Card (Credit)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "Part 2 methods 2+1 - Fold cardholder agreement 'Acceptable Payment Methods' plus the support article listing the in-app payment dropdown",
+  "prior_research": "none found",
+  "phone_to_check": "1-866-365-3277 (1-866-FOLDAPP)",
+  "note": "App dropdown offers only Fold cash/debit balance, bitcoin, or linked bank. Agreement allows payment 'through the Fold App or by phone' and bars cash/check/credit but never names debit. Phone tender is unverified, so this stays a live lead.",
+  "confidence": "med",
+  "sources": [
+   "https://support.foldapp.com/hc/en-us/articles/47145439411867-Making-payments-toward-your-Fold-Bitcoin-Credit-Card",
+   "https://foldapp.com/legal/bitcoin-rewards-card-cardholder-agreement",
+   "https://support.foldapp.com/hc/en-us/articles/45460840654747-How-do-I-use-Instant-Debit-Card-Funding"
+  ]
+ },
+ {
+  "card": "Gemini Credit Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "Part 2 methods 2+1 - Gemini support FAQ plus the WebBank cardholder agreement payments clause",
+  "prior_research": "none found",
+  "phone_to_check": "1-877-725-1116",
+  "note": "Online pay screen takes only a linked checking/savings account; mail accepts check. But the agreement also allows paying 'by phone' and bars only cash and other credit cards, never debit. Phone tender unverified, so a live lead.",
+  "confidence": "med",
+  "sources": [
+   "https://support.gemini.com/hc/en-us/articles/4407607571867-How-to-Make-a-Payment-to-my-Gemini-Credit-Card",
+   "https://assets.ctfassets.net/jg6lo9a2ukvr/4WAbBKi2wX3zG6HFyNP54A/d18d2a90f70400d0a22a63ede0890218/Gemini_Credit_Card_Cardholder_Agreement_Feb_19_2025.pdf"
+  ]
+ },
+ {
+  "card": "Revolut Secured Credit Card (US)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "Part 2 methods 1+2 - Lead Bank secured credit card agreement Part 10 plus Revolut US help centre",
+  "prior_research": "none found",
+  "phone_to_check": "(844) 744-3512",
+  "note": "Help page says repay only from your Revolut balance, but agreement Part 10 says a payment can fail if 'your Revolut Account, bank account, or debit card' lacks funds. Revolut US does accept debit-card top-ups of that balance.",
+  "confidence": "med",
+  "sources": [
+   "https://help.revolut.com/en-US/help/credit-products/secured-credit-cards/secured-credit-card-repayments/",
+   "https://cdn.revolut.com/terms_and_conditions/pdf/secured_credit_card_agreement_94430c09_1.0.0_1751313514_en.pdf",
+   "https://help.revolut.com/en-US/help/adding-money/"
+  ]
+ },
+ {
+  "card": "Step Visa Card",
+  "fixes": {
+   "debit_pay": "-"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "Part 2 method 2 - Step's own build-credit page and FAQ",
+  "prior_research": "none found",
+  "phone_to_check": null,
+  "note": "No bill exists. Step is a secured card you can only spend up to your deposit; Step's own words: with Smart Pay 'your purchases are automatically paid off at the end of each month so you never have to worry about a bill or payments.'",
+  "confidence": "high",
+  "sources": [
+   "https://step.com/build-credit",
+   "https://step.com/faq",
+   "https://step.com/money-101/post/how-the-step-card-works"
+  ]
+ },
+ {
+  "card": "Varo Believe Credit Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "Part 2 methods 1+2 - Varo Believe Program Agreement section I.E.1 exhaustive payment list, confirmed by the support page updated 2026-05-22",
+  "prior_research": "none found",
+  "phone_to_check": null,
+  "note": "Agreement lists the only ways to pay: Safe Pay or manual from the Believe Secured Account, auto or manual from a bank account linked to Varo, or a mailed check. Debit card is absent. A linked debit card in Varo only funds the bank account.",
+  "confidence": "high",
+  "sources": [
+   "https://support.varomoney.com/hc/en-us/articles/21994840396436-Believe-Payments",
+   "https://assets.ctfassets.net/x6cbfr3jz6wz/wy4ZEwRLKDCkQukcF7XTw/f00f2e1564d7d1bb13b3f62527643ddc/Varo_Believe_Program_Agreements_-_Nov_6__2023.pdf",
+   "https://support.varomoney.com/hc/en-us/articles/22000139030164-Linking-External-Accounts"
+  ]
+ },
+ {
+  "card": "Coinbase One Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "Part 2 method 1 - First Electronic Bank / Cardless cardholder agreement 'Accepted Payment Methods', effective 2026-05-11, plus the Coinbase help page",
+  "prior_research": "none found",
+  "phone_to_check": "1-855-508-5066",
+  "note": "Agreement: pay only in USD 'from a deposit account held at a U.S. financial institution' and 'You must use one of the following payment options' - ACH autopay or one-time ACH. Cash and check refused. App offers only a linked bank or a crypto balance.",
+  "confidence": "high",
+  "sources": [
+   "https://legal.cardless.com/cardholder_agreement/coinbase/cardholder_agreement.pdf",
+   "https://help.coinbase.com/en/creditcard/payment",
+   "https://help.coinbase.com/en/creditcard/overview"
+  ]
+ }
+]

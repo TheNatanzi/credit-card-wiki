@@ -87,7 +87,7 @@ a{color:var(--grn)}
 <th data-k="fee_usd">Fee$/yr <span class="ar">↕</span></th>
 <th data-k="fx_pct">FX% <span class="ar">↕</span></th>
 <th data-k="where" data-t="s">Where <span class="ar">↕</span></th>
-<th data-k="debit_pay" data-t="s" title="Can this card&#39;s BILL be paid with a debit card? Y=verified 2026, N=verified no, ?=unverified (Taekus not counted)">Debit-pay <span class="ar">↕</span></th>
+<th data-k="debit_pay" data-t="s" title="Can this card&#39;s BILL be paid with a debit card? Y=verified 2026, N=verified no, ?=unverified (Taekus not counted), —=no bill exists">Debit-pay <span class="ar">↕</span></th>
 <th data-k="biz" data-t="s">Biz/Pers <span class="ar">↕</span></th>
 <th data-k="product" data-t="s">Cr/Db <span class="ar">↕</span></th>
 <th data-k="status" data-t="s">Status <span class="ar">↕</span></th>
@@ -107,7 +107,7 @@ return '<tr data-i="'+r._i+'"><td class="card">'+esc(r.card)+'<small>'+esc(r.iss
 +'<td class="c10'+z(r.c10)+'">'+p(r.c10)+'</td><td class="c50'+z(r.c50)+'">'+p(r.c50)+'</td><td class="fl'+z(r.f50)+'">'+p(r.f50)+'</td>'
 +'<td>'+(r.taekus>0?'<span class="tk">+'+p(r.taekus)+'</span>':r.taekus_maybe>0?'<span class="tk maybe">+'+p(r.taekus_maybe)+'?</span>':'<span style="color:var(--faint)">0</span>')+'</td>'
 +'<td class="net'+(r.lead?" lead":"")+'">'+p(r.upside50)+(r.lead?'<small>?</small>':'')+'</td><td class="fl">'+p(r.net50)+'</td><td>'+p(r.base_pct)+'</td><td>'+m(r.cap_month_usd)+'</td><td>'+esc(r.cap_period||"none")+'</td><td>'+m(r.reward_cap_usd_month)+'</td><td>'+m(r.lockup_usd)+'</td>'
-+'<td>'+m(r.fee_usd)+'</td><td>'+p(r.fx_pct)+'</td><td title="'+r.where+'">'+(WH[r.where]||"?")+'</td><td>'+(r.debit_pay==="Y"?'<span class="b">Y</span>':r.debit_pay==="?"?'<span class="b rv">?</span>':'<span class="no">N</span>')+'</td>'
++'<td>'+m(r.fee_usd)+'</td><td>'+p(r.fx_pct)+'</td><td title="'+r.where+'">'+(WH[r.where]||"?")+'</td><td>'+(r.debit_pay==="Y"?'<span class="b">Y</span>':r.debit_pay==="?"?'<span class="b rv">?</span>':r.debit_pay==="-"?'<span title="no bill to pay">—</span>':'<span class="no">N</span>')+'</td>'
 +'<td>'+(r.biz==="B"?'<span class="b biz">Biz</span>':'Pers')+'</td><td><span class="b '+r.product+'">'+r.product+'</span></td><td>'+(r.status==="dead"?'<span class="b dead">dead</span>':'active')+'</td>'
 +'<td>'+(r.source?'<a class="src" href="'+esc(r.source)+'" target="_blank" rel="noopener" title="'+esc(r.source)+'">↗ source</a>':'')+'</td></tr>'}
 D.forEach((r,i)=>r._i=i);
