@@ -152,9 +152,15 @@ for r in rows:
     elif r.get("us_ok")=="N" or r.get("costco_ok")=="N":
         r["c10"]=r["c50"]=r["f10"]=r["f50"]=0.0
     r["base_pct"]=round(bx*cm,2)
-    r["taekus"]=TAEKUS if (r.get("debit_pay")=="Y" and r.get("product")=="credit") else 0.0
+    # MEDI RULE 2026-09-16: never zero an unproven lead. Y = confirmed stack, ? = upside still in play.
+    dp=r.get("debit_pay"); iscred=r.get("product")=="credit"
+    r["taekus"]=TAEKUS if (dp=="Y" and iscred) else 0.0
+    r["taekus_maybe"]=TAEKUS if (dp=="?" and iscred) else 0.0
     fee=num(r.get("fee_usd")); r["fee_usd"]=fee
-    r["net50"]=round(r["c50"]+r["taekus"]-fee/(50000*12)*100,2)
+    feepct=fee/(50000*12)*100
+    r["net50"]=round(r["c50"]+r["taekus"]-feepct,2)
+    r["upside50"]=round(r["c50"]+r["taekus"]+r["taekus_maybe"]-feepct,2)
+    r["lead"]=r["taekus_maybe"]>0
     r["fx_pct"]=num(r.get("fx_pct"))
     r["cap_month_usd"]=None if month_cap(r)==math.inf else round(month_cap(r))
     r["lockup_usd"]=None if r.get("lockup_usd") in (None,"") else round(num(r.get("lockup_usd")))
@@ -162,13 +168,13 @@ for r in rows:
     r["review"]=bool((r.get("reward_unit")!="crypto" and r["c50"]>SANITY) or (r.get("confidence")=="low" and r["c50"]>SANITY))
     r["is_crypto"]=r.get("reward_unit")=="crypto"
 
-rows.sort(key=lambda r:(-r["net50"],-r["c50"],r["card"]))
+rows.sort(key=lambda r:(-r["upside50"],-r["net50"],r["card"]))
 json.dump(rows,open(os.path.join(WIKI,"cards.json"),"w",encoding="utf-8"),indent=1,ensure_ascii=False)
 act=[r for r in rows if r.get("status")=="active"]
 print("active",len(act),"dead",len(rows)-len(act),"review-flagged",sum(r["review"] for r in rows),
       "low-conf",sum(r.get("confidence")=="low" for r in rows))
 print("TOP 15 active by NET@50k:")
-for r in act[:15]: print(f'  net {r["net50"]:5.2f}%  (costco {r["c50"]:5.2f} + tk {r["taekus"]:.2f})  {r["where"]:6}  {r["card"]}')
+for r in act[:15]: print(f'  up {r["upside50"]:5.2f}%  net {r["net50"]:5.2f}%  {"LEAD" if r["lead"] else "    "}  {r["where"]:6}  {r["card"]}')
 
 # ---------------- HTML ----------------
 stamp=datetime.date.today().isoformat()
