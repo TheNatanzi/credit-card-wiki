@@ -1,5 +1,9 @@
 # Credit Card Master Wiki — v9 (numbers only)
 
+**View anywhere:** https://claude.ai/artifact/6Eo15m1mW4GzaR2qKWsERu (private page, works on phone)
+**Git:** https://github.com/TheNatanzi/credit-card-wiki (private)
+Regenerate the viewable page with `python rebuild/make_artifact.py`, then republish that artifact URL.
+
 Open `index.html`. 307 cards (272 active / 35 dead) scored for the Costco gold play.
 
 ## How a card is scored (Medi's locked rules, 2026-09-15)
