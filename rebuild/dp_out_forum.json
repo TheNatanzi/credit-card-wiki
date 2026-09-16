@@ -10,10 +10,11 @@
  {
   "card": "Bilt Mastercard (Wells Fargo issued)",
   "fixes": {
-   "debit_pay": "Y"
+   "debit_pay": "?",
+   "confidence": "low"
   },
-  "channel": "branch only (walk in)",
-  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+  "channel": "branch (UNVERIFIED)",
+  "note": "DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
  },
  {
   "card": "Capital One Spark Cash Plus (business)",
@@ -26,18 +27,20 @@
  {
   "card": "Wells Fargo Active Cash",
   "fixes": {
-   "debit_pay": "Y"
+   "debit_pay": "?",
+   "confidence": "low"
   },
-  "channel": "branch only (walk in)",
-  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+  "channel": "branch (UNVERIFIED)",
+  "note": "DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
  },
  {
   "card": "Wells Fargo Signify Business Cash",
   "fixes": {
-   "debit_pay": "Y"
+   "debit_pay": "?",
+   "confidence": "low"
   },
-  "channel": "branch only (walk in)",
-  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+  "channel": "branch (UNVERIFIED)",
+  "note": "DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
  },
  {
   "card": "Capital One Venture Business (business; formerly Spark Miles)",
@@ -66,18 +69,20 @@
  {
   "card": "Wells Fargo Autograph",
   "fixes": {
-   "debit_pay": "Y"
+   "debit_pay": "?",
+   "confidence": "low"
   },
-  "channel": "branch only (walk in)",
-  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+  "channel": "branch (UNVERIFIED)",
+  "note": "DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
  },
  {
   "card": "Wells Fargo Autograph Journey",
   "fixes": {
-   "debit_pay": "Y"
+   "debit_pay": "?",
+   "confidence": "low"
   },
-  "channel": "branch only (walk in)",
-  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+  "channel": "branch (UNVERIFIED)",
+  "note": "DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
  },
  {
   "card": "Capital One BJ's One Mastercard",
@@ -130,18 +135,20 @@
  {
   "card": "Wells Fargo Business Elite Signature",
   "fixes": {
-   "debit_pay": "Y"
+   "debit_pay": "?",
+   "confidence": "low"
   },
-  "channel": "branch only (walk in)",
-  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+  "channel": "branch (UNVERIFIED)",
+  "note": "DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
  },
  {
   "card": "Wells Fargo Business Platinum",
   "fixes": {
-   "debit_pay": "Y"
+   "debit_pay": "?",
+   "confidence": "low"
   },
-  "channel": "branch only (walk in)",
-  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+  "channel": "branch (UNVERIFIED)",
+  "note": "DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
  },
  {
   "card": "Capital One Bass Pro/Cabela's CLUB Mastercard",
@@ -186,10 +193,11 @@
  {
   "card": "Wells Fargo Attune",
   "fixes": {
-   "debit_pay": "Y"
+   "debit_pay": "?",
+   "confidence": "low"
   },
-  "channel": "branch only (walk in)",
-  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+  "channel": "branch (UNVERIFIED)",
+  "note": "DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
  },
  {
   "card": "Williams-Sonoma \"The Key Rewards\" Mastercard",
@@ -202,18 +210,20 @@
  {
   "card": "Wells Fargo Choice Privileges Mastercard",
   "fixes": {
-   "debit_pay": "Y"
+   "debit_pay": "?",
+   "confidence": "low"
   },
-  "channel": "branch only (walk in)",
-  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+  "channel": "branch (UNVERIFIED)",
+  "note": "DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
  },
  {
   "card": "Wells Fargo Choice Privileges Select Mastercard",
   "fixes": {
-   "debit_pay": "Y"
+   "debit_pay": "?",
+   "confidence": "low"
   },
-  "channel": "branch only (walk in)",
-  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+  "channel": "branch (UNVERIFIED)",
+  "note": "DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
  },
  {
   "card": "Capital One Kohl's Card",
@@ -258,9 +268,10 @@
  {
   "card": "Wells Fargo Reflect",
   "fixes": {
-   "debit_pay": "Y"
+   "debit_pay": "?",
+   "confidence": "low"
   },
-  "channel": "branch only (walk in)",
-  "note": "WF takes a debit card ONLY in-branch; not online, not phone (guide updated 9/2026)"
+  "channel": "branch (UNVERIFIED)",
+  "note": "DOWNGRADED 2026-09-16: the only sources are WalletHub user answers and content farms, no Wells Fargo page. Their wording ('deposit your money, the teller handles it') reads like a CASH deposit, not a debit swipe. Branch-only would also be impractical at $50k/month. Verify with a teller before trusting."
  }
 ]
