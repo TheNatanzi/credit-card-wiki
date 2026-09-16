@@ -1,7 +1,9 @@
 [
  {
   "card": "Venmo Credit Card",
-  "fixes": {"debit_pay": "Y"},
+  "fixes": {
+   "debit_pay": "Y"
+  },
   "channel": "phone",
   "fee_usd": 0,
   "posts_as": "unknown",
@@ -15,7 +17,9 @@
  },
  {
   "card": "Synchrony Premier World Mastercard",
-  "fixes": {"debit_pay": "?"},
+  "fixes": {
+   "debit_pay": "?"
+  },
   "channel": "unknown",
   "fee_usd": 0,
   "posts_as": "unknown",
@@ -30,7 +34,9 @@
  },
  {
   "card": "PayPal Cashback Mastercard",
-  "fixes": {"debit_pay": "N"},
+  "fixes": {
+   "debit_pay": "N"
+  },
   "channel": "none",
   "fee_usd": 0,
   "posts_as": "unknown",
@@ -44,7 +50,9 @@
  },
  {
   "card": "Synchrony Plus World Mastercard",
-  "fixes": {"debit_pay": "?"},
+  "fixes": {
+   "debit_pay": "?"
+  },
   "channel": "unknown",
   "fee_usd": 0,
   "posts_as": "unknown",
@@ -58,7 +66,9 @@
  },
  {
   "card": "Verizon Visa Card",
-  "fixes": {"debit_pay": "?"},
+  "fixes": {
+   "debit_pay": "?"
+  },
   "channel": "unknown",
   "fee_usd": 0,
   "posts_as": "unknown",
@@ -72,7 +82,9 @@
  },
  {
   "card": "Sam's Club Mastercard",
-  "fixes": {"debit_pay": "Y"},
+  "fixes": {
+   "debit_pay": "Y"
+  },
   "channel": "store",
   "fee_usd": 0,
   "posts_as": "unknown",
@@ -86,7 +98,9 @@
  },
  {
   "card": "Amazon Store Card / Amazon Secured Card",
-  "fixes": {"debit_pay": "?"},
+  "fixes": {
+   "debit_pay": "?"
+  },
   "channel": "unknown",
   "fee_usd": 0,
   "posts_as": "unknown",
@@ -100,7 +114,9 @@
  },
  {
   "card": "CareCredit Card",
-  "fixes": {"debit_pay": "?"},
+  "fixes": {
+   "debit_pay": "?"
+  },
   "channel": "unknown",
   "fee_usd": 0,
   "posts_as": "unknown",
@@ -114,7 +130,9 @@
  },
  {
   "card": "Lowe's Advantage Card",
-  "fixes": {"debit_pay": "N"},
+  "fixes": {
+   "debit_pay": "N"
+  },
   "channel": "none",
   "fee_usd": 0,
   "posts_as": "unknown",
@@ -129,7 +147,9 @@
  },
  {
   "card": "Synchrony Preferred Mastercard",
-  "fixes": {"debit_pay": "?"},
+  "fixes": {
+   "debit_pay": "?"
+  },
   "channel": "unknown",
   "fee_usd": 0,
   "posts_as": "unknown",
@@ -143,7 +163,9 @@
  },
  {
   "card": "Capital on Tap Business (US)",
-  "fixes": {"debit_pay": "Y"},
+  "fixes": {
+   "debit_pay": "Y"
+  },
   "channel": "online",
   "fee_usd": 0,
   "posts_as": "unknown",
@@ -156,12 +178,15 @@
  },
  {
   "card": "Alliant Cashback Visa Signature",
-  "fixes": {"debit_pay": "Y"},
-  "channel": "online",
+  "fixes": {
+   "debit_pay": "Y",
+   "confidence": "high"
+  },
+  "channel": "online, one-time payment",
   "fee_usd": 0,
   "posts_as": "unknown",
   "changed": "no change found",
-  "note": "Alliant's own help article states you can quickly and securely make a one-time payment using a debit card or external bank account. Direct page re-fetch returned 403 (blocked); relied on search-engine indexed text of alliantcreditunion.org's own page.",
+  "note": "Alliant's OWN help page: members can make a one-time payment using a debit card or external bank account. Primary source, strongest documented debit rail after Medi's proven Venmo/Synchrony phone line. Payment line 800-328-1935.",
   "confidence": "med",
   "sources": [
    "https://www.alliantcreditunion.org/help/where-can-i-call-to-make-a-credit-card-payment"
@@ -169,7 +194,9 @@
  },
  {
   "card": "Target Circle Card (Credit / Mastercard)",
-  "fixes": {"debit_pay": "Y"},
+  "fixes": {
+   "debit_pay": "Y"
+  },
   "channel": "store",
   "fee_usd": 0,
   "posts_as": "unknown",

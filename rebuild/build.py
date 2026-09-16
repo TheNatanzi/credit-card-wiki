@@ -140,7 +140,7 @@ for r in rows:
             if t.get("reward_cap_month_usd") not in (None,""): reward=min(reward,num(t["reward_cap_month_usd"]))
             reward-=spend*num(r.get("extra_cost_pct"))/100+num(t.get("monthly_cost_usd"))
             return round(max(reward,0)/S*100,2)
-        blocked = w=="none" or r.get("us_ok")=="N" or (r.get("costco_ok")=="N" and w!="online")
+        blocked = w=="none" or (r.get("costco_ok")=="N" and w!="online")
         if not blocked:
             d=r["deep"]  # researcher's real % (knows POS caps, boost-only caps, redemption value) is the headline number
             r["c10"]=max(0.0,round(num(d.get("real10_pct"),tier_pct(10000,True)),2))
@@ -149,7 +149,7 @@ for r in rows:
         else: r["c10"]=r["c50"]=r["f10"]=r["f50"]=0.0
         top=max(r["tiers"],key=lambda t:num(t.get("rate_pct")))
         r["headline_pct"]=num(top.get("rate_pct")); r["lockup_usd"]=top.get("lockup_usd")
-    elif r.get("us_ok")=="N" or r.get("costco_ok")=="N":
+    elif r.get("costco_ok")=="N":
         r["c10"]=r["c50"]=r["f10"]=r["f50"]=0.0
     r["base_pct"]=round(bx*cm,2)
     # MEDI RULE 2026-09-16: never zero an unproven lead. Y = confirmed stack, ? = upside still in play.

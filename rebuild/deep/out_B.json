@@ -11,21 +11,82 @@
   "txn_max_usd": 25000,
   "daily_max_usd": 25000,
   "tiers": [
-   {"name": "Midnight Blue (prepaid, no stake)", "min_spend_month_usd": null, "lockup_usd": 0, "lock_months": 0, "rate_pct": 0, "reward_cap_month_usd": 0, "monthly_cost_usd": 0},
-   {"name": "Ruby Steel (prepaid; $500 CRO lockup OR $4.99/mo)", "min_spend_month_usd": null, "lockup_usd": 500, "lock_months": 12, "rate_pct": 1.5, "reward_cap_month_usd": 750, "monthly_cost_usd": 0},
-   {"name": "Jade Green / Royal Indigo (prepaid; $5,000 CRO lockup OR $29.99/mo)", "min_spend_month_usd": null, "lockup_usd": 5000, "lock_months": 12, "rate_pct": 2.5, "reward_cap_month_usd": 1500, "monthly_cost_usd": 0},
-   {"name": "Icy White / Frosted Rose Gold (prepaid; $50,000 CRO lockup)", "min_spend_month_usd": null, "lockup_usd": 50000, "lock_months": 12, "rate_pct": 3.5, "reward_cap_month_usd": 3000, "monthly_cost_usd": 0},
-   {"name": "Obsidian (prepaid; $500,000 CRO lockup)", "min_spend_month_usd": null, "lockup_usd": 500000, "lock_months": 12, "rate_pct": 4.5, "reward_cap_month_usd": 5000, "monthly_cost_usd": 0}
+   {
+    "name": "Midnight Blue (prepaid, no stake)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 0,
+    "lock_months": 0,
+    "rate_pct": 0,
+    "reward_cap_month_usd": 0,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Ruby Steel (prepaid; $500 CRO lockup OR $4.99/mo)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 500,
+    "lock_months": 12,
+    "rate_pct": 1.5,
+    "reward_cap_month_usd": 750,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Jade Green / Royal Indigo (prepaid; $5,000 CRO lockup OR $29.99/mo)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 5000,
+    "lock_months": 12,
+    "rate_pct": 2.5,
+    "reward_cap_month_usd": 1500,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Icy White / Frosted Rose Gold (prepaid; $50,000 CRO lockup)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 50000,
+    "lock_months": 12,
+    "rate_pct": 3.5,
+    "reward_cap_month_usd": 3000,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Obsidian (prepaid; $500,000 CRO lockup)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 500000,
+    "lock_months": 12,
+    "rate_pct": 4.5,
+    "reward_cap_month_usd": 5000,
+    "monthly_cost_usd": 0
+   }
   ],
   "costco_ok": "Y",
   "special": [
-   {"kind": "limit", "text": "Prepaid POS limit is $25,000/day AND $25,000/MONTH (Ruby-Obsidian); top-ups $10k/day, $25k/mo. $50k/mo cannot go through this card."},
-   {"kind": "cost", "text": "$500,000 of CRO (~8.98M CRO at $0.0557 on 2026-09-15) locked 12 months, no early exit; if CRO value sinks below $500k the tier drops."},
-   {"kind": "eligibility", "text": "California: CRO STAKING is barred (no ~6% APY); CA residents use CRO LOCKUP stored with Crypto.com. Card itself is open to CA."},
-   {"kind": "cap", "text": "Prepaid Obsidian pays 4.5% in CRO up to $5,000 reward/mo, then 1%. The $25k spend ceiling binds long before that cap."},
-   {"kind": "tip", "text": "Credit twin (Visa Signature, Comenity): 6% CRO uncapped, no $25k wall, credit line unknown; bill = bank ACH only, no debit card."},
-   {"kind": "risk", "text": "Paid in CRO at swipe-time price; MCC exclusion list omits 5300 but Crypto.com may add categories at will; clawback for 'gaming'."},
-   {"kind": "cost", "text": "Top-up: fiat wallet/ACH free; debit card 1% ($1k/day, $5k/mo); credit 2.99%; PayPal 2.1%. Idle 12 mo = $5.95/mo. FX 0% on Obsidian."}
+   {
+    "kind": "limit",
+    "text": "Prepaid POS limit is $25,000/day AND $25,000/MONTH (Ruby-Obsidian); top-ups $10k/day, $25k/mo. $50k/mo cannot go through this card."
+   },
+   {
+    "kind": "cost",
+    "text": "$500,000 of CRO (~8.98M CRO at $0.0557 on 2026-09-15) locked 12 months, no early exit; if CRO value sinks below $500k the tier drops."
+   },
+   {
+    "kind": "eligibility",
+    "text": "California: CRO STAKING is barred (no ~6% APY); CA residents use CRO LOCKUP stored with Crypto.com. Card itself is open to CA."
+   },
+   {
+    "kind": "cap",
+    "text": "Prepaid Obsidian pays 4.5% in CRO up to $5,000 reward/mo, then 1%. The $25k spend ceiling binds long before that cap."
+   },
+   {
+    "kind": "tip",
+    "text": "Credit twin (Visa Signature, Comenity): 6% CRO uncapped, no $25k wall, credit line unknown; bill = bank ACH only, no debit card."
+   },
+   {
+    "kind": "risk",
+    "text": "Paid in CRO at swipe-time price; MCC exclusion list omits 5300 but Crypto.com may add categories at will; clawback for 'gaming'."
+   },
+   {
+    "kind": "cost",
+    "text": "Top-up: fiat wallet/ACH free; debit card 1% ($1k/day, $5k/mo); credit 2.99%; PayPal 2.1%. Idle 12 mo = $5.95/mo. FX 0% on Obsidian."
+   }
   ],
   "real10_pct": 4.5,
   "real50_pct": 2.25,
@@ -51,18 +112,55 @@
   "txn_max_usd": 5000,
   "daily_max_usd": 5000,
   "tiers": [
-   {"name": "Stable pick (USDC / BTC / ETH), app-set ~1%", "min_spend_month_usd": null, "lockup_usd": 0, "lock_months": 0, "rate_pct": 1.0, "reward_cap_month_usd": null, "monthly_cost_usd": 0},
-   {"name": "Featured rotating altcoin, app-set up to 4% (unpublished)", "min_spend_month_usd": null, "lockup_usd": 0, "lock_months": 0, "rate_pct": 4.0, "reward_cap_month_usd": null, "monthly_cost_usd": 0}
+   {
+    "name": "Stable pick (USDC / BTC / ETH), app-set ~1%",
+    "min_spend_month_usd": null,
+    "lockup_usd": 0,
+    "lock_months": 0,
+    "rate_pct": 1.0,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Featured rotating altcoin, app-set up to 4% (unpublished)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 0,
+    "lock_months": 0,
+    "rate_pct": 4.0,
+    "reward_cap_month_usd": null,
+    "monthly_cost_usd": 0
+   }
   ],
   "costco_ok": "Y",
   "special": [
-   {"kind": "limit", "text": "Daily spend cap $5,000 (since 2025-10-14, was $2,500): one $3,800 bar per day. Risk-based tiers to $100k/day promised mid-2026, unverified."},
-   {"kind": "risk", "text": "Reward rate is unpublished: set per coin in the app and rotates; 4% only on a featured altcoin, ~1% on BTC/USDC. Treat 3% as an estimate."},
-   {"kind": "cost", "text": "Spend from Coinbase USD/USDC balance = 0 spread, free ACH in. Paying from BTC/ETH sells at ~0.5-2% spread and is a taxable sale."},
-   {"kind": "costco", "text": "Pathward Visa debit, PIN or signature at the register; MCC 5300 not on the exclusion list (ATM, reloads, crypto buys, P2P, loan pay)."},
-   {"kind": "tip", "text": "Coinbase One Card (credit) is on the AMEX network: Costco won't take it. Its 4% needs $200k on Coinbase, caps at $10k/mo, then 2%."},
-   {"kind": "risk", "text": "Cardholder agreement bars business use; Coinbase terms let it cut rewards for 'manufactured spend' at its discretion. Not offered in Hawaii."},
-   {"kind": "limit", "text": "Card balance cap $25,000 and loads $5,000/24h, but USD-balance spend needs no load, so the $5k/day POS cap is the real ceiling."}
+   {
+    "kind": "limit",
+    "text": "Daily spend cap $5,000 (since 2025-10-14, was $2,500): one $3,800 bar per day. Risk-based tiers to $100k/day promised mid-2026, unverified."
+   },
+   {
+    "kind": "risk",
+    "text": "Reward rate is unpublished: set per coin in the app and rotates; 4% only on a featured altcoin, ~1% on BTC/USDC. Treat 3% as an estimate."
+   },
+   {
+    "kind": "cost",
+    "text": "Spend from Coinbase USD/USDC balance = 0 spread, free ACH in. Paying from BTC/ETH sells at ~0.5-2% spread and is a taxable sale."
+   },
+   {
+    "kind": "costco",
+    "text": "Pathward Visa debit, PIN or signature at the register; MCC 5300 not on the exclusion list (ATM, reloads, crypto buys, P2P, loan pay)."
+   },
+   {
+    "kind": "tip",
+    "text": "Coinbase One Card (credit) is on the AMEX network: Costco won't take it. Its 4% needs $200k on Coinbase, caps at $10k/mo, then 2%."
+   },
+   {
+    "kind": "risk",
+    "text": "Cardholder agreement bars business use; Coinbase terms let it cut rewards for 'manufactured spend' at its discretion. Not offered in Hawaii."
+   },
+   {
+    "kind": "limit",
+    "text": "Card balance cap $25,000 and loads $5,000/24h, but USD-balance spend needs no load, so the $5k/day POS cap is the real ceiling."
+   }
   ],
   "real10_pct": 3.0,
   "real50_pct": 3.0,
@@ -88,20 +186,87 @@
   "txn_max_usd": null,
   "daily_max_usd": null,
   "tiers": [
-   {"name": "No GNO", "min_spend_month_usd": null, "lockup_usd": 0, "lock_months": 0, "rate_pct": 0, "reward_cap_month_usd": 0, "monthly_cost_usd": 0},
-   {"name": "0.1 GNO held (~$12): 1%, $250/wk eligible spend", "min_spend_month_usd": null, "lockup_usd": 12, "lock_months": 0, "rate_pct": 1.0, "reward_cap_month_usd": 10.8, "monthly_cost_usd": 0},
-   {"name": "1 GNO held (~$117): 2%, $375/wk", "min_spend_month_usd": null, "lockup_usd": 117, "lock_months": 0, "rate_pct": 2.0, "reward_cap_month_usd": 32.5, "monthly_cost_usd": 0},
-   {"name": "10 GNO held (~$1,170): 3%, $500/wk", "min_spend_month_usd": null, "lockup_usd": 1170, "lock_months": 0, "rate_pct": 3.0, "reward_cap_month_usd": 65, "monthly_cost_usd": 0},
-   {"name": "100 GNO held (~$11,700): 4%, $1,250/wk", "min_spend_month_usd": null, "lockup_usd": 11700, "lock_months": 0, "rate_pct": 4.0, "reward_cap_month_usd": 216.5, "monthly_cost_usd": 0},
-   {"name": "100 GNO + legacy OG NFT: 5%, $1,250/wk", "min_spend_month_usd": null, "lockup_usd": 11700, "lock_months": 0, "rate_pct": 5.0, "reward_cap_month_usd": 270.6, "monthly_cost_usd": 0}
+   {
+    "name": "No GNO",
+    "min_spend_month_usd": null,
+    "lockup_usd": 0,
+    "lock_months": 0,
+    "rate_pct": 0,
+    "reward_cap_month_usd": 0,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "0.1 GNO held (~$12): 1%, $250/wk eligible spend",
+    "min_spend_month_usd": null,
+    "lockup_usd": 12,
+    "lock_months": 0,
+    "rate_pct": 1.0,
+    "reward_cap_month_usd": 10.8,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "1 GNO held (~$117): 2%, $375/wk",
+    "min_spend_month_usd": null,
+    "lockup_usd": 117,
+    "lock_months": 0,
+    "rate_pct": 2.0,
+    "reward_cap_month_usd": 32.5,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "10 GNO held (~$1,170): 3%, $500/wk",
+    "min_spend_month_usd": null,
+    "lockup_usd": 1170,
+    "lock_months": 0,
+    "rate_pct": 3.0,
+    "reward_cap_month_usd": 65,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "100 GNO held (~$11,700): 4%, $1,250/wk",
+    "min_spend_month_usd": null,
+    "lockup_usd": 11700,
+    "lock_months": 0,
+    "rate_pct": 4.0,
+    "reward_cap_month_usd": 216.5,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "100 GNO + legacy OG NFT: 5%, $1,250/wk",
+    "min_spend_month_usd": null,
+    "lockup_usd": 11700,
+    "lock_months": 0,
+    "rate_pct": 5.0,
+    "reward_cap_month_usd": 270.6,
+    "monthly_cost_usd": 0
+   }
   ],
-  "costco_ok": "N",
+  "costco_ok": "?",
   "special": [
-   {"kind": "eligibility", "text": "Not open to US residents (issuer list = EU/EEA, UK, CH, LatAm); US only 'coming soon'. Direct signups closed; via Zeal (EU)/Picnic (BR)."},
-   {"kind": "cap", "text": "Cashback-eligible spend is capped WEEKLY: $250/$375/$500/$1,250 by GNO held (0.1/1/10/100). Best case ~$5.4k/mo earns anything."},
-   {"kind": "risk", "text": "Interim programme runs 2025-11-09 to 2026-09-30; 'rapid repeat transactions to same merchant' are excluded, so multi-swipe gold runs void."},
-   {"kind": "cost", "text": "4% needs 100 GNO held (~$11,700 at ~$117, 2026-09-12): not locked but fully price-exposed; +1% only with the legacy OG NFT."},
-   {"kind": "cost", "text": "Safe is EUR/GBP-denominated; every USD swipe pays Visa FX (~1.5% est.), which alone eats most of the 4%."}
+   {
+    "kind": "eligibility",
+    "text": "MEDI RULE: not-US is a hurdle, not a disqualifier. Rate below is the real capped rate; getting the card is the separate problem."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Not open to US residents (issuer list = EU/EEA, UK, CH, LatAm); US only 'coming soon'. Direct signups closed; via Zeal (EU)/Picnic (BR)."
+   },
+   {
+    "kind": "cap",
+    "text": "Cashback-eligible spend is capped WEEKLY: $250/$375/$500/$1,250 by GNO held (0.1/1/10/100). Best case ~$5.4k/mo earns anything."
+   },
+   {
+    "kind": "risk",
+    "text": "Interim programme runs 2025-11-09 to 2026-09-30; 'rapid repeat transactions to same merchant' are excluded, so multi-swipe gold runs void."
+   },
+   {
+    "kind": "cost",
+    "text": "4% needs 100 GNO held (~$11,700 at ~$117, 2026-09-12): not locked but fully price-exposed; +1% only with the legacy OG NFT."
+   },
+   {
+    "kind": "cost",
+    "text": "Safe is EUR/GBP-denominated; every USD swipe pays Visa FX (~1.5% est.), which alone eats most of the 4%."
+   }
   ],
   "real10_pct": 2.17,
   "real50_pct": 0.43,
@@ -126,20 +291,73 @@
   "txn_max_usd": 25000,
   "daily_max_usd": 25000,
   "tiers": [
-   {"name": "Midnight Blue (prepaid, no stake)", "min_spend_month_usd": null, "lockup_usd": 0, "lock_months": 0, "rate_pct": 0, "reward_cap_month_usd": 0, "monthly_cost_usd": 0},
-   {"name": "Ruby Steel (prepaid; $500 CRO lockup OR $4.99/mo)", "min_spend_month_usd": null, "lockup_usd": 500, "lock_months": 12, "rate_pct": 1.5, "reward_cap_month_usd": 750, "monthly_cost_usd": 0},
-   {"name": "Jade Green / Royal Indigo (prepaid; $5,000 CRO lockup OR $29.99/mo)", "min_spend_month_usd": null, "lockup_usd": 5000, "lock_months": 12, "rate_pct": 2.5, "reward_cap_month_usd": 1500, "monthly_cost_usd": 0},
-   {"name": "Icy White / Frosted Rose Gold (prepaid; $50,000 CRO lockup)", "min_spend_month_usd": null, "lockup_usd": 50000, "lock_months": 12, "rate_pct": 3.5, "reward_cap_month_usd": 3000, "monthly_cost_usd": 0}
+   {
+    "name": "Midnight Blue (prepaid, no stake)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 0,
+    "lock_months": 0,
+    "rate_pct": 0,
+    "reward_cap_month_usd": 0,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Ruby Steel (prepaid; $500 CRO lockup OR $4.99/mo)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 500,
+    "lock_months": 12,
+    "rate_pct": 1.5,
+    "reward_cap_month_usd": 750,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Jade Green / Royal Indigo (prepaid; $5,000 CRO lockup OR $29.99/mo)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 5000,
+    "lock_months": 12,
+    "rate_pct": 2.5,
+    "reward_cap_month_usd": 1500,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Icy White / Frosted Rose Gold (prepaid; $50,000 CRO lockup)",
+    "min_spend_month_usd": null,
+    "lockup_usd": 50000,
+    "lock_months": 12,
+    "rate_pct": 3.5,
+    "reward_cap_month_usd": 3000,
+    "monthly_cost_usd": 0
+   }
   ],
   "costco_ok": "Y",
   "special": [
-   {"kind": "limit", "text": "Prepaid POS limit is $25,000/day AND $25,000/MONTH; top-ups $10k/day, $25k/mo. $50k/mo cannot go through this card."},
-   {"kind": "cost", "text": "$50,000 of CRO (~898k CRO at $0.0557 on 2026-09-15) locked 12 months, no early exit; if CRO value sinks below $50k the tier drops."},
-   {"kind": "eligibility", "text": "California: CRO STAKING is barred (no ~6% APY); CA residents use CRO LOCKUP stored with Crypto.com. No subscription route for this tier."},
-   {"kind": "cap", "text": "Prepaid Icy/Rose pays 3.5% in CRO up to $3,000 reward/mo, then 0.5%. The $25k spend ceiling binds long before that cap."},
-   {"kind": "tip", "text": "Credit twin (Visa Signature, Comenity): 5% CRO uncapped at the same $50k lockup, no $25k wall; bill = bank ACH only, no debit card."},
-   {"kind": "risk", "text": "Paid in CRO at swipe-time price; MCC exclusion list omits 5300 but Crypto.com may add categories at will; clawback for 'gaming'."},
-   {"kind": "cost", "text": "Top-up: fiat wallet/ACH free; debit card 1% ($1k/day, $5k/mo); credit 2.99%; PayPal 2.1%. Idle 12 mo = $5.95/mo. FX 0% on Icy/Rose."}
+   {
+    "kind": "limit",
+    "text": "Prepaid POS limit is $25,000/day AND $25,000/MONTH; top-ups $10k/day, $25k/mo. $50k/mo cannot go through this card."
+   },
+   {
+    "kind": "cost",
+    "text": "$50,000 of CRO (~898k CRO at $0.0557 on 2026-09-15) locked 12 months, no early exit; if CRO value sinks below $50k the tier drops."
+   },
+   {
+    "kind": "eligibility",
+    "text": "California: CRO STAKING is barred (no ~6% APY); CA residents use CRO LOCKUP stored with Crypto.com. No subscription route for this tier."
+   },
+   {
+    "kind": "cap",
+    "text": "Prepaid Icy/Rose pays 3.5% in CRO up to $3,000 reward/mo, then 0.5%. The $25k spend ceiling binds long before that cap."
+   },
+   {
+    "kind": "tip",
+    "text": "Credit twin (Visa Signature, Comenity): 5% CRO uncapped at the same $50k lockup, no $25k wall; bill = bank ACH only, no debit card."
+   },
+   {
+    "kind": "risk",
+    "text": "Paid in CRO at swipe-time price; MCC exclusion list omits 5300 but Crypto.com may add categories at will; clawback for 'gaming'."
+   },
+   {
+    "kind": "cost",
+    "text": "Top-up: fiat wallet/ACH free; debit card 1% ($1k/day, $5k/mo); credit 2.99%; PayPal 2.1%. Idle 12 mo = $5.95/mo. FX 0% on Icy/Rose."
+   }
   ],
   "real10_pct": 3.5,
   "real50_pct": 1.75,

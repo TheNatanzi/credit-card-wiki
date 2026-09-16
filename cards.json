@@ -1120,9 +1120,9 @@
   "_key": "alliant cashback visa signature",
   "_dup": false,
   "notes": [
-   "verified: Alliant's own help article states you can quickly and securely make a one-time payment using a debit card or external bank account. Direct page re-fetch returned 403 (blocked); relied on search-engine indexed text of alliantcreditunion.org's own page."
+   "verified: Alliant's OWN help page: members can make a one-time payment using a debit card or external bank account. Primary source, strongest documented debit rail after Medi's proven Venmo/Synchrony phone line. Payment line 800-328-1935."
   ],
-  "dp_channel": "online",
+  "dp_channel": "online, one-time payment",
   "where": "store",
   "c10": 2.5,
   "c50": 1.7,
@@ -11886,6 +11886,250 @@
   "is_crypto": true
  },
  {
+  "card": "Gnosis Pay (Gnosis Card)",
+  "issuer": "Gnosis Pay",
+  "network": "visa",
+  "product": "debit",
+  "biz": "P",
+  "status": "active",
+  "reward_unit": "crypto",
+  "cpp_max": 1.0,
+  "cpp_floor": 1.0,
+  "base_x": 1,
+  "costco_x_max": 4,
+  "costco_x_min": 1,
+  "costco_cap_usd": null,
+  "cap_period": "none",
+  "reward_cap_usd_month": null,
+  "min_txn_usd": null,
+  "fee_usd": 0.0,
+  "fx_pct": 1.5,
+  "debit_pay": "N",
+  "lockup_usd": 11700,
+  "source": "https://www.cardpilled.com/cards/gnosis",
+  "why": "4% GNO needs >=100 GNO x $113 (2026-09-15) = $11,300 held; +1% only with legacy OG NFT; weekly caps; not US",
+  "confidence": "high",
+  "needs_research": [
+   "costco_cap_usd",
+   "reward_cap_usd_month"
+  ],
+  "_batch": "b7_crypto.json",
+  "_key": "gnosis pay gnosis card",
+  "_dup": false,
+  "deep": {
+   "card": "Gnosis Pay (Gnosis Card)",
+   "us_ok": "N",
+   "status": "active",
+   "network": "visa",
+   "debit_pay": "N",
+   "fee_usd": 0,
+   "fx_pct": 1.5,
+   "extra_cost_pct": 0,
+   "txn_max_usd": null,
+   "daily_max_usd": null,
+   "tiers": [
+    {
+     "name": "No GNO",
+     "min_spend_month_usd": null,
+     "lockup_usd": 0,
+     "lock_months": 0,
+     "rate_pct": 0,
+     "reward_cap_month_usd": 0,
+     "monthly_cost_usd": 0
+    },
+    {
+     "name": "0.1 GNO held (~$12): 1%, $250/wk eligible spend",
+     "min_spend_month_usd": null,
+     "lockup_usd": 12,
+     "lock_months": 0,
+     "rate_pct": 1.0,
+     "reward_cap_month_usd": 10.8,
+     "monthly_cost_usd": 0
+    },
+    {
+     "name": "1 GNO held (~$117): 2%, $375/wk",
+     "min_spend_month_usd": null,
+     "lockup_usd": 117,
+     "lock_months": 0,
+     "rate_pct": 2.0,
+     "reward_cap_month_usd": 32.5,
+     "monthly_cost_usd": 0
+    },
+    {
+     "name": "10 GNO held (~$1,170): 3%, $500/wk",
+     "min_spend_month_usd": null,
+     "lockup_usd": 1170,
+     "lock_months": 0,
+     "rate_pct": 3.0,
+     "reward_cap_month_usd": 65,
+     "monthly_cost_usd": 0
+    },
+    {
+     "name": "100 GNO held (~$11,700): 4%, $1,250/wk",
+     "min_spend_month_usd": null,
+     "lockup_usd": 11700,
+     "lock_months": 0,
+     "rate_pct": 4.0,
+     "reward_cap_month_usd": 216.5,
+     "monthly_cost_usd": 0
+    },
+    {
+     "name": "100 GNO + legacy OG NFT: 5%, $1,250/wk",
+     "min_spend_month_usd": null,
+     "lockup_usd": 11700,
+     "lock_months": 0,
+     "rate_pct": 5.0,
+     "reward_cap_month_usd": 270.6,
+     "monthly_cost_usd": 0
+    }
+   ],
+   "costco_ok": "?",
+   "special": [
+    {
+     "kind": "eligibility",
+     "text": "MEDI RULE: not-US is a hurdle, not a disqualifier. Rate below is the real capped rate; getting the card is the separate problem."
+    },
+    {
+     "kind": "eligibility",
+     "text": "Not open to US residents (issuer list = EU/EEA, UK, CH, LatAm); US only 'coming soon'. Direct signups closed; via Zeal (EU)/Picnic (BR)."
+    },
+    {
+     "kind": "cap",
+     "text": "Cashback-eligible spend is capped WEEKLY: $250/$375/$500/$1,250 by GNO held (0.1/1/10/100). Best case ~$5.4k/mo earns anything."
+    },
+    {
+     "kind": "risk",
+     "text": "Interim programme runs 2025-11-09 to 2026-09-30; 'rapid repeat transactions to same merchant' are excluded, so multi-swipe gold runs void."
+    },
+    {
+     "kind": "cost",
+     "text": "4% needs 100 GNO held (~$11,700 at ~$117, 2026-09-12): not locked but fully price-exposed; +1% only with the legacy OG NFT."
+    },
+    {
+     "kind": "cost",
+     "text": "Safe is EUR/GBP-denominated; every USD swipe pays Visa FX (~1.5% est.), which alone eats most of the 4%."
+    }
+   ],
+   "real10_pct": 2.17,
+   "real50_pct": 0.43,
+   "confidence": "high",
+   "sources": [
+    "https://help.gnosispay.com/hc/en-us/articles/39401751918612-Eligible-Countries-for-Gnosis-Pay",
+    "https://help.gnosispay.com/hc/en-us/articles/40288567337876-Intermediary-Cashback-Programme",
+    "https://help.gnosispay.com/hc/en-us/articles/39631920738452-About-the-Gnosis-Pay-GNO-Cashback-Programmes",
+    "https://www.coingecko.com/en/coins/gnosis",
+    "https://www.cardpilled.com/cards/gnosis"
+   ]
+  },
+  "us_ok": "N",
+  "extra_cost_pct": 0,
+  "costco_ok": "?",
+  "special": [
+   {
+    "kind": "eligibility",
+    "text": "MEDI RULE: not-US is a hurdle, not a disqualifier. Rate below is the real capped rate; getting the card is the separate problem."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Not open to US residents (issuer list = EU/EEA, UK, CH, LatAm); US only 'coming soon'. Direct signups closed; via Zeal (EU)/Picnic (BR)."
+   },
+   {
+    "kind": "cap",
+    "text": "Cashback-eligible spend is capped WEEKLY: $250/$375/$500/$1,250 by GNO held (0.1/1/10/100). Best case ~$5.4k/mo earns anything."
+   },
+   {
+    "kind": "risk",
+    "text": "Interim programme runs 2025-11-09 to 2026-09-30; 'rapid repeat transactions to same merchant' are excluded, so multi-swipe gold runs void."
+   },
+   {
+    "kind": "cost",
+    "text": "4% needs 100 GNO held (~$11,700 at ~$117, 2026-09-12): not locked but fully price-exposed; +1% only with the legacy OG NFT."
+   },
+   {
+    "kind": "cost",
+    "text": "Safe is EUR/GBP-denominated; every USD swipe pays Visa FX (~1.5% est.), which alone eats most of the 4%."
+   }
+  ],
+  "tiers": [
+   {
+    "name": "No GNO",
+    "min_spend_month_usd": null,
+    "lockup_usd": 0,
+    "lock_months": 0,
+    "rate_pct": 0,
+    "reward_cap_month_usd": 0,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "0.1 GNO held (~$12): 1%, $250/wk eligible spend",
+    "min_spend_month_usd": null,
+    "lockup_usd": 12,
+    "lock_months": 0,
+    "rate_pct": 1.0,
+    "reward_cap_month_usd": 10.8,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "1 GNO held (~$117): 2%, $375/wk",
+    "min_spend_month_usd": null,
+    "lockup_usd": 117,
+    "lock_months": 0,
+    "rate_pct": 2.0,
+    "reward_cap_month_usd": 32.5,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "10 GNO held (~$1,170): 3%, $500/wk",
+    "min_spend_month_usd": null,
+    "lockup_usd": 1170,
+    "lock_months": 0,
+    "rate_pct": 3.0,
+    "reward_cap_month_usd": 65,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "100 GNO held (~$11,700): 4%, $1,250/wk",
+    "min_spend_month_usd": null,
+    "lockup_usd": 11700,
+    "lock_months": 0,
+    "rate_pct": 4.0,
+    "reward_cap_month_usd": 216.5,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "100 GNO + legacy OG NFT: 5%, $1,250/wk",
+    "min_spend_month_usd": null,
+    "lockup_usd": 11700,
+    "lock_months": 0,
+    "rate_pct": 5.0,
+    "reward_cap_month_usd": 270.6,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "sources": [
+   "https://help.gnosispay.com/hc/en-us/articles/39401751918612-Eligible-Countries-for-Gnosis-Pay",
+   "https://help.gnosispay.com/hc/en-us/articles/40288567337876-Intermediary-Cashback-Programme",
+   "https://help.gnosispay.com/hc/en-us/articles/39631920738452-About-the-Gnosis-Pay-GNO-Cashback-Programmes",
+   "https://www.coingecko.com/en/coins/gnosis",
+   "https://www.cardpilled.com/cards/gnosis"
+  ],
+  "where": "store",
+  "c10": 2.17,
+  "c50": 0.43,
+  "f10": 0.0,
+  "f50": 0.0,
+  "headline_pct": 5.0,
+  "base_pct": 1.0,
+  "taekus": 0.0,
+  "taekus_maybe": 0.0,
+  "net50": 0.43,
+  "upside50": 0.43,
+  "lead": false,
+  "cap_month_usd": null,
+  "review": false,
+  "is_crypto": true
+ },
+ {
   "card": "Nexo Card",
   "issuer": "Nexo / DiPocket UAB",
   "network": "mastercard",
@@ -11977,6 +12221,273 @@
   "headline_pct": 0.35,
   "review": false,
   "is_crypto": false
+ },
+ {
+  "card": "Bybit Card",
+  "issuer": "Bybit",
+  "network": "mastercard",
+  "product": "debit",
+  "biz": "P",
+  "status": "active",
+  "reward_unit": "crypto",
+  "cpp_max": 1.0,
+  "cpp_floor": 1.0,
+  "base_x": 1,
+  "costco_x_max": 10,
+  "costco_x_min": 1,
+  "costco_cap_usd": null,
+  "cap_period": "none",
+  "reward_cap_usd_month": null,
+  "min_txn_usd": null,
+  "fee_usd": 0.0,
+  "fx_pct": 0.5,
+  "debit_pay": "N",
+  "lockup_usd": null,
+  "source": "https://www.bybit.com/en/wiki/article/bybit-card-countries-availability-2026/",
+  "why": "1% flat uncapped; up to 10% via VIP status (volume/holdings, no stake $ published); not US",
+  "confidence": "high",
+  "needs_research": [
+   "costco_x_max",
+   "lockup_usd",
+   "fee_usd",
+   "fx_pct"
+  ],
+  "_batch": "b7_crypto.json",
+  "_key": "bybit card",
+  "_dup": false,
+  "_spotfix": "10% only at VIP5 (asset/volume ladder, VIP1 already $100k assets); VIP rates monthly-capped, cap unpublished; US excluded; FX 0.5%",
+  "deep": {
+   "card": "Bybit Card",
+   "us_ok": "N",
+   "status": "active",
+   "network": "mastercard",
+   "debit_pay": "N",
+   "fee_usd": 0,
+   "fx_pct": 0.5,
+   "extra_cost_pct": 0.9,
+   "txn_max_usd": 5500,
+   "daily_max_usd": 5500,
+   "tiers": [
+    {
+     "name": "Tier 1 Base (no VIP, any spend)",
+     "min_spend_month_usd": 0,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 2,
+     "reward_cap_month_usd": 5,
+     "monthly_cost_usd": 0
+    },
+    {
+     "name": "Tier 2 Beta (VIP1-2 or $500 spend)",
+     "min_spend_month_usd": 500,
+     "lockup_usd": 100000,
+     "lock_months": null,
+     "rate_pct": 2,
+     "reward_cap_month_usd": 50,
+     "monthly_cost_usd": 0
+    },
+    {
+     "name": "Tier 3 Alpha (VIP3 or $3,500 spend)",
+     "min_spend_month_usd": 3500,
+     "lockup_usd": 500000,
+     "lock_months": null,
+     "rate_pct": 4,
+     "reward_cap_month_usd": 150,
+     "monthly_cost_usd": 0
+    },
+    {
+     "name": "Tier 4 Apex (VIP4 or $9,500 spend)",
+     "min_spend_month_usd": 9500,
+     "lockup_usd": 1000000,
+     "lock_months": null,
+     "rate_pct": 6,
+     "reward_cap_month_usd": 250,
+     "monthly_cost_usd": 0
+    },
+    {
+     "name": "Tier 5 Omega (VIP5 or $12,500 spend)",
+     "min_spend_month_usd": 12500,
+     "lockup_usd": 2000000,
+     "lock_months": null,
+     "rate_pct": 8,
+     "reward_cap_month_usd": 400,
+     "monthly_cost_usd": 0
+    },
+    {
+     "name": "Tier 6 Infinite (Supreme VIP or $25,000-25,500 spend)",
+     "min_spend_month_usd": 25000,
+     "lockup_usd": null,
+     "lock_months": null,
+     "rate_pct": 10,
+     "reward_cap_month_usd": 600,
+     "monthly_cost_usd": 0
+    }
+   ],
+   "costco_ok": "?",
+   "special": [
+    {
+     "kind": "eligibility",
+     "text": "MEDI RULE: not-US is a hurdle, not a disqualifier. Rate below is the real capped rate; getting the card is the separate problem."
+    },
+    {
+     "kind": "eligibility",
+     "text": "Bybit blocks US residents, US IPs and US ID documents; no US entity and no US launch planned. A California resident cannot get this card."
+    },
+    {
+     "kind": "cap",
+     "text": "Caps kill the rate: Apex 6% stops at 250 USDT/mo, Infinite 10% at 600 USDT/mo. $50k/mo at 10% nets 1.2%, not 10%."
+    },
+    {
+     "kind": "tip",
+     "text": "Spend tier = current-month spend, applied the day after settlement, kept through the END of the following month (VIP tier is instant while VIP holds)."
+    },
+    {
+     "kind": "eligibility",
+     "text": "VIP by assets OR 30-day volume: VIP1 $100k/$1M spot, VIP3 $500k/$10M, VIP4 $1M/$25M, VIP5 $2M/$50M, Supreme $100M spot only."
+    },
+    {
+     "kind": "limit",
+     "text": "EEA card: EUR 5,000 per purchase AND per day, so one ~$3,800 bar a day max; $50k/mo needs 13+ separate days."
+    },
+    {
+     "kind": "cost",
+     "text": "0.9% crypto-to-fiat conversion (min EUR 1) when crypto settles a purchase; 0.5% FX on non-EUR; EU Base tier cut to 1% Aug 2026."
+    },
+    {
+     "kind": "risk",
+     "text": "Bybit may withhold points on any transaction it deems abusive even if the MCC is not on the excluded list; Mastercard, so Costco US would refuse it anyway."
+    }
+   ],
+   "real10_pct": 1.6,
+   "real50_pct": 0.3,
+   "confidence": "high",
+   "sources": [
+    "https://www.bybitglobal.com/en/help-center/article/FAQ-Bybit-Card-Rewards-2-0",
+    "https://www.bybit.com/en/help-center/article/Introduction-to-Bybit-Card-Rewards",
+    "https://www.bybit.com/en/learn/bybit-vip/bybit-vip-levels",
+    "https://kkinvesting.io/en/posts/bybit-card-tutorial/",
+    "https://cryptoslate.com/crypto-cards/bybit-card-review/",
+    "https://www.datawallet.com/crypto/bybit-restricted-countries"
+   ]
+  },
+  "us_ok": "N",
+  "extra_cost_pct": 0.9,
+  "txn_max_usd": 5500,
+  "daily_max_usd": 5500,
+  "costco_ok": "?",
+  "special": [
+   {
+    "kind": "eligibility",
+    "text": "MEDI RULE: not-US is a hurdle, not a disqualifier. Rate below is the real capped rate; getting the card is the separate problem."
+   },
+   {
+    "kind": "eligibility",
+    "text": "Bybit blocks US residents, US IPs and US ID documents; no US entity and no US launch planned. A California resident cannot get this card."
+   },
+   {
+    "kind": "cap",
+    "text": "Caps kill the rate: Apex 6% stops at 250 USDT/mo, Infinite 10% at 600 USDT/mo. $50k/mo at 10% nets 1.2%, not 10%."
+   },
+   {
+    "kind": "tip",
+    "text": "Spend tier = current-month spend, applied the day after settlement, kept through the END of the following month (VIP tier is instant while VIP holds)."
+   },
+   {
+    "kind": "eligibility",
+    "text": "VIP by assets OR 30-day volume: VIP1 $100k/$1M spot, VIP3 $500k/$10M, VIP4 $1M/$25M, VIP5 $2M/$50M, Supreme $100M spot only."
+   },
+   {
+    "kind": "limit",
+    "text": "EEA card: EUR 5,000 per purchase AND per day, so one ~$3,800 bar a day max; $50k/mo needs 13+ separate days."
+   },
+   {
+    "kind": "cost",
+    "text": "0.9% crypto-to-fiat conversion (min EUR 1) when crypto settles a purchase; 0.5% FX on non-EUR; EU Base tier cut to 1% Aug 2026."
+   },
+   {
+    "kind": "risk",
+    "text": "Bybit may withhold points on any transaction it deems abusive even if the MCC is not on the excluded list; Mastercard, so Costco US would refuse it anyway."
+   }
+  ],
+  "tiers": [
+   {
+    "name": "Tier 1 Base (no VIP, any spend)",
+    "min_spend_month_usd": 0,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 2,
+    "reward_cap_month_usd": 5,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Tier 2 Beta (VIP1-2 or $500 spend)",
+    "min_spend_month_usd": 500,
+    "lockup_usd": 100000,
+    "lock_months": null,
+    "rate_pct": 2,
+    "reward_cap_month_usd": 50,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Tier 3 Alpha (VIP3 or $3,500 spend)",
+    "min_spend_month_usd": 3500,
+    "lockup_usd": 500000,
+    "lock_months": null,
+    "rate_pct": 4,
+    "reward_cap_month_usd": 150,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Tier 4 Apex (VIP4 or $9,500 spend)",
+    "min_spend_month_usd": 9500,
+    "lockup_usd": 1000000,
+    "lock_months": null,
+    "rate_pct": 6,
+    "reward_cap_month_usd": 250,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Tier 5 Omega (VIP5 or $12,500 spend)",
+    "min_spend_month_usd": 12500,
+    "lockup_usd": 2000000,
+    "lock_months": null,
+    "rate_pct": 8,
+    "reward_cap_month_usd": 400,
+    "monthly_cost_usd": 0
+   },
+   {
+    "name": "Tier 6 Infinite (Supreme VIP or $25,000-25,500 spend)",
+    "min_spend_month_usd": 25000,
+    "lockup_usd": null,
+    "lock_months": null,
+    "rate_pct": 10,
+    "reward_cap_month_usd": 600,
+    "monthly_cost_usd": 0
+   }
+  ],
+  "sources": [
+   "https://www.bybitglobal.com/en/help-center/article/FAQ-Bybit-Card-Rewards-2-0",
+   "https://www.bybit.com/en/help-center/article/Introduction-to-Bybit-Card-Rewards",
+   "https://www.bybit.com/en/learn/bybit-vip/bybit-vip-levels",
+   "https://kkinvesting.io/en/posts/bybit-card-tutorial/",
+   "https://cryptoslate.com/crypto-cards/bybit-card-review/",
+   "https://www.datawallet.com/crypto/bybit-restricted-countries"
+  ],
+  "where": "store",
+  "c10": 1.6,
+  "c50": 0.3,
+  "f10": 0.0,
+  "f50": 0.3,
+  "headline_pct": 10.0,
+  "base_pct": 1.0,
+  "taekus": 0.0,
+  "taekus_maybe": 0.0,
+  "net50": 0.3,
+  "upside50": 0.3,
+  "lead": false,
+  "cap_month_usd": null,
+  "review": false,
+  "is_crypto": true
  },
  {
   "card": "Uphold Essential Card",
@@ -12971,8 +13482,12 @@
      "monthly_cost_usd": 0
     }
    ],
-   "costco_ok": "N",
+   "costco_ok": "?",
    "special": [
+    {
+     "kind": "eligibility",
+     "text": "MEDI RULE: not-US is a hurdle, not a disqualifier. Rate below is the real capped rate; getting the card is the separate problem."
+    },
     {
      "kind": "eligibility",
      "text": "Not offered in the US or Canada; issuers are DCS (Asia), Fiat24 (China), Immersve (EEA/LATAM). A California resident cannot apply."
@@ -13013,8 +13528,12 @@
   "us_ok": "N",
   "extra_cost_pct": 0.5,
   "daily_max_usd": 12000,
-  "costco_ok": "N",
+  "costco_ok": "?",
   "special": [
+   {
+    "kind": "eligibility",
+    "text": "MEDI RULE: not-US is a hurdle, not a disqualifier. Rate below is the real capped rate; getting the card is the separate problem."
+   },
    {
     "kind": "eligibility",
     "text": "Not offered in the US or Canada; issuers are DCS (Asia), Fiat24 (China), Immersve (EEA/LATAM). A California resident cannot apply."
@@ -13264,265 +13783,6 @@
   "headline_pct": 0.0,
   "review": false,
   "is_crypto": false
- },
- {
-  "card": "Bybit Card",
-  "issuer": "Bybit",
-  "network": "mastercard",
-  "product": "debit",
-  "biz": "P",
-  "status": "active",
-  "reward_unit": "crypto",
-  "cpp_max": 1.0,
-  "cpp_floor": 1.0,
-  "base_x": 1,
-  "costco_x_max": 10,
-  "costco_x_min": 1,
-  "costco_cap_usd": null,
-  "cap_period": "none",
-  "reward_cap_usd_month": null,
-  "min_txn_usd": null,
-  "fee_usd": 0.0,
-  "fx_pct": 0.5,
-  "debit_pay": "N",
-  "lockup_usd": null,
-  "source": "https://www.bybit.com/en/wiki/article/bybit-card-countries-availability-2026/",
-  "why": "1% flat uncapped; up to 10% via VIP status (volume/holdings, no stake $ published); not US",
-  "confidence": "high",
-  "needs_research": [
-   "costco_x_max",
-   "lockup_usd",
-   "fee_usd",
-   "fx_pct"
-  ],
-  "_batch": "b7_crypto.json",
-  "_key": "bybit card",
-  "_dup": false,
-  "_spotfix": "10% only at VIP5 (asset/volume ladder, VIP1 already $100k assets); VIP rates monthly-capped, cap unpublished; US excluded; FX 0.5%",
-  "deep": {
-   "card": "Bybit Card",
-   "us_ok": "N",
-   "status": "active",
-   "network": "mastercard",
-   "debit_pay": "N",
-   "fee_usd": 0,
-   "fx_pct": 0.5,
-   "extra_cost_pct": 0.9,
-   "txn_max_usd": 5500,
-   "daily_max_usd": 5500,
-   "tiers": [
-    {
-     "name": "Tier 1 Base (no VIP, any spend)",
-     "min_spend_month_usd": 0,
-     "lockup_usd": null,
-     "lock_months": null,
-     "rate_pct": 2,
-     "reward_cap_month_usd": 5,
-     "monthly_cost_usd": 0
-    },
-    {
-     "name": "Tier 2 Beta (VIP1-2 or $500 spend)",
-     "min_spend_month_usd": 500,
-     "lockup_usd": 100000,
-     "lock_months": null,
-     "rate_pct": 2,
-     "reward_cap_month_usd": 50,
-     "monthly_cost_usd": 0
-    },
-    {
-     "name": "Tier 3 Alpha (VIP3 or $3,500 spend)",
-     "min_spend_month_usd": 3500,
-     "lockup_usd": 500000,
-     "lock_months": null,
-     "rate_pct": 4,
-     "reward_cap_month_usd": 150,
-     "monthly_cost_usd": 0
-    },
-    {
-     "name": "Tier 4 Apex (VIP4 or $9,500 spend)",
-     "min_spend_month_usd": 9500,
-     "lockup_usd": 1000000,
-     "lock_months": null,
-     "rate_pct": 6,
-     "reward_cap_month_usd": 250,
-     "monthly_cost_usd": 0
-    },
-    {
-     "name": "Tier 5 Omega (VIP5 or $12,500 spend)",
-     "min_spend_month_usd": 12500,
-     "lockup_usd": 2000000,
-     "lock_months": null,
-     "rate_pct": 8,
-     "reward_cap_month_usd": 400,
-     "monthly_cost_usd": 0
-    },
-    {
-     "name": "Tier 6 Infinite (Supreme VIP or $25,000-25,500 spend)",
-     "min_spend_month_usd": 25000,
-     "lockup_usd": null,
-     "lock_months": null,
-     "rate_pct": 10,
-     "reward_cap_month_usd": 600,
-     "monthly_cost_usd": 0
-    }
-   ],
-   "costco_ok": "N",
-   "special": [
-    {
-     "kind": "eligibility",
-     "text": "Bybit blocks US residents, US IPs and US ID documents; no US entity and no US launch planned. A California resident cannot get this card."
-    },
-    {
-     "kind": "cap",
-     "text": "Caps kill the rate: Apex 6% stops at 250 USDT/mo, Infinite 10% at 600 USDT/mo. $50k/mo at 10% nets 1.2%, not 10%."
-    },
-    {
-     "kind": "tip",
-     "text": "Spend tier = current-month spend, applied the day after settlement, kept through the END of the following month (VIP tier is instant while VIP holds)."
-    },
-    {
-     "kind": "eligibility",
-     "text": "VIP by assets OR 30-day volume: VIP1 $100k/$1M spot, VIP3 $500k/$10M, VIP4 $1M/$25M, VIP5 $2M/$50M, Supreme $100M spot only."
-    },
-    {
-     "kind": "limit",
-     "text": "EEA card: EUR 5,000 per purchase AND per day, so one ~$3,800 bar a day max; $50k/mo needs 13+ separate days."
-    },
-    {
-     "kind": "cost",
-     "text": "0.9% crypto-to-fiat conversion (min EUR 1) when crypto settles a purchase; 0.5% FX on non-EUR; EU Base tier cut to 1% Aug 2026."
-    },
-    {
-     "kind": "risk",
-     "text": "Bybit may withhold points on any transaction it deems abusive even if the MCC is not on the excluded list; Mastercard, so Costco US would refuse it anyway."
-    }
-   ],
-   "real10_pct": 1.6,
-   "real50_pct": 0.3,
-   "confidence": "high",
-   "sources": [
-    "https://www.bybitglobal.com/en/help-center/article/FAQ-Bybit-Card-Rewards-2-0",
-    "https://www.bybit.com/en/help-center/article/Introduction-to-Bybit-Card-Rewards",
-    "https://www.bybit.com/en/learn/bybit-vip/bybit-vip-levels",
-    "https://kkinvesting.io/en/posts/bybit-card-tutorial/",
-    "https://cryptoslate.com/crypto-cards/bybit-card-review/",
-    "https://www.datawallet.com/crypto/bybit-restricted-countries"
-   ]
-  },
-  "us_ok": "N",
-  "extra_cost_pct": 0.9,
-  "txn_max_usd": 5500,
-  "daily_max_usd": 5500,
-  "costco_ok": "N",
-  "special": [
-   {
-    "kind": "eligibility",
-    "text": "Bybit blocks US residents, US IPs and US ID documents; no US entity and no US launch planned. A California resident cannot get this card."
-   },
-   {
-    "kind": "cap",
-    "text": "Caps kill the rate: Apex 6% stops at 250 USDT/mo, Infinite 10% at 600 USDT/mo. $50k/mo at 10% nets 1.2%, not 10%."
-   },
-   {
-    "kind": "tip",
-    "text": "Spend tier = current-month spend, applied the day after settlement, kept through the END of the following month (VIP tier is instant while VIP holds)."
-   },
-   {
-    "kind": "eligibility",
-    "text": "VIP by assets OR 30-day volume: VIP1 $100k/$1M spot, VIP3 $500k/$10M, VIP4 $1M/$25M, VIP5 $2M/$50M, Supreme $100M spot only."
-   },
-   {
-    "kind": "limit",
-    "text": "EEA card: EUR 5,000 per purchase AND per day, so one ~$3,800 bar a day max; $50k/mo needs 13+ separate days."
-   },
-   {
-    "kind": "cost",
-    "text": "0.9% crypto-to-fiat conversion (min EUR 1) when crypto settles a purchase; 0.5% FX on non-EUR; EU Base tier cut to 1% Aug 2026."
-   },
-   {
-    "kind": "risk",
-    "text": "Bybit may withhold points on any transaction it deems abusive even if the MCC is not on the excluded list; Mastercard, so Costco US would refuse it anyway."
-   }
-  ],
-  "tiers": [
-   {
-    "name": "Tier 1 Base (no VIP, any spend)",
-    "min_spend_month_usd": 0,
-    "lockup_usd": null,
-    "lock_months": null,
-    "rate_pct": 2,
-    "reward_cap_month_usd": 5,
-    "monthly_cost_usd": 0
-   },
-   {
-    "name": "Tier 2 Beta (VIP1-2 or $500 spend)",
-    "min_spend_month_usd": 500,
-    "lockup_usd": 100000,
-    "lock_months": null,
-    "rate_pct": 2,
-    "reward_cap_month_usd": 50,
-    "monthly_cost_usd": 0
-   },
-   {
-    "name": "Tier 3 Alpha (VIP3 or $3,500 spend)",
-    "min_spend_month_usd": 3500,
-    "lockup_usd": 500000,
-    "lock_months": null,
-    "rate_pct": 4,
-    "reward_cap_month_usd": 150,
-    "monthly_cost_usd": 0
-   },
-   {
-    "name": "Tier 4 Apex (VIP4 or $9,500 spend)",
-    "min_spend_month_usd": 9500,
-    "lockup_usd": 1000000,
-    "lock_months": null,
-    "rate_pct": 6,
-    "reward_cap_month_usd": 250,
-    "monthly_cost_usd": 0
-   },
-   {
-    "name": "Tier 5 Omega (VIP5 or $12,500 spend)",
-    "min_spend_month_usd": 12500,
-    "lockup_usd": 2000000,
-    "lock_months": null,
-    "rate_pct": 8,
-    "reward_cap_month_usd": 400,
-    "monthly_cost_usd": 0
-   },
-   {
-    "name": "Tier 6 Infinite (Supreme VIP or $25,000-25,500 spend)",
-    "min_spend_month_usd": 25000,
-    "lockup_usd": null,
-    "lock_months": null,
-    "rate_pct": 10,
-    "reward_cap_month_usd": 600,
-    "monthly_cost_usd": 0
-   }
-  ],
-  "sources": [
-   "https://www.bybitglobal.com/en/help-center/article/FAQ-Bybit-Card-Rewards-2-0",
-   "https://www.bybit.com/en/help-center/article/Introduction-to-Bybit-Card-Rewards",
-   "https://www.bybit.com/en/learn/bybit-vip/bybit-vip-levels",
-   "https://kkinvesting.io/en/posts/bybit-card-tutorial/",
-   "https://cryptoslate.com/crypto-cards/bybit-card-review/",
-   "https://www.datawallet.com/crypto/bybit-restricted-countries"
-  ],
-  "where": "store",
-  "c10": 0.0,
-  "c50": 0.0,
-  "f10": 0.0,
-  "f50": 0.0,
-  "headline_pct": 10.0,
-  "base_pct": 1.0,
-  "taekus": 0.0,
-  "taekus_maybe": 0.0,
-  "net50": 0.0,
-  "upside50": 0.0,
-  "lead": false,
-  "cap_month_usd": null,
-  "review": false,
-  "is_crypto": true
  },
  {
   "card": "Capital One Kohl's Card",
@@ -14754,242 +15014,6 @@
   "cap_month_usd": null,
   "review": false,
   "is_crypto": false
- },
- {
-  "card": "Gnosis Pay (Gnosis Card)",
-  "issuer": "Gnosis Pay",
-  "network": "visa",
-  "product": "debit",
-  "biz": "P",
-  "status": "active",
-  "reward_unit": "crypto",
-  "cpp_max": 1.0,
-  "cpp_floor": 1.0,
-  "base_x": 1,
-  "costco_x_max": 4,
-  "costco_x_min": 1,
-  "costco_cap_usd": null,
-  "cap_period": "none",
-  "reward_cap_usd_month": null,
-  "min_txn_usd": null,
-  "fee_usd": 0.0,
-  "fx_pct": 1.5,
-  "debit_pay": "N",
-  "lockup_usd": 11700,
-  "source": "https://www.cardpilled.com/cards/gnosis",
-  "why": "4% GNO needs >=100 GNO x $113 (2026-09-15) = $11,300 held; +1% only with legacy OG NFT; weekly caps; not US",
-  "confidence": "high",
-  "needs_research": [
-   "costco_cap_usd",
-   "reward_cap_usd_month"
-  ],
-  "_batch": "b7_crypto.json",
-  "_key": "gnosis pay gnosis card",
-  "_dup": false,
-  "deep": {
-   "card": "Gnosis Pay (Gnosis Card)",
-   "us_ok": "N",
-   "status": "active",
-   "network": "visa",
-   "debit_pay": "N",
-   "fee_usd": 0,
-   "fx_pct": 1.5,
-   "extra_cost_pct": 0,
-   "txn_max_usd": null,
-   "daily_max_usd": null,
-   "tiers": [
-    {
-     "name": "No GNO",
-     "min_spend_month_usd": null,
-     "lockup_usd": 0,
-     "lock_months": 0,
-     "rate_pct": 0,
-     "reward_cap_month_usd": 0,
-     "monthly_cost_usd": 0
-    },
-    {
-     "name": "0.1 GNO held (~$12): 1%, $250/wk eligible spend",
-     "min_spend_month_usd": null,
-     "lockup_usd": 12,
-     "lock_months": 0,
-     "rate_pct": 1.0,
-     "reward_cap_month_usd": 10.8,
-     "monthly_cost_usd": 0
-    },
-    {
-     "name": "1 GNO held (~$117): 2%, $375/wk",
-     "min_spend_month_usd": null,
-     "lockup_usd": 117,
-     "lock_months": 0,
-     "rate_pct": 2.0,
-     "reward_cap_month_usd": 32.5,
-     "monthly_cost_usd": 0
-    },
-    {
-     "name": "10 GNO held (~$1,170): 3%, $500/wk",
-     "min_spend_month_usd": null,
-     "lockup_usd": 1170,
-     "lock_months": 0,
-     "rate_pct": 3.0,
-     "reward_cap_month_usd": 65,
-     "monthly_cost_usd": 0
-    },
-    {
-     "name": "100 GNO held (~$11,700): 4%, $1,250/wk",
-     "min_spend_month_usd": null,
-     "lockup_usd": 11700,
-     "lock_months": 0,
-     "rate_pct": 4.0,
-     "reward_cap_month_usd": 216.5,
-     "monthly_cost_usd": 0
-    },
-    {
-     "name": "100 GNO + legacy OG NFT: 5%, $1,250/wk",
-     "min_spend_month_usd": null,
-     "lockup_usd": 11700,
-     "lock_months": 0,
-     "rate_pct": 5.0,
-     "reward_cap_month_usd": 270.6,
-     "monthly_cost_usd": 0
-    }
-   ],
-   "costco_ok": "N",
-   "special": [
-    {
-     "kind": "eligibility",
-     "text": "Not open to US residents (issuer list = EU/EEA, UK, CH, LatAm); US only 'coming soon'. Direct signups closed; via Zeal (EU)/Picnic (BR)."
-    },
-    {
-     "kind": "cap",
-     "text": "Cashback-eligible spend is capped WEEKLY: $250/$375/$500/$1,250 by GNO held (0.1/1/10/100). Best case ~$5.4k/mo earns anything."
-    },
-    {
-     "kind": "risk",
-     "text": "Interim programme runs 2025-11-09 to 2026-09-30; 'rapid repeat transactions to same merchant' are excluded, so multi-swipe gold runs void."
-    },
-    {
-     "kind": "cost",
-     "text": "4% needs 100 GNO held (~$11,700 at ~$117, 2026-09-12): not locked but fully price-exposed; +1% only with the legacy OG NFT."
-    },
-    {
-     "kind": "cost",
-     "text": "Safe is EUR/GBP-denominated; every USD swipe pays Visa FX (~1.5% est.), which alone eats most of the 4%."
-    }
-   ],
-   "real10_pct": 2.17,
-   "real50_pct": 0.43,
-   "confidence": "high",
-   "sources": [
-    "https://help.gnosispay.com/hc/en-us/articles/39401751918612-Eligible-Countries-for-Gnosis-Pay",
-    "https://help.gnosispay.com/hc/en-us/articles/40288567337876-Intermediary-Cashback-Programme",
-    "https://help.gnosispay.com/hc/en-us/articles/39631920738452-About-the-Gnosis-Pay-GNO-Cashback-Programmes",
-    "https://www.coingecko.com/en/coins/gnosis",
-    "https://www.cardpilled.com/cards/gnosis"
-   ]
-  },
-  "us_ok": "N",
-  "extra_cost_pct": 0,
-  "costco_ok": "N",
-  "special": [
-   {
-    "kind": "eligibility",
-    "text": "Not open to US residents (issuer list = EU/EEA, UK, CH, LatAm); US only 'coming soon'. Direct signups closed; via Zeal (EU)/Picnic (BR)."
-   },
-   {
-    "kind": "cap",
-    "text": "Cashback-eligible spend is capped WEEKLY: $250/$375/$500/$1,250 by GNO held (0.1/1/10/100). Best case ~$5.4k/mo earns anything."
-   },
-   {
-    "kind": "risk",
-    "text": "Interim programme runs 2025-11-09 to 2026-09-30; 'rapid repeat transactions to same merchant' are excluded, so multi-swipe gold runs void."
-   },
-   {
-    "kind": "cost",
-    "text": "4% needs 100 GNO held (~$11,700 at ~$117, 2026-09-12): not locked but fully price-exposed; +1% only with the legacy OG NFT."
-   },
-   {
-    "kind": "cost",
-    "text": "Safe is EUR/GBP-denominated; every USD swipe pays Visa FX (~1.5% est.), which alone eats most of the 4%."
-   }
-  ],
-  "tiers": [
-   {
-    "name": "No GNO",
-    "min_spend_month_usd": null,
-    "lockup_usd": 0,
-    "lock_months": 0,
-    "rate_pct": 0,
-    "reward_cap_month_usd": 0,
-    "monthly_cost_usd": 0
-   },
-   {
-    "name": "0.1 GNO held (~$12): 1%, $250/wk eligible spend",
-    "min_spend_month_usd": null,
-    "lockup_usd": 12,
-    "lock_months": 0,
-    "rate_pct": 1.0,
-    "reward_cap_month_usd": 10.8,
-    "monthly_cost_usd": 0
-   },
-   {
-    "name": "1 GNO held (~$117): 2%, $375/wk",
-    "min_spend_month_usd": null,
-    "lockup_usd": 117,
-    "lock_months": 0,
-    "rate_pct": 2.0,
-    "reward_cap_month_usd": 32.5,
-    "monthly_cost_usd": 0
-   },
-   {
-    "name": "10 GNO held (~$1,170): 3%, $500/wk",
-    "min_spend_month_usd": null,
-    "lockup_usd": 1170,
-    "lock_months": 0,
-    "rate_pct": 3.0,
-    "reward_cap_month_usd": 65,
-    "monthly_cost_usd": 0
-   },
-   {
-    "name": "100 GNO held (~$11,700): 4%, $1,250/wk",
-    "min_spend_month_usd": null,
-    "lockup_usd": 11700,
-    "lock_months": 0,
-    "rate_pct": 4.0,
-    "reward_cap_month_usd": 216.5,
-    "monthly_cost_usd": 0
-   },
-   {
-    "name": "100 GNO + legacy OG NFT: 5%, $1,250/wk",
-    "min_spend_month_usd": null,
-    "lockup_usd": 11700,
-    "lock_months": 0,
-    "rate_pct": 5.0,
-    "reward_cap_month_usd": 270.6,
-    "monthly_cost_usd": 0
-   }
-  ],
-  "sources": [
-   "https://help.gnosispay.com/hc/en-us/articles/39401751918612-Eligible-Countries-for-Gnosis-Pay",
-   "https://help.gnosispay.com/hc/en-us/articles/40288567337876-Intermediary-Cashback-Programme",
-   "https://help.gnosispay.com/hc/en-us/articles/39631920738452-About-the-Gnosis-Pay-GNO-Cashback-Programmes",
-   "https://www.coingecko.com/en/coins/gnosis",
-   "https://www.cardpilled.com/cards/gnosis"
-  ],
-  "where": "store",
-  "c10": 0.0,
-  "c50": 0.0,
-  "f10": 0.0,
-  "f50": 0.0,
-  "headline_pct": 5.0,
-  "base_pct": 1.0,
-  "taekus": 0.0,
-  "taekus_maybe": 0.0,
-  "net50": 0.0,
-  "upside50": 0.0,
-  "lead": false,
-  "cap_month_usd": null,
-  "review": false,
-  "is_crypto": true
  },
  {
   "card": "Happen Bank LevelUp Checking (LendingClub)",
