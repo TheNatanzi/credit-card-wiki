@@ -1,0 +1,938 @@
+[
+ {
+  "card": "U.S. Bank Altitude Reserve Visa Infinite",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: U.S. Bank accepts no debit card for bill pay on any channel per 2026 cardholder guidance."
+ },
+ {
+  "card": "Chase Ink Business Premier",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "U.S. Bank Smartly Visa Signature",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: U.S. Bank accepts no debit card for bill pay on any channel per 2026 cardholder guidance."
+ },
+ {
+  "card": "Chase Ink Business Preferred",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Chase Sapphire Preferred",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "U.S. Bank Business Altitude Power Visa Signature",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: U.S. Bank accepts no debit card for bill pay on any channel per 2026 cardholder guidance."
+ },
+ {
+  "card": "Chase Sapphire Reserve",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "IHG One Rewards Premier",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "IHG One Rewards Premier Business",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "United Club Business Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "World of Hyatt Credit Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "World of Hyatt Business Credit Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Hawaiian Airlines World Elite Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Upromise World Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Chase Freedom Rise",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Chase Freedom Unlimited",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Chase Ink Business Unlimited",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "U.S. Bank Shopper Cash Rewards Visa Signature",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: U.S. Bank accepts no debit card for bill pay on any channel per 2026 cardholder guidance."
+ },
+ {
+  "card": "U.S. Bank FlexPerks Business Travel Rewards Visa Signature",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: U.S. Bank accepts no debit card for bill pay on any channel per 2026 cardholder guidance."
+ },
+ {
+  "card": "U.S. Bank FlexPerks Travel Rewards Visa Signature",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: U.S. Bank accepts no debit card for bill pay on any channel per 2026 cardholder guidance."
+ },
+ {
+  "card": "Marriott Bonvoy Boundless",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Marriott Bonvoy Bountiful",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "AAdvantage Aviator Business Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "AAdvantage Aviator Red / Blue / Silver / MileUp World Elite Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Aer Lingus Visa Signature",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "British Airways Visa Signature",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Iberia Visa Signature",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "JetBlue Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "JetBlue Business Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "JetBlue Plus Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "JetBlue Premier Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Lufthansa Miles & More World Elite Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Southwest Rapid Rewards Plus",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Southwest Rapid Rewards Premier",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Southwest Rapid Rewards Premier Business",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Southwest Rapid Rewards Priority",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "IHG One Rewards Traveler",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Southwest Rapid Rewards Performance Business",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "United Gateway Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "United Business Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "United Explorer Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "United Quest Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Emirates Skywards Rewards World Elite Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "United Club Infinite Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Emirates Skywards Premium World Elite Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Frontier Airlines World Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "AARP Essential Rewards Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "AARP Travel Rewards Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Amazon Visa",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Athleta Encore Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Banana Republic Encore Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Barclays View Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Barnes & Noble Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Capital Vacations World Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Carnival World Mastercard (FunPoints)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Chase Freedom Flex",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Chase Ink Business Cash",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Disney Visa Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "DoorDash Rewards Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Gap Encore Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Instacart Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Kroger Rewards World Elite Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: U.S. Bank accepts no debit card for bill pay on any channel per 2026 cardholder guidance."
+ },
+ {
+  "card": "Old Navy Encore Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Prime Visa",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "RCI Elite Rewards World Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "U.S. Bank Altitude Connect Visa Signature",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: U.S. Bank accepts no debit card for bill pay on any channel per 2026 cardholder guidance."
+ },
+ {
+  "card": "U.S. Bank Altitude Go Visa Signature",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: U.S. Bank accepts no debit card for bill pay on any channel per 2026 cardholder guidance."
+ },
+ {
+  "card": "U.S. Bank Cash+ Visa Signature",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: U.S. Bank accepts no debit card for bill pay on any channel per 2026 cardholder guidance."
+ },
+ {
+  "card": "U.S. Bank Triple Cash Rewards Visa Business",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: U.S. Bank accepts no debit card for bill pay on any channel per 2026 cardholder guidance."
+ },
+ {
+  "card": "Xbox Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Breeze Easy Visa",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Disney Premier Visa Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "U.S. Bank Business Altitude Connect Visa Signature",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: U.S. Bank accepts no debit card for bill pay on any channel per 2026 cardholder guidance."
+ },
+ {
+  "card": "U.S. Bank Business Leverage Visa Signature",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: U.S. Bank accepts no debit card for bill pay on any channel per 2026 cardholder guidance."
+ },
+ {
+  "card": "Marriott Bonvoy Bold",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Wyndham Rewards Earner Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Wyndham Rewards Earner Plus Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Wyndham Rewards Earner Business Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Wyndham Rewards Earner Premier Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "GM Rewards Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "American Express Blue Business Cash Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "American Express Rewards Checking",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Amex Cash Magnet Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Amex EveryDay Credit Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Amex Serve / Bluebird (prepaid)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Blue Cash Card from American Express (original, discontinued)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Blue Cash Everyday Card from American Express",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Blue from American Express (original, discontinued)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Chase Slate Edge",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Chase has no debit-card bill-pay channel on any product; reconfirmed repeatedly through 2026."
+ },
+ {
+  "card": "Delta SkyMiles Blue American Express Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Discover Cashback Debit",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Discover's own payment pages accept only a bank account by ACH on web, phone and app."
+ },
+ {
+  "card": "GM Business Mastercard",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Barclays accepts no debit card as a bill-payment method on any channel."
+ },
+ {
+  "card": "Hilton Honors American Express Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "The Blue Business Plus Credit Card from American Express",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "U.S. Bank Altitude Fund (product existence unconfirmed)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: U.S. Bank accepts no debit card for bill pay on any channel per 2026 cardholder guidance."
+ },
+ {
+  "card": "U.S. Bank Visa Platinum",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: U.S. Bank accepts no debit card for bill pay on any channel per 2026 cardholder guidance."
+ },
+ {
+  "card": "U.S. Bank FlexPerks Gold American Express",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: U.S. Bank accepts no debit card for bill pay on any channel per 2026 cardholder guidance."
+ },
+ {
+  "card": "American Express Business Green Rewards Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Amex EveryDay Preferred Credit Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Blue Cash Preferred Card from American Express",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Marriott Bonvoy Business American Express Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "American Express Green Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Delta SkyMiles Gold American Express Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Delta SkyMiles Gold Business American Express Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Hilton Honors American Express Business Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Hilton Honors American Express Surpass Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Marriott Bonvoy American Express Card (Bevy)",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "American Express Gold Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "American Express Business Gold Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Delta SkyMiles Platinum American Express Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Delta SkyMiles Platinum Business American Express Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Hilton Honors American Express Aspire Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Delta SkyMiles Reserve American Express Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Delta SkyMiles Reserve Business American Express Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "Marriott Bonvoy Brilliant American Express Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "The Business Platinum Card from American Express",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ },
+ {
+  "card": "The Platinum Card from American Express",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "note": "verified issuer-wide: Amex's own FAQ states credit and debit cards cannot be used to pay an Amex bill."
+ }
+]

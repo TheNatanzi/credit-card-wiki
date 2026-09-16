@@ -1,0 +1,778 @@
+[
+ {
+  "card": "Coinbase Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Robinhood Gold Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "X Money Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "BofA Business Advantage Travel Rewards",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "BofA Business Advantage Unlimited Cash Rewards",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Bank of America Travel Rewards",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Bank of America Unlimited Cash Rewards",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Crypto.com – Obsidian",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Bank of America Premium Rewards",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Bank of America Premium Rewards Elite",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Aven Home Equity Visa Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "BlockFi Rewards Visa ⚠️ DEFUNCT",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Kraken \"Krak\" Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Navy Federal cashRewards",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "PenFed Power Cash Rewards Visa Signature",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Rho Corporate Card / Platinum",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "SECU Cash Rewards Visa (NC)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "SoFi Unlimited 2% Credit Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Upgrade OneCard",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Navy Federal Flagship Rewards Visa Signature",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Club Swan Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Air France KLM World Elite Mastercard",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "BofA Business Advantage Customized Cash Rewards",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Crypto.com – Frosted Rose Gold / Icy White",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Alaska Airlines Visa Business (Atmos Rewards Business)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Alaska Airlines Visa Signature (Atmos Rewards Ascent)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "BECU Cash Back Visa",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Bluevine Business Cashback Mastercard",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Consumers Credit Union Cash Back Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Mercury IO Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Ramp Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "SECU Points Rewards Visa (NC)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Upgrade Bitcoin Rewards Card ⚠️ DISCONTINUED",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Upgrade Card (original)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Bank of America Customized Cash Rewards",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Airbase Card (now \"Airbase by Paylocity\")",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Bleap Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Brex Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "FutureCard Visa Debit",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Grasshopper Business Debit Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Ledger Crypto Life (CL) Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "MetaMask Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "PenFed Platinum Rewards Visa Signature",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Point Card (Neon / Titan)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Greenlight Debit (kids)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Extra Debit Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "BILL Divvy (BILL Spend & Expense)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Southwest Rapid Rewards Debit Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "United MileagePlus Debit Rewards Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Uphold Elite Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "CoinZoom Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Fold Card (Debit)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Wirex Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Gnosis Pay (Gnosis Card)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Nexo Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Wyndham Rewards Debit Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Bybit Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Uphold Essential Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Plutus Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Crypto.com – Royal Indigo / Jade Green",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Crypto.com – Ruby Steel",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Axos CashBack Checking",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Revolut US Card (Standard/Premium/Metal)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Bank of America Debit (BankAmeriDeals)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Bank5 Connect Checking Debit",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "BankAmericard",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "BankAmericard Secured",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Binance.US Card ⚠️ NONE / DEFUNCT",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "BitPay Card ⚠️ DISCONTINUED/PAUSED",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Bitget Wallet Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Bluevine Business Debit Mastercard",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Cash App Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Chime Credit Builder Secured Visa",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Chime Visa Debit Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Choice / Unchained ⚠️ NO CARD",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Crypto.com – Midnight Blue",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Current Debit (Current)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Dave Debit Mastercard",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Happen Bank LevelUp Checking (LendingClub)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Juno Card ⚠️ CRYPTO DISCONTINUED",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "MoonPay \"MoonAgents\" Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Navy Federal More Rewards American Express",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "OnePay (One Finance) debit / Builder Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "PayPal Debit Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Revolut Secured Credit Card (US)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Sable Debit Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Sesame Cash (Credit Sesame)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "SoFi Debit Card (Checking/Money)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Step Visa Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Strike ⚠️ NO CARD",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Truist One Debit (Truist Deals)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Varo Believe Credit Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Varo Debit (Varo Perks)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Venmo Debit Mastercard",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Wise Debit Card (US)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "hi Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ },
+ {
+  "card": "Coinbase One Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "note": "MEDI RULE 2026-09-16: the old N was an INFERENCE from prose (e.g. 'settles by ACH'), not an explicit issuer statement. Unverified = lead, not dead."
+ }
+]
