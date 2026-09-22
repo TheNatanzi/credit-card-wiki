@@ -1,0 +1,2834 @@
+[
+ {
+  "card": "Capital on Tap Business (US)",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 2% w/ weekly AutoPay (1.5% base), Visa; debit pay in portal",
+  "source": "https://www.capitalontap.com/us/business-credit-cards/benefits/",
+  "as_of": "2026-09-21",
+  "ruling": "Synchrony Bank and WebBank accept debit-card bill payments."
+ },
+ {
+  "card": "Costco Anywhere Visa Business Card by Citi",
+  "fixes": {
+   "network": "visa",
+   "fee_usd": 0
+  },
+  "note": "Claude audit 2026-09-21: 2% cash (Feb certificate); Visa in-warehouse; debit by phone",
+  "source": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card",
+  "as_of": "2026-09-21",
+  "ruling": "Inherited from Medi's ruling that Citi Costco accepts Taekus; business variant not separately confirmed by him"
+ },
+ {
+  "card": "Venmo Credit Card",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 3% cash at Costco (wholesale = grocery), uncapped, Visa",
+  "source": "https://www.synchronycredit.com/syfterms/html/RewardsTerms.htm",
+  "as_of": "2026-09-21",
+  "ruling": "Synchrony Bank and WebBank accept debit-card bill payments."
+ },
+ {
+  "card": "Alliant Cashback Visa Signature",
+  "fixes": {
+   "status": "active",
+   "network": "visa",
+   "costco_x_max": 1.5
+  },
+  "note": "Claude audit 2026-09-21: 1.5% cash uncapped; CLOSED to new; debit Express Pay",
+  "source": "https://www.alliantcreditunion.org/images/uploads/files/CashbackVisaSignatureProgramTermsConditions.pdf",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Chase Ink Business Premier",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 2.5% cash on $5k+ posted tickets, 2% else; $195 fee",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0535_0536_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Costco Anywhere Visa Card by Citi",
+  "fixes": {
+   "network": "visa",
+   "fee_usd": 0
+  },
+  "note": "Claude audit 2026-09-21: 2% cash (Feb certificate); Visa in-warehouse; phone debit",
+  "source": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card",
+  "as_of": "2026-09-21",
+  "ruling": "MEDI RULING 2026-09-15: Citi Costco STILL ACCEPTS TAEKUS. Overrides the FlyerTalk Apr-2026 report that the IVR dropped debit"
+ },
+ {
+  "card": "Rho Corporate Card / Platinum",
+  "fixes": {
+   "network": "mastercard",
+   "costco_cap_usd": 1000000,
+   "cap_period": "year"
+  },
+  "note": "Claude audit 2026-09-21: 2% Platinum / 1.25% std, $1M/yr cap; Costco.com only (MC)",
+  "source": "https://www.rho.co/policies/cashback-rewards",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Robinhood Gold Card",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "N"
+  },
+  "note": "Claude audit 2026-09-21: 3% cash (brokerage), no cap stated; WAITLIST; Gold $50/yr",
+  "source": "https://api.robinhood.com/creditcard/legal/reward-terms",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "U.S. Bank Smartly Visa Signature",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 4% first $10k/cycle w/ $100k Smartly Checking; 2% after",
+  "source": "https://onboarding.usbank.com/gateway/partner/credit-card/begin?locationCode=8069&offerId=36672BDX52&sourceCode=87869&page=terms",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "AARP Essential Rewards Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1% cash, uncapped; Costco.com only (MC); no debit-card pay",
+  "source": "https://www.barclaycardus.com/applycontent/TnCs.jsp?tc48294",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "AARP Travel Rewards Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1% cash, uncapped; Costco.com only (MC); no debit-card pay",
+  "source": "https://cards.barclaycardus.com/banking/cards/aarp-travel-rewards-mastercard/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "AAdvantage Aviator Business Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: Converted to Citi 04/24/2026; miles only, no cash",
+  "source": "https://frequentmiler.com/barlcays-aviator-to-citi-transition-april-2026-what-we-know-and-what-we-dont/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "AAdvantage Aviator Red / Blue / Silver / MileUp World Elite Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: Barclays card, converted to Citi 4/24/2026; miles, no cash",
+  "source": "https://awardwallet.com/news/credit-cards/citi-sole-issuer-aadvantage-cards/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "AT&T Points Plus Card from Citi",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: 1x (~1%) at Costco.com only; grocery excludes clubs",
+  "source": "https://www.citi.com/credit-cards/citi-att-pointsplus-credit-card",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Aer Lingus Visa Signature",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1x Avios, no cash value; $95 fee; Visa warehouse OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0526_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Airbase Card (now \"Airbase by Paylocity\")",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: Visa, 'unlimited cash back' rate unpublished; sales-only",
+  "source": "https://valueaddvc.com/blog/ramp-vs-brex-vs-airbase-best-corporate-cards-and-spend-management-for-startups",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Alaska Airlines Visa Business (Atmos Rewards Business)",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1 Atmos pt/$, no cash floor; Visa; $70+$25/card",
+  "source": "https://business.bankofamerica.com/en/credit-cards/atmos-rewards",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Alaska Airlines Visa Signature (Atmos Rewards Ascent)",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1 Atmos pt/$, no cash floor; Visa Signature; $95",
+  "source": "https://www.bankofamerica.com/credit-cards/products/alaska-airlines-credit-card/",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Amazon Store Card / Amazon Secured Card",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: Amazon-only store card; not accepted at Costco",
+  "source": "https://www.synchrony.com/amazon",
+  "as_of": "2026-09-21",
+  "ruling": "Synchrony Bank and WebBank accept debit-card bill payments."
+ },
+ {
+  "card": "Amazon Visa",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1% cash at Costco (Visa), $0 fee; 1 cent floor",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0441_0510_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "American Airlines AAdvantage MileUp Card",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: 1x AA mile at Costco.com only; no cash floor",
+  "source": "https://www.citi.com/credit-cards/aadvantage-mile-up-credit-card",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "American Express Blue Business Cash Card",
+  "fixes": {
+   "network": "amex",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 2%->1% after $50k/yr; Amex not accepted at Costco",
+  "source": "https://www.americanexpress.com/en-us/campaigns/small-business/credit-cards/blue-business-cash/offer-welcome/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "American Express Business Gold Card",
+  "fixes": {
+   "network": "amex",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1x MR (0.6c floor); Amex not accepted at Costco",
+  "source": "https://www.nerdwallet.com/reviews/credit-cards/american-express-business-gold",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "American Express Business Green Rewards Card",
+  "fixes": {
+   "network": "amex",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1x MR (0.6c floor); Amex not accepted at Costco",
+  "source": "https://thepointsguy.com/credit-cards/reviews/amex-business-green-rewards-card-review",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "American Express Gold Card",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Amex network: not accepted at Costco; 1X, 0.6c floor, $325",
+  "source": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "American Express Green Card",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Closed to new 7/23/2026; Amex not accepted at Costco",
+  "source": "https://frequentmiler.com/amex-green-card-not-available-for-new-applications-is-an-update-on-the-way/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "American Express Rewards Checking",
+  "fixes": {
+   "network": "amex",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: Amex debit: 0.4% cash via deposits; Costco unproven",
+  "source": "https://www.americanexpress.com/en-us/banking/online-checking/frequently-asked-questions/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Amex Cash Magnet Card",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Closed 9/25/2024; 1.5% cash; Amex not accepted at Costco",
+  "source": "https://www.americanexpress.com/us/credit-cards/card/cash-magnet/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Amex EveryDay Credit Card",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Closed 9/25/2024; 1X MR; Amex not accepted at Costco",
+  "source": "https://www.americanexpress.com/content/dam/amex/us/rewards/membership-rewards/mr-terms-conditions-september-2026.pdf",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Amex EveryDay Preferred Credit Card",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Closed 9/25/2024; 1X-1.5X MR; Amex not accepted",
+  "source": "https://www.americanexpress.com/content/dam/amex/us/rewards/membership-rewards/mr-terms-conditions-september-2026.pdf",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Amex Serve / Bluebird (prepaid)",
+  "fixes": {
+   "network": "amex",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: Discontinued June 3, 2026; Amex network, never Costco",
+  "source": "https://www.serve.com/serve-amex-landing-page",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Athleta Encore Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1% in Gap-brand reward only, no cash; Costco.com only (MC)",
+  "source": "https://cards.barclaycardus.com/banking/cards/athleta-encore-mastercard/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Aven Home Equity Visa Card",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "N"
+  },
+  "note": "Claude audit 2026-09-21: 2% cash (AutoPay), uncapped; HELOC Visa, line to $400K",
+  "source": "https://www.aven.com/js/app.98c83e64.js",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Axos CashBack Checking",
+  "fixes": {
+   "status": "dead",
+   "debit_pay": "-",
+   "costco_x_max": 0,
+   "costco_x_min": 0
+  },
+  "note": "Claude audit 2026-09-21: Discontinued Apr 2026; wholesale was excluded, 0% at Costco",
+  "source": "https://finance.yahoo.com/personal-finance/banking/article/best-cash-back-rewards-checking-accounts-220821719.html",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "BECU Cash Back Visa",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% uncapped Visa; WA/OR/ID membership; no debit pay",
+  "source": "https://www.becu.org/everyday-banking/credit-card/cash-back-credit-card",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "BILL Divvy (BILL Spend & Expense)",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: 0.78% cash max (weekly cycle), Visa; debit pay unknown",
+  "source": "https://www.bill.com/product/rewards",
+  "as_of": "2026-09-21",
+  "ruling": "Synchrony Bank and WebBank accept debit-card bill payments."
+ },
+ {
+  "card": "BJ's One+ Mastercard",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 2% BJ's-only store credit, no cash; Costco.com only (MC)",
+  "source": "https://www.capitalone.com/credit-cards/bjs-wholesale-club/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Banana Republic Encore Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1% in Gap-brand reward only, no cash; Costco.com only (MC)",
+  "source": "https://cards.barclaycardus.com/banking/cards/banana-republic-encore-mastercard/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Bank of America Customized Cash Rewards",
+  "fixes": {
+   "costco_x_max": 2.0
+  },
+  "note": "Claude audit 2026-09-21: 2% Costco (wholesale) on $2.5k/qtr shared cap, then 1%; Visa",
+  "source": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/cash-back-category-choices/",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Bank of America Debit (BankAmeriDeals)",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "N"
+  },
+  "note": "Claude audit 2026-09-21: 0% at Costco; merchant-funded deals only; PIN debit works",
+  "source": "https://promotions.bankofamerica.com/en/deals",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Bank of America Premium Rewards",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1.5-2.625 pts/$ at 1 cpp cash; $95 fee; Visa Signature",
+  "source": "https://www.bankofamerica.com/credit-cards/products/premium-rewards-credit-card/",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Bank of America Premium Rewards Elite",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1.5-2.625 pts/$ at 1 cpp cash; $550 fee; Visa Infinite",
+  "source": "https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Bank of America Travel Rewards",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1.5-2.625 pts/$, travel/dining credit only, no cash floor",
+  "source": "https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Bank of America Unlimited Cash Rewards",
+  "fixes": {
+   "costco_x_max": 1.5
+  },
+  "note": "Claude audit 2026-09-21: 1.5%-2.625% cash, uncapped; 75% tier now needs $1M; Visa",
+  "source": "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-credit-card/",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Bank5 Connect Checking Debit",
+  "fixes": {
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: 0% at Costco; offer-only rewards; Visa PIN debit works",
+  "source": "https://www.bank5connect.com/products/checking/purchase-rewards",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Barclays View Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: Closed to new; 1% cash floor for holders; Costco.com only",
+  "source": "https://cards.barclaycardus.com/banking/cards/barclaysview/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Barnes & Noble Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1% in B&N gift cards only, no cash; Costco.com only (MC)",
+  "source": "https://www.barclaycardus.com/applycontent/TnCs.jsp?tc48297",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Bilt Mastercard (Wells Fargo issued)",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "N"
+  },
+  "note": "Claude audit 2026-09-21: Discontinued; WF exited, holders moved to Column/Cardless",
+  "source": "https://www.creditkarma.com/credit-cards/insights/bilt-world-elite-mastercard",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Binance.US Card ⚠️ NONE / DEFUNCT",
+  "fixes": {
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: No Binance.US card exists; global card never US-eligible",
+  "source": "https://kkinvesting.io/en/posts/binance-card-review-usa/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "BitPay Card ⚠️ DISCONTINUED/PAUSED",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: Discontinued 2023-06-15 (MCB exit); relaunch never happened",
+  "source": "https://cryptoslate.com/bitpay-card-review/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Bitget Wallet Card",
+  "fixes": {
+   "us_ok": "N",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: Live, 2-3% Assetback; US residents ineligible",
+  "source": "https://web3.bitget.com/card",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Bleap Card",
+  "fixes": {
+   "us_ok": "N",
+   "network": "mastercard",
+   "debit_pay": "-",
+   "costco_cap_usd": 3600,
+   "cap_period": "month"
+  },
+  "note": "Claude audit 2026-09-21: 1% USDC, $36/mo max; EEA/CH only; Mastercard",
+  "source": "https://www.bleap.finance/en-us/legal-agreements/cashback-terms-and-conditions",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "BlockFi Rewards Visa ⚠️ DEFUNCT",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: Dead since Nov 2022 bankruptcy; estate wind-down only",
+  "source": "https://www.gobankingrates.com/reviews/blockfi-credit-card/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Blue Cash Card from American Express (original, discontinued)",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Legacy; converts to BCE 3/4/2027; Amex not accepted",
+  "source": "https://www.uscreditcardguide.com/amex-old-blue-cash-credit-card/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Blue Cash Everyday Card from American Express",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: 1% base cash; Amex not accepted at Costco",
+  "source": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Blue Cash Preferred Card from American Express",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: 1% base cash; $95; Amex not accepted at Costco",
+  "source": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Blue from American Express (original, discontinued)",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Legacy 1X MR card; closed; Amex not accepted",
+  "source": "https://financebuzz.com/blue-from-american-express-review",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Bluevine Business Cashback Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "N"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% cash, invite-only, unlisted; Costco.com only if held",
+  "source": "http://web.archive.org/web/20251206215438/https://www.bluevine.com/blog/introducing-business-credit-card-with-cash-back",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Bluevine Business Debit Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "N"
+  },
+  "note": "Claude audit 2026-09-21: No Costco reward; PIN debit likely works; fee-waiver only",
+  "source": "https://www.bluevine.com/business-checking/debit-card",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "BofA Business Advantage Customized Cash Rewards",
+  "fixes": {
+   "network": "mastercard",
+   "costco_x_max": 1.0
+  },
+  "note": "Claude audit 2026-09-21: 1%-1.75% cash; Costco.com only (Mastercard); no club cat",
+  "source": "https://business.bankofamerica.com/en/credit-cards/business-advantage-customized-cash-rewards",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "BofA Business Advantage Travel Rewards",
+  "fixes": {
+   "network": "mastercard"
+  },
+  "note": "Claude audit 2026-09-21: 1.5-2.625 pts/$, travel credit only; Costco.com only",
+  "source": "https://business.bankofamerica.com/en/credit-cards/business-advantage-travel-rewards",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "BofA Business Advantage Unlimited Cash Rewards",
+  "fixes": {
+   "network": "mastercard",
+   "costco_x_max": 1.5
+  },
+  "note": "Claude audit 2026-09-21: 1.5%-2.625% cash, uncapped; Costco.com only (Mastercard)",
+  "source": "https://business.bankofamerica.com/en/credit-cards/business-advantage-unlimited-cash-rewards",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Breeze Easy Visa",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: Visa (warehouse OK) but BreezePoints have no cash value",
+  "source": "https://cards.barclaycardus.com/banking/cards/breeze-airways/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "British Airways Visa Signature",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1x Avios, no cash value; $95 fee; Visa warehouse OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0508_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Bybit Card",
+  "fixes": {
+   "us_ok": "N",
+   "network": "mastercard",
+   "debit_pay": "-",
+   "costco_cap_usd": 6000,
+   "cap_period": "month"
+  },
+  "note": "Claude audit 2026-09-21: Up to 10%, 600 USDT/mo ceiling; US excluded; MC debit",
+  "source": "https://www.bybit.com/en-GB/pay-rewards/promo/rewards-details/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One BJ's One Mastercard",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% BJ's-only store credit, no cash; Costco.com only (MC)",
+  "source": "https://www.capitalone.com/credit-cards/bjs-wholesale-club/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One Bass Pro/Cabela's CLUB Mastercard",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1.5-2% Bass Pro-only points, no cash; Costco.com only (MC)",
+  "source": "https://www.capitalone.com/credit-cards/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One Kohl's Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: Closed-loop at Kohl's; Visa twin = 1% Kohl's Cash at Costco",
+  "source": "https://www.capitalone.com/credit-cards/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One Platinum",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: No rewards program; Costco.com only; zero return",
+  "source": "https://www.capitalone.com/credit-cards/platinum/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One Platinum Secured",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: No rewards program; Costco.com only; zero return",
+  "source": "https://www.capitalone.com/credit-cards/platinum-secured/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One Quicksilver Cash Rewards",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% cash; Costco.com only (MC/Discover); debit contested",
+  "source": "https://www.capitalone.com/credit-cards/quicksilver/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One QuicksilverOne Cash Rewards",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% cash, $39 fee; Costco.com only; low line",
+  "source": "https://www.capitalone.com/credit-cards/quicksilverone/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One REI Co-op Mastercard",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% REI-only rewards, no cash; Costco.com only (MC)",
+  "source": "https://www.capitalone.com/credit-cards/rei/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One Savor (legacy premium 4% dining — CLOSED to new applicants)",
+  "fixes": {
+   "status": "active",
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: Closed 2024-07-16; 1% at Costco.com only (MC); $95",
+  "source": "https://www.doctorofcredit.com/capital-one-not-accepting-applications-for-capital-one-savor-card/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One Savor Cash Rewards (no-fee; formerly SavorOne)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1% at Costco (not grocery); Costco.com only (MC/Discover)",
+  "source": "https://www.capitalone.com/credit-cards/savor/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One Spark Cash Plus (business)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 2% cash, no cap; Visa: warehouse+online; $150 fee refunded",
+  "source": "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One Spark Cash Select (business)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% cash, $0 fee; network (MC/Visa) decides warehouse",
+  "source": "https://www.capitalone.com/small-business/credit-cards/spark-cash-select/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One Venture Business (business; formerly Spark Miles)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 2x miles = 1% cash; Costco.com only (MC); $95",
+  "source": "https://www.capitalone.com/small-business/credit-cards/venture-business/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One Venture Rewards",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 2x miles = 1% cash; Costco.com only (MC); $95",
+  "source": "https://www.capitalone.com/credit-cards/venture/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One Venture X Business (business)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 2x miles = 1% cash floor (2% travel); Visa; $395",
+  "source": "https://www.capitalone.com/small-business/credit-cards/venture-x-business/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One Venture X Rewards",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 2x miles = 1% cash (2% travel); Visa Infinite; $395",
+  "source": "https://www.capitalone.com/credit-cards/venture-x/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One VentureOne Business (business; formerly Spark Miles Select)",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1.5x miles = 0.75% cash; Costco.com only (MC); $0",
+  "source": "https://www.capitalone.com/small-business/credit-cards/ventureone-business/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One VentureOne Rewards",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1.25x miles = 0.625% cash; Costco.com only; $0",
+  "source": "https://www.capitalone.com/credit-cards/ventureone/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital One Walmart Rewards Mastercard (DISCONTINUED)",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: Discontinued 2024; accounts converted to Quicksilver",
+  "source": "https://www.doctorofcredit.com/capital-one-walmart-end-partnership/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Capital Vacations World Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: ~1% cash (rate inferred), no fee; Costco.com only (MC)",
+  "source": "https://cards.barclaycardus.com/banking/cards/capital-vacations/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "CareCredit Card",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: Closed-loop health card, no rewards; not accepted at Costco",
+  "source": "https://www.carecredit.com/faqs/",
+  "as_of": "2026-09-21",
+  "ruling": "Synchrony Bank and WebBank accept debit-card bill payments."
+ },
+ {
+  "card": "Carnival World Mastercard (FunPoints)",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: Converted Sept 2026; statement credits removed; no cash",
+  "source": "https://cards.barclaycardus.com/banking/credit-card/carnival/carnival-prequal/carnival-combo-app-prequal-long/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Cash App Card",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: 0% base; offers only; PIN debit OK at warehouse; $25k/30d",
+  "source": "https://cash.app/help/us/en-us/30981-category-offers",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Chase Freedom Flex",
+  "fixes": {
+   "network": "mastercard",
+   "costco_cap_usd": 1500,
+   "cap_period": "quarter"
+  },
+  "note": "Claude audit 2026-09-21: 1% cash; Costco.com only (Mastercard); 5% cap $1,500/q",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0534_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Chase Freedom Rise",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% cash, $0 fee, Visa; starter card, tiny line",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0540_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Chase Freedom Unlimited",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% cash, uncapped, $0 fee; Visa warehouse + online",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0509_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Chase Ink Business Cash",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1% cash direct at Costco; 5% band is office supply only",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0475_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Chase Ink Business Preferred",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1x = 1 cent cash at Costco; $95 fee; travel uplift only",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0514_0515_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Chase Ink Business Unlimited",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% cash uncapped, $0 fee; business Visa",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0516_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Chase Sapphire Preferred",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1% cash (1x UR @1cpp), uncapped; $95 fee; warehouse OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0551_0560_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Chase Sapphire Reserve",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1% cash (1x UR @1cpp), uncapped; $795 fee; warehouse OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0550_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Chase Slate Edge",
+  "fixes": {
+   "status": "active",
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: No rewards (0%); Visa accepted, nothing earned",
+  "source": "https://creditcards.chase.com/a1/slateedge",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Chime Credit Builder Secured Visa",
+  "fixes": {
+   "status": "active",
+   "network": "visa",
+   "costco_cap_usd": 1500,
+   "cap_period": "month"
+  },
+  "note": "Claude audit 2026-09-21: Secured Visa; 5%/2% one category <= $1,500/mo (list unknown)",
+  "source": "https://www.chime.com/credit-builder/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Chime Visa Debit Card",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: 0% base; Upside deals only; PIN debit OK; $2.5k/day",
+  "source": "https://help.chime.com/what-is-chime-deals-4cf170fa",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Choice / Unchained ⚠️ NO CARD",
+  "fixes": {
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: No card at Unchained or Choice; custody/IRA only",
+  "source": "https://unchained.com/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Citi / AAdvantage Executive World Legend Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: 1x AA mile online only; $695 AF; no cash",
+  "source": "https://www.citi.com/credit-cards/citi-aadvantage-executive-world-legend-mastercard",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Citi / AAdvantage Platinum Select World Elite Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: 1x AA mile online only; $99 AF; no cash",
+  "source": "https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-world-elite-mastercard",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Citi Custom Cash",
+  "fixes": {
+   "status": "active",
+   "network": "mastercard"
+  },
+  "note": "Claude audit 2026-09-21: Closed May 28, 2026; 1% at Costco; Costco.com only (MC)",
+  "source": "https://wallethub.com/answers/cc/citi-custom-cash-card-categories-1000342-2140759639/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Citi Diamond Preferred",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: No rewards; 0% at Costco.com; irrelevant",
+  "source": "https://www.citi.com/credit-cards/citi-diamond-preferred-credit-card",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Citi Double Cash",
+  "fixes": {
+   "network": "mastercard"
+  },
+  "note": "Claude audit 2026-09-21: 2% cash (1%+1% on pay), uncapped; Costco.com only (MC)",
+  "source": "https://www.citi.com/credit-cards/citi-double-cash-credit-card",
+  "as_of": "2026-09-21",
+  "ruling": "MEDI RULING 2026-09-15: Citi Double Cash personal no longer takes debit-card bill pay"
+ },
+ {
+  "card": "Citi Prestige",
+  "fixes": {
+   "status": "active",
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: Closed since 2021; 1x, 0.75 cpp cash; Costco.com only",
+  "source": "https://thepointsguy.com/credit-cards/reviews/citi-prestige-credit-card-review",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Citi Rewards+",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: Converted to Citi Strata 7/20/2025; perks ended 7/19/2026",
+  "source": "https://www.doctorofcredit.com/new-citi-strata-card-to-replace-rewards-card-benefits-added-removed/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Citi Shop Your Way Mastercard (DISCONTINUED)",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: SYW program ended 11/2/2025; converted to Citi ThankYou MC",
+  "source": "https://www.doctorofcredit.com/citi-sywr-cards-to-be-converted-to-citi-mastercard/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Citi Simplicity",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: No rewards; 0% at Costco.com; irrelevant",
+  "source": "https://www.citi.com/credit-cards/citi-simplicity-credit-card",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Citi Strata",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: 1x at Costco.com only; cash 0.5-1 cpp (conflict)",
+  "source": "https://www.cardbenefits.citi.com/-/media/F319A212C5DC41D8A4C8316AD3EAFB20.ashx",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Citi Strata Elite",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: 1.5x (~1.5%) at Costco.com only; $595 AF; cpp conflict",
+  "source": "https://www.citi.com/credit-cards/credit-card-rewards/citi-strata-elite-benefits",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Citi Strata Premier",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: 1x, 0.75 cpp cash; Costco.com only (MC); $95 AF",
+  "source": "https://www.cardbenefits.citi.com/-/media/F319A212C5DC41D8A4C8316AD3EAFB20.ashx",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "CitiBusiness / AAdvantage Platinum Select Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: 1x AA mile online only; $99 AF; no cash",
+  "source": "https://www.citi.com/credit-cards/citi-aadvantage-business-credit-card",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Club Swan Card",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: Discontinued 2023 (MELD acquisition); domain repurposed",
+  "source": "https://blog.ueex.com/club-swan-card-review/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "CoinZoom Card",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-",
+   "costco_cap_usd": 5000,
+   "cap_period": "month"
+  },
+  "note": "Claude audit 2026-09-21: 5% ZOOM on first $5k/30d (5300 capped); illiquid token",
+  "source": "https://support.coinzoom.com/en/articles/12821905-how-to-earn-rewards-on-everyday-purchases",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Coinbase Card",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: Rotating 'up to 4%' crypto, rates unpublished; $2.5k/day",
+  "source": "https://www.spendnode.io/crypto-cards/coinbase-card/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Coinbase One Card",
+  "fixes": {
+   "network": "amex",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: Amex: not accepted at Costco; 2-4% BTC, $10k/mo band",
+  "source": "https://www.coinbase.com/legal/creditcard/rewards",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Consumers Credit Union Cash Back Card",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% Cash Back Mastercard; Costco.com only; same as MI row",
+  "source": "https://www.consumerscu.org/cash-back-card",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Crypto.com – Frosted Rose Gold / Icy White",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-",
+   "costco_cap_usd": 3000,
+   "cap_period": "month"
+  },
+  "note": "Claude audit 2026-09-21: 3.5% CRO on $3k/mo then 0.5%; $50k CRO locked; $25k cap",
+  "source": "https://help.crypto.com/en/articles/2742447-crypto-com-prepaid-card-rewards-benefits",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Crypto.com – Midnight Blue",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: 0% rewards; free prepaid Visa",
+  "source": "https://help.crypto.com/en/articles/2742447-crypto-com-prepaid-card-rewards-benefits",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Crypto.com – Obsidian",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-",
+   "costco_cap_usd": 5000,
+   "cap_period": "month"
+  },
+  "note": "Claude audit 2026-09-21: 4.5% CRO on $5k/mo then 1%; $500k CRO locked; $25k cap",
+  "source": "https://help.crypto.com/en/articles/2742447-crypto-com-prepaid-card-rewards-benefits",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Crypto.com – Royal Indigo / Jade Green",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-",
+   "costco_cap_usd": 1500,
+   "cap_period": "month"
+  },
+  "note": "Claude audit 2026-09-21: 2.5% CRO on $1,500/mo then 0%; $299.90/yr or $5k CRO",
+  "source": "https://help.crypto.com/en/articles/2742447-crypto-com-prepaid-card-rewards-benefits",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Crypto.com – Ruby Steel",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-",
+   "costco_cap_usd": 750,
+   "cap_period": "month"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% CRO on $750/mo then 0%; $49.90/yr or $500 CRO",
+  "source": "https://help.crypto.com/en/articles/2742447-crypto-com-prepaid-card-rewards-benefits",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Current Debit (Current)",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: 0% base (points = Build credit card only); PIN debit OK",
+  "source": "https://cdn.current.com/agreements/current_points_terms_05_26_2026.pdf",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Dave Debit Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "N",
+   "fee_usd": 60
+  },
+  "note": "Claude audit 2026-09-21: 0% base; card-linked offers; MC debit needs PIN at warehouse",
+  "source": "https://finance.yahoo.com/news/dave-launches-cash-back-rewards-123000395.html",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Delta SkyMiles Blue American Express Card",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Delta miles, no cash floor; Amex not accepted at Costco",
+  "source": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue-american-express-card/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Delta SkyMiles Gold American Express Card",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Delta miles, no cash floor; Amex not accepted at Costco",
+  "source": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Delta SkyMiles Gold Business American Express Card",
+  "fixes": {
+   "network": "amex",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1x SkyMiles, no cash; Amex not accepted at Costco",
+  "source": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Delta SkyMiles Platinum American Express Card",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Delta miles, no cash floor; Amex not accepted at Costco",
+  "source": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Delta SkyMiles Platinum Business American Express Card",
+  "fixes": {
+   "network": "amex",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1x SkyMiles, no cash; Amex not accepted at Costco",
+  "source": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Delta SkyMiles Reserve American Express Card",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Delta miles, no cash floor; Amex not accepted at Costco",
+  "source": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Delta SkyMiles Reserve Business American Express Card",
+  "fixes": {
+   "network": "amex",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1x/1.5x SkyMiles, no cash; Amex not accepted",
+  "source": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Discover Cashback Debit",
+  "fixes": {
+   "status": "dead",
+   "network": "discover",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: 1% to $3k/mo ($30) ending; loan/bill pay excluded; closing",
+  "source": "https://www.discover.com/content/dam/dfs/online-banking/documents/NationalDepositAccountAgreement.pdf",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Discover it Business",
+  "fixes": {
+   "status": "active",
+   "network": "discover",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: Closed to new; Discover not accepted at Costco or Costco.com",
+  "source": "https://www.doctorofcredit.com/discover-launches-discover-it-business-1-5-cashback-doubled-first-year/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Discover it Cash Back",
+  "fixes": {
+   "network": "discover",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: Not accepted at Costco or Costco.com; 5% rotating/$1,500 qtr",
+  "source": "https://www.discover.com/credit-cards/cash-back/it-card.html",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Discover it Chrome",
+  "fixes": {
+   "network": "discover",
+   "debit_pay": "?",
+   "costco_cap_usd": 1000,
+   "cap_period": "quarter"
+  },
+  "note": "Claude audit 2026-09-21: Not accepted at Costco or Costco.com; 2% gas/dining $1k qtr",
+  "source": "https://www.discover.com/credit-cards/cash-back/chrome/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Discover it Miles",
+  "fixes": {
+   "network": "discover",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: Not accepted at Costco; 1.5x miles = 1.5% cash, no minimum",
+  "source": "https://www.discover.com/credit-cards/travel/miles-card.html",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Discover it Secured",
+  "fixes": {
+   "network": "discover",
+   "debit_pay": "?",
+   "costco_cap_usd": 1500,
+   "cap_period": "quarter"
+  },
+  "note": "Claude audit 2026-09-21: Not accepted at Costco; secured 5% rotating, $49+ deposit",
+  "source": "https://www.discover.com/credit-cards/secured/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Discover it Student Cash Back",
+  "fixes": {
+   "network": "discover",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: Not accepted at Costco; student 5% rotating/$1,500 qtr",
+  "source": "https://www.discover.com/credit-cards/student/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Discover it Student Chrome",
+  "fixes": {
+   "network": "discover",
+   "debit_pay": "?",
+   "costco_cap_usd": 1000,
+   "cap_period": "quarter"
+  },
+  "note": "Claude audit 2026-09-21: Not accepted at Costco; student 2% gas/dining $1k qtr",
+  "source": "https://www.discover.com/credit-cards/student/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Disney Premier Visa Card",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1% Disney Rewards Dollars, no cash floor; Visa OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPC0044_0474_0553.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Disney Visa Card",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1% Disney Rewards Dollars, no cash floor; Visa OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPC0044_0474_0553.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "DoorDash Rewards Mastercard",
+  "fixes": {
+   "network": "mastercard"
+  },
+  "note": "Claude audit 2026-09-21: 1% cash; Costco.com only (Mastercard); $0 fee",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0542_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Emirates Skywards Premium World Elite Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1 Skywards mile/$, $499 fee; no cash; Costco.com only",
+  "source": "https://cards.barclaycardus.com/banking/cards/emirates-skywards-premium-world-elite-mastercard/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Emirates Skywards Rewards World Elite Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1 Skywards mile/$, $99 fee; no cash; Costco.com only",
+  "source": "https://cards.barclaycardus.com/banking/cards/emirates-skywards-rewards-world-elite-mastercard/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Extra Debit Card",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: Up to 1% points with NO cash value; $149-199/yr; debit MC",
+  "source": "https://extra.app/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Fold Card (Credit)",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% BTC uncapped (+0.5% if paid in BTC); waitlist",
+  "source": "https://foldapp.com/legal/rewards-program-terms",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Fold Card (Debit)",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-",
+   "costco_cap_usd": 50000,
+   "cap_period": "month"
+  },
+  "note": "Claude audit 2026-09-21: 0.5% BTC, $50k/mo spend limit; Costco 'boost' unpublished",
+  "source": "https://foldapp.com/rewards",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Frontier Airlines World Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?",
+   "fee_usd": 99
+  },
+  "note": "Claude audit 2026-09-21: 1 Frontier mile/$, $99 fee; no cash; Costco.com only",
+  "source": "https://cards.barclaycardus.com/banking/cards/frontier-airlines-world-mastercard/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "FutureCard Visa Debit",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: Discontinued: Piermont accounts closed 4/23/2026",
+  "source": "https://www.doctorofcredit.com/futurecard-climate-friendly-visa-debit-card-offers-5-back-on-select-public-transport-ev-charging-more/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "GM Business Mastercard",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 3x GM-dealer-only points, no cash; Costco.com only (MC)",
+  "source": "https://www.barclaycardus.com/applycontent/TnCs.jsp?tc47372",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "GM Rewards Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 3x GM-only points, no cash floor; Costco.com only (MC)",
+  "source": "https://www.barclaycardus.com/applycontent/TnCs.jsp?tc47943",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Gap Encore Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1% in Gap-brand reward only, no cash; Costco.com only (MC)",
+  "source": "https://cards.barclaycardus.com/banking/cards/gap-encore-mastercard/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Gemini Credit Card",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: 1% crypto on Costco.com (wholesale excluded from 2%)",
+  "source": "https://www.bitdegree.org/crypto/gemini-credit-card-review",
+  "as_of": "2026-09-21",
+  "ruling": "Synchrony Bank and WebBank accept debit-card bill payments."
+ },
+ {
+  "card": "Gnosis Pay (Gnosis Card)",
+  "fixes": {
+   "status": "dead",
+   "network": "visa",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: Winding down; GNO cashback ends ~Sep 30 2026; not US",
+  "source": "https://www.spendnode.io/crypto-cards/gnosis-pay-card/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Grasshopper Business Debit Card",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: 1% signature debit w/ $10k balance; $5k/day default limit",
+  "source": "https://support.grasshopper.bank/hc/en-us/articles/37923871952660-Understanding-Your-Cash-Back-Benefits",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Greenlight Debit (kids)",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "-",
+   "costco_cap_usd": 43333,
+   "cap_period": "month",
+   "fee_usd": 131.76
+  },
+  "note": "Claude audit 2026-09-21: 1% on all spend; $10k/week; $10.98/mo; PIN Mastercard",
+  "source": "https://help.greenlight.com/hc/en-us/articles/4403651878683-How-do-I-earn-1-Cash-Back-on-purchases-Where-can-I-see-my-Cash-Back-earned",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Happen Bank LevelUp Checking (LendingClub)",
+  "fixes": {
+   "debit_pay": "-",
+   "costco_x_max": 1.0
+  },
+  "note": "Claude audit 2026-09-21: Same product as LendingClub row: 1%, MCC 5300 listed, no cap",
+  "source": "https://www.happen.com/help/checking-accounts-faq/what-mcc-codes-are-eligible-for-cash-back-rewards",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Hawaiian Airlines World Elite Mastercard",
+  "fixes": {
+   "status": "active",
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: Closed to new since 10/01/2025; Atmos points, no cash",
+  "source": "https://cards.barclaycardus.com/banking/credit-card/hawaiian-airlines/combo-app/hawaiian-hbl-boh-combo-app-alt-1/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Hilton Honors American Express Aspire Card",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Hilton 3X, no cash floor; Amex not accepted at Costco",
+  "source": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Hilton Honors American Express Business Card",
+  "fixes": {
+   "network": "amex",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 5x->3x Hilton pts, no cash; Amex not accepted",
+  "source": "https://www.nerdwallet.com/reviews/credit-cards/hilton-honors-american-express-business",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Hilton Honors American Express Card",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Hilton 3X, no cash floor; Amex not accepted at Costco",
+  "source": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Hilton Honors American Express Surpass Card",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Hilton 3X, no cash floor; Amex not accepted at Costco",
+  "source": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "IHG One Rewards Premier",
+  "fixes": {
+   "network": "mastercard"
+  },
+  "note": "Claude audit 2026-09-21: 3x IHG pts, no cash; Costco.com only (Mastercard); $99 fee",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0529_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "IHG One Rewards Premier Business",
+  "fixes": {
+   "network": "mastercard"
+  },
+  "note": "Claude audit 2026-09-21: 3x IHG pts, no cash; Costco.com only (Mastercard); $99 fee",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0314_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "IHG One Rewards Traveler",
+  "fixes": {
+   "network": "mastercard"
+  },
+  "note": "Claude audit 2026-09-21: 2x IHG pts, no cash; Costco.com only (Mastercard); $0 fee",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0306_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Iberia Visa Signature",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1x Avios, no cash value; $95 fee; Visa warehouse OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0527_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Instacart Mastercard",
+  "fixes": {
+   "network": "mastercard"
+  },
+  "note": "Claude audit 2026-09-21: 1% cash; Costco.com only (Mastercard); $0 fee",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0539_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "JetBlue Business Card",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 0.75% via Points Payback, $99 fee; Costco.com only (MC)",
+  "source": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "JetBlue Card",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 0.75% via Points Payback, $0 fee; Costco.com only (MC)",
+  "source": "https://cards.barclaycardus.com/banking/cards/jetblue-card/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "JetBlue Plus Card",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 0.75% via Points Payback, $99 fee; Costco.com only (MC)",
+  "source": "https://cards.barclaycardus.com/banking/cards/jetblue-plus-card/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "JetBlue Premier Card",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 0.75% via Points Payback, $499 fee; Costco.com only (MC)",
+  "source": "https://cards.barclaycardus.com/banking/cards/jetblue-premier-card/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Juno Card ⚠️ CRYPTO DISCONTINUED",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: Company shut down; card dead since Synapse collapse 2024",
+  "source": "https://juno.finance/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Kraken \"Krak\" Card",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: 2% USD, no cap stated; needs $50k balance; Visa debit",
+  "source": "https://opencryptocards.com/cards/krak",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Kroger Rewards World Elite Mastercard",
+  "fixes": {
+   "status": "dead",
+   "network": "mastercard"
+  },
+  "note": "Claude audit 2026-09-21: Discontinued (May 2026); Mastercard = Costco.com only, 1%",
+  "source": "https://www.doctorofcredit.com/changes-to-the-kroger-mastercard-5-cashback-on-mobile-wallet-on-up-to-3000-in-spend/",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Ledger Crypto Life (CL) Card",
+  "fixes": {
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: 1% BTC/USDC debit; Visa (per Ledger), $15k/day; fiat-fund only",
+  "source": "https://shop.ledger.com/pages/cl-card-crypto-card",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Lowe's Advantage Card",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: Lowe's-only store card; not accepted at Costco",
+  "source": "https://money.usnews.com/credit-cards/synchrony-bank/mylowes-rewards-credit-card",
+  "as_of": "2026-09-21",
+  "ruling": "Synchrony Bank and WebBank accept debit-card bill payments."
+ },
+ {
+  "card": "Lufthansa Miles & More World Elite Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1 M&M mile/$, $89 fee; no cash; Costco.com only",
+  "source": "https://cards.barclaycardus.com/banking/cards/lufthansa-miles-more-world-elite-mastercard/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Marriott Bonvoy American Express Card (Bevy)",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Bonvoy 2X, no cash floor; Amex not accepted at Costco",
+  "source": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Marriott Bonvoy Bold",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1x Bonvoy, no cash floor; $0 fee; Visa warehouse OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0532_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Marriott Bonvoy Boundless",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 2x Bonvoy, no cash floor; $95 fee; Visa warehouse OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0513_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Marriott Bonvoy Bountiful",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 2x Bonvoy, no cash floor; $250 fee; Visa warehouse OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0541_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Marriott Bonvoy Brilliant American Express Card",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Bonvoy 2X, no cash floor; Amex not accepted at Costco",
+  "source": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Marriott Bonvoy Business American Express Card",
+  "fixes": {
+   "network": "amex",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 2x Bonvoy pts, no cash; Amex not accepted at Costco",
+  "source": "https://www.bankrate.com/credit-cards/reviews/marriott-bonvoy-business-american-express-card/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Mercury IO Card",
+  "fixes": {
+   "network": "mastercard"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% cash, auto-deposit; Costco.com only (Mastercard)",
+  "source": "https://support.mercury.com/hc/en-us/articles/28768794858772-Qualifying-for-IO",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "MetaMask Card",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: 1% mUSD (3% first $10k/yr); US sign-ups paused; MC debit",
+  "source": "https://support.metamask.io/trade/metamask-card/metal-card",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "MoonPay \"MoonAgents\" Card",
+  "fixes": {
+   "us_ok": "N",
+   "network": "mastercard",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: Virtual Mastercard for AI agents; no rewards; US not supported",
+  "source": "https://support.moonpay.com/en/articles/629708-moonagents-card-crypto-funded-virtual-payment-cards",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "NHL Discover it",
+  "fixes": {
+   "network": "discover",
+   "debit_pay": "?",
+   "costco_cap_usd": 1500,
+   "cap_period": "quarter"
+  },
+  "note": "Claude audit 2026-09-21: Not accepted at Costco; NHL-design it Cash Back, 5%/$1,500",
+  "source": "https://www.discover.com/credit-cards/cash-back/nhl-card.html",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Navy Federal Flagship Rewards Visa Signature",
+  "fixes": {
+   "network": "visa",
+   "fee_usd": 49
+  },
+  "note": "Claude audit 2026-09-21: 2X = 2% cash, uncapped; closed to new (Premier = 1%)",
+  "source": "https://www.navyfederal.org/content/dam/nfculibs/pdfs/credit-debit-cards/nfcu_829b.pdf",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Navy Federal More Rewards American Express",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: 1x (1c) Amex-network card; not accepted at Costco",
+  "source": "https://www.navyfederal.org/loans-cards/credit-cards/more-rewards.html",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Nexo Card",
+  "fixes": {
+   "us_ok": "N",
+   "network": "mastercard"
+  },
+  "note": "Claude audit 2026-09-21: 2% NEXO, ~$200/mo cap (unconfirmed); EEA/UK only; MC",
+  "source": "https://nexo.com/nexo-card",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Old Navy Encore Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1% in Gap-brand reward only, no cash; Costco.com only (MC)",
+  "source": "https://cards.barclaycardus.com/banking/cards/old-navy-encore-mastercard/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "OnePay (One Finance) debit / Builder Card",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "N"
+  },
+  "note": "Claude audit 2026-09-21: Debit 0%; Builder MC 0.1% Costco.com; debit-pay in terms",
+  "source": "https://www.onepay.com/legal/onepay-rewards-terms",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "PayPal Cashback Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% cash, uncapped; Costco.com only (no PayPal checkout)",
+  "source": "https://www.paypal.com/us/digital-wallet/manage-money/paypal-cashback-mastercard",
+  "as_of": "2026-09-21",
+  "ruling": "Synchrony Bank and WebBank accept debit-card bill payments."
+ },
+ {
+  "card": "PayPal Debit Card",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "-",
+   "costco_x_max": 5.0,
+   "costco_cap_usd": 1000,
+   "cap_period": "month"
+  },
+  "note": "Claude audit 2026-09-21: 5% on $1,000/mo ($50 cap); Costco counts as Groceries",
+  "source": "https://www.paypal.com/us/digital-wallet/rewards/rewards-categories",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "PenFed Platinum Rewards Visa Signature",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1X points, no cash redemption; Costco = 1 pt/$",
+  "source": "https://www.penfed.org/credit-cards/platinum-rewards-visa",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "PenFed Power Cash Rewards Visa Signature",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 2% cash w/ Honors Advantage (1.5% base), uncapped; Visa",
+  "source": "https://www.penfed.org/credit-cards/power-cash-rewards-visa",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Plutus Card",
+  "fixes": {
+   "us_ok": "N",
+   "network": "visa",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: In-app points, not cash; cards paused; UK/EEA only",
+  "source": "https://www.plutus.it/plans",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Point Card (Neon / Titan)",
+  "fixes": {
+   "status": "dead",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: point.app redirects to Atlas Card; gone (date unverified)",
+  "source": "https://www.cnbc.com/select/point-card-review-debit-card-earn-rewards/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Prime Visa",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1% cash at Costco (Visa), $0 fee; 1 cent floor",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0441_0510_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "RCI Elite Rewards World Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1% cash (1.25% at $200+ tiers?), no fee; Costco.com only",
+  "source": "https://cards.barclaycardus.com/banking/cards/rci-elite-rewards-mastercard/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Ramp Card",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "N"
+  },
+  "note": "Claude audit 2026-09-21: 0-1.5% cash per account; Visa warehouse OK; no debit pay",
+  "source": "https://www.nerdwallet.com/business/credit-cards/reviews/ramp-card",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Revolut Secured Credit Card (US)",
+  "fixes": {
+   "network": "mastercard",
+   "costco_x_max": 1.5,
+   "costco_cap_usd": 2000,
+   "cap_period": "cycle"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% cash, secured MC <= $2,000 line; Costco.com only",
+  "source": "https://revolut.com/en-US/credit",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Revolut US Card (Standard/Premium/Metal)",
+  "fixes": {
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: Prepaid Visa/MC (Lead Bank); US RevPoints rate unverified",
+  "source": "https://www.revolut.com/en-US/our-pricing-plans/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "SECU Cash Rewards Visa (NC)",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% (+0.5% w/ $500 DD = 2%); NC state-employee CU only",
+  "source": "https://www.ncsecu.org/accounts/credit-cards/cash-rewards-card",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "SECU Points Rewards Visa (NC)",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1.5x pts = 1.5% cash; NC state-employee CU only",
+  "source": "https://www.ncsecu.org/accounts/credit-cards/points-rewards-card",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Sable Debit Card",
+  "fixes": {
+   "status": "dead",
+   "network": "mastercard",
+   "debit_pay": "N"
+  },
+  "note": "Claude audit 2026-09-21: Discontinued; earned 0% at Costco even when live",
+  "source": "https://www.cardratings.com/credit-card/sable-debit-credit-card.html",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Sam's Club Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "costco_cap_usd": 5000,
+   "cap_period": "year"
+  },
+  "note": "Claude audit 2026-09-21: 1% Sam's Cash on Costco.com only; $5k/yr cap; club cash-out",
+  "source": "https://scene7.samsclub.com/is/content/samsclub/sams-cash-with-mastercard",
+  "as_of": "2026-09-21",
+  "ruling": "Synchrony Bank and WebBank accept debit-card bill payments."
+ },
+ {
+  "card": "Sesame Cash (Credit Sesame)",
+  "fixes": {
+   "status": "dead",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: Discontinued Nov 2025 (third-party); site pages 404; no bill",
+  "source": "https://www.creditsesame.com/press/credit-sesame-customers-can-now-earn-15-percent-cash-back-instantly-sesame-cash/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "SoFi Debit Card (Checking/Money)",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: 0% at Costco; no debit reward program; PIN Mastercard",
+  "source": "https://www.sofi.com/terms-of-use/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "SoFi Unlimited 2% Credit Card",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "N"
+  },
+  "note": "Claude audit 2026-09-21: 2% cash (1c/pt to SoFi acct); Costco.com only; INVITE ONLY",
+  "source": "https://www.sofi.com/card/rewards",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Southwest Rapid Rewards Debit Card",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-",
+   "fee_usd": 83.88
+  },
+  "note": "Claude audit 2026-09-21: 0.5 RR pt/$ at Costco; no cash floor; $6.99/mo",
+  "source": "https://info.southwestdebit.com/earning-terms",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Southwest Rapid Rewards Performance Business",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1x Southwest points at Costco, no cash floor; $299 fee",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0531_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Southwest Rapid Rewards Plus",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1x Rapid Rewards, no cash; $99 fee; Visa warehouse OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0458_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Southwest Rapid Rewards Premier",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1x Rapid Rewards, no cash; $149 fee; Visa warehouse OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0459_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Southwest Rapid Rewards Premier Business",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1x Southwest points at Costco, no cash floor; $149 fee",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0461_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Southwest Rapid Rewards Priority",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1x Rapid Rewards, no cash; $229 fee; Visa warehouse OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0530_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Step Visa Card",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "?",
+   "costco_x_max": 1.0
+  },
+  "note": "Claude audit 2026-09-21: 1% cash w/ free Step Black; secured Visa; deposit-limited",
+  "source": "https://step.com/rewards",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Strike ⚠️ NO CARD",
+  "fixes": {
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: No Strike spending card; 2022 Visa waitlist never shipped",
+  "source": "https://strike.me/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Synchrony Plus World Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: 1% auto credit; invite-only; Costco.com only",
+  "source": "https://www.synchrony.com/financing/synchrony-mastercards",
+  "as_of": "2026-09-21",
+  "ruling": "Synchrony Bank and WebBank accept debit-card bill payments."
+ },
+ {
+  "card": "Synchrony Preferred Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: Invite-only, no rewards; Costco.com only",
+  "source": "https://www.synchrony.com/financing/synchrony-mastercards",
+  "as_of": "2026-09-21",
+  "ruling": "Synchrony Bank and WebBank accept debit-card bill payments."
+ },
+ {
+  "card": "Synchrony Premier World Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: 2% auto statement credit, uncapped; Costco.com only",
+  "source": "https://www.synchrony.com/financing/synchrony-mastercards",
+  "as_of": "2026-09-21",
+  "ruling": "Synchrony Bank and WebBank accept debit-card bill payments."
+ },
+ {
+  "card": "Target Circle Card (Credit / Mastercard)",
+  "fixes": {
+   "network": "mastercard"
+  },
+  "note": "Claude audit 2026-09-21: Target-only credit card; Costco needs the Mastercard variant",
+  "source": "https://www.td.com/content/dam/tdb/document/pdf/about-us/target_nordstrom_cc_disclosures.pdf",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "The Blue Business Plus Credit Card from American Express",
+  "fixes": {
+   "network": "amex",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 2x MR to $50k/yr (0.6c floor); Amex not accepted",
+  "source": "https://www.nerdwallet.com/business/credit-cards/reviews/amex-blue-business-plus",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "The Business Platinum Card from American Express",
+  "fixes": {
+   "network": "amex",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1x/2x MR (0.6c; 1.1c via Schwab); Amex not accepted",
+  "source": "https://www.nerdwallet.com/reviews/credit-cards/american-express-business-platinum",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "The Platinum Card from American Express",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Amex network: not accepted at Costco; 1X, 0.6c floor, $895",
+  "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Truist One Debit (Truist Deals)",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-",
+   "fee_usd": 144
+  },
+  "note": "Claude audit 2026-09-21: 0% base; Cardlytics deals only; PIN debit OK; $3k/day POS",
+  "source": "https://www.truist.com/content/dam/truist-bank/us/en/documents/terms-conditions/personal/truist-deals-tc.pdf",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "U.S. Bank Altitude Connect Visa Signature",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1% at Costco (wholesale excluded); no AF; 1c deposit",
+  "source": "https://www.usbank.com/credit-cards/altitude-connect-visa-signature-credit-card.html",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "U.S. Bank Altitude Go Visa Signature",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1% at Costco (wholesale excluded); no AF",
+  "source": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "U.S. Bank Altitude Reserve Visa Infinite",
+  "fixes": {
+   "status": "active",
+   "network": "visa",
+   "costco_cap_usd": 5000,
+   "cap_period": "cycle"
+  },
+  "note": "Claude audit 2026-09-21: Closed; 3x wallet first $5k/cycle @1c, then 1%; $400 AF",
+  "source": "https://rewards.usbank.com/benefits/card/AltitudeReserveBenefits/program-rules",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "U.S. Bank Business Leverage Visa Signature",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1% certain; 2% if Costco is a top-2 category (unverified)",
+  "source": "https://www.usbank.com/business-banking/business-credit-cards/business-leverage-rewards-credit-card.html",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "U.S. Bank Cash+ Visa Signature",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1% at Costco (wholesale excluded from 2%/5%); no AF",
+  "source": "https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "U.S. Bank FlexPerks Business Travel Rewards Visa Signature",
+  "fixes": {
+   "status": "dead",
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: Discontinued 2020; legacy holders only; ~1% base",
+  "source": "https://www.doctorofcredit.com/source-all-us-bank-flexperks-cards-to-be-discontinued-on-march-9/",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "U.S. Bank FlexPerks Gold American Express",
+  "fixes": {
+   "network": "amex"
+  },
+  "note": "Claude audit 2026-09-21: Closed since 2020; Amex network not accepted at Costco",
+  "source": "https://wallethub.com/edu/rp/us-bank-flexperks-rewards-review/25849",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "U.S. Bank FlexPerks Travel Rewards Visa Signature",
+  "fixes": {
+   "status": "dead",
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: Discontinued 2020; legacy holders only; ~1% base",
+  "source": "https://www.doctorofcredit.com/source-all-us-bank-flexperks-cards-to-be-discontinued-on-march-9/",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "U.S. Bank Shopper Cash Rewards Visa Signature",
+  "fixes": {
+   "status": "active",
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: Closed 6/22/2026; 3% wholesale $1,500/qtr then 1.5%; $95",
+  "source": "https://www.doctorofcredit.com/u-s-bank-to-launch-shopper-cash-rewards-card-6-back-on-select-retailers-including-amazon/",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "U.S. Bank Triple Cash Rewards Visa Business",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1% at Costco (base is 1%, not 1.5%); no AF; Visa business",
+  "source": "https://www.usbank.com/business-banking/business-credit-cards/business-triple-cash-back-credit-card.html",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "U.S. Bank Visa Platinum",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: No rewards; replaced by Shield Visa (also 0% at Costco)",
+  "source": "https://www.usbank.com/credit-cards/shield-visa-credit-card.html",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "United Business Card",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1x United miles at Costco, no cash floor; $150 fee",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0303_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "United Club Business Card",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1.5x United miles at Costco, no cash floor; $695 fee",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0479_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "United Club Infinite Card",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1x United miles, no cash; $695 fee; Visa warehouse OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0437_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "United Explorer Card",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1x United miles, no cash; $150 fee; Visa warehouse OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0480_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "United Gateway Card",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1x United miles, no cash; $0 fee; Visa warehouse OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0261_0262_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "United MileagePlus Debit Rewards Card",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: 0.5 UA mile/$ at Costco; no cash floor; $4/mo",
+  "source": "https://uniteddebitrewardscard.com/pdf/EarningTerms.pdf",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "United Quest Card",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1x United miles, no cash; $350 fee; Visa warehouse OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0278_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Upgrade Bitcoin Rewards Card ⚠️ DISCONTINUED",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% bitcoin at repayment; DISCONTINUED (NerdWallet 11/2025)",
+  "source": "https://www.nerdwallet.com/credit-cards/reviews/upgrade-bitcoin-rewards",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Upgrade Card (original)",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% cash paid at REPAYMENT; Visa; closed to new (~06/20/26)",
+  "source": "https://www.upgrade.com/help/upgrade-cards/upgrade-card/upgrade-cash-rewards-card-details/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Upgrade OneCard",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 2% at repayment (legacy, closed 4/6/26); Essentials 1%",
+  "source": "https://www.upgrade.com/help/upgrade-cards/onecard/upgrade-onecard-details/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Uphold Elite Card",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-",
+   "costco_cap_usd": 300,
+   "cap_period": "month"
+  },
+  "note": "Claude audit 2026-09-21: 3% fiat-funded (4% crypto) in XRP; $300/mo cap; $99.99",
+  "source": "https://uphold.com/en-gb/legal/uphold-rewards-terms-and-conditions",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Uphold Essential Card",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-",
+   "costco_cap_usd": 120,
+   "cap_period": "month"
+  },
+  "note": "Claude audit 2026-09-21: 2% in XRP; $120/mo cap; $2,500/day POS",
+  "source": "https://uphold.com/en-gb/legal/uphold-rewards-terms-and-conditions",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Upromise World Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?",
+   "costco_x_max": 1.25
+  },
+  "note": "Claude audit 2026-09-21: 1.25% cash (1.529% w/ 529 link), uncapped; Costco.com only",
+  "source": "https://www.barclaycardus.com/applycontent/TnCs.jsp?tc48506",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Varo Believe Credit Card",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: Secured Visa; 0% flat (offers only); deposit-limited",
+  "source": "https://www.varomoney.com/cashback/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Varo Debit (Varo Perks)",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-",
+   "costco_cap_usd": 750,
+   "cap_period": "month"
+  },
+  "note": "Claude audit 2026-09-21: 0% at Costco; offer-only cashback, $750/mo cap; Visa PIN",
+  "source": "https://www.varomoney.com/disclosures/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Venmo Debit Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "-",
+   "costco_cap_usd": 100,
+   "cap_period": "month"
+  },
+  "note": "Claude audit 2026-09-21: Stash brands only, Costco unlisted; $100/mo cap; PIN works",
+  "source": "https://venmo.com/stash-rewards",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Verizon Visa Card",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "Y"
+  },
+  "note": "Claude audit 2026-09-21: 1% at Costco (MCC 5300 not grocery), Visa, credit=cash 1:1",
+  "source": "https://www.verizon.com/support/verizon-visa-card-rewards-legal/",
+  "as_of": "2026-09-21",
+  "ruling": "Synchrony Bank and WebBank accept debit-card bill payments."
+ },
+ {
+  "card": "Wells Fargo Active Cash",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 2% cash, no cap stated; Visa = warehouse + online",
+  "source": "https://creditcards.wellsfargo.com/active-cash-credit-card/",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Wells Fargo Attune",
+  "fixes": {
+   "status": "active",
+   "network": "mastercard",
+   "debit_pay": "N"
+  },
+  "note": "Claude audit 2026-09-21: 1% at Costco.com only; closed to new (Jun 2026)",
+  "source": "https://financebuzz.com/wells-fargo-attune-review",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Wells Fargo Autograph",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1X = 1% cash at Costco; Visa; dominated by Active Cash",
+  "source": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Wells Fargo Autograph Journey",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1X = 1% at Costco, $95 fee; Visa; not worth it",
+  "source": "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Wells Fargo Business Elite Signature",
+  "fixes": {
+   "status": "active",
+   "network": "visa",
+   "debit_pay": "N"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% cash, Visa; closed to new applications",
+  "source": "https://financebuzz.com/wells-fargo-business-elite-signature-review",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Wells Fargo Business Platinum",
+  "fixes": {
+   "status": "active",
+   "network": "visa",
+   "debit_pay": "N"
+  },
+  "note": "Claude audit 2026-09-21: 1.5% cash, Visa, $0 fee; closed to new applications",
+  "source": "https://financebuzz.com/wells-fargo-business-platinum-review",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Wells Fargo Choice Privileges Mastercard",
+  "fixes": {
+   "network": "mastercard"
+  },
+  "note": "Claude audit 2026-09-21: 1X hotel pts, no cash floor; Costco.com only; $0 fee",
+  "source": "https://awardwallet.com/blog/choice-privileges-wells-fargo-credit-cards/",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Wells Fargo Choice Privileges Select Mastercard",
+  "fixes": {
+   "network": "mastercard"
+  },
+  "note": "Claude audit 2026-09-21: 1X hotel pts, no cash floor; Costco.com only; $95 fee",
+  "source": "https://awardwallet.com/blog/choice-privileges-wells-fargo-credit-cards/",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Wells Fargo Reflect",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: No rewards; 0% return (intro-APR card only)",
+  "source": "https://creditcards.wellsfargo.com/reflect-visa-credit-card/",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Wells Fargo Signify Business Cash",
+  "fixes": {
+   "network": "mastercard"
+  },
+  "note": "Claude audit 2026-09-21: 2% cash, no cap stated; Costco.com only (Mastercard)",
+  "source": "https://creditcards.wellsfargo.com/business-credit-cards/signify-business-cash-credit-card/",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Williams-Sonoma \"The Key Rewards\" Mastercard",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: Visa (not MC): 1% brand-only points at Costco, no cash",
+  "source": "https://www.capitalone.com/credit-cards/williams-sonoma/",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Wirex Card",
+  "fixes": {
+   "status": "dead",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: Legacy WXT program; EEA/UK/AU ended 30 Jun 2026; never US",
+  "source": "https://cardpilled.com/cards/wirex",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Wise Debit Card (US)",
+  "fixes": {
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: 0% - no rewards on US spend; Visa debit, $9 card fee",
+  "source": "https://wise.com/help/search?q=cashback+United+States",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "World of Hyatt Business Credit Card",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1x Hyatt points at Costco, no cash floor; $199 fee",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0537_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "World of Hyatt Credit Card",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: 1x Hyatt pts, no cash; $95 fee; Visa warehouse OK",
+  "source": "https://asset.chase.com/content/dam/card/rulesregulations/en/RPA0456_Web.pdf",
+  "as_of": "2026-09-21",
+  "ruling": "U.S. Bank, Chase, Wells Fargo, Bank of America and Coastal Community Bank do not accept debit-card bill payments."
+ },
+ {
+  "card": "Wyndham Rewards Debit Card",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: 0.5 Wyndham pt/$ at Costco; no cash floor; $6/mo",
+  "source": "https://wyndhamrewardsdebit.com/pdf/EarningTerms.pdf",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Wyndham Rewards Earner Business Card",
+  "fixes": {
+   "debit_pay": "?",
+   "fee_usd": 149
+  },
+  "note": "Claude audit 2026-09-21: Visa, warehouse OK; 1 pt/$ (clubs not grocery); no cash",
+  "source": "https://static.barclaycardus.com/servicing/1a630d39/img/wyf/rewardsTnC/WYF_GEN_BAR-8223-7_FINAL.pdf",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Wyndham Rewards Earner Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: Visa, warehouse OK; 1 pt/$ (clubs not grocery); no cash",
+  "source": "https://static.barclaycardus.com/servicing/1a630d39/img/wyf/rewardsTnC/WYF_GEN_BAR-8223-7_FINAL.pdf",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Wyndham Rewards Earner Plus Card",
+  "fixes": {
+   "debit_pay": "?",
+   "fee_usd": 95
+  },
+  "note": "Claude audit 2026-09-21: Visa, warehouse OK; 1 pt/$ (clubs not grocery); no cash",
+  "source": "https://static.barclaycardus.com/servicing/1a630d39/img/wyf/rewardsTnC/WYF_GEN_BAR-8223-7_FINAL.pdf",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Wyndham Rewards Earner Premier Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: Visa, warehouse OK; 1 pt/$ (clubs not grocery); no cash",
+  "source": "https://static.barclaycardus.com/servicing/1a630d39/img/wyf/rewardsTnC/WYF_GEN_BAR-8223-7_FINAL.pdf",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "X Money Card",
+  "fixes": {
+   "network": "visa",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: 3% cash weekly, Visa stored-value; cap undisclosed; MS rule",
+  "source": "https://money.x.com/i/cashback-rewards-terms",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "Xbox Mastercard",
+  "fixes": {
+   "network": "mastercard",
+   "debit_pay": "?"
+  },
+  "note": "Claude audit 2026-09-21: 1% in Xbox/Microsoft credit only, no cash; Costco.com only",
+  "source": "https://www.barclaycardus.com/applycontent/TnCs.jsp?tc45703",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "ether.fi Cash Card",
+  "fixes": {
+   "network": "visa"
+  },
+  "note": "Claude audit 2026-09-21: Pinnacle 3% to $50k/mo in ETHFI; $1k legal cap unresolved",
+  "source": "https://help.ether.fi/en/articles/262374-how-does-cashback-work",
+  "as_of": "2026-09-21"
+ },
+ {
+  "card": "hi Card",
+  "fixes": {
+   "us_ok": "N",
+   "network": "mastercard",
+   "debit_pay": "-"
+  },
+  "note": "Claude audit 2026-09-21: EEA/UK-only Mastercard debit; HI-token rewards; US ineligible",
+  "source": "https://www.cryptowisser.com/card/hi-card/",
+  "as_of": "2026-09-21"
+ }
+]

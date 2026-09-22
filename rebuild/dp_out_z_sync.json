@@ -1,0 +1,247 @@
+[
+ {
+  "card": "Robinhood Gold Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "app",
+  "fee_usd": 0,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found (help page says 'currently'; card agreement dated 2025-08-08)",
+  "as_of": "2026-09",
+  "method": "2 (issuer help pages, both steps) + dated first-hand reports (Reddit via PullPush mirror, 2026-03-06 and 2026-06-17)",
+  "prior_research": "Doctor of Credit card post (warns against gift-card spend; bill-pay spend earns no rewards), no debit-pay data point; Reddit r/RobinhoodApp 2026 reports of the two-step route",
+  "phone_to_check": null,
+  "note": "Downgraded Y->? by Claude 2026-09-16: Robinhood's help page says the bill takes a connected account, never a card. Only a TWO-STEP route exists (debit card funds Robinhood account, account pays bill); same pattern treated as not-a-bill-payment for Fold/Varo. Live lead only if that funding transfer earns debit rewards (likely AFT). Orig: Two steps only. The bill takes only a connected account, never a card. But a debit card can fund the Robinhood investing account for free (about 30 min), and that account can pay the card. 2026 users report it. Rewards coding (likely AFT) unverified.",
+  "confidence": "med",
+  "sources": [
+   "https://robinhood.com/us/en/support/articles/robinhood-gold-card-payments/",
+   "https://robinhood.com/us/en/support/articles/deposit-money-into-your-robinhood-account/",
+   "https://robinhood.com/us/en/support/articles/are-there-fees-for-transfers/",
+   "https://api.robinhood.com/creditcard/legal/terms",
+   "https://api.pullpush.io/reddit/search/comment/?q=robinhood%20gold%20card%20debit%20card%20payment&size=8"
+  ]
+ },
+ {
+  "card": "Aven Home Equity Visa Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found (all 20 Payments articles updated 2026-04-22)",
+  "as_of": "2026-09",
+  "method": "2 (read all 20 articles in the Payments section through the open Zendesk API, plus a search of the whole help center)",
+  "prior_research": "none found",
+  "phone_to_check": "415-582-6613",
+  "note": "All 20 help articles give app/bank account, phone (routing and account number), bill pay, check and wire, and never debit. But Aven's Bitcoin Visa takes debit (for a fee) in the same app, so the rail exists. Call to ask.",
+  "confidence": "med",
+  "sources": [
+   "https://support.aven.com/api/v2/help_center/en-us/sections/45305756810253/articles.json",
+   "https://support.aven.com/hc/en-us/articles/45333955421453-How-do-I-make-payments-on-the-Aven-Bitcoin-Visa-Card",
+   "https://support.aven.com/hc/en-us/articles/360061436052-How-can-I-make-a-payment-on-my-monthly-statement"
+  ]
+ },
+ {
+  "card": "SoFi Unlimited 2% Credit Card",
+  "fixes": {
+   "debit_pay": "N"
+  },
+  "channel": "none",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "N",
+  "changed": "no change found (article updated about 2026-06; says 'at this time')",
+  "as_of": "2026-06",
+  "method": "2 (issuer help-center article, checked in the raw HTML)",
+  "prior_research": "none found",
+  "phone_to_check": "844-945-7634",
+  "note": "SoFi's own help page says in plain words: 'Debit cards and wires cannot be used at this time.' Payments must come from a checking/savings account or a check. That covers web, app, phone menu, agent and mail.",
+  "confidence": "high",
+  "sources": [
+   "https://support.sofi.com/hc/en-us/articles/24008282761613-SoFi-Credit-Card-Card-Payments"
+  ]
+ },
+ {
+  "card": "Synchrony Premier World Mastercard",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "phone-agent",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "1 (current account agreement, checked against Venmo's) + 2 (issuer web pages) + 3 (phone line, needs a live call)",
+  "prior_research": "myFICO thread 5093119 (2017-11-13): a cardholder says agents take debit on any Synchrony card if you say paying from checking is a problem; wiki Venmo proof 2026; rebuild/dp_out_synchrony.json",
+  "phone_to_check": "1-844-406-7427 (from WalletHub; confirm against the number on the card back)",
+  "note": "2026 agreement lists only check/money order. Venmo's Synchrony agreement has the same check-only clause, yet its phone line took debit in 2026, so the clause cannot support an N. Web/app: bank account only. Phone pay may carry a fee.",
+  "confidence": "med",
+  "sources": [
+   "https://www.synchronybankterms.com/syfterms/pdf/Synchrony_Premier_World_Mastercard_Account_Agreement_and_Pricing_Addendum.pdf",
+   "https://www.synchronybankterms.com/syfterms/pdf/Venmo_Visa_Signature_Card_Account_Agreement_and_Pricing_Addendum.pdf",
+   "https://web.archive.org/web/20220903144108/https://ficoforums.myfico.com/t5/Credit-Cards/How-to-pay-mysynchrony-based-cards-with-debit-card/td-p/5093119",
+   "https://www.synchrony.com/consumer-resources/pay-as-guest"
+  ]
+ },
+ {
+  "card": "Upgrade OneCard",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "OneCard help pages relabeled 'accounts opened before Apr 6, 2026' (product revamp); the payments section was not relabeled",
+  "as_of": "2026-09",
+  "method": "9-like (the issuer publishes terms for debit card payments) + 2 (Payments & Billing help section)",
+  "prior_research": "none found (WalletHub 2026-05-13 lists online/phone/app/mail with no tender detail)",
+  "phone_to_check": "844-899-9931",
+  "note": "Upgrade's own Payments & Billing section has a 'Debit Card Payment Terms and Conditions' page, an error-rights notice for debit cards linked to pay Upgrade (it points to the card's bank statement). No fee or steps given, so call to confirm.",
+  "confidence": "med",
+  "sources": [
+   "https://www.upgrade.com/help/account-management-payments/payments-billing/debit-card-payment-terms-and-conditions/",
+   "https://www.upgrade.com/help/account-management-payments/payments-billing/how-do-i-make-a-payment/",
+   "https://www.upgrade.com/help/account-management-payments/payments-billing/can-i-pay-by-check/"
+  ]
+ },
+ {
+  "card": "Upgrade Card (original)",
+  "fixes": {
+   "debit_pay": "Y"
+  },
+  "channel": "unknown",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "9-like (the issuer publishes terms for debit card payments) + 2 (Payments & Billing help section)",
+  "prior_research": "none found (WalletHub 2026-05-13 lists online/phone/app/mail with no tender detail)",
+  "phone_to_check": "844-899-9931",
+  "note": "Same Upgrade payments section as OneCard, which has 'Debit Card Payment Terms and Conditions' and also covers paying back the Upgrade Card. Applies across Upgrade credit products. No fee disclosed; confirm by phone.",
+  "confidence": "med",
+  "sources": [
+   "https://www.upgrade.com/help/account-management-payments/payments-billing/debit-card-payment-terms-and-conditions/",
+   "https://www.upgrade.com/help/account-management-payments/payments-billing/how-do-i-pay-back-the-balance-on-my-upgrade-card/"
+  ]
+ },
+ {
+  "card": "Synchrony Plus World Mastercard",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "phone-agent",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "1 (current account agreement, checked against Venmo's) + 2 (issuer web pages) + 3 (phone line, needs a live call)",
+  "prior_research": "myFICO thread 5093119 (2017-11-13): a cardholder says agents take debit on any Synchrony card if you say paying from checking is a problem; wiki Venmo proof 2026; rebuild/dp_out_synchrony.json",
+  "phone_to_check": "1-844-406-7427 (from WalletHub; confirm against the number on the card back)",
+  "note": "Same 2026 agreement text as Premier: check/money order only. Venmo's Synchrony agreement has the same check-only clause, yet its phone line took debit in 2026, so the clause cannot support an N. Web/app take a bank account only.",
+  "confidence": "med",
+  "sources": [
+   "https://www.synchronybankterms.com/syfterms/pdf/Synchrony_Plus_World_Mastercard_Account_Agreement_and_Pricing_Addendum.pdf",
+   "https://www.synchronybankterms.com/syfterms/pdf/Venmo_Visa_Signature_Card_Account_Agreement_and_Pricing_Addendum.pdf",
+   "https://web.archive.org/web/20220903144108/https://ficoforums.myfico.com/t5/Credit-Cards/How-to-pay-mysynchrony-based-cards-with-debit-card/td-p/5093119"
+  ]
+ },
+ {
+  "card": "Verizon Visa Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "phone-agent",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "2022 agreement said a fee WILL apply to expedited phone payments; rev 11/2025 says MAY",
+  "as_of": "2026-09",
+  "method": "1 (current account agreement, checked against Venmo's) + 2 (issuer web pages) + 3 (phone line, needs a live call)",
+  "prior_research": "myFICO thread 5093119 (2017-11-13): a cardholder says agents take debit on any Synchrony card if you say paying from checking is a problem; wiki Venmo proof 2026; rebuild/dp_out_synchrony.json",
+  "phone_to_check": "1-866-313-9396",
+  "note": "Agreement (rev 11/2025) lists check/money order only. Venmo's Synchrony agreement has the same check-only clause, yet its phone line took debit in 2026, so the clause cannot support an N. Verizon's FAQ gives no tender detail.",
+  "confidence": "med",
+  "sources": [
+   "https://apply.syf.com/cs/groups/public/documents/et_tcdoc/e089043.pdf",
+   "https://files.consumerfinance.gov/a/assets/credit-card-agreements/pdf/SYNCHRONY_FINANCIAL/Verizon_Visa_Account_Account_Agreement_and_Pricing_Information.pdf",
+   "https://www.verizon.com/support/verizon-visa-card-faqs/",
+   "https://www.synchronybankterms.com/syfterms/pdf/Venmo_Visa_Signature_Card_Account_Agreement_and_Pricing_Addendum.pdf",
+   "https://web.archive.org/web/20220903144108/https://ficoforums.myfico.com/t5/Credit-Cards/How-to-pay-mysynchrony-based-cards-with-debit-card/td-p/5093119"
+  ]
+ },
+ {
+  "card": "Amazon Store Card / Amazon Secured Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "phone-agent",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "1 (current account agreement, checked against Venmo's) + 2 (issuer web pages) + 3 (phone line, needs a live call)",
+  "prior_research": "myFICO thread 5093119 (2017-11-13): a cardholder says agents take debit on any Synchrony card if you say paying from checking is a problem; wiki Venmo proof 2026; rebuild/dp_out_synchrony.json",
+  "phone_to_check": "1-866-634-8379",
+  "note": "Amazon's help page shows the online payment screen with only a 'Bank Account' field. The 2017 myFICO asker held this Synchrony Amazon card and was told agents take debit. Synchrony's Venmo line took debit in 2026.",
+  "confidence": "med",
+  "sources": [
+   "https://www.amazon.com/gp/help/customer/display.html?nodeId=G89QUJBK88DGDQQ7",
+   "https://web.archive.org/web/20220903144108/https://ficoforums.myfico.com/t5/Credit-Cards/How-to-pay-mysynchrony-based-cards-with-debit-card/td-p/5093119",
+   "https://www.synchronybankterms.com/syfterms/pdf/Venmo_Visa_Signature_Card_Account_Agreement_and_Pricing_Addendum.pdf"
+  ]
+ },
+ {
+  "card": "CareCredit Card",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "phone-agent",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "1 (current account agreement, checked against Venmo's) + 2 (issuer web pages) + 3 (phone line, needs a live call)",
+  "prior_research": "myFICO thread 5093119 (2017-11-13): a cardholder says agents take debit on any Synchrony card if you say paying from checking is a problem; wiki Venmo proof 2026; rebuild/dp_out_synchrony.json",
+  "phone_to_check": "1-866-893-7864",
+  "note": "carecredit.com pages never mention debit; doxo's debit option is doxo's own paid service, not Synchrony's. Same Synchrony phone setup as Venmo, whose line took debit in 2026. Ask an agent.",
+  "confidence": "low",
+  "sources": [
+   "https://www.carecredit.com/howcarecreditworks/existing/",
+   "https://www.carecredit.com/faqs/",
+   "https://web.archive.org/web/20220903144108/https://ficoforums.myfico.com/t5/Credit-Cards/How-to-pay-mysynchrony-based-cards-with-debit-card/td-p/5093119",
+   "https://www.synchronybankterms.com/syfterms/pdf/Venmo_Visa_Signature_Card_Account_Agreement_and_Pricing_Addendum.pdf"
+  ]
+ },
+ {
+  "card": "Synchrony Preferred Mastercard",
+  "fixes": {
+   "debit_pay": "?"
+  },
+  "channel": "phone-agent",
+  "fee_usd": null,
+  "posts_as": "unknown",
+  "commercial_debit_ok": "?",
+  "changed": "no change found",
+  "as_of": "2026-09",
+  "method": "1 (current account agreement, checked against Venmo's) + 2 (issuer web pages) + 3 (phone line, needs a live call)",
+  "prior_research": "myFICO thread 5093119 (2017-11-13): a cardholder says agents take debit on any Synchrony card if you say paying from checking is a problem; wiki Venmo proof 2026; rebuild/dp_out_synchrony.json",
+  "phone_to_check": "1-844-406-7427 (from WalletHub; confirm against the number on the card back)",
+  "note": "Same 2026 agreement text as Premier/Plus: check/money order only. Venmo's Synchrony agreement has the same check-only clause, yet its phone line took debit in 2026, so the clause cannot support an N. Web/app take a bank account only.",
+  "confidence": "med",
+  "sources": [
+   "https://www.synchronybankterms.com/syfterms/pdf/Synchrony_Preferred_Mastercard_Account_Agreement_and_Pricing_Addendum.pdf",
+   "https://www.synchronybankterms.com/syfterms/pdf/Venmo_Visa_Signature_Card_Account_Agreement_and_Pricing_Addendum.pdf",
+   "https://web.archive.org/web/20220903144108/https://ficoforums.myfico.com/t5/Credit-Cards/How-to-pay-mysynchrony-based-cards-with-debit-card/td-p/5093119"
+  ]
+ }
+]
