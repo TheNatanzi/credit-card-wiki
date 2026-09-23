@@ -108,11 +108,31 @@ def month_cap(r):
     if cap in (None,"",0): return math.inf
     cap=num(cap); return {"month":cap,"cycle":cap,"quarter":cap/3,"year":cap/12}.get(per,cap)
 
+# 2026-09-22 ranking fix: some rows put a REWARD-dollar cap in costco_cap_usd, which pct() reads as a
+# SPEND cap, so a $15/month reward ceiling scored as a 10% uncapped card. A cap under $2,000 on a card
+# whose bonus rate is single-digit percent cannot be a Costco SPEND cap; re-file it as a reward cap.
+_recap=0
+for _r in rows:
+    _c=_r.get("costco_cap_usd"); _p=(_r.get("cap_period") or "none")
+    if _c in (None,"",0): continue
+    _c=num(_c)
+    if _c<2000 and _r.get("reward_cap_usd_month") in (None,""):
+        _m={"month":_c,"cycle":_c,"quarter":_c/3,"year":_c/12}.get(_p,_c/12)  # unlabelled period = annual, the conservative read
+        _r["reward_cap_usd_month"]=round(_m,2); _r["costco_cap_usd"]=None; _r["cap_period"]="none"
+        _r.setdefault("notes",[]).append(f"verified: 2026-09-22 ranking fix: ${_c:g}/{_p} was filed as a spend cap but is a REWARD cap; re-filed as ${_m:.2f}/month of rewards.")
+        _recap+=1
+print("reward-cap re-files:",_recap)
+
 def pct(S,x_bonus,x_base,cpp,r):
     cap=month_cap(r)
     mt=r.get("min_txn_usd")
     if mt not in (None,"") and num(mt)>MAX_SWIPE: x_bonus=x_base
     bonus_spend=min(S,cap)
+    # 2026-09-22 ranking fix: a capped card whose "all other" rate was copied from the bonus rate kept
+    # paying the bonus past the cap. Where the post-cap rate is not established, score the excess at 0
+    # rather than invent one: understating is allowed, overstating is not.
+    if cap!=math.inf and x_base>=x_bonus and S>bonus_spend:
+        x_base=0.0; r["postcap_unknown"]=True
     reward=bonus_spend*x_bonus*cpp/100+max(0,S-bonus_spend)*x_base*cpp/100
     rc=r.get("reward_cap_usd_month")
     if rc not in (None,""): reward=min(reward,num(rc))
