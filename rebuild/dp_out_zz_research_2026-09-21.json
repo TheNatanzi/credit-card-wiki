@@ -216,8 +216,7 @@
  {
   "card": "American Express Blue Business Cash Card",
   "fixes": {
-   "network": "amex",
-   "debit_pay": "?"
+   "network": "amex"
   },
   "note": "Claude audit 2026-09-21: 2%->1% after $50k/yr; Amex not accepted at Costco",
   "source": "https://www.americanexpress.com/en-us/campaigns/small-business/credit-cards/blue-business-cash/offer-welcome/",
@@ -226,8 +225,7 @@
  {
   "card": "American Express Business Gold Card",
   "fixes": {
-   "network": "amex",
-   "debit_pay": "?"
+   "network": "amex"
   },
   "note": "Claude audit 2026-09-21: 1x MR (0.6c floor); Amex not accepted at Costco",
   "source": "https://www.nerdwallet.com/reviews/credit-cards/american-express-business-gold",
@@ -236,8 +234,7 @@
  {
   "card": "American Express Business Green Rewards Card",
   "fixes": {
-   "network": "amex",
-   "debit_pay": "?"
+   "network": "amex"
   },
   "note": "Claude audit 2026-09-21: 1x MR (0.6c floor); Amex not accepted at Costco",
   "source": "https://thepointsguy.com/credit-cards/reviews/amex-business-green-rewards-card-review",
@@ -1278,8 +1275,7 @@
  {
   "card": "Delta SkyMiles Gold Business American Express Card",
   "fixes": {
-   "network": "amex",
-   "debit_pay": "?"
+   "network": "amex"
   },
   "note": "Claude audit 2026-09-21: 1x SkyMiles, no cash; Amex not accepted at Costco",
   "source": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
@@ -1297,8 +1293,7 @@
  {
   "card": "Delta SkyMiles Platinum Business American Express Card",
   "fixes": {
-   "network": "amex",
-   "debit_pay": "?"
+   "network": "amex"
   },
   "note": "Claude audit 2026-09-21: 1x SkyMiles, no cash; Amex not accepted at Costco",
   "source": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
@@ -1316,8 +1311,7 @@
  {
   "card": "Delta SkyMiles Reserve Business American Express Card",
   "fixes": {
-   "network": "amex",
-   "debit_pay": "?"
+   "network": "amex"
   },
   "note": "Claude audit 2026-09-21: 1x/1.5x SkyMiles, no cash; Amex not accepted",
   "source": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
@@ -1620,8 +1614,7 @@
  {
   "card": "Hilton Honors American Express Business Card",
   "fixes": {
-   "network": "amex",
-   "debit_pay": "?"
+   "network": "amex"
   },
   "note": "Claude audit 2026-09-21: 5x->3x Hilton pts, no cash; Amex not accepted",
   "source": "https://www.nerdwallet.com/reviews/credit-cards/hilton-honors-american-express-business",
@@ -1846,8 +1839,7 @@
  {
   "card": "Marriott Bonvoy Business American Express Card",
   "fixes": {
-   "network": "amex",
-   "debit_pay": "?"
+   "network": "amex"
   },
   "note": "Claude audit 2026-09-21: 2x Bonvoy pts, no cash; Amex not accepted at Costco",
   "source": "https://www.bankrate.com/credit-cards/reviews/marriott-bonvoy-business-american-express-card/",
@@ -1918,7 +1910,8 @@
   "card": "Nexo Card",
   "fixes": {
    "us_ok": "N",
-   "network": "mastercard"
+   "network": "mastercard",
+   "debit_pay": "-"
   },
   "note": "Claude audit 2026-09-21: 2% NEXO, ~$200/mo cap (unconfirmed); EEA/UK only; MC",
   "source": "https://nexo.com/nexo-card",
@@ -2259,8 +2252,7 @@
  {
   "card": "The Blue Business Plus Credit Card from American Express",
   "fixes": {
-   "network": "amex",
-   "debit_pay": "?"
+   "network": "amex"
   },
   "note": "Claude audit 2026-09-21: 2x MR to $50k/yr (0.6c floor); Amex not accepted",
   "source": "https://www.nerdwallet.com/business/credit-cards/reviews/amex-blue-business-plus",
@@ -2269,8 +2261,7 @@
  {
   "card": "The Business Platinum Card from American Express",
   "fixes": {
-   "network": "amex",
-   "debit_pay": "?"
+   "network": "amex"
   },
   "note": "Claude audit 2026-09-21: 1x/2x MR (0.6c; 1.1c via Schwab); Amex not accepted",
   "source": "https://www.nerdwallet.com/reviews/credit-cards/american-express-business-platinum",

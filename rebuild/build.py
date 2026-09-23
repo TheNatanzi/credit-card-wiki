@@ -116,7 +116,7 @@ for _r in rows:
     _c=_r.get("costco_cap_usd"); _p=(_r.get("cap_period") or "none")
     if _c in (None,"",0): continue
     _c=num(_c)
-    if _c<2000 and _r.get("reward_cap_usd_month") in (None,""):
+    if _c<2000 and _r.get("reward_cap_usd_month") in (None,"") and _r.get("cap_kind")!="spend":  # 2026-09-23: a researched spend band (e.g. 3% on $1,500/cycle then 1%) stays a spend cap
         _m={"month":_c,"cycle":_c,"quarter":_c/3,"year":_c/12}.get(_p,_c/12)  # unlabelled period = annual, the conservative read
         _r["reward_cap_usd_month"]=round(_m,2); _r["costco_cap_usd"]=None; _r["cap_period"]="none"
         _r.setdefault("notes",[]).append(f"verified: 2026-09-22 ranking fix: ${_c:g}/{_p} was filed as a spend cap but is a REWARD cap; re-filed as ${_m:.2f}/month of rewards.")
