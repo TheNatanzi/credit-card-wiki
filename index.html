@@ -54,7 +54,7 @@ a{color:var(--grn)}
 .srcs a{display:inline-block;margin-right:8px;font-size:12px}
 .tip{position:fixed;max-width:380px;background:#1f2a24;color:#fff;padding:9px 11px;border-radius:9px;font-size:12px;line-height:1.45;pointer-events:none;z-index:99;display:none;white-space:normal}
 </style></head><body><div class="wrap">
-<h1>Credit Card Master Wiki <span style="font-size:13px;color:var(--mut);font-weight:400">v9 · numbers only · built 2026-09-23</span></h1>
+<h1>Credit Card Master Wiki <span style="font-size:13px;color:var(--mut);font-weight:400">v9 · numbers only · built 2026-09-24</span></h1>
 <p class="sub">1589 cards · % back at Costco over a FULL MONTH, all on this one card · <b>ranked by Upside%</b> (rate + debit-pay stack − fee). An amber number means the debit rail is <b>unconfirmed but still in play</b> — a lead is never zeroed · raw numbers only, hover a row for its fields</p>
 <div class="tiles">
 <div class="tile"><div class="n">1518</div><div class="l">active cards</div></div>
@@ -127,13 +127,19 @@ tip.innerHTML='<b>'+esc(r.card)+'</b><br>'+esc(r.why)+'<br><span style="opacity:
 document.getElementById("tb").addEventListener("mousemove",e=>{tip.style.left=Math.min(e.clientX+14,innerWidth-400)+"px";tip.style.top=(e.clientY+14)+"px"});
 document.getElementById("tb").addEventListener("mouseleave",()=>tip.style.display="none");
 const pop=document.getElementById("pop");
-document.getElementById("tb").addEventListener("click",e=>{const a=e.target.closest("a.src");if(!a)return;e.preventDefault();const u=a.getAttribute("href");
-fetch("http://127.0.0.1:8787/open?u="+encodeURIComponent(u),{mode:"no-cors"}).then(()=>{pop.innerHTML='<b>Opened in Chrome</b> (new window)';pop.style.display="block";setTimeout(()=>pop.style.display="none",1500)}).catch(()=>{
+// 2026-09-24: on the public site, open the link directly. Calling the local helper from github.io makes
+// Chrome ask for "local network access" and the click hangs until that prompt is answered. The helper is
+// only used when the wiki itself is served by the helper (http://127.0.0.1:8787/).
+const LOCAL=/^(127\.0\.0\.1|localhost)$/.test(location.hostname);
+function srcFallback(u){
 let w=null;try{w=window.open(u,"_blank","noopener")}catch(x){}
 pop.innerHTML='<b>Source</b><br><input id="popu" value="'+esc(u)+'" readonly><button id="popc">Copy</button><button id="popx">✕</button><div class="ps">'+(w?'Opened in a new tab.':'This viewer blocks new tabs. Copy the link, or start rebuild/open-helper.cmd so this button opens Chrome.')+'</div>';
 pop.style.display="block";document.getElementById("popu").select();
 document.getElementById("popc").onclick=()=>{navigator.clipboard&&navigator.clipboard.writeText(u);document.getElementById("popc").textContent="Copied"};
-document.getElementById("popx").onclick=()=>pop.style.display="none"})});
+document.getElementById("popx").onclick=()=>pop.style.display="none"}
+document.getElementById("tb").addEventListener("click",e=>{const a=e.target.closest("a.src");if(!a)return;e.preventDefault();const u=a.getAttribute("href");
+if(!LOCAL){srcFallback(u);return}
+fetch("http://127.0.0.1:8787/open?u="+encodeURIComponent(u),{mode:"no-cors"}).then(()=>{pop.innerHTML='<b>Opened in Chrome</b> (new window)';pop.style.display="block";setTimeout(()=>pop.style.display="none",1500)}).catch(()=>srcFallback(u))});
 const KI={cap:"🧢",cost:"💸",eligibility:"🪪",limit:"🚧",risk:"⚠️",costco:"🏬",tip:"💡"};
 function acc(r){const d=r.deep;const mx=Math.max(r.headline_pct||0,r.c10,r.c50,0.01);const bar=(v,c)=>'<div class="bar '+c+'"><i style="width:'+Math.min(100,v/mx*100)+'%"></i></div>';
 const fl=(v,t)=>'<span class="flag '+(v==="Y"?"ok":v==="N"?"no":"q")+'">'+t+' '+(v==="Y"?"yes":v==="N"?"NO":"?")+'</span>';
